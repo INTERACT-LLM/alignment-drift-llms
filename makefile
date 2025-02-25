@@ -10,4 +10,4 @@ install:
 format: 
 	@echo "[INFO:] Formatting code with ruff ..."
 	uv run ruff format . 						           
-	ruff check --select I --fix
+	uv run ruff check --select I --fix
