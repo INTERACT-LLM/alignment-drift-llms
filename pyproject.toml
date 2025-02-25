@@ -8,3 +8,8 @@ dependencies = [
     "polars>=1.23.0",
     "textstat>=0.7.5",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.7",
+]
