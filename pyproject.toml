@@ -1,0 +1,10 @@
+[project]
+name = "prompt-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "polars>=1.23.0",
+    "textstat>=0.7.5",
+]
