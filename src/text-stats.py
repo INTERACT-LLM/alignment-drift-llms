@@ -11,6 +11,7 @@ from pathlib import Path
 import polars as pl
 import textstat
 
+
 from utils import read_data
 
 
@@ -36,24 +37,37 @@ def main():
         szigriszt_pazos=pl.col("content").map_elements(
             lambda x: textstat.szigriszt_pazos(x) if isinstance(x, str) else None,
             return_dtype=pl.Float64,
+        ),
+        flesch_reading_ease=pl.col("content").map_elements(
+            lambda x: textstat.flesch_reading_ease(x) if isinstance(x, str) else None,
+            return_dtype=pl.Float64,
         )
     )
 
     # filter out everything that is not assistant 
     role = "assistant"
     df = df.filter(role = role)
-
     df = df.with_columns(total_message_number=pl.int_range(1, pl.len() + 1).over("id"))
+    avg_df = df.group_by(["group", "total_message_number"], maintain_order=True).mean()
 
-    plot = df.plot.line(x="total_message_number", y="fernandez_huerta", color="group").properties(width=600, height=600)
+    vars = ["fernandez_huerta", "flesch_reading_ease"]
 
-    plot.encoding.y.title = "Fernandez Huerta Readability"
-    plot.encoding.x.title = f"Message number ({role} only)"
+    for var in vars:
+        plot = (avg_df.plot.line(
+                x="total_message_number", 
+                y=var, 
+                color="group"
+                )
+                .properties(width=600, height=600, title=f"Average Score (n = 6)")
+                .configure_scale(zero=False)
+        )
 
+        plot.encoding.y.title = f"{" ".join([word.capitalize() for word in var.split("_")])}"
+        plot.encoding.x.title = f"Message number ({role} only)"
 
-    save_dir = Path(__file__).parents[1] / "plots"
-    save_dir.mkdir(parents=True, exist_ok=True)
-    plot.save(save_dir / f"v{version}_fernandez_huerta_plot.html")
+        save_dir = Path(__file__).parents[1] / "plots"
+        save_dir.mkdir(parents=True, exist_ok=True)
+        plot.save(save_dir / f"v{version}_{var}_plot.html")
 
 if __name__ == "__main__":
     main()
