@@ -12,13 +12,22 @@ import polars as pl
 import textstat
 
 from utils import read_data
-import matplotlib.pyplot as plt
+
 
 def main():
     # set lang
     textstat.set_lang("es")
 
-    df = read_data()
+    version = 1.1
+
+    data_path = (
+        Path(__file__).parents[1]
+        / "data"
+        / "mlx-community--Qwen2.5-7B-Instruct-1M-4bit"
+        / f"v{version}"
+    )   
+
+    df = read_data(data_dir=data_path)
     df = df.with_columns(
         fernandez_huerta=pl.col("content").map_elements(
             lambda x: textstat.fernandez_huerta(x) if isinstance(x, str) else None,
@@ -44,7 +53,7 @@ def main():
 
     save_dir = Path(__file__).parents[1] / "plots"
     save_dir.mkdir(parents=True, exist_ok=True)
-    plot.save(save_dir / "fernandez_huerta_plot.html")
+    plot.save(save_dir / f"v{version}_fernandez_huerta_plot.html")
 
 if __name__ == "__main__":
     main()
