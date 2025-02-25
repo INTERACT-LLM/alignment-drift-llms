@@ -1,16 +1,7 @@
 from dataclasses import dataclass
-from io import StringIO
 from pathlib import Path
 
 import polars as pl
-
-DEFAULT_PATH = (
-    Path(__file__).parents[1]
-    / "data"
-    / "mlx-community--Qwen2.5-7B-Instruct-1M-4bit"
-    / "v1.0"
-)
-
 
 @dataclass
 class DataFile:
@@ -19,7 +10,7 @@ class DataFile:
     path: Path
 
 
-def read_data(data_dir: Path = DEFAULT_PATH) -> pl.DataFrame:
+def read_data(data_dir: Path) -> pl.DataFrame:
     """
     Read JSON data from path w. polars
     """
@@ -29,7 +20,7 @@ def read_data(data_dir: Path = DEFAULT_PATH) -> pl.DataFrame:
         for folder in data_dir.iterdir()
         if folder.is_dir()
         for file in folder.iterdir()
-        if file.is_file()
+        if file.is_file() and file.suffix == ".json"
     ]
 
     dfs = []
