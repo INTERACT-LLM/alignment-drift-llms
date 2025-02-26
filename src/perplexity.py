@@ -50,21 +50,17 @@ def main():
     model_id = "gpt2"
     texts = df["content"].to_list()
     ppl = compute_perplexity(texts, model_id, batch_size=10)
-    
-    print(ppl["perplexities"])
 
     # add to df
     df = df.with_columns(perplexity=pl.Series(ppl["perplexities"]))
 
-    print(df)
+    df.write_csv(data_path.parents[1] / f"v{version}_perplexity.csv")
 
     # plot (filter first)
     role = "assistant"
     df = df.filter(role = role)
     df = df.with_columns(total_message_number=pl.int_range(1, pl.len() + 1).over("id"))
     avg_df = df.group_by(["group", "total_message_number"], maintain_order=True).mean()
-
-    print(avg_df)
 
     plot = (avg_df.plot.line(
                 x="total_message_number", 
