@@ -9,6 +9,8 @@ dependencies = [
     "matplotlib>=3.10.0",
     "polars>=1.23.0",
     "textstat>=0.7.5",
+    "torch>=2.6.0",
+    "transformers>=4.49.0",
 ]
 
 [dependency-groups]
