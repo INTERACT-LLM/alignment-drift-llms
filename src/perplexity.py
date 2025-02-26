@@ -35,7 +35,7 @@ def compute_perplexity(texts:list, model_id:str = "gpt2", batch_size:int = 1, ma
 
 def main():
     # read data 
-    version = 1.1
+    version = 2.0
 
     data_path = (
         Path(__file__).parents[1]

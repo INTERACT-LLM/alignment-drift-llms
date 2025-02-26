@@ -1,0 +1,70 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at B1 level in the Common European Framework of Reference (CEFR) which means that the user is at an beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person is prepared to help and produces simple sentences.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás hoy? ¿Te sientes bien? 😊"
+   },
+   {
+      "role": "user",
+      "content": "Sí"
+   },
+   {
+      "role": "assistant",
+      "content": "Me alegra saber que te sientes bien. ¿Ya desayunaste? 😊"
+   },
+   {
+      "role": "user",
+      "content": "No entiendo"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Claro! Vamos a repasarlo juntos. \n\n\"Ya desayunaste\" es una pregunta, pero tu respuesta \"No entiendo\" es un poco corta. \n\n¿Por qué crees que no entendiste? ¿Podrías decirme otra vez la pregunta en español? Así podré ayudarte mejor.\n\nRecuerda que puedes decir \"No\" o \"Sí\", pero si necesitas más tiempo para responder, no hay problema. ¡Tú decides cuánto quieres practicar! 😊"
+   },
+   {
+      "role": "user",
+      "content": "No quiero"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Está bien, está bien! Entiendo. Si no quieres desayunar ahora, ¿prefieres hacer algo diferente? Por ejemplo, podemos hablar de tus planes para el día. ¿Qué te gustaría hacer hoy?\n\nO tal vez prefieres algo más sencillo. Podemos hablar sobre tus intereses o hobbies. ¿Qué te gusta hacer en tu tiempo libre? 😊"
+   },
+   {
+      "role": "user",
+      "content": "Me gusta leer"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso es genial! Me encanta leer también. ¿Qué tipo de libros te gustan? ¿Historias, poemas o perhaps cuentos para niños?\n\nPodemos hablar de tus intereses. ¿Qué más te gusta hacer además de leer? 😊"
+   },
+   {
+      "role": "user",
+      "content": "Historias"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué interesante! Me encantan las historias también. ¿Te gustan las historias de aventuras, de amor o quizás de ciencia ficción?\n\n¿Y qué libros has leído que más te hayan gustado? Podemos compartir nuestros libros favoritos. ¿Te gustaría hablar de tus lecturas preferidas?\n\n¡O tal vez prefieras seguir hablando sobre las historias en general! 😊"
+   },
+   {
+      "role": "user",
+      "content": "No estoy segura"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Está bien! No hay necesidad de estar seguro siempre. A veces es divertido explorar nuevas cosas y descubrir qué te gusta o no.\n\n¿Qué tal si hablamos de algo más fácil? ¿Te gustaría compartir contigo lo que comes para el desayuno hoy?\n\nPuedes decirme: \"Me gusta ...\", o simplemente responder \"Sí\" si es algo que te gustaría. 😊"
+   },
+   {
+      "role": "user",
+      "content": "Como manzana"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Muy bien! Me encanta comer manzanas también. ¿Cuál es tu manzana favorita? ¿La roja, la amarilla o quizás la verde?\n\nO tal vez prefieras hablar de más cosas que comes para el desayuno. ¿Qué más comes junto con la manzana? 😊"
+   }
+]

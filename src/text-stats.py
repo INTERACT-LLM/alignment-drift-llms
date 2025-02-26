@@ -19,8 +19,8 @@ def main():
     # set lang
     textstat.set_lang("es")
 
-    version = 1.1
-
+    version = 2.0
+    
     data_path = (
         Path(__file__).parents[1]
         / "data"
