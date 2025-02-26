@@ -5,50 +5,33 @@ Code modified from: https://huggingface.co/docs/transformers/perplexity (mainly 
 """
 from pathlib import Path
 
-from transformers import AutoModelForCausalLM, AutoTokenizer
-import torch
-from tqdm import tqdm
-
 from utils import read_data
+import polars as pl
 
-def compute_perplexity(encodings, seq_len:int, stride:int, model: AutoModelForCausalLM, device="mps"):
-    # compute max length
-    max_length = model.config.n_positions
+from evaluate import load 
 
-    # perplexity 
-    nll_sum = 0.0
-    n_tokens = 0
-    prev_end_loc = 0
-    for begin_loc in tqdm(range(0, seq_len, stride)):
-        end_loc = min(begin_loc + max_length, seq_len)
-        trg_len = end_loc - prev_end_loc  # may be different from stride on last loop
-        input_ids = encodings.input_ids[:, begin_loc:end_loc].to(device)
-        target_ids = input_ids.clone()
-        target_ids[:, :-trg_len] = -100     
+def compute_perplexity(texts:list, model_id:str = "gpt2", batch_size:int = 1, max_length:int = 1024):
+    '''
+    Compute perplexity 
 
-        with torch.no_grad():
-            outputs = model(input_ids, labels=target_ids)
+    This perplexity "is defined as the exponentiated average negative log-likelihood of a sequence, calculated with exponent base `e`."
+    source: https://huggingface.co/spaces/evaluate-measurement/perplexity/blob/main/README.md
 
-            # loss is calculated using CrossEntropyLoss which averages over valid labels
-            # N.B. the model only calculates loss over trg_len - 1 labels, because it internally shifts the labels
-            # to the left by 1.
-            neg_log_likelihood = outputs.loss
-
-        # Accumulate the total negative log-likelihood and the total number of tokens
-        num_valid_tokens = (target_ids != -100).sum().item()  # number of valid tokens in target_ids
-        batch_size = target_ids.size(0)
-        num_loss_tokens = num_valid_tokens - batch_size  # subtract batch_size due to internal label shift
-        nll_sum += neg_log_likelihood * num_loss_tokens
-        n_tokens += num_loss_tokens
-
-        prev_end_loc = end_loc
-        if end_loc == seq_len:
-            break
-
-    avg_nll = nll_sum / n_tokens  # average negative log-likelihood per token
-    ppl = torch.exp(avg_nll)
-
-    return ppl
+    Args:
+        texts: list of texts
+        model_id: model id 
+        batch_size: batch size for processing
+    '''
+    perplexity = load("perplexity", module_type="metric")
+    
+    
+    ppl_scores = perplexity.compute(predictions=texts, 
+                                            model_id=model_id, 
+                                            add_start_token=True, # (default to be able to compute perplexity of first token see: https://github.com/huggingface/evaluate/blob/main/metrics/perplexity/perplexity.py)
+                                            batch_size=batch_size,
+                                            max_length=max_length,
+                                            )
+    return ppl_scores
 
 def main():
     # read data 
@@ -63,28 +46,42 @@ def main():
 
     df = read_data(data_dir=data_path)
 
-    device = "mps"
-
-    # load mdl 
-    model_id = "openai-community/gpt2-large"
-    tokenizer = AutoTokenizer.from_pretrained(model_id)
-    model = AutoModelForCausalLM.from_pretrained(model_id).to(device)
-
-    # compute 
-    perplexity_scores = []
-
-    for row in df.iter_rows(named=True):
-        text = row["content"]
-
-        encodings = tokenizer(text, return_tensors="pt")
-        seq_len = encodings.input_ids.size(1)
-        stride = 100
-
-        ppl = compute_perplexity(encodings, seq_len, stride, model)
-
-        perplexity_scores.append(ppl)
+    # compute perplexity
+    model_id = "gpt2"
+    texts = df["content"].to_list()
+    ppl = compute_perplexity(texts, model_id, batch_size=10)
     
-    print(perplexity_scores)
+    print(ppl["perplexities"])
+
+    # add to df
+    df = df.with_columns(perplexity=pl.Series(ppl["perplexities"]))
+
+    print(df)
+
+    # plot (filter first)
+    role = "assistant"
+    df = df.filter(role = role)
+    df = df.with_columns(total_message_number=pl.int_range(1, pl.len() + 1).over("id"))
+    avg_df = df.group_by(["group", "total_message_number"], maintain_order=True).mean()
+
+    print(avg_df)
+
+    plot = (avg_df.plot.line(
+                x="total_message_number", 
+                y="perplexity", 
+                color="group"
+                )
+                .properties(width=600, height=600, title=f"Average Perplexity Score Per Group (n = 6)")
+                .configure_scale(zero=False)
+        )
+
+    plot.encoding.y.title = "Average Perplexity (GPT-2c computed)"
+    plot.encoding.x.title = f"Message number ({role} only)"
+
+
+    save_dir = Path(__file__).parents[1] / "plots"
+    save_dir.mkdir(parents=True, exist_ok=True)
+    plot.save(save_dir / f"v{version}_perplexity_plot.html")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}, "scale": {"zero": false}}, "data": {"name": "data-d210e0fc78e5f694554bbdcd7da1b03d"}, "mark": {"type": "line", "tooltip": true}, "encoding": {"color": {"field": "group", "type": "nominal"}, "x": {"field": "total_message_number", "title": "Message number (assistant only)", "type": "quantitative"}, "y": {"field": "perplexity", "title": "Average Perplexity (GPT-2c computed)", "type": "quantitative"}}, "height": 600, "params": [{"name": "param_1", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales"}], "title": "Average Perplexity Score Per Group (n = 6)", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-d210e0fc78e5f694554bbdcd7da1b03d": [{"group": "C1", "total_message_number": 1, "role": null, "content": null, "id": null, "perplexity": 62.92777442932129}, {"group": "C1", "total_message_number": 2, "role": null, "content": null, "id": null, "perplexity": 61.28656768798828}, {"group": "C1", "total_message_number": 3, "role": null, "content": null, "id": null, "perplexity": 78.19024658203125}, {"group": "C1", "total_message_number": 4, "role": null, "content": null, "id": null, "perplexity": 58.85053634643555}, {"group": "C1", "total_message_number": 5, "role": null, "content": null, "id": null, "perplexity": 73.33280372619629}, {"group": "C1", "total_message_number": 6, "role": null, "content": null, "id": null, "perplexity": 63.16497039794922}, {"group": "C1", "total_message_number": 7, "role": null, "content": null, "id": null, "perplexity": 61.93294906616211}, {"group": "C1", "total_message_number": 8, "role": null, "content": null, "id": null, "perplexity": 47.834075927734375}, {"group": "B1", "total_message_number": 1, "role": null, "content": null, "id": null, "perplexity": 55.86544227600098}, {"group": "B1", "total_message_number": 2, "role": null, "content": null, "id": null, "perplexity": 67.21765518188477}, {"group": "B1", "total_message_number": 3, "role": null, "content": null, "id": null, "perplexity": 57.64322853088379}, {"group": "B1", "total_message_number": 4, "role": null, "content": null, "id": null, "perplexity": 57.03801727294922}, {"group": "B1", "total_message_number": 5, "role": null, "content": null, "id": null, "perplexity": 48.40138626098633}, {"group": "B1", "total_message_number": 6, "role": null, "content": null, "id": null, "perplexity": 50.694318771362305}, {"group": "B1", "total_message_number": 7, "role": null, "content": null, "id": null, "perplexity": 50.791500091552734}, {"group": "B1", "total_message_number": 8, "role": null, "content": null, "id": null, "perplexity": 91.29872512817383}, {"group": "A1", "total_message_number": 1, "role": null, "content": null, "id": null, "perplexity": 52.385019302368164}, {"group": "A1", "total_message_number": 2, "role": null, "content": null, "id": null, "perplexity": 82.8612174987793}, {"group": "A1", "total_message_number": 3, "role": null, "content": null, "id": null, "perplexity": 37.4515323638916}, {"group": "A1", "total_message_number": 4, "role": null, "content": null, "id": null, "perplexity": 67.36531448364258}, {"group": "A1", "total_message_number": 5, "role": null, "content": null, "id": null, "perplexity": 47.629547119140625}, {"group": "A1", "total_message_number": 6, "role": null, "content": null, "id": null, "perplexity": 46.03500175476074}, {"group": "A1", "total_message_number": 7, "role": null, "content": null, "id": null, "perplexity": 57.721214294433594}, {"group": "A1", "total_message_number": 8, "role": null, "content": null, "id": null, "perplexity": 41.407036781311035}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
