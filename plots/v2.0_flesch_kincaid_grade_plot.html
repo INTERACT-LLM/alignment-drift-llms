@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}, "scale": {"zero": false}}, "data": {"name": "data-25d64c5a04fcd832737c20c76c44e5af"}, "mark": {"type": "line", "tooltip": true}, "encoding": {"color": {"field": "group", "type": "nominal"}, "x": {"field": "total_message_number", "title": "Message number (assistant only)", "type": "quantitative"}, "y": {"field": "flesch_kincaid_grade", "title": "Flesch Kincaid Grade", "type": "quantitative"}}, "height": 600, "params": [{"name": "param_3", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales"}], "title": "Average Score (n = 6)", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-25d64c5a04fcd832737c20c76c44e5af": [{"group": "C1", "total_message_number": 1, "role": null, "content": null, "id": null, "fernandez_huerta": 74.915, "szigriszt_pazos": 72.65, "flesch_reading_ease": 77.075, "flesch_kincaid_grade": 12.0}, {"group": "C1", "total_message_number": 2, "role": null, "content": null, "id": null, "fernandez_huerta": 78.17, "szigriszt_pazos": 73.80000000000001, "flesch_reading_ease": 78.22999999999999, "flesch_kincaid_grade": 11.3}, {"group": "C1", "total_message_number": 3, "role": null, "content": null, "id": null, "fernandez_huerta": 72.87, "szigriszt_pazos": 68.155, "flesch_reading_ease": 72.48, "flesch_kincaid_grade": 13.35}, {"group": "C1", "total_message_number": 4, "role": null, "content": null, "id": null, "fernandez_huerta": 73.845, "szigriszt_pazos": 71.405, "flesch_reading_ease": 75.79499999999999, "flesch_kincaid_grade": 12.45}, {"group": "C1", "total_message_number": 5, "role": null, "content": null, "id": null, "fernandez_huerta": 74.355, "szigriszt_pazos": 68.92, "flesch_reading_ease": 73.485, "flesch_kincaid_grade": 12.25}, {"group": "C1", "total_message_number": 6, "role": null, "content": null, "id": null, "fernandez_huerta": 76.18, "szigriszt_pazos": 69.78999999999999, "flesch_reading_ease": 74.22999999999999, "flesch_kincaid_grade": 12.1}, {"group": "C1", "total_message_number": 7, "role": null, "content": null, "id": null, "fernandez_huerta": 77.65, "szigriszt_pazos": 70.88, "flesch_reading_ease": 75.25, "flesch_kincaid_grade": 12.100000000000001}, {"group": "C1", "total_message_number": 8, "role": null, "content": null, "id": null, "fernandez_huerta": 81.52, "szigriszt_pazos": 78.635, "flesch_reading_ease": 82.75, "flesch_kincaid_grade": 11.15}, {"group": "B1", "total_message_number": 1, "role": null, "content": null, "id": null, "fernandez_huerta": 73.09, "szigriszt_pazos": 68.52000000000001, "flesch_reading_ease": 73.18, "flesch_kincaid_grade": 12.149999999999999}, {"group": "B1", "total_message_number": 2, "role": null, "content": null, "id": null, "fernandez_huerta": 91.85, "szigriszt_pazos": 85.82, "flesch_reading_ease": 89.87, "flesch_kincaid_grade": 8.3}, {"group": "B1", "total_message_number": 3, "role": null, "content": null, "id": null, "fernandez_huerta": 84.57, "szigriszt_pazos": 79.28999999999999, "flesch_reading_ease": 83.37, "flesch_kincaid_grade": 10.55}, {"group": "B1", "total_message_number": 4, "role": null, "content": null, "id": null, "fernandez_huerta": 80.25, "szigriszt_pazos": 77.19999999999999, "flesch_reading_ease": 81.44999999999999, "flesch_kincaid_grade": 11.05}, {"group": "B1", "total_message_number": 5, "role": null, "content": null, "id": null, "fernandez_huerta": 84.36500000000001, "szigriszt_pazos": 82.03999999999999, "flesch_reading_ease": 85.985, "flesch_kincaid_grade": 10.649999999999999}, {"group": "B1", "total_message_number": 6, "role": null, "content": null, "id": null, "fernandez_huerta": 76.64, "szigriszt_pazos": 74.50999999999999, "flesch_reading_ease": 78.86, "flesch_kincaid_grade": 11.95}, {"group": "B1", "total_message_number": 7, "role": null, "content": null, "id": null, "fernandez_huerta": 92.405, "szigriszt_pazos": 88.20500000000001, "flesch_reading_ease": 92.075, "flesch_kincaid_grade": 8.7}, {"group": "B1", "total_message_number": 8, "role": null, "content": null, "id": null, "fernandez_huerta": 93.875, "szigriszt_pazos": 87.88499999999999, "flesch_reading_ease": 91.655, "flesch_kincaid_grade": 8.65}, {"group": "A1", "total_message_number": 1, "role": null, "content": null, "id": null, "fernandez_huerta": 97.75999999999999, "szigriszt_pazos": 95.05, "flesch_reading_ease": 98.96000000000001, "flesch_kincaid_grade": 6.65}, {"group": "A1", "total_message_number": 2, "role": null, "content": null, "id": null, "fernandez_huerta": 100.85499999999999, "szigriszt_pazos": 99.14, "flesch_reading_ease": 102.715, "flesch_kincaid_grade": 6.55}, {"group": "A1", "total_message_number": 3, "role": null, "content": null, "id": null, "fernandez_huerta": 90.985, "szigriszt_pazos": 88.605, "flesch_reading_ease": 92.545, "flesch_kincaid_grade": 8.65}, {"group": "A1", "total_message_number": 4, "role": null, "content": null, "id": null, "fernandez_huerta": 82.74000000000001, "szigriszt_pazos": 77.21000000000001, "flesch_reading_ease": 81.42, "flesch_kincaid_grade": 10.7}, {"group": "A1", "total_message_number": 5, "role": null, "content": null, "id": null, "fernandez_huerta": 94.80000000000001, "szigriszt_pazos": 91.41499999999999, "flesch_reading_ease": 95.25, "flesch_kincaid_grade": 7.75}, {"group": "A1", "total_message_number": 6, "role": null, "content": null, "id": null, "fernandez_huerta": 88.13499999999999, "szigriszt_pazos": 81.925, "flesch_reading_ease": 86.125, "flesch_kincaid_grade": 9.2}, {"group": "A1", "total_message_number": 7, "role": null, "content": null, "id": null, "fernandez_huerta": 90.27, "szigriszt_pazos": 85.69, "flesch_reading_ease": 89.69999999999999, "flesch_kincaid_grade": 8.95}, {"group": "A1", "total_message_number": 8, "role": null, "content": null, "id": null, "fernandez_huerta": 86.66, "szigriszt_pazos": 84.145, "flesch_reading_ease": 88.16, "flesch_kincaid_grade": 9.75}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

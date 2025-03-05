@@ -20,7 +20,7 @@ def main():
     textstat.set_lang("es")
 
     version = 2.0
-    
+
     data_path = (
         Path(__file__).parents[1]
         / "data"
@@ -41,6 +41,10 @@ def main():
         flesch_reading_ease=pl.col("content").map_elements(
             lambda x: textstat.flesch_reading_ease(x) if isinstance(x, str) else None,
             return_dtype=pl.Float64,
+        ),
+        flesch_kincaid_grade=pl.col("content").map_elements(
+            lambda x: textstat.flesch_kincaid_grade(x) if isinstance(x, str) else None,
+            return_dtype=pl.Float64,
         )
     )
 
@@ -50,7 +54,7 @@ def main():
     df = df.with_columns(total_message_number=pl.int_range(1, pl.len() + 1).over("id"))
     avg_df = df.group_by(["group", "total_message_number"], maintain_order=True).mean()
 
-    vars = ["fernandez_huerta", "flesch_reading_ease"]
+    vars = ["fernandez_huerta", "flesch_reading_ease", "flesch_kincaid_grade"]
 
     for var in vars:
         plot = (avg_df.plot.line(
