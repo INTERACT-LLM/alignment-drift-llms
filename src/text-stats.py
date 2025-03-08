@@ -41,6 +41,10 @@ def main():
             return_dtype=pl.Float64,
         )
     )
+    
+    metrics_dir = Path(__file__).parents[1] / "metrics"
+    metrics_dir.mkdir(parents=True, exist_ok=True)
+    df.write_csv(metrics_dir / f"v{version}_text_stats.csv")
 
     role = "assistant"
     df = df.filter(pl.col("role") == role)
