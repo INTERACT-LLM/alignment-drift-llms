@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at B1 level in the Common European Framework of Reference (CEFR) which means that the user is at an beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person is prepared to help and produces simple sentences.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! 😊 ¿Cómo estás hoy? Estoy listo para charlar contigo. ¿Qué quieres hacer primero? Podemos hablar sobre ti, tus intereses o cualquier cosa que quieras compartir. ¿Te gusta jugar?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! 😊 ¡Me encanta hablar contigo también! Hoy estoy muy bien, gracias. Me gustaría compartir algo sobre mí. Sí, me encanta jugar, tanto deportes como videojuegos. ¿Te gustaría hablar sobre lo que más te apasione o prefieres que empiece por mí? Estoy abierto a lo que quieras. 😊"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bien que te gusta hablar conmigo también! 🌟 Me alegra mucho. ¡Vamos a empezar por ti! 👇\n\n¿Te gusta jugar al fútbol o al baloncesto? ¿Prefieres más los deportes de equipo o los deportes individuales? ¡Puedo hacer preguntas sobre ti! 😊"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias por preguntar! Me encanta jugar al fútbol. Prefiero los deportes de equipo, ya que siempre me siento más motivado cuando juego con otros. Además, disfruto mucho del trabajo en equipo y la colaboración. ¿Y tú? ¿Juegas algún deporte o tienes alguna actividad favorita fuera del estudio? 😊"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué guapo estás! Me encanta oírte decir que disfrutas del trabajo en equipo. 😊 ¿Juegas al fútbol con tus amigos o en una escuela? ¡Yo también! Me encanta salir y jugar con mis compañeros después del trabajo. \n\n¿Y tú, qué te gusta hacer cuando no estás estudiando? ¿Tienes algún hobby o actividad favorita? ¡Podemos compartir nuestras pasiones! 🌟"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias, eso es muy amable! 😊 Suelo jugar al fútbol con unos amigos el fin de semana en un club local. Es una gran manera de relajarme y mantenerme activo. Además, también disfruto mucho practicando la fotografía en mis ratos libres. Me encanta capturar momentos y explorar nuevas maneras de ver el mundo a través del lente.\n\n¿Y tú? ¿Tienes algún hobby o actividad que disfrutes mucho cuando no estás estudiando? ¡Sería divertido saber qué te apasiona! 🌟"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué interesante! Me alegro mucho de oír que te gusta jugar al fútbol y hacer fotografía. ¡Eso suena genial! 😊 Yo también disfruto mucho de la fotografía. Me encanta salir con mi cámara y capturar los momentos más bonitos. A veces voy al parque o a un lugar tranquilo para tomar fotos.\n\n¿Y tú, qué te gusta hacer cuando no estás estudiando? ¿Tienes algún hobby o actividad que disfrutes mucho? ¡Sería divertido saber qué te apasiona! 🌟"
+   },
+   {
+      "role": "user",
+      "content": "¡Me encanta escuchar que también te apasiona la fotografía! 😊 Me parece estupendo que disfrutes tanto de salir con tu cámara para capturar momentos. Para mí, lo más emocionante es explorar nuevas perspectivas y ver el mundo de manera diferente a través del objetivo. A veces, me gusta ir al parque o a un lugar tranquilo para tomar fotos.\n\n¿Y tú? ¿Te gusta hacer alguna otra actividad cuando no estás estudiando? ¿Tienes algún hobby o pasatiempo que disfrutes mucho? ¡Sería divertido saber qué te apasiona! 🌟"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bonito que disfrutes tanto de la fotografía! 😊 Me encanta escuchar que te apasiona explorar nuevas perspectivas. A mí también me gusta mucho salir con mi cámara y capturar momentos especiales. A veces, como tú, me gusta ir al parque o a un lugar tranquilo para tomar fotos. Me encanta ver cómo el sol se pone y cómo ilumina las cosas de maneras tan diferentes.\n\n¿Y tú? ¿Te gusta hacer alguna otra actividad cuando no estás estudiando? ¿Tienes algún otro hobby o pasatiempo que disfrutes mucho? ¡Sería divertido saber qué te apasiona! 🌟"
+   },
+   {
+      "role": "user",
+      "content": "¡Qué bonito que disfrutes tanto de la fotografía! 😊 Me encanta escuchar sobre tu pasión por capturar momentos especiales y cómo el sol se pone cambia la luz. Me parece realmente inspirador.\n\nPara mí, además de la fotografía, me encanta leer libros. Hay días en los que solo quiero sumergirme en una buena historia y escapar a otros mundos. ¿Y tú? ¿Lees mucho también? ¿Hay algún libro o género que te apasione? ¡Sería genial conocer tus intereses! 📚🌟"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bonito que te guste leer libros también! 😊 Me encanta escuchar sobre tu pasión por sumergirte en historias y escapar a otros mundos. A mí también me encanta leer. A veces, cuando estoy cansado después del trabajo, lo mejor es coger un buen libro y perderme en una buena historia.\n\n¿Y tú? ¿Lees mucho también? ¿Hay algún libro o género que te apasione? ¡Sería genial conocer tus intereses! 📚🌟"
+   },
+   {
+      "role": "user",
+      "content": "¡Qué emocionante que también te guste leer libros! 😊 Me encanta perderme en las historias y descubrir nuevas dimensiones a través de la imaginación. A mí también me sucede mucho después del trabajo, cuando necesito relajarme y desconectar. Los días en los que no tengo prisa, coger un buen libro es la mejor manera de hacerlo.\n\n¿Y tú? ¿Tienes algún género favorito o autor que realmente aprecies? ¡Sería genial conocer tus intereses! 📚🌟"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bonito que te guste leer y escapar en las historias! 😊 Me encanta perderme en una buena historia también. Después del trabajo, es la mejor manera de relajarme y desconectar.\n\n¿Y tú? ¿Tienes algún género favorito o autor que realmente aprecies? ¡Sería genial conocer tus intereses! 📚🌟"
+   },
+   {
+      "role": "user",
+      "content": "¡Qué bien que te guste leer y escapar en las historias! 😊 Me encanta perderme en una buena historia también. Después del trabajo, es la mejor manera de relajarme y desconectar.\n\nPara mí, los géneros que más disfruto son la fantasía y el terror. La fantasía me transporta a mundos imaginativos y llena de aventura, mientras que el terror me desafía con historias que me mantienen en vilo. ¿Y tú? ¿Prefieres algún género en particular o te gusta todo tipo de historias? ¡Sería genial conocer tus intereses! 📚🌟"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bien que disfrutes tanto la fantasía y el terror! 😊 Me encanta cómo cada género te lleva a una experiencia diferente. La fantasía me transporta a mundos llenos de magia y aventuras, mientras que el terror me mantiene despierto la noche. \n\n¿Y tú? ¿Prefieres algún género en particular o te gusta todo tipo de historias? ¡Sería genial conocer tus intereses! 📚🌟"
+   },
+   {
+      "role": "user",
+      "content": "¡Qué emocionante que disfrutes tanto la fantasía y el terror! 😊 Me encanta cómo cada género te lleva a una experiencia diferente. La fantasía me transporta a mundos llenos de magia y aventuras, mientras que el terror me mantiene despierto la noche.\n\nPara mí, además de la fantasía y el terror, también disfruto mucho del drama y el romance. Me encanta ver cómo los personajes se desenvuelven en situaciones reales y emocionales. ¿Y tú? ¿Prefieres algún género en particular o te gustan todos los géneros de historia? ¡Sería genial conocer tus intereses! 📚🌟"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué interesante! 😊 Me encanta cómo disfrutas tanto la fantasía y el drama. La fantasía me transporta a mundos llenos de magia, mientras que el drama me hace reflexionar sobre situaciones reales.\n\n¿Y tú? ¿Prefieres algún género en particular o te gustan todos los géneros de historia? ¡Sería genial conocer tus intereses! 📚🌟"
+   },
+   {
+      "role": "user",
+      "content": "¡Qué bien que disfrutes tanto la fantasía y el drama! 😊 Me encanta cómo cada género me lleva a una experiencia diferente. La fantasía me transporta a mundos llenos de magia, mientras que el drama me hace reflexionar sobre situaciones reales y profundizar en emociones.\n\nPara mí, además de la fantasía y el drama, me apasiona el ciencia ficción. Me encanta explorar las posibilidades de un futuro tecnológico y los desafíos que conlleva. ¿Y tú? ¿Prefieres algún género en particular o te gustan todos los géneros de historia? ¡Sería genial conocer tus intereses! 📚🌟"
+   }
+]

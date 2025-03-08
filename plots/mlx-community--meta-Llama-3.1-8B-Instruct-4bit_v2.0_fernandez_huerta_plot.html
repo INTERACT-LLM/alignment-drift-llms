@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}, "scale": {"zero": false}}, "data": {"name": "data-78fd72c983d653961a23d666532d0642"}, "mark": {"type": "line", "tooltip": true}, "encoding": {"color": {"field": "group", "type": "nominal"}, "x": {"field": "total_message_number", "title": "Message number (assistant only)", "type": "quantitative"}, "y": {"field": "fernandez_huerta", "title": "Fernandez Huerta", "type": "quantitative"}}, "height": 600, "params": [{"name": "param_2", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales"}], "title": "Average Score for mlx-community--meta-Llama-3.1-8B-Instruct-4bit (n = 30)", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-78fd72c983d653961a23d666532d0642": [{"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "C1", "total_message_number": 1, "fernandez_huerta": 90.119, "flesch_reading_ease": 89.60900000000001, "flesch_kincaid_grade": 8.98}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "C1", "total_message_number": 2, "fernandez_huerta": 76.679, "flesch_reading_ease": 77.147, "flesch_kincaid_grade": 12.670000000000002}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "C1", "total_message_number": 3, "fernandez_huerta": 72.071, "flesch_reading_ease": 71.663, "flesch_kincaid_grade": 14.330000000000002}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "C1", "total_message_number": 4, "fernandez_huerta": 69.992, "flesch_reading_ease": 70.244, "flesch_kincaid_grade": 15.01}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "C1", "total_message_number": 5, "fernandez_huerta": 70.661, "flesch_reading_ease": 70.29499999999999, "flesch_kincaid_grade": 14.87}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "C1", "total_message_number": 6, "fernandez_huerta": 68.26199999999999, "flesch_reading_ease": 68.27399999999999, "flesch_kincaid_grade": 15.910000000000002}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "C1", "total_message_number": 7, "fernandez_huerta": 70.51, "flesch_reading_ease": 71.074, "flesch_kincaid_grade": 14.919999999999998}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "C1", "total_message_number": 8, "fernandez_huerta": 70.76499999999999, "flesch_reading_ease": 71.947, "flesch_kincaid_grade": 14.6}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "C1", "total_message_number": 9, "fernandez_huerta": 70.683, "flesch_reading_ease": 70.833, "flesch_kincaid_grade": 14.75}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "B1", "total_message_number": 1, "fernandez_huerta": 94.929, "flesch_reading_ease": 95.15099999999998, "flesch_kincaid_grade": 7.5}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "B1", "total_message_number": 2, "fernandez_huerta": 91.037, "flesch_reading_ease": 91.91299999999998, "flesch_kincaid_grade": 9.29}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "B1", "total_message_number": 3, "fernandez_huerta": 85.946, "flesch_reading_ease": 86.366, "flesch_kincaid_grade": 10.58}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "B1", "total_message_number": 4, "fernandez_huerta": 84.624, "flesch_reading_ease": 85.28999999999999, "flesch_kincaid_grade": 10.870000000000001}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "B1", "total_message_number": 5, "fernandez_huerta": 82.45200000000001, "flesch_reading_ease": 82.452, "flesch_kincaid_grade": 11.69}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "B1", "total_message_number": 6, "fernandez_huerta": 82.09100000000001, "flesch_reading_ease": 82.181, "flesch_kincaid_grade": 11.500000000000002}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "B1", "total_message_number": 7, "fernandez_huerta": 81.06800000000001, "flesch_reading_ease": 81.30199999999999, "flesch_kincaid_grade": 12.01}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "B1", "total_message_number": 8, "fernandez_huerta": 81.439, "flesch_reading_ease": 80.977, "flesch_kincaid_grade": 11.74}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "B1", "total_message_number": 9, "fernandez_huerta": 79.721, "flesch_reading_ease": 79.337, "flesch_kincaid_grade": 12.06}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "A1", "total_message_number": 1, "fernandez_huerta": 110.732, "flesch_reading_ease": 111.01399999999998, "flesch_kincaid_grade": 4.35}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "A1", "total_message_number": 2, "fernandez_huerta": 112.154, "flesch_reading_ease": 112.96399999999998, "flesch_kincaid_grade": 4.13}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "A1", "total_message_number": 3, "fernandez_huerta": 101.314, "flesch_reading_ease": 101.30199999999999, "flesch_kincaid_grade": 6.82}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "A1", "total_message_number": 4, "fernandez_huerta": 95.22800000000001, "flesch_reading_ease": 95.24, "flesch_kincaid_grade": 8.129999999999999}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "A1", "total_message_number": 5, "fernandez_huerta": 90.21300000000001, "flesch_reading_ease": 90.16499999999999, "flesch_kincaid_grade": 9.39}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "A1", "total_message_number": 6, "fernandez_huerta": 89.488, "flesch_reading_ease": 88.444, "flesch_kincaid_grade": 9.66}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "A1", "total_message_number": 7, "fernandez_huerta": 83.70299999999999, "flesch_reading_ease": 84.021, "flesch_kincaid_grade": 11.33}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "A1", "total_message_number": 8, "fernandez_huerta": 85.48600000000002, "flesch_reading_ease": 85.402, "flesch_kincaid_grade": 10.879999999999999}, {"model": "mlx-community--meta-Llama-3.1-8B-Instruct-4bit", "group": "A1", "total_message_number": 9, "fernandez_huerta": 84.416, "flesch_reading_ease": 84.79400000000001, "flesch_kincaid_grade": 11.15}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

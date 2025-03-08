@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at C1 level in the Common European Framework of Reference (CEFR) which means that the user is at an advanced level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions.\n2. Limit your grammar and vocabulary to C1 level Spanish (advanced level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for an advanced learner of Spanish. Specifically, the aim for the student is to master the following language skills after C1: \n- The student can understand a wide range of demanding, longer texts, and recognise implicit meaning.\n- The student can express him/herself fluently and spontaneously without much obvious searching for expressions.\n- The student can use language flexibly and effectively for social, academic and professional purposes.\n- The student can produce clear, well-structured, detailed text on complex subjects, showing controlled use of organizational patterns, connectors and cohesive devices.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás hoy? Me alegra mucho verte. Estoy listo para practicar y mejorar nuestra conversación en español.\n\n¿Has estado ocupado o tienes tiempo para charlar un poco? Me gustaría conocerte mejor y ayudarte con cualquier pregunta que tengas."
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! ¡Estoy genial, gracias por preguntar! Me alegra mucho verte también. No estoy muy ocupado ahora, ¡tenemos tiempo para hablar y practicar! ¿Qué te gustaría hacer hoy? Si tienes preguntas sobre gramática o vocabulario, estaré encantado de ayudarte. ¡Ojalá disfrutemos charlando en español! 😊"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bueno que estás bien! Me alegra mucho escuchar eso. ¡Vamos a disfrutar de esta conversación!\n\n¿Sabes qué me gustaría hacer hoy? Me gustaría practicar más sobre los tiempos verbales menos comunes, como el condicional perfecto y el pluscuamperfecto. También me gustaría profundizar en la gramática del tiempo verbal.\n\n¿Te gustaría hablar un poco sobre cómo formar y usar estos tiempos? ¿O prefieres que comencemos con algo más relajado y conversacional? ¡Yo estoy listo para lo que quieras! 😊"
+   },
+   {
+      "role": "user",
+      "content": "¡Qué genial que te interesa profundizar en los tiempos verbales menos comunes! Vamos a disfrutar con eso. ¿Te gustaría que comenzáramos con un resumen rápido sobre el **condicional perfecto** y el **pluscuamperfecto**, o preferirías un ejemplo más práctico para entenderlo mejor? Podemos empezar con algo relajado si prefieres. ¡Estoy aquí para ayudarte! 😊\n\nSi quieres, podemos hablar sobre cómo se forman y usan estos tiempos verbales en oraciones. ¿Te parece bien que empiece con un ejemplo o prefieres una definición más conceptual? ¡A ti te dejo la opción! 🌟"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bien que quieres profundizar en esto! ¡Vamos a hacerlo paso a paso y con ejemplos para que lo comprendas perfectamente!\n\nPrimero, permíteme dar una breve explicación conceptual:\n\nEl **condicional perfecto** se usa para expresar lo que habría ocurrido si una condición hubiera sido cierta en el pasado. Tiene la forma \"habría + perfecto\" y se refiere a un evento hipotético en el pasado.\n\nEl **pluscuamperfecto** por otro lado, se usa para hablar de acciones pasadas en el pasado, es decir, antes del momento principal de la oración. Tiene la forma \"hubiera + imperfecto\" y también se utiliza en hipótesis.\n\n¿Qué te parece si comenzamos con un ejemplo? Así podrás ver la diferencia entre ambos tiempos verbales en acción.\n\n¿Qué tal este ejemplo?  \n\nSi digo: \"Habr"
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Esa es una excelente manera de empezar. Vamos a verlo paso a paso.\n\n### Ejemplo para el **condicional perfecto**:\n\nSi digo:  \n\"¿Qué haría si hubiera aprendido español antes?\"  \n\nAquí, \"habría aprendido\" es el **condicional perfecto**. Expresa una acción hipotética que habría ocurrido si cierta condición hubiera sido verdadera en el pasado. En este caso, \"habría aprendido\" significa que aprender español ocurrió o habría ocurrido en el pasado si hubo una condición (como haber estudiado más).\n\n### Ejemplo para el **pluscuamperfecto**:\n\nSi digo:  \n\"Si me hubiera enterado antes, te habría avisado.\"  \n\nAquí, \"me hubiera enterado\" es el **pluscuamperfecto**. Este tiempo se usa para hablar de una acción que"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Fantástico! Eres un buen ejemplo, perfecto para ilustrar la diferencia entre estos tiempos verbales. Vamos a desglosarlo un poco más.\n\n### Ejemplo para el **condicional perfecto**:\n\"¿Qué haría si hubiera aprendido español antes?\"\n- Aquí, \"habría aprendido\" es el condicional perfecto. Expresa una acción hipotética que habría ocurrido si cierta condición hubiera sido verdadera en el pasado. \"Habría\" es la forma condicional y \"aprendido\" es la forma del verbo en su estado pasado (perfecto).\n\n### Ejemplo para el **pluscuamperfecto**:\n\"Si me hubiera enterado antes, te habría avisado.\"\n- Aquí, \"me hubiera enterado\" es el pluscuamperfecto. Este tiempo verbal se usa para referirse a una acción pasada en el pasado"
+   },
+   {
+      "role": "user",
+      "content": "¡Excelente resumen! Estás haciendo un gran trabajo desglosando estos tiempos verbales. Vamos a profundizar un poco más en los detalles y ver algunos ejemplos adicionales.\n\n### Ejemplo para el **condicional perfecto**:\n1. \"¿Qué haría si hubiera aprendido español antes?\"  \n   - Aquí, \"habría\" es la forma condicional (o conditional) y \"aprendido\" es el participio pasado (\"aprender\" en su forma del verbo en perfecto). Juntos forman el **condicional perfecto**.\n\n2. Otro ejemplo:  \n   \"Si hubiera tenido más tiempo, me habría dedicado a practicar español todos los días.\"  \n   - Aquí también se utiliza el condicional perfecto para expresar una acción hipotética en el pasado.\n\n### Ejemplo para el **pluscuamperfecto**:\n1. \"Si me"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Fantástico que quieras profundizar aún más! Vamos a desglosar estos ejemplos para asegurarnos de que comprendes completamente el uso y la construcción de ambos tiempos verbales.\n\n### Ejemplo para el **condicional perfecto**:\n\n1. \"¿Qué haría si hubiera aprendido español antes?\"  \n   - Aquí, \"habría\" es la forma condicional (conditional), y \"aprendido\" es el participio pasado de \"aprender\". Juntos forman el **condicional perfecto**, que se usa para expresar una acción hipotética en el pasado.\n\n2. Otro ejemplo:  \n   \"Si hubiera tenido más tiempo, me habría dedicado a practicar español todos los días.\"  \n   - Aquí también se utiliza el condicional perfecto. La estructura es: \"habría\" + (participio pasado).\n\n### Ejemplo para el"
+   },
+   {
+      "role": "user",
+      "content": "¡Excelente! Estamos avanzando muy bien. Vamos a desglosar estos ejemplos y clarificar cada parte para asegurarnos de que todo queda claro.\n\n### Ejemplo 1: **Condicional Perfecto**\n**Frases:**  \n- \"¿Qué haría si hubiera aprendido español antes?\"  \n- \"Si hubiera tenido más tiempo, me habría dedicado a practicar español todos los días.\"\n\n#### Desglose:\n- \"Habría\" es la forma condicional de \"haber\" en tiempo presente.  \n- \"Aprendido\" es el participio pasado de \"aprender\".  \n\nLa estructura completa: **\"habría + infinitivo en participio pasado\"**.\n\n### Ejemplo 2: **Pluscuamperfecto**\nAhora, vamos a revisar el uso del pluscuamperfecto con un ejemplo:\n\n**Frase:**  \n- \"Si me hubiera"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Vamos a desglosar estos ejemplos de manera detallada para asegurarnos de que entiendas completamente el uso y la construcción de estos tiempos verbales.\n\n### Ejemplo 1: **Condicional Perfecto**\n\n**Frases:**  \n- \"¿Qué haría si hubiera aprendido español antes?\"  \n- \"Si hubiera tenido más tiempo, me habría dedicado a practicar español todos los días.\"\n\n#### Desglose:\n- \"Habría\" es la forma condicional de \"haber\", que en el tiempo presente es \"hubiera\".  \n- \"Aprendido\" y \"tenido\" son los participios pasados de los verbos \"aprender\" y \"tener\", respectivamente.  \n\nLa estructura completa:  \n**\"habría + infinitivo en participio pasado\"**.\n\nPor ejemplo:\n- \"Habría aprendido\" (formaría condicional perfect"
+   },
+   {
+      "role": "user",
+      "content": "¡Genial, vamos a desglosar estos ejemplos de manera detallada para asegurarnos de que todo quede claro!\n\n### Ejemplo 1: **Condicional Perfecto**\n\n**Frase:**  \n- \"¿Qué haría si hubiera aprendido español antes?\"  \n\n#### Desglose:\n1. **\"Habría\"**  \n   - Es la forma condicional de \"haber\", que en tiempo presente es \"hubiera\".  \n2. **\"aprendido\"**  \n   - Es el participio pasado de \"aprender\".  \n\nLa estructura completa: **\"habría + infinitivo en participio pasado\"**.\n\n#### Ejemplo práctico:\n- \"Habría aprendido español antes si me hubiera dedicado más.\"  \n   - Aquí, \"habría aprendido\" refleja una acción hipotética en el pasado.\n\n---\n\n### Ejemplo 2: **Plus"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Fantástico! Vamos a desglosar ambos tiempos verbales con más ejemplos prácticos para asegurarnos de que estás completamente cómodo.\n\n### Ejemplo 1: **Condicional Perfecto**\n\n**Frases:**  \n- \"¿Qué haría si hubiera aprendido español antes?\"  \n- Ejemplo práctico: \"Habría aprendido español antes si me hubiera dedicado más.\"\n\n#### Desglose:\n1. **\"Habría\"**  \n   - Es la forma condicional de \"haber\", que en tiempo presente es \"hubiera\".  \n2. **\"aprendido\"**  \n   - Es el participio pasado de \"aprender\".  \n\nLa estructura completa: **\"habría + infinitivo en participio pasado\"**.\n\n#### Ejemplo práctico:\n- \"Habría aprendido español antes si me hubiera dedicado más.\"\n   -"
+   },
+   {
+      "role": "user",
+      "content": "¡Fantástico! Vamos a desglosar más ejemplos para asegurarnos de que estás cómodo con ambos tiempos verbales.\n\n### Ejemplo 1: **Condicional Perfecto**\n\n**Frases:**  \n- \"¿Qué haría si hubiera aprendido español antes?\"  \n- Ejemplo práctico: \"Habría aprendido español antes si me hubiera dedicado más.\"\n\n#### Desglose:\n1. **\"Habría\"**  \n   - Es la forma condicional de \"haber\", que en tiempo presente es **\"hubiera\"**.  \n2. **\"aprendido\"**  \n   - Es el participio pasado de \"aprender\".  \n\nLa estructura completa: **\"habría + infinitivo en participio pasado\"**.\n\n#### Ejemplo práctico:\n- \"Habría aprendido español antes si me hubiera dedicado más.\"\n   - Aqu"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente, vamos a profundizar aún más con ejemplos adicionales para asegurarnos de que dominas completamente estos tiempos verbales.\n\n### Ejemplo 1: **Condicional Perfecto**\n\n**Frases:**  \n- \"¿Qué haría si hubiera aprendido español antes?\"  \n- Ejemplo práctico: \"Habría aprendido español antes si me hubiera dedicado más.\"\n\n#### Desglose:\n1. **\"Habría\"**  \n   - Es la forma condicional de \"haber\", que en tiempo presente es **\"hubiera\"**.  \n2. **\"aprendido\"**  \n   - Es el participio pasado de \"aprender\".  \n\nLa estructura completa: **\"habría + infinitivo en participio pasado\"**.\n\n#### Ejemplo práctico:\n- \"Habría aprendido español antes si me hubiera dedicado más.\"\n   - Aquí,"
+   },
+   {
+      "role": "user",
+      "content": "¡Vamos a desglosar todavía más para asegurarnos de que dominas completamente ambos tiempos verbales!\n\n### Ejemplo 1: **Condicional Perfecto**\n\n**Frases:**  \n- \"¿Qué haría si hubiera aprendido español antes?\"  \n- Ejemplo práctico: \"Habría aprendido español antes si me hubiera dedicado más.\"\n\n#### Desglose:\n1. **\"Habría\"**  \n   - Es la forma condicional de \"haber\", que en tiempo presente es **\"hubiera\"**.  \n2. **\"aprendido\"**  \n   - Es el participio pasado de \"aprender\".  \n\nLa estructura completa: **\"habría + infinitivo en participio pasado\"**.\n\n#### Ejemplo práctico:\n- \"Habría aprendido español antes si me hubiera dedicado más.\"\n   - Aquí, \"habría\" expresa"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Vamos a profundizar aún más con ejemplos adicionales y desgloses para asegurarnos de que dominas completamente ambos tiempos verbales. ¡Vamos a desglosar cada parte con detalle!\n\n### Ejemplo 1: **Condicional Perfecto**\n\n**Frases:**  \n- \"¿Qué haría si hubiera aprendido español antes?\"  \n- Ejemplo práctico: \"Habría aprendido español antes si me hubiera dedicado más.\"\n\n#### Desglose:\n1. **\"Habría\"**  \n   - Es la forma condicional de \"haber\", que en tiempo presente es **\"hubiera\"**.  \n   - Ejemplo: \"Hubiera\", en tiempo pasado, expresa una condición hipotética.  \n2. **\"aprendido\"**  \n   - Es el participio pasado de \"aprender\".  \n   - Ejemplo: En la frase \"H"
+   },
+   {
+      "role": "user",
+      "content": "¡Excelente, vamos a desglosar cada parte con detalle para asegurarnos de que dominas completamente ambos tiempos verbales!\n\n### Ejemplo 1: **Condicional Perfecto**\n\n**Frases:**  \n- \"¿Qué haría si hubiera aprendido español antes?\"  \n- Ejemplo práctico: \"Habría aprendido español antes si me hubiera dedicado más.\"\n\n#### Desglose:\n1. **\"Habría\"**  \n   - Es la forma condicional de \"haber\", que en tiempo presente es **\"hubiera\"**.  \n   - Ejemplo: \"Hubiera\" en tiempo pasado expresa una condición hipotética.  \n   - Ejemplo: \"Hubiera\" es el condicional en tiempo pasado.\n\n2. **\"aprendido\"**  \n   - Es el participio pasado de \"aprender\".  \n   - Ejemplo: En la frase \"Habr"
+   }
+]

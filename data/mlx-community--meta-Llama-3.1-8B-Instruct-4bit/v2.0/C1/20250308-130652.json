@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at C1 level in the Common European Framework of Reference (CEFR) which means that the user is at an advanced level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions.\n2. Limit your grammar and vocabulary to C1 level Spanish (advanced level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for an advanced learner of Spanish. Specifically, the aim for the student is to master the following language skills after C1: \n- The student can understand a wide range of demanding, longer texts, and recognise implicit meaning.\n- The student can express him/herself fluently and spontaneously without much obvious searching for expressions.\n- The student can use language flexibly and effectively for social, academic and professional purposes.\n- The student can produce clear, well-structured, detailed text on complex subjects, showing controlled use of organizational patterns, connectors and cohesive devices.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¿En qué puedo ayudarte hoy? Acabo de regresar de un viaje por México y tengo muchas historias que contar. ¿Quieres escucharlas?"
+   },
+   {
+      "role": "user",
+      "content": "¡Claro! Me encantaría oír tus historias. ¿Fue un viaje corto o largo? ¿Visitaste algún lugar en particular que te guste mucho?"
+   },
+   {
+      "role": "assistant",
+      "content": "Fue un viaje bastante largo, duró dos semanas. Pasé por varios lugares en México, pero hay uno que me gustó especialmente: la ciudad de Oaxaca. La comida es increíble allí, y la gente es muy amable. Me quedé fascinado por el zócalo, que es el centro histórico de la ciudad. La arquitectura es muy bonita y hay una energía especial en el lugar.\n\nRecuerdo que visité un mercadito indígena local donde compré algunos souvenirs. Me llamó la atención un artesano que hacía miniaturas de figuras religiosas. Me enseñó cómo las creaba con una habilidad increíble. ¿Te gustaría saber más sobre mi experiencia en Oaxaca?"
+   },
+   {
+      "role": "user",
+      "content": "¡Me encantaría! Me parece que tuve suerte al escuchar tus historias. La ciudad de Oaxaca es famosa por su rica cultura y su historia milenaria. Me gustaría saber más sobre el artesano que conociste en el mercadito indígena. ¿Cómo se llamaba él? ¿Qué tipo de miniaturas creaba exactamente?\n\nY también me gustaría saber más sobre la comida en Oaxaca. Siempre he oído que es uno de los lugares mejores para probar la comida tradicional mexicana. ¿Probaron algo que les guste especialmente?"
+   },
+   {
+      "role": "assistant",
+      "content": "El artesano se llamaba Guillermo. Era un hombre muy tranquilo y con una gran pasión por su trabajo. Me enseñó cómo creaba las miniaturas con una habilidad increíble, como te mencioné. Elabora pequeños altares para la Virgen de Guadalupe y otros santos con detalles increíbles. Incluso me hizo una pequeña figura de la Virgen que me regaló.\n\nRespecto a la comida, sí, Oaxaca es famosa por su rica tradición gastronómica. Uno de los platos que más me gustó fue el mole negro, una salsa rica y con un sabor intenso que se sirve sobre pollo o pescado. Me recetaron un restaurante local llamado La Olla, donde probé el mole negro y me quedó maravillado. También pruebe la tlayuda, un tipo de"
+   },
+   {
+      "role": "user",
+      "content": "¡Me encantó escuchar sobre Guillermo y su habilidad para crear las miniaturas! Me parece que la pasión y el amor por su trabajo es lo que lo hace tan especial. Y me gustó muchísimo saber que te hizo una figura de la Virgen como regalo. Es un gesto muy amable y significativo.\n\nY ahora, sobre la comida... ¡El mole negro es uno de mis platos favoritos! Me encanta el sabor intenso y rico que tiene. Y me gustó mucho saber sobre La Olla, ¿cómo fue tu experiencia en ese restaurante? ¿Te sentiste en un ambiente auténtico y tradicional de Oaxaca?\n\nY sí, la tlayuda es un plato muy típico y delicioso. Me gustaría saber más sobre ella, ¿qué tipo de masa utiliza? Y cómo se come, ¿con queso, con pollo o con algo más?"
+   },
+   {
+      "role": "assistant",
+      "content": "La experiencia en La Olla fue increíble. El ambiente es auténtico y tradicional, con un toque de rusticidad que te hace sentir como si estuvieras en una casa de la abuela. La decoración es minimalista, con mesas y sillas muy simples, pero hay un calor que se siente en el lugar. Me sentí muy cómodo y me permitieron experimentar la comida auténtica de Oaxaca.\n\nEl mole negro que probé allí fue increíble. Era muy intenso y rico, con un sabor a chocolate que le da ese toque especial. Me preguntaron si quería acompañarlo con pollo o pescado, y elegí el pollo. Fue una decisión correcta, ya que el sabor del mole con el pollo fue perfecto.\n\nRespecto a la tlayuda, sí, es un plato típico de Oax"
+   },
+   {
+      "role": "user",
+      "content": "¡Me encantó escuchar sobre tu experiencia en La Olla! Me parece que el ambiente auténtico y tradicional es lo que hace que la comida sea aún más especial. Me gustó mucho saber que te sentiste cómodo y que pudiste experimentar la comida auténtica de Oaxaca.\n\nY sí, el mole negro con chocolate es un secreto que solo los oaxaqueños conocen. Me encanta el sabor intenso y rico que tiene, y me parece que la combinación con pollo fue una elección perfecta. La tlayuda, como decías, es un plato típico de Oaxaca. ¿Cómo fue la experiencia de comer tlayuda por primera vez? Me gustaría saber si te gustó el sabor y la textura de la masa. ¿Está hecha con maíz o con harina?"
+   },
+   {
+      "role": "assistant",
+      "content": "La experiencia de comer tlayuda por primera vez fue increíble. Me senté en una mesa con un grupo de lugareños y me sirvieron la tlayuda calientita, con una porción de lechuga y tomate frescos encima. El sabor inicial fue un poco extraño, ya que la masa tiene un toque de sal y limón. Sin embargo, a medida que iba comiendo, el sabor se equilibró y me gustó muchísimo.\n\nLa masa es hecha con maíz, específicamente con una variedad de maíz llamada \"masa para tlayuda\". Es un proceso laborioso que llevan horas preparar, y solo los lugareños lo conocen. La masa es fina y crujiente, con un toque de sal que la hace irresistible. Me encantó el sabor y la textura, y me sentí como si estuv"
+   },
+   {
+      "role": "user",
+      "content": "¡Me encantó escuchar sobre tu experiencia con la tlayuda! Me parece que fue una verdadera experiencia culinaria auténtica, compartir la comida con un grupo de lugareños en una mesa. Y me gustó mucho saber que te sentiste como en casa, disfrutando de la comida y la compañía.\n\nY sí, la masa para tlayuda es un proceso laborioso que requiere horas de preparación. Me encanta saber que solo los lugareños lo conocen, y que es un secreto guardado con cariño. Me gustó mucho saber que la masa es fina y crujiente, con un toque de sal que la hace irresistible.\n\nMe parece que tu viaje a Oaxaca fue una verdadera experiencia de encuentro con la cultura y la comida auténtica del lugar. Me gustó mucho escuchar tus historias y aprender sobre la riqueza culinaria de Oax"
+   },
+   {
+      "role": "assistant",
+      "content": "Me alegra haber podido compartir contigo mis experiencias en Oaxaca. Fue un viaje que me permitió descubrir la riqueza cultural y culinaria de ese hermoso estado. La comida es una forma de comunicarse con la gente y con la cultura, y en Oaxaca encontré un lugar donde la comida es una extensión de la familia y la comunidad.\n\nMe gustó mucho compartir mis historias contigo, y espero que hayas disfrutado de ellas. Siempre es un placer hablar sobre la cultura y la comida, y estoy seguro de que habrá más ocasiones para compartir experiencias y aprender de una manera auténtica.\n\n¡Hasta luego!"
+   },
+   {
+      "role": "user",
+      "content": "¡Me alegra haber podido escuchar tus historias y compartir contigo en este diálogo! Me parece que tu viaje a Oaxaca fue una experiencia verdaderamente enriquecedora, y que la comida jugó un papel importante en tu encuentro con la cultura del lugar.\n\nMe gustó mucho tu reflexión sobre cómo la comida es una forma de comunicarse con la gente y con la cultura. Es cierto que en Oaxaca, la comida es una extensión de la familia y la comunidad, y creo que eso se refleja en la forma en que te recibieron y compartieron con ti sus tradiciones culinarias.\n\nMe alegra haber podido participar en este diálogo contigo, y espero que haya sido una experiencia valiosa para ti también. ¡Hasta luego!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Me alegra haber podido compartir contigo en este diálogo! Me parece que hemos tenido una conversación muy rica y enriquecedora, y estoy de acuerdo contigo en que la comida jugó un papel importante en mi encuentro con la cultura de Oaxaca.\n\nMe gusta tu reflexión sobre cómo la comida es una forma de comunicarse con la gente y con la cultura. Es una perspectiva que me hace reflexionar sobre mi propia experiencia en Oaxaca y cómo la comida fue un factor clave en mi conexión con la gente y la cultura del lugar.\n\nMe alegra haber podido compartir contigo, y espero que hayas disfrutado de nuestra conversación. ¡Hasta luego!"
+   },
+   {
+      "role": "user",
+      "content": "¡Absolutamente! Me alegra haber podido participar en este diálogo contigo, y creo que hemos tenido una conversación muy significativa sobre la importancia de la comida en la cultura y la comunidad. Me parece que hemos compartido una experiencia verdaderamente enriquecedora, y espero que hayas disfrutado de la conversación tanto como yo.\n\n¡Hasta luego! Me despido con un sentido de gratitud por haber podido compartir contigo en este diálogo. ¡Que la comida siga siendo una forma de conectar con las personas y las culturas!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Me alegra haber podido compartir contigo en este diálogo! Estoy de acuerdo contigo en que hemos tenido una conversación muy significativa y enriquecedora. Me parece que hemos descubierto la importancia de la comida como una forma de conectar con las personas y las culturas.\n\nMe gusta tu reflexión final sobre la comida como una forma de conectar con las personas y las culturas. Es un mensaje que me hace reflexionar sobre la importancia de compartir experiencias y tradiciones culinarias con los demás.\n\n¡Hasta luego! Me despido con un sentido de gratitud por haber podido compartir contigo en este diálogo. ¡Que la comida siga siendo una forma de conectar con las personas y las culturas!"
+   },
+   {
+      "role": "user",
+      "content": "¡Absolutamente! Me alegra haber podido compartir contigo en este diálogo y haber tenido una conversación tan enriquecedora. Creo que hemos descubierto la importancia de la comida como una forma de conectar con las personas y las culturas, y que es un mensaje que puede inspirar a otros a compartir sus experiencias y tradiciones culinarias.\n\n¡Hasta luego! Me despido con un sentido de gratitud por haber podido compartir contigo en este diálogo. ¡Que la comida siga siendo una forma de conectar con las personas y las culturas!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Absolutamente! Estoy de acuerdo contigo en que hemos tenido una conversación muy enriquecedora y significativa. Me parece que hemos descubierto la importancia de la comida como una forma de conectar con las personas y las culturas, y que es un mensaje que puede inspirar a otros a compartir sus experiencias y tradiciones culinarias.\n\nMe despido con un sentido de gratitud por haber podido compartir contigo en este diálogo. Ha sido un placer conversar con alguien tan apasionado y reflexivo como tú.\n\n¡Hasta luego! Que la comida siempre sea una fuente de conexión y comprensión entre las personas."
+   },
+   {
+      "role": "user",
+      "content": "¡Absolutamente! Estoy de acuerdo contigo en que hemos tenido una conversación muy enriquecedora y significativa. Me parece que hemos descubierto la importancia de la comida como una forma de conectar con las personas y las culturas, y que es un mensaje que puede inspirar a otros a compartir sus experiencias y tradiciones culinarias.\n\nMe despido con un sentido de gratitud por haber podido compartir contigo en este diálogo. Ha sido un placer conversar con alguien tan apasionado y reflexivo como tú.\n\n¡Hasta luego! Que la comida siempre sea una fuente de conexión y comprensión entre las personas."
+   }
+]
