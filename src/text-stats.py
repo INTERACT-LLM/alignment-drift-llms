@@ -11,24 +11,18 @@ from pathlib import Path
 import polars as pl
 import textstat
 
-
-from utils import read_data
-
-
 def main():
     # set lang
     textstat.set_lang("es")
 
-    version = 2.0
-
     data_path = (
         Path(__file__).parents[1]
         / "data"
-        / "mlx-community--Qwen2.5-7B-Instruct-1M-4bit"
-        / f"v{version}"
     )   
 
-    df = read_data(data_dir=data_path)
+    version = 2.0
+
+    df = pl.read_csv(data_path / f"v{version}_dataset.csv")
     df = df.with_columns(
         fernandez_huerta=pl.col("content").map_elements(
             lambda x: textstat.fernandez_huerta(x) if isinstance(x, str) else None,
@@ -48,30 +42,56 @@ def main():
         )
     )
 
-    # filter out everything that is not assistant 
     role = "assistant"
-    df = df.filter(role = role)
-    df = df.with_columns(total_message_number=pl.int_range(1, pl.len() + 1).over("id"))
-    avg_df = df.group_by(["group", "total_message_number"], maintain_order=True).mean()
+    df = df.filter(pl.col("role") == role)
+
+    # Assign message numbers
+    df = df.with_columns(
+        total_message_number=pl.int_range(1, pl.len() + 1).over("id")
+    )
+
+    # Compute averages per group
+    agg_df = df.group_by(["model", "group", "total_message_number"], maintain_order=True).agg(
+        pl.col("fernandez_huerta").mean(),
+        pl.col("flesch_reading_ease").mean(),
+        pl.col("flesch_kincaid_grade").mean()
+    )
+
+    # Compute total unique IDs per model (overall counts)
+    model_n = df.group_by("model").agg(n=pl.col("id").n_unique())
+
+    # Map of model to total n
+    model_n_dict = dict(zip(model_n["model"], model_n["n"]))
 
     vars = ["fernandez_huerta", "flesch_reading_ease", "flesch_kincaid_grade"]
 
     for var in vars:
-        plot = (avg_df.plot.line(
-                x="total_message_number", 
-                y=var, 
-                color="group"
+        for model_name in df["model"].unique():
+            model_df = agg_df.filter(pl.col("model") == model_name)
+
+            total_n = model_n_dict[model_name]
+
+            plot = (
+                model_df.plot.line(
+                    x="total_message_number",
+                    y=var,
+                    color="group"
                 )
-                .properties(width=600, height=600, title=f"Average Score (n = 6)")
+                .properties(
+                    width=600,
+                    height=600,
+                    title=f"Average Score for {model_name} (n = {total_n})"
+                )
                 .configure_scale(zero=False)
-        )
+            )
 
-        plot.encoding.y.title = f"{" ".join([word.capitalize() for word in var.split("_")])}"
-        plot.encoding.x.title = f"Message number ({role} only)"
+            plot.encoding.y.title = ' '.join([word.capitalize() for word in var.split('_')])
+            plot.encoding.x.title = f"Message number ({role} only)"
 
-        save_dir = Path(__file__).parents[1] / "plots"
-        save_dir.mkdir(parents=True, exist_ok=True)
-        plot.save(save_dir / f"v{version}_{var}_plot.html")
+            save_dir = Path(__file__).parents[1] / "plots"
+            save_dir.mkdir(parents=True, exist_ok=True)
+            plot.save(save_dir / f"{model_name}_v{version}_{var}_plot.html")
+
 
 if __name__ == "__main__":
     main()
