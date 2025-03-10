@@ -6,9 +6,13 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "altair>=5.5.0",
+    "es-core-news-md",
     "evaluate>=0.4.3",
     "matplotlib>=3.10.0",
+    "pandas>=2.2.3",
     "polars>=1.23.0",
+    "spacy>=3.8.4",
+    "textdescriptives==2.8.2",
     "textstat>=0.7.5",
     "torch>=2.6.0",
     "transformers>=4.49.0",
@@ -22,3 +26,6 @@ dev = [
 [tool.ruff]
 src = ["src"]
 lint.select = ["F", "E", "W", "I001"] # F for pyflakes, E + W for pycodestyle errors + warnings, #I001 for isort
+
+[tool.uv.sources]
+es-core-news-md = { url = "https://github.com/explosion/spacy-models/releases/download/es_core_news_md-3.8.0/es_core_news_md-3.8.0.tar.gz" }
