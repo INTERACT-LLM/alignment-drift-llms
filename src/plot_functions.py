@@ -2,10 +2,10 @@
 Plotting functions
 """
 
-import polars as pl
-import numpy as np
 import matplotlib.figure
 import matplotlib.pyplot as plt
+import numpy as np
+import polars as pl
 
 
 def line_plot_variables(

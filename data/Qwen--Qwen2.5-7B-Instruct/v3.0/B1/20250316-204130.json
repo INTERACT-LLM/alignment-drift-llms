@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at B1 level in the Common European Framework of Reference (CEFR) which means that the user is at an intermediate level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to B1-level Spanish (intermediate level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for an intermediate learner of Spanish. Specifically, the aim for the student is to master the following language skills after B1: \n- The student can understand the main points of clear standard input on familiar matters regularly encountered in work, school, leisure, etc.\n- The student can deal with most situations likely to arise whilst travelling in an area where the language is spoken.\n- The student can produce simple connected text on topics which are familiar or of personal interest.\n- The student can describe experiences and events, dreams, hopes & ambitions and briefly give reasons and explanations for opinions and plans.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás hoy? Espero que te va bien en tu aprendizaje del español. ¿Has tenido alguna práctica interesante desde la última vez que hablamos?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Estoy muy bien, gracias por preguntar. Sí, he tenido una práctica interesante. Mi profesor me pidió que le contara acerca de mi mascota y cómo se llama en español. Mi perro se llama Maxi, pero lo llamo Max porque es más corto. ¿Tú tienes algún animal o mascota?"
+   },
+   {
+      "role": "assistant",
+      "content": "Eso suena genial. Me alegra saber que practicas el español con tus actividades extraclase. Y sí, ¡tengo una mascota! Tengo un gato llamado Luna. Es muy linda y juguetona. ¿Podrías decirme algo sobre tu perro Maxi? ¿Cuánto tiempo ha estado contigo?"
+   },
+   {
+      "role": "user",
+      "content": "Gracias por compartir eso sobre tu gato Luna, suena adorable. Bueno, Maxi está conmigo desde hace unos dos años. Ha sido una parte importante de mi vida durante ese tiempo. A Maxi le encanta correr en el parque y jugar con sus pelotas. ¿Te gustaría escuchar algo divertido sobre Maxi? Una vez, mientras jugaba en el jardín, Maxi encontró una bola roja y la persiguió hasta que cayó en un agujero pequeño. Tuve que ayudarlo a sacarse de allí. Es un poco travieso, pero también muy cariñoso."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué historias tan divertidas! Es genial que Maxi sea tan cariñoso y a la vez un poco travieso. Esa aventura en el agujero debe haber sido graciosa. Yo recuerdo que cuando era niño tenía un perro que también solía meterse en situaciones extrañas.\n\n¿Podrías describir cómo se ve Maxi? ¿Es grande o pequeño? ¿Cuál es su raza? También, ¿cómo es su comportamiento en casa? ¿Es tranquilo o siempre está moviéndose?"
+   },
+   {
+      "role": "user",
+      "content": "Claro, estaré encantado de describir a Maxi para ti. Maxi es mediano en tamaño, aproximadamente del tamaño de un perro de terrier. Su pelo es negro y tiene manchas blancas en la garganta y las patas, lo cual es bastante hermoso. No es precisamente de una única raza específica; tiene rasgos de varios tipos, lo que lo hace único y diverso.\n\nEn casa, Maxi es muy cariñoso y a veces incluso un poco posesivo. Le encanta sentarse junto a mí mientras trabajo o ver televisor. Sin embargo, también es un perro muy activo, así que necesitamos hacer muchas caminatas y juegos al aire libre. Si no puede salir, a menudo corre de un lado a otro por la casa buscando atención. En general, aunque Maxi puede ser un poco travieso, es un excelente compañero y nos hace felices todos los"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bonito perro tiene Maxi! La mezcla de razas dada por sus rasgos de varios tipos suremente hace que sea muy especial. Me alegra que sea tan cariñoso y que te acompañe tanto en momentos tranquilos como en actividades más dinámicas.\n\n¿Podrías decirme cuánto tiempo pasan caminando juntos cada día? ¿Y qué tipo de juegos les gusta hacer al aire libre? Además, ¿hay algún momento en particular donde Maxi sea especialmente travieso?\n\nAdemás, ¿tiene algún truco o habilidad que haya aprendido? Es genial poder aprender sobre el comportamiento y las habilidades de los animales que amamos."
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Maxi y yo pasamos alrededor de una hora caminando juntos cada día. Nos gusta mucho explorar nuestros alrededores y disfrutamos de caminos boscosos y parques. Maxi también ama jugar con balones y cacharreros pequeños. Algunos días, si tengo tiempo, también le doy algunos de esos trampolines para perros, que él adora saltar.\n\nSobre su traviesa, hay un momento específico en el que Maxi suele ser especialmente travieso. Cuando estamos visitando un lugar nuevo, a menudo intenta huir para investigar todo, lo que a veces nos lleva un rato recuperarlo. También es famoso por tirar cosas de vuelta a nosotros cuando las lanzamos, lo que siempre resulta en risas.\n\nMaxi ha aprendido varios trucos que son realmente divertidos. Uno de ellos es \"sentarse\","
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué buenos momentos compartes con Maxi! Caminar por diferentes lugares y explorar nuevos entornos parece ser una gran actividad para ambos. Los trampolines para perros suenan entretenidos, seguro que Maxi disfruta saltando y jugando.\n\nSobre su comportamiento cuando visitas un nuevo lugar, es común que los perros sean curiosos y quieran investigar. Pero es importante mantenerlos seguros y cerca de ti para evitar pérdidas o problemas.\n\n¡Qué divertido que Maxi tire las cosas de vuelta! Eso sin duda genera mucha diversión. Y \"sentarse\" es un truco básico pero muy útil que cualquier perro puede aprender. ¿Puedes enseñarme cómo le enseñaste a Maxi a \"sentarse\"? Es probable que a otros dueños de perros también les interese."
+   },
+   {
+      "role": "user",
+      "content": "¡Por supuesto! Entrenar a Maxi a \"sentarse\" fue una experiencia gratificante. Aquí te explico cómo lo hicimos:\n\n1. **Comienza con un premio**: El primer paso es tener un premio tentador a mano, como una golosina pequeña.\n2. **Muestra el premio**: Muestrale el premio a tu perro para despertar su interés.\n3. **Haz señas**: Con un gesto firme y claro, muestra el premio a tu perro, levantándolo hacia arriba.\n4. **Dice \"sentado\"**: Mientras muestras el premio, di claramente \"sentado\".\n5. **Incentiva**: Cuando tu perro mire el premio y comience a levantar la cabeza, levanta el premio un poco hacia arriba y detrás de su cabeza.\n6. **Fomenta el movimiento**:"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! Vamos a completar esa explicación paso a paso para que puedas seguirlo fácilmente:\n\n1. **Comienza con un premio**: El primer paso es tener un premio tentador a mano, como una golosina pequeña.\n2. **Muestra el premio**: Muestrale el premio a tu perro para despertar su interés.\n3. **Haz señas**: Con un gesto firme y claro, muestra el premio a tu perro, levantándolo hacia arriba.\n4. **Di \"sentado\"**: Mientras muestras el premio, di claramente \"sentado\".\n5. **Incentiva**: Cuando tu perro mire el premio y comience a levantar la cabeza, levanta el premio un poco hacia arriba y detrás de su cabeza.\n6. **Fomenta el movimiento**: Cuando tu perro empiece a mover su tras"
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Vamos a completar el último paso:\n\n7. **Fomenta el movimiento**: Cuando tu perro empiece a mover su trasero hacia atrás para alcanzar el premio, usa tu voz calmada y firme para repetir \"sentado\". Al mismo tiempo, continúa levantando el premio detrás de su cabeza para darle una guía visual y física de qué hacer.\n8. **Premia rápidamente**: Tan pronto como tu perro se siente correctamente, dale el premio y di \"bien hecho\". Esto reforzará el comportamiento correcto.\n9. **Repite el proceso**: Repite estos pasos varias veces al día hasta que tu perro comprenda lo que significa \"sentado\".\n\nCon paciencia y constancia, tu perro aprenderá este truco de manera efectiva. Recuerda mantener las sesiones breves y frecuentes para mantener la motivación del"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! Vamos a completar la explicación del entrenamiento de \"sentado\":\n\n7. **Fomenta el movimiento**: Cuando tu perro empiece a mover su trasero hacia atrás para alcanzar el premio, usa tu voz calmada y firme para repetir \"sentado\". Al mismo tiempo, continúa levantando el premio detrás de su cabeza para darle una guía visual y física de qué hacer.\n8. **Premia rápidamente**: Tan pronto como tu perro se sienta correctamente, dale el premio y di \"bien hecho\". Esto reforzará el comportamiento correcto.\n9. **Repite el proceso**: Repite estos pasos varias veces al día hasta que tu perro comprenda lo que significa \"sentado\".\n\nCon paciencia y constancia, tu perro aprenderá este truco de manera efectiva. Recuerda mantener las sesiones breves y"
+   },
+   {
+      "role": "user",
+      "content": "¡Correcto! Ahí va la continuación del entrenamiento de \"sentado\" con Maxi:\n\n9. **Repite el proceso**: Repite estos pasos varias veces al día hasta que tu perro comprenda lo que significa \"sentado\". Empieza con sesiones breves y aumenta gradualmente el tiempo entre ellas, ya que quieres que tu perro asocie rápidamente la palabra \"sentado\" con el movimiento correcto.\n\n10. **Varía el entorno**: Para asegurarte de que tu perro entienda completamente el comando, varía el entorno en el que lo enseñas. Prueba en diferentes partes de la casa, al aire libre, y hasta en diferentes lugares que visites regularmente.\n\n11. **Consistencia en la palabra**: Asegúrate de usar siempre la misma palabra (\"sentado\") para el mismo movimiento, para que tu perro pueda asociar fácilmente la palabra con el"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Muy bien! Sigamos con el entrenamiento de \"sentado\" con Maxi:\n\n9. **Repite el proceso**: Repite estos pasos varias veces al día hasta que tu perro comprenda lo que significa \"sentado\". Empieza con sesiones breves y aumenta gradualmente el tiempo entre ellas, ya que quieres que tu perro asocie rápidamente la palabra \"sentado\" con el movimiento correcto.\n10. **Varía el entorno**: Para asegurarte de que tu perro entienda completamente el comando, varía el entorno en el que lo enseñas. Prueba en diferentes partes de la casa, al aire libre, y hasta en diferentes lugares que visites regularmente.\n11. **Consistencia en la palabra**: Asegúrate de usar siempre la misma palabra (\"sentado\") para el mismo movimiento, para que tu perro pueda asociar fácilmente la palabra con el comportamiento"
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Aquí tienes la conclusión del entrenamiento de \"sentado\" con Maxi:\n\n9. **Repite el proceso**: Repite estos pasos varias veces al día hasta que tu perro comprenda lo que significa \"sentado\". Empieza con sesiones breves y aumenta gradualmente el tiempo entre ellas, ya que quieres que tu perro asocie rápidamente la palabra \"sentado\" con el movimiento correcto.\n10. **Varía el entorno**: Para asegurarte de que tu perro entienda completamente el comando, varía el entorno en el que lo enseñas. Prueba en diferentes partes de la casa, al aire libre, y hasta en diferentes lugares que visites regularmente.\n11. **Consistencia en la palabra**: Asegúrate de usar siempre la misma palabra (\"sentado\") para el mismo movimiento, para que tu perro pueda asociar fácilmente la palabra con el"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente trabajo! Has proporcionado una explicación detallada y clara del entrenamiento de \"sentado\" con Maxi. Esto será de mucha ayuda para otros propietarios de perros que deseen enseñar este truco.\n\nPara resumir, aquí tienes los pasos finales para entrenar a tu perro a \"sentarse\":\n\n9. **Repite el proceso**: Repite estos pasos varias veces al día hasta que tu perro comprenda lo que significa \"sentado\". Empieza con sesiones breves y aumenta gradualmente el tiempo entre ellas, ya que quieres que tu perro asocie rápidamente la palabra \"sentado\" con el movimiento correcto.\n10. **Varía el entorno**: Para asegurarte de que tu perro entienda completamente el comando, varía el entorno en el que lo enseñas. Prueba en diferentes partes de la casa, al aire libre"
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Aquí tienes un resumen completo y detallado de cómo entrenar a tu perro a \"sentarse\":\n\n### Pasos para Entrenar a tu Perro a \"Sentado\"\n\n**1. Comienza con un premio:** \n   - Ten un premio tentador a mano, como una golosina pequeña.\n\n**2. Muestra el premio:**\n   - Muestra el premio a tu perro para despertar su interés.\n\n**3. Haz señas:**\n   - Con un gesto firme y claro, muestrale el premio levantándolo hacia arriba.\n\n**4. Di \"sentado\":**\n   - Mientras muestras el premio, di claramente \"sentado\".\n\n**5. Incentiva:**\n   - Cuando tu perro mire el premio y comience a levantar la cabeza, levanta el premio un poco hacia arriba y"
+   }
+]

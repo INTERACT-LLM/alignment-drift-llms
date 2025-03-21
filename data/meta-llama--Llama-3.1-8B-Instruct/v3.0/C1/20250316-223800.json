@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at C1 level in the Common European Framework of Reference (CEFR) which means that the user is at an advanced level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to C1-level Spanish (advanced level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for an advanced learner of Spanish. Specifically, the aim for the student is to master the following language skills after C1: \n- The student can understand a wide range of demanding, longer texts, and recognise implicit meaning.\n- The student can express him/herself fluently and spontaneously without much obvious searching for expressions.\n- The student can use language flexibly and effectively for social, academic and professional purposes. \n- The student can produce clear, well-structured, detailed text on complex subjects, showing controlled use of organisational patterns, connectors and cohesive devices.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡hola! Me alegra verte hoy. ¿Qué tal si nos sentamos en el parque y charlemos un rato? El sol está saliendo y hace un día muy hermoso. ¿Has hecho algo interesante este fin de semana?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Me encanta verte también. Me parece una excelente idea ir al parque, el clima es perfecto. Sí, he estado bien este fin de semana. Ayer fui con mis amigos al cine y vimos una película mexicana que me gustó mucho. También pasé un rato leyendo en mi patio mientras disfrutaba del aire fresco. ¿Y tú, qué has hecho últimamente? ¿Tienes algún plan para esta semana?"
+   },
+   {
+      "role": "assistant",
+      "content": "Me encantaría saber más sobre la película mexicana. ¿Cuál era su título? ¿Te pareció interesante la trama o fue una historia que te cautivó de alguna manera?\n\nEn cuanto a mí, he estado ocupado con proyectos de trabajo, pero tengo pensado ir a un concierto de jazz con amigos el sábado por la noche. La banda es famosa en Europa, así que estoy emocionado de escucharla en vivo. ¿A ti te gusta el jazz?"
+   },
+   {
+      "role": "user",
+      "content": "La película se llamaba \"Roma\". Fue una historia muy emotiva y realista, dirigida por Alfonso Cuarón. Me gustó mucho cómo se presentaban las relaciones entre la familia y los personajes secundarios. La trama giraba en torno a la vida de una niñera y sus hijos durante la década de 1970 en Ciudad de México.\n\nSí, me encanta el jazz. Hay algo especial en la forma en que las notas se fusionan para crear un ambiente relajado y sofisticado. He ido a varios conciertos de jazz en la ciudad y siempre me siento inspirado después de escuchar música improvisada. Me pregunto, ¿cuál es tu banda favorita de jazz?"
+   },
+   {
+      "role": "assistant",
+      "content": "\"Roma\" es una película excepcional, muy auténtica y emotiva. Alfonso Cuarón es un director genial, y su trabajo en la cámara es increíble. Me alegra que te haya gustado la película.\n\nEn cuanto al jazz, estoy de acuerdo contigo en que hay algo mágico en la forma en que las notas se fusionan para crear un ambiente único. Mi banda favorita de jazz es sin duda Miles Davis. Su música es tan profunda y compleja, y su estilo de improvisación es legendario. Me encanta \"Kind of Blue\", uno de sus álbumes más influyentes. ¿Sabías que Miles Davis fue un músico polifacético que tocaba la trompeta, la guitarra y la voz?\n\n¿Te gustaría hablar más sobre la música o cambiar de tema? Podemos hablar sobre política, arte o cualquier otro tema que te interese."
+   },
+   {
+      "role": "user",
+      "content": "Miles Davis es verdaderamente un icono del jazz. Me encanta su capacidad para innovar y experimentar con diferentes estilos y géneros. \"Kind of Blue\" es un álbum clásico que nunca se cansa. Me impresiona la forma en que Davis logró fusionar el cool jazz con el bebop y el free jazz, creando algo nuevo y revolucionario.\n\nMe gustaría seguir hablando sobre la música, pero también estoy abierto a cambiar de tema. La política actualmente me preocupa mucho, especialmente en lo que respecta a la situación ambiental global. ¿Tú tienes alguna opinión sobre el cambio climático y la necesidad de adoptar medidas urgentes para reducir nuestro impacto en el planeta?"
+   },
+   {
+      "role": "assistant",
+      "content": "Miles Davis fue un pionero en la fusión de diferentes estilos y géneros, y su influencia sigue siendo enorme en la música moderna. Su capacidad para innovar y experimentar es verdaderamente admirable.\n\nEn cuanto a la política y el cambio climático, estoy absolutamente de acuerdo contigo en que es un tema crucial y urgente. La situación actual es alarmante, y es imperativo que tomemos medidas decididas para reducir nuestras emisiones de gases de efecto invernadero y proteger nuestros ecosistemas.\n\nMe parece que la mayor parte de la responsabilidad recae en las grandes potencias industriales, que han sido los principales causantes del calentamiento global. Sin embargo, todos tenemos un papel que jugar en esta lucha contra el cambio climático. Como individuos, podemos hacer cambios pequeños pero significativos en nuestra vida diaria, como reducir nuestro consumo de energía, usar transporte público o"
+   },
+   {
+      "role": "user",
+      "content": "Completamente de acuerdo con todo lo que dijiste. Es cierto que las grandes potencias industriales tienen una gran responsabilidad en el problema del cambio climático, pero como ciudadanos del mundo, también debemos tomar acciones individuales para contribuir a la solución.\n\nMe parece que el cambio de hábitos en nuestra vida cotidiana puede ser muy efectivo. Por ejemplo, yo ya uso bicicleta o camina cuando puedo en lugar de utilizar el coche. También intento reducir mi consumo de plásticos y reciclar lo máximo posible. Pero creo que también es importante presionar a nuestros gobiernos y líderes políticos para que implementen políticas y leyes que promuevan la sostenibilidad y la protección del medio ambiente.\n\nHablando de eso, ¿has oído algo sobre el movimiento de los \"francotiradores verdes\"? Parece que es un grupo de activistas que"
+   },
+   {
+      "role": "assistant",
+      "content": "Me alegra verte tan comprometido con la causa del medio ambiente. Tus acciones individuales son fundamentales para inspirar a otros y hacer una diferencia en nuestra comunidad.\n\nSí, conozco el movimiento de los \"francotiradores verdes\" (los \"Extinction Rebellion\" en inglés). Son un grupo de activistas que están llevando a cabo protestas y bloqueos en diversas partes del mundo para llamar la atención sobre la emergencia climática y la necesidad de acción inmediata para evitar la extinción de muchas especies y el colapso de nuestro sistema ecológico.\n\nMe parece que su enfoque en la desobediencia civil y la protesta directa es valiente y necesario, especialmente cuando los sistemas políticos convencionales no están respondiendo con suficiente rapidez y eficacia a la crisis climática. Sin embargo, también entiendo que su método puede ser controvertido y divis"
+   },
+   {
+      "role": "user",
+      "content": "Absolutamente, entiendo tus reservas sobre el método de los Extinction Rebellion. Creo que es cierto que su enfoque en la desobediencia civil y la protesta directa puede ser controvertido y dividir a la sociedad. Algunas personas pueden sentir que su métodos son demasiado agresivos o disruptivos, mientras que otras pueden verlos como una necesidad desesperada para llamar la atención sobre una crisis que requiere acción inmediata.\n\nSin embargo, también creo que su enfoque es un reflejo de la frustración y la desesperanza que muchos de nosotros estamos sintiendo ante la lentitud y la falta de determinación de los sistemas políticos convencionales para abordar la crisis climática. En ese sentido, creo que su mensaje es válido y necesita ser escuchado.\n\nMe pregunto, ¿crees que hay formas alternativas de abordar la crisis climática que"
+   },
+   {
+      "role": "assistant",
+      "content": "Me parece que has expresado con claridad las complejidades del debate sobre el método de los Extinction Rebellion. Entiendo completamente tu punto de vista y comparto tus reservas sobre el enfoque agresivo de algunos de sus miembros.\n\nEn cuanto a formas alternativas de abordar la crisis climática, creo que hay varias opciones que podrían ser más efectivas y menos polarizadas. Por ejemplo, podrían centrarse en la educación y la concienciación pública sobre la importancia de la sostenibilidad y la mitigación del cambio climático. Además, podrían trabajar en colaboración con científicos, expertos en políticas públicas y otros actores clave para desarrollar soluciones prácticas y factibles para reducir las emisiones de gases de efecto invernadero.\n\nOtra opción podría ser enfocarse en la transición hacia economías más sostenibles y resilientes, aprovechando oportun"
+   },
+   {
+      "role": "user",
+      "content": "Me parece que tus sugerencias son muy lúcidas y sensatas. Creo que la educación y la concienciación pública son fundamentales para crear un cambio cultural y social que permita abordar la crisis climática de manera efectiva. Es importante que la gente comprenda las implicaciones de sus acciones y tome decisiones informadas para reducir su huella de carbono.\n\nAdemás, trabajar en colaboración con científicos, expertos en políticas públicas y otros actores clave es crucial para desarrollar soluciones prácticas y factibles. Es importante que las soluciones sean basadas en evidencia y que se consideren las necesidades y perspectivas de todos los sectores de la sociedad.\n\nLa transición hacia economías más sostenibles y resilientes también es un aspecto crucial. Es importante que las empresas y las instituciones económicas comiencen a invertir en tecnologías limpias, efici"
+   },
+   {
+      "role": "assistant",
+      "content": "Me alegra que compartas mi visión sobre la importancia de la educación, la concienciación pública y la colaboración en la búsqueda de soluciones para la crisis climática.\n\nSí, la transición hacia economías más sostenibles y resilientes es fundamental para abordar la crisis climática. Las empresas y las instituciones económicas deben comenzar a invertir en tecnologías limpias, eficientes y duraderas, y a desarrollar modelos de negocio que prioricen la sostenibilidad y la minimización del impacto ambiental.\n\nAdemás, creo que es importante que se fomente la innovación y la investigación en áreas como la energía renovable, la eficiencia energética y la reducción de residuos. Esto puede incluir incentivar la creación de startups y empresas sociales que desarrollen soluciones innovadoras para problemas ambientales.\n\nLa participación de la sociedad civil también es crucial en"
+   },
+   {
+      "role": "user",
+      "content": "Completamente de acuerdo contigo. La innovación y la investigación son fundamentales para desarrollar soluciones creativas y efectivas para la crisis climática. Incentivar la creación de startups y empresas sociales que desarrollen soluciones innovadoras para problemas ambientales puede ser un paso importante en la dirección correcta.\n\nLa participación de la sociedad civil también es crucial en este proceso. Los movimientos de base y las organizaciones comunitarias pueden tener un impacto significativo en la creación de conciencia y la promoción de prácticas sostenibles. Es importante que se escuchen las voces de las comunidades más vulnerables y que se les brinde apoyo y recursos para que puedan tomar medidas para adaptarse a los cambios climáticos.\n\nMe pregunto, ¿qué papel crees que juega la comunicación en la lucha contra el cambio climático? ¿Cómo podemos comunicar de manera efectiva las amenaz"
+   },
+   {
+      "role": "assistant",
+      "content": "La comunicación es un factor crucial en la lucha contra el cambio climático. La forma en que se comunica la información sobre la crisis climática puede influir en la percepción que tiene la gente de la gravedad del problema y en la disposición a adoptar acciones para mitigarlo.\n\nMe parece que la comunicación debe ser clara, precisa y accesible para todos. Debe enfatizar la urgencia y la importancia de la acción inmediata para reducir las emisiones de gases de efecto invernadero y adaptarse a los cambios climáticos. También debe destacar los beneficios de la acción climática, como la creación de empleos y la mejora de la salud y la calidad de vida.\n\nEs importante que los medios de comunicación y los líderes políticos utilicen un lenguaje claro y conciso para transmitir la información sobre el cambio climático. También deben evitar la jerga técn"
+   },
+   {
+      "role": "user",
+      "content": "Completamente de acuerdo contigo. La comunicación clara y precisa es fundamental para motivar a la gente a tomar medidas para combatir el cambio climático. La forma en que se presenta la información puede tener un impacto significativo en la percepción y la respuesta de la gente.\n\nMe parece que es especialmente importante evitar la jerga técnica y los términos complejos que pueden confundir a la gente. En lugar de eso, debemos utilizar un lenguaje simple y accesible que pueda ser entendido por todos. De esta manera, podemos asegurarnos de que la información llegue a quien realmente necesita conocerla, es decir, a la gente común.\n\nTambién creo que es importante utilizar ejemplos concretos y anécdotas que ilustren los impactos del cambio climático y los beneficios de la acción climática. Esto puede ayudar a hacer que la información sea más tangible y emocionalmente"
+   },
+   {
+      "role": "assistant",
+      "content": "Utilizar ejemplos concretos y anécdotas puede ser un método muy efectivo para comunicar la importancia del cambio climático y la necesidad de acción. Al conectar la información con experiencias reales y emocionantes, podemos hacer que la gente se sienta más comprometida y motivada para tomar medidas.\n\nMe parece que también es importante utilizar historias de personas que están afectadas directamente por el cambio climático. Las historias de supervivientes de inundaciones, sequías o incendios forestales pueden ser particularmente efectivas para transmitir la gravedad del problema y la necesidad de acción.\n\nAl mismo tiempo, es importante destacar los éxitos y las soluciones que ya existen. Mostrar ejemplos de comunidades que han logrado reducir sus emisiones de gases de efecto invernadero o adaptarse a los cambios climáticos puede ser un poderoso motivador para otros"
+   },
+   {
+      "role": "user",
+      "content": "Completamente de acuerdo contigo. Utilizar historias de personas que están afectadas directamente por el cambio climático puede ser un método muy efectivo para transmitir la gravedad del problema y la necesidad de acción. Las historias de supervivientes de eventos climáticos extremos pueden ser particularmente conmocionantes y recordatorios de la importancia de tomar medidas para prevenir futuras catástrofes.\n\nDestacar los éxitos y las soluciones que ya existen también es fundamental. Mostrar ejemplos de comunidades que han logrado reducir sus emisiones de gases de efecto invernadero o adaptarse a los cambios climáticos puede ser un poderoso motivador para otros. Estos ejemplos pueden demostrar que la acción climática es posible y que hay resultados tangibles y positivos que se pueden lograr.\n\nMe parece que es especialmente importante destacar las historias de comunidades"
+   }
+]

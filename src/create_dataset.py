@@ -3,6 +3,7 @@ from pathlib import Path
 
 import polars as pl
 
+
 @dataclass
 class DataFile:
     dir_name: str
@@ -46,10 +47,14 @@ def read_data(data_dir: Path | list[Path]) -> pl.DataFrame:
     return combined_df
 
 def main(): 
-    version = 2.0
+    version = 3.0
 
-    dir_names = ["mlx-community--Qwen2.5-7B-Instruct-1M-4bit", 
-                 "mlx-community--meta-Llama-3.1-8B-Instruct-4bit"
+    dir_names = [#"mlx-community--Qwen2.5-7B-Instruct-1M-4bit", 
+                 #"mlx-community--meta-Llama-3.1-8B-Instruct-4bit"
+                 "meta-llama--Llama-3.1-8B-Instruct", 
+                 "Qwen--Qwen2.5-7B-Instruct",
+                 "mistralai--Mistral-7B-Instruct-v0.3",
+                 #"meta-llama--Llama-3.3-70B-Instruct-Turbo-Free"
                  ]
 
     data_paths = [

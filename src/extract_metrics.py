@@ -22,6 +22,7 @@ def extract_td(
     """
     Extract TextDescriptives metrics
     """
+    print(f"[INFO:] Extracting metrics using {spacy_model} and TextDescriptives")
     metrics_df = td.extract_metrics(text=df[text_col_name], spacy_model=spacy_model)
 
     # convert to polars
@@ -38,7 +39,7 @@ def extract_td(
         combined_df.write_csv(metrics_dir / metrics_file_name)
     else:
         print(
-            "[WARNING: No metrics_dir or metrics_file_name provided. Metrics not saved.]"
+            "[WARNING:] No metrics_dir or metrics_file_name provided. Metrics not saved."
         )
 
     return combined_df
@@ -60,8 +61,9 @@ def extract_textstat(
     """
     Extract textstat metrics
     """
+    print(f"[INFO:] Extracting metrics using textstat for language '{lang}'")
     for stat in stats:
-        text_stats_df = df.with_columns(
+        df = df.with_columns(
             pl.col("content")
             .map_elements(
                 lambda x: stat(x) if isinstance(x, str) else None,
@@ -72,17 +74,17 @@ def extract_textstat(
 
     if metrics_dir is not None and metrics_file_name is not None:
         metrics_dir.mkdir(parents=True, exist_ok=True)
-        text_stats_df.write_csv(metrics_dir / metrics_file_name)
+        df.write_csv(metrics_dir / metrics_file_name)
     else:
         print(
-            "[WARNING: No metrics_dir or metrics_file_name provided. Metrics not saved.]"
+            "[WARNING:] No metrics_dir or metrics_file_name provided. Metrics not saved."
         )
 
-    return text_stats_df
+    return df
 
 def main(): 
     data_path = Path(__file__).parents[1] / "data"
-    version = 2.0
+    version = 3.0
 
     # read data
     df = pl.read_csv(data_path / f"v{version}_dataset.csv")
@@ -104,3 +106,6 @@ def main():
         metrics_dir=metrics_dir,
         metrics_file_name=f"v{version}_text_stats.csv",
     )
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás? ¿Te gustaría hablar un poco sobre ti? ¿Dónde vives?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Estoy bien, gracias por preguntar. Me encantaría hablarte un poco sobre mí. Actualmente vivo en una ciudad llamada Madrid, que es la capital de España. Madrid es muy animada y tiene muchos lugares interesantes para visitar. En cuanto a mi trabajo, estoy estudiando español en la universidad y también me gusta leer libros y ver películas en idioma original para mejorar mis habilidades lingüísticas. ¿Y tú, dónde vives y qué te gusta hacer en tu tiempo libre?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso es genial! Vamos a practicar tu español. Veamos si pude entenderlo correctamente:\n\n1. ¿Vives en Madrid?\n2. Estás estudiando español en la universidad. Eso es muy bueno.\n3. También lees libros y ves películas en español. ¡Buen trabajo!\n\nAhora dime, ¿cómo se llama tu ciudad? Y cuáles son tus hobbies o cosas favoritas en tu tiempo libre?\n\n(Tu respuesta en español)\nMe llamo [nombre], vivo en [ciudad]. Me gusta [hobby 1] y [hobby 2]."
+   },
+   {
+      "role": "user",
+      "content": "Claro, vamos a practicar más. Aquí está mi respuesta:\n\nMe llamo Sofia, vivo en Madrid. Me gusta leer libros y ver películas en español. Además, también disfruto mucho cocinando platillos nuevos y pasear por los parques de la ciudad.\n\n¿Podrías repetirme las afirmaciones que hiciste sobre mí para asegurarte de que las entiendes correctamente?\n\n1. ¿Vivo en Madrid?\n2. Estoy estudiando español en la universidad. Eso es muy bueno.\n3. También leo libros y veo películas en español. ¡Buen trabajo!\n\nLuego, responde con información sobre ti para continuar la práctica."
+   },
+   {
+      "role": "assistant",
+      "content": "Perfecto, Sofia. Ahora repito lo que entendí de ti:\n\n1. Vivo en Madrid.\n2. Estás estudiando español en la universidad. Eso es muy bueno.\n3. También lees libros y ves películas en español. ¡Buen trabajo!\n\nMuy bien hecho. Ahora, para seguir practicando, dime algo sobre mí. ¿En qué ciudad nací? ¿Qué hago como trabajo? ¿Cuál es tu comida preferida? Recuerda usar palabras simples y fáciles."
+   },
+   {
+      "role": "user",
+      "content": "Entendido, voy a responder tus preguntas usando palabras sencillas:\n\n1. Nací en Barcelona.\n2. Trabajo como profesor de español en una escuela local.\n3. Mi comida preferida es el paella valenciana.\n\nEspero que esto sea útil para nuestra práctica del español. ¿Hay algo más específico sobre mí que quieras saber?"
+   },
+   {
+      "role": "assistant",
+      "content": "Perfecto, Sofia. Has contestado mis preguntas de manera excelente. Ahora te presento algunas frases sobre mí:\n\n1. Nací en Barcelona.\n2. Soy profesor de español.\n3. Mi comida preferida es el arroz a banda.\n\nMuy bien hecho. Ahora, ¿podrías repetirme estos datos sobre mí utilizando tus propias palabras? Por ejemplo, podrías decir: \"Naciste en Barcelona\" o \"Trabajas como profesor de español\". Esto nos ayudará a practicar aún más.\n\nAdemás, ¿te gustaría saber algo más sobre mí? Podemos hablar de otros temas si quieres."
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Voy a repetir los datos que me has proporcionado usando mis propias palabras:\n\n1. Naciste en Barcelona.\n2. Trabajas como profesor de español.\n3. Tu comida preferida es el arroz a banda.\n\nEstos datos son muy interesantes. Gracias por compartirlos.\n\n¿Te gustaría saber algo más sobre mí? Por ejemplo, podríamos hablar sobre mis hobbies, mis viajes recientes o mis sueños futuros. ¿Qué tema te interesa más?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! Has repetido perfectamente mis datos. Ahora dime algo más sobre ti. Podríamos hablar de tus hobbies, tus viajes recientes o tus sueños futuros. ¿Qué tema te interesa más?\n\nPor ejemplo, podrías decir:\n\n- Me gusta leer libros y ver películas en español.\n- He estado en París y amé la ciudad.\n- Deseo viajar a América Latina algún día.\n\nElige uno de estos temas o cualquier otro que te guste para seguir nuestra conversación."
+   },
+   {
+      "role": "user",
+      "content": "Me gusta leer libros y ver películas en español. He estado en París y amé la ciudad. Deseo viajar a América Latina algún día.\n\nEstaría genial hablar sobre esos temas, pero si prefieres, podemos comenzar por alguno en particular. ¿Qué te parece si hablamos primero sobre tus viajes recientes? Me encantaría conocer más sobre tu experiencia en París."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena genial! Vamos a hablar sobre tu viaje a París. Puedes contarme más detalles. \n\n¿Recuerdas alguna cosa que te impresionara durante tu visita a París? ¿Visitaste algún lugar famoso? ¿Comerías algo especial allí?"
+   },
+   {
+      "role": "user",
+      "content": "¡Claro! Durante mi visita a París, hubo muchas cosas que me impresionaron. Uno de los lugares que más me impactó fue la Torre Eiffel. La vista desde la cima es simplemente asombrosa, y el brillo de la torre bajo la luz de la luna es realmente hermoso.\n\nTambién visité el Museo del Louvre, donde vi obras maestras como la Mona Lisa y La Gioconda. Fue increíble poder admirar estas pinturas tan famosas en persona.\n\nEn cuanto a la gastronomía, comí el mejor croissant y una crema brulée en un pequeño café cerca de la Place des Vosges. La experiencia culinaria en París fue inolvidable.\n\n¿Quieres hablar de tu comida preferida o de algún otro aspecto de tu visita a París?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena maravilloso! Vamos a practicar tu español contando más detalles sobre tu viaje a París. \n\nVeamos cómo puedes expresar tus impresiones:\n\n1. La Torre Eiffel es muy famosa y la vista desde arriba es asombrosa.\n2. El Louvre es un museo grande con muchas obras de arte famosas.\n3. Los croissants y la crème brûlée son deliciosos.\n\nAhora, repite esta información usando tus propias palabras, pero intenta usar las palabras y frases que acabo de sugerir:\n\n- La Torre Eiffel es un lugar impresionante.\n- La vista desde la cima es asombrosa.\n- El Louvre tiene muchas obras de arte famosas.\n- Comí croissants y crème brûlée que eran deliciosos.\n\n¿Cuál es tu comida favorita que probaste en"
+   },
+   {
+      "role": "user",
+      "content": "¡Claro! Vamos a intentarlo con las expresiones que me has sugerido:\n\n1. La Torre Eiffel es un lugar impresionante.\n2. La vista desde la cima es asombrosa.\n3. El Louvre tiene muchas obras de arte famosas.\n4. Comí croissants y crème brûlée que eran deliciosos.\n\nEn cuanto a la comida, mi comida favorita que probé en París fueron los croissants. El sabor y textura eran simply espectaculares. \n\n¿Qué tal si ahora tú describes algún otro aspecto de tu viaje a París usando las frases que he proporcionado? Por ejemplo, menciona otro monumento famoso que hayas visitado o otra experiencia culinaria memorable."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! Has repuesto la información de manera muy buena. Ahora, dime sobre otro aspecto de tu viaje a París. Podrías hablar de otro monumento famoso que hayas visitado o de otra experiencia culinaria memorable.\n\nPor ejemplo, podrías decir:\n\n- Visité el Arco del Triunfo y fue impresionante.\n- Comí una ensalada parisiense en un restaurante cercano al Sena.\n\n¿Quieres hablar sobre el Arco del Triunfo o sobre otra experiencia culinaria?"
+   },
+   {
+      "role": "user",
+      "content": "Visité el Arco del Triunfo y fue impresionante. Es un monumento grandioso y la escalinata que lleva hasta él es muy majestuosa.\n\nTambién comí una ensalada parisiense en un restaurante cercano al Sena. La ensalada estaba riquísima y servida con pan francés fresco y brie de Meaux, que complementaba perfectamente el sabor de la verdura cruda.\n\n¿Te gustaría saber algo más sobre mi viaje a París o preferirías hablar de otro tema?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena genial! Has dado unos detalles maravillosos sobre tu viaje a París. Ahora te haré algunas preguntas para que puedas repasar y practicar tus respuestas.\n\n1. ¿Qué pensaste del Arco del Triunfo después de visitarlo?\n2. ¿Qué te pareció la ensalada parisiense que comiste?\n3. ¿Hay algo más que quieras compartir sobre tu viaje a París?\n\nPregunta 1: ¿Qué pensaste del Arco del Triunfo después de visitarlo?\n\nPregunta 2: ¿Qué te pareció la ensalada parisiense que comiste?\n\nPregunta 3: ¿Hay algo más que quieras compartir sobre tu viaje a París?\n\n¡Respóndeme en español!"
+   },
+   {
+      "role": "user",
+      "content": "Claro, aquí están mis respuestas:\n\n1. **¿Qué pensaste del Arco del Triunfo después de visitarlo?**\n   - Pensé que era un monumento realmente impresionante. La arquitectura es majestuosa y la escalinata que lleva hasta él es muy imponente.\n\n2. **¿Qué te pareció la ensalada parisiense que comiste?**\n   - La ensalada estaba deliciosa. Era fresca y sabrosa, acompañada de pan francés fresco y brie de Meaux, que le añadía un toque extra de sabor.\n\n3. **¿Hay algo más que quieras compartir sobre tu viaje a París?**\n   - Además del Arco del Triunfo y la ensalada, también disfruté caminando por los bulevares y observando la vida cotidiana parisina. La ciudad tiene un"
+   }
+]

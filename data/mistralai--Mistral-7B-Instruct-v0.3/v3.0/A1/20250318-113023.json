@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo estás? Me encanta aprender español con alguien nuevo. ¿Tú te llamas? ¿Puedes decirme tu nombre por favor? Yo soy... (Your name).\n\nYo quiero conocerte un poco mejor. ¿Dónde vives tú? ¿En una ciudad grande o en un pueblo pequeño? ¿Vives con tus padres o con otros familiares?\n\n¿Tienes hermanos o hermanas? ¿Cuántos tienes? ¿Qué haces cuando tienes tiempo libre? ¿Tienes algún deporte que practicas regularmente?\n\nSi tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Siempre estoy aquí para ayudarte."
+   },
+   {
+      "role": "user",
+      "content": "Hola! Estoy muy bien, gracias por preguntar. También me encanta aprender español y hablar contigo. Me llamo (Your name).\n\nMe gustaría conocerte mejor también. ¿Dónde vives tú? ¿En una gran ciudad o en un pueblo pequeño? ¿Vives con tus padres o con otras personas de tu familia?\n\nTengo dos hermanos mayores. Cuantos tienes? ¿Qué haces en tu tiempo libre? ¿Tienes algún deporte que practicas habitualmente?\n\nSi tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Estoy aquí para ayudarte."
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo te llamas? Muy interesante conocerte.\n\nPor supuesto, me gustaría saber dónde vives tú. ¿Es una gran ciudad o un pueblo pequeño? ¿Con quién vives, tus padres o tus abuelos, por ejemplo?\n\nTengo tres hermanos, pero yo soy el mayor. ¿Y tú cuántos hermanos o hermanas tienes y cuál es tu edad?\n\nEn mis ratos libres, además de estudiar español, disfruto mucho escuchar música y ir al parque. ¿Qué haces en tu tiempo libre? ¿Tienes algún deporte que practicas regularmente?\n\nSi tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   },
+   {
+      "role": "user",
+      "content": "Hola! Me encanta conocer a nuevas personas. Me llamo (Your name) y soy un estudiante de español.\n\nMuy interesante saber dónde vives tú. ¿Es una gran ciudad o un pueblo pequeño? ¿Vives con tus padres o con otras personas de tu familia?\n\nYo tengo cuatro hermanos, pero soy el mayor. ¿Y tú cuántos hermanos o hermanas tienes y cuál es tu edad?\n\nEn mis ratos libres, además de estudiar español, disfruto mucho leer libros y jugar fútbol. ¿Qué haces en tu tiempo libre? ¿Tienes algún deporte que practicas regularmente?\n\nSi tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo te llamas? Es un placer conocerte.\n\nMuy interesante saber dónde vives tú. ¿Es una gran ciudad o un pueblo pequeño? ¿Vives con tus padres o con otras personas de tu familia?\n\nYo tengo cuatro hermanos, pero soy el mayor. ¿Y tú cuántos hermanos o hermanas tienes y cuál es tu edad?\n\nEn mis ratos libres, además de estudiar español, disfruto mucho escuchar música y ir al parque. ¿Qué haces en tu tiempo libre? ¿Tienes algún deporte que practicas habitualmente?\n\nSi tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   },
+   {
+      "role": "user",
+      "content": "Hola! Me encanta conocer a nuevos amigos. Me llamo (Your name), soy un estudiante de español.\n\nMuy interesante saber dónde vives tú. ¿Es una gran ciudad o un pueblo pequeño? ¿Vives con tus padres o con otras personas de tu familia?\n\nYo tengo cinco hermanos, pero soy el segundo hijo. ¿Y tú cuántos hermanos o hermanas tienes y cuál es tu edad?\n\nEn mis ratos libres, además de estudiar español, disfruto mucho escuchar podcasts y jugar al baloncesto. ¿Qué haces en tu tiempo libre? ¿Tienes algún deporte que practicas habitualmente?\n\nSi tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo te llamas? Es un placer conocerte.\n\nMuy interesante saber dónde vives tú. ¿Es una gran ciudad o un pueblo pequeño? ¿Vives con tus padres o con otras personas de tu familia?\n\nYo tengo cinco hermanos, pero soy el segundo hijo. ¿Y tú cuántos hermanos o hermanas tienes y cuál es tu edad?\n\nEn mis ratos libres, además de estudiar español, disfruto mucho escuchar música y ver películas. ¿Qué haces en tu tiempo libre? ¿Tienes algún deporte que practicas habitualmente?\n\nSi tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   },
+   {
+      "role": "user",
+      "content": "Hola! Me encanta conocer a nuevos amigos. Me llamo (Your name), soy un estudiante de español.\n\nMuy interesante saber dónde vives tú. ¿Es una gran ciudad o un pueblo pequeño? ¿Vives con tus padres o con otras personas de tu familia?\n\nYo tengo cuatro hermanos, pero soy el segundo hijo. ¿Y tú cuántos hermanos o hermanas tienes y cuál es tu edad?\n\nEn mis ratos libres, además de estudiar español, disfruto mucho leer libros y hacer deporte. ¿Qué haces en tu tiempo libre? ¿Tienes algún deporte que practicas habitualmente?\n\nSi tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo estás? Muy bueno saber que aprendes español.\n\nMuy interesante saber dónde vives. ¿Es en una ciudad grande o en un pueblo pequeño? ¿Vives contigo mismo o con tus familiares?\n\nYo vivo con mi mamá y papá y tengo dos hermanos menores. ¿Y tú cuántos hermanos o hermanas tienes y cuál es tu edad?\n\nEn mis ratos libres, además de estudiar español, disfruto mucho jugar al fútbol y visitar los parques. ¿Y tú qué haces en tu tiempo libre? ¿Tienes algún deporte que practicas habitualmente?\n\nSi tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   },
+   {
+      "role": "user",
+      "content": "Hola! Estoy muy bien, gracias por preguntar. Vivo en una ciudad media, no muy grande, y siempre vivo contigo mismo. Tengo un hermano mayor y una hermana menor. Me gusta disfrutar mi tiempo libre jugando videojuegos y escuchando música. ¿Y tú qué haces en tu tiempo libre? ¿Tienes algún deporte que practicas habitualmente? Si tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! Estoy muy contento de conocerte. Vivo en una ciudad grande y disfruto pasar el tiempo con mis amigos y la familia. Además, me gusta jugar al tenis y leer libros. ¿Qué haces en tu tiempo libre? ¿Tienes algún deporte que practicas habitualmente? Si tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   },
+   {
+      "role": "user",
+      "content": "Hola! Gracias por el mensaje. Vivo en un pueblo pequeño y disfruto pasar el tiempo con mi familia y los animales. Me gusta caminar por el parque y escribir poesía. ¿Y tú qué haces en tu tiempo libre? ¿Tienes algún deporte que practicas habitualmente? Si tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo estás? Me encanta conocer a nuevas personas. Vivo en una gran ciudad y me gusta pasar el tiempo con mi familia y mis amigos. Me gusta escuchar música y ver películas en mi tiempo libre. ¿Y tú qué haces en tu tiempo libre? ¿Tienes algún deporte que practicas habitualmente? Si tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   },
+   {
+      "role": "user",
+      "content": "Hola! Estoy muy bien, gracias por preguntar. Vivo en un pueblo pequeño y disfruto pasar el tiempo con mis amigos y mi familia. Me gusta caminar por el parque y leer libros en mi tiempo libre. ¿Y tú qué haces en tu tiempo libre? ¿Tienes algún deporte que practicas habitualmente? Si tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo estás? Muy bueno que estés aprendiendo español. ¿En qué lugar vives? ¿Es un pueblo grande o pequeño? ¿Te gusta hacer algún deporte en tu tiempo libre? ¿Tienes amigos o familia con quienes pasar tiempo? Si tienes preguntas sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   },
+   {
+      "role": "user",
+      "content": "Hola! Estoy muy bien, gracias por preguntar. Vivo en una ciudad mediana, no muy grande. Me gusta hacer deporte en mi tiempo libre y pasar tiempo con mi familia y mis amigos. ¿Y tú qué haces en tu tiempo libre y donde vives? Si tienes preguntas sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo estás? Me encanta aprender español. ¿Dónde vives tú? ¿En una gran ciudad o en un pueblo pequeño? ¿Tienes hermanos o hermanas? ¿Cuántos tienes? ¿Y tú qué haces en tu tiempo libre? ¿Tienes algún deporte que practicas habitualmente? Si tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   },
+   {
+      "role": "user",
+      "content": "Hola! Estoy muy bien, gracias por preguntar. Vivo en una ciudad media y tengo dos hermanos mayores. En mi tiempo libre, me gusta jugar al fútbol y escuchar música. ¿Y tú qué haces en tu tiempo libre? ¿Tienes algún deporte que practicas habitualmente? Si tienes alguna pregunta sobre español o necesitas ayuda, no dudes en preguntarme. Soy aquí para ayudarte."
+   }
+]

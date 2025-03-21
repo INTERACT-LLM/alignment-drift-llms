@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at B1 level in the Common European Framework of Reference (CEFR) which means that the user is at an intermediate level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to B1-level Spanish (intermediate level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for an intermediate learner of Spanish. Specifically, the aim for the student is to master the following language skills after B1: \n- The student can understand the main points of clear standard input on familiar matters regularly encountered in work, school, leisure, etc.\n- The student can deal with most situations likely to arise whilst travelling in an area where the language is spoken.\n- The student can produce simple connected text on topics which are familiar or of personal interest.\n- The student can describe experiences and events, dreams, hopes & ambitions and briefly give reasons and explanations for opinions and plans.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás hoy? Espero que te vaya bien. ¿Quieres hablar sobre algo en particular o simplemente quieres charlar un poco?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Estoy bien, gracias por preguntar. Hoy me va bien. Me gustaría hablar un poco sobre mis planes para el fin de semana y si hay algún lugar interesante cerca donde podríamos ir. También, ¿puedes ayudarme con algunas palabras nuevas en español?"
+   },
+   {
+      "role": "assistant",
+      "content": "Eso suena genial. ¡Nos encantará escuchar tus planes para el fin de semana! En cuanto a los lugares interesantes, podemos hablar sobre restaurantes, parques o museos cercanos. ¿Qué tipo de lugar te gusta más?\n\nTambién estaré encantado de ayudarte con nuevas palabras en español. Por ejemplo, ¿te gustaría aprender algunas palabras relacionadas con los planes del fin de semana o con actividades específicas?"
+   },
+   {
+      "role": "user",
+      "content": "Me encantaría aprender palabras relacionadas con los planes del fin de semana. Ya sabes, como \"cine\", \"comida\", \"salir\", \"jugar\" y cosas así.\n\nY sobre mi plan para este fin de semana, pensaba ir al cine viernes por la noche, pero aún no he decidido qué ver. El sábado planeaba visitar un parque local, es muy hermoso aquí cerca. Y domingo, tal vez cocinar algo nuevo en casa. ¿Conoces algún restaurante recomendable cerca que no sea muy común? También estoy buscando ideas para estas actividades."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! Vamos a aprender algunas palabras relacionadas con esos planes:\n\n1. **Cine**: película\n2. **Comida**: comida, menú, plato principal, postre\n3. **Salir**: salir a pasear, caminar\n4. **Jugar**: jugar al fútbol, juegos de mesa\n\nAhora, hablando de tu plan para este fin de semana:\n\n¿Has visto ya alguna película reciente que te haya llamado la atención? Algunas cintas populares últimamente son \"Spider-Man: No Way Home\" o \"Encanto\".\n\nSobre el parque, ¿sabes cuál es ese parque local tan bonito? A mí me gustan mucho los parques con lagos o ríos. Si no tienes muchos opciones, podría ser bueno buscar uno con una gran variedad de árboles y flores.\n\nPara el domingo, ¿has probado ya"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias por las palabras! Ahora sé cómo decir \"cine\", \"comida\", \"salir\" y \"jugar\". Esas son muy útiles.\n\nRespecto a las películas, todavía no he decidido exactamente cuál ver el viernes. He estado pensando entre \"Spider-Man: No Way Home\" y \"Encanto\", pero también estoy abierto a otras sugerencias. ¿Cuáles son tus recomendaciones favoritas últimamente?\n\nEl parque local se llama Parque del Lago. Realmente es hermoso; tiene un lago donde a veces veo personas haciendo kayaks o remando barcos. También hay senderos para caminar y muchas áreas verdes con bancos para sentarse. Si no conoces esta área, definitivamente vale la pena visitarlo.\n\nPara el domingo, todavía no he decidado qué hacer. Además de cocinar algo nuevo, quizás podrías darme algunos consejos"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! Me alegra que las palabras sean útiles. Aquí están algunas recomendaciones cinematográficas:\n\n1. \"Dune\" - Una película épica con mucha acción y efectos especiales.\n2. \"Shang-Chi y la leyenda de los diez anillos\" - Un gran filme de superhéroes con batallas emocionantes.\n3. \"El Secreto de los Escudos\" - Una comedia romántica con buen humor.\n\nSi prefieres algo más tranquilo, \"En busca del tiempo perdido\" o \"El Gran León Dorado\" pueden ser buenas opciones.\n\nSobre el Parque del Lago, suena realmente hermoso. Definitivamente merece una visita. Si decides pasarte allí, puedes aprovechar para hacer picnic, hacer fotos o simplemente disfrutar del aire fresco.\n\nPara el domingo, ¿por qué no intentamos algo diferente a la cocina tradicional"
+   },
+   {
+      "role": "user",
+      "content": "¡Son excelentes sugerencias para la película! \"Dune\" suena impresionante, y \"Shang-Chi y la leyenda de los diez anillos\" parece tener muchas acciones emocionantes. Tengo ganas de ver alguna comedia romántica también, así que \"El Secreto de los Escudos\" suena interesante.\n\nEl Parque del Lago suena perfecto para pasar un día relajado. Quizás prepare una lista de cosas para llevar para un picnic: pan, queso, frutas, galletas, y algún refresco. También podría traer una manta y unos libros para leer mientras disfruto del paisaje.\n\nSobre lo que cocinar, me encantaría probar algo diferente. ¿Podrías darme alguna idea de platillo internacional que no sea demasiado complicado de preparar? Por ejemplo, algo de la cocina mexicana o italiana sería genial. También me gust"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Claro! Cocinar platillos internacionales puede ser divertido e interesante. Te sugiero preparar una pasta con salsa de tomate casera y agregar ingredientes como jamón crujiente, queso mozzarella y albahaca fresca. Es sencillo y delicioso.\n\nOtra opción sería hacer tacos de pollo. Solo necesitarás pollo desmenuzado, lechuga, tomates cortados, cebolla picada, aguacate y salsa de chile. Todo esto lo puedes mezclar con tortillas de maíz y acompañar con guacamole y ranchero.\n\nAmbos platillos son rápidos de preparar y tienen una buena cantidad de ingredientes básicos que seguro tienes en tu cocina. \n\n¿Te gustaría que te dé una receta paso a paso para alguno de estos platillos?"
+   },
+   {
+      "role": "user",
+      "content": "¡Eso suena fantástico! Me encantaría aprender a hacer la pasta con salsa de tomate casera. Podríamos hacerla juntos. ¿Puedes darme una receta paso a paso para esa receta? Seguro que aprendo mucho.\n\nAdemás, también me interesaría saber cómo preparar los tacos de pollo. Serían ideales para variar el menú. Si es posible, ¡me encantaría recibir esa receta también!\n\n¡Espero ansioso tus instrucciones!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! Vamos a comenzar con la receta de la pasta con salsa de tomate casera. Aquí está la receta paso a paso:\n\n### Pasta con Salsa de Tomate Casera\n\n#### Ingredientes:\n- 500 gramos de spaghetti o cualquier otra pasta de tu preferencia\n- 2 cebollas medianas, picadas\n- 3 dientes de ajo, picados\n- 700 ml de tomate triturado\n- 1 cucharada de aceite de oliva\n- Sal al gusto\n- Pimienta negra\n- Orégano seco al gusto\n- Queso rallado (opcional)\n\n#### Preparación:\n1. **Cocción de la Pasta:**\n   - Cuelga una olla grande con agua hirviendo y sal. Agrega la pasta y cocina según las indicaciones del paquete (generalmente al"
+   },
+   {
+      "role": "user",
+      "content": "¡Muchas gracias! Esa receta de pasta con salsa de tomate casera suena deliciosa. Vamos a seguir los pasos:\n\n### Pasta con Salsa de Tomate Casera\n\n#### Ingredientes:\n- 500 gramos de spaghetti o cualquier otra pasta de tu preferencia\n- 2 cebollas medianas, picadas\n- 3 dientes de ajo, picados\n- 700 ml de tomate triturado\n- 1 cucharada de aceite de oliva\n- Sal al gusto\n- Pimienta negra\n- Orégano seco al gusto\n- Queso rallado (opcional)\n\n#### Preparación:\n1. **Cocción de la Pasta:**\n   - Cuelga una olla grande con agua hirviendo y sal. Agrega la pasta y cocina según las indicaciones del paquete (generalmente alrededor"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Bien hecho! Continúa con los siguientes pasos:\n\n2. **Preparación de la Salsa de Tomate:**\n   - Calienta el aceite de oliva en una sartén mediana a fuego medio.\n   - Agrega las cebollas y los ajos picados. Cocina hasta que las cebollas estén transparentes, aproximadamente 3-4 minutos.\n   - Agrega el tomate triturado, sal, pimienta y orégano seco. Cocina a fuego medio-bajo, revolviendo ocasionalmente, durante unos 20-25 minutos. Debes dejar que la salsa reduzca un poco y espese.\n\n3. **Unión de la Pasta y la Salsa:**\n   - Cuando la pasta esté casi lista (debe quedar al dente), reserva un poco de agua de cocción de la pasta.\n   -"
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Continuemos con la receta:\n\n3. **Unión de la Pasta y la Salsa:**\n   - Cuando la pasta esté casi lista (debe quedar al dente), reserva un poco de agua de cocción de la pasta.\n   - Escurrimos la pasta y la añadimos a la salsa de tomate en la sartén. Mezcla bien para asegurarte de que cada hilo de pasta esté cubierto con la salsa.\n   - Si la salsa está muy espesa, agrega un poco de agua reservada de la cocción de la pasta. Continúa mezclando hasta que tenga la textura deseada.\n\n4. **Servicio:**\n   - Transfiera la pasta a platos individuales.\n   - Si lo deseas, puedes espolvorear un poco de queso rallado encima.\n   - Sirve inmediatamente y disfruta"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente trabajo! Sigamos con la receta de tacos de pollo. Aquí tienes la receta paso a paso para los tacos de pollo:\n\n### Tacos de Pollo\n\n#### Ingredientes:\n- 500 gramos de pechugas de pollo, des huesos\n- 1 cebolla mediana, picada\n- 2 dientes de ajo, picados\n- 2 tazas de lechuga picada\n- 1 tomate, picado\n- 1/2 cebolla roja, picada\n- 20-25 tortillas de maíz\n- Aceite de oliva\n- Sal al gusto\n- Pimienta negra\n- Guacamole (opcional)\n- Ranchero (opcional)\n\n#### Preparación:\n1. **Cocción del Pollo:**\n   - Precalienta el horno a 1"
+   },
+   {
+      "role": "user",
+      "content": "¡Muy bien! Veamos la receta completa de los tacos de pollo:\n\n### Tacos de Pollo\n\n#### Ingredientes:\n- 500 gramos de pechugas de pollo, des huesos\n- 1 cebolla mediana, picada\n- 2 dientes de ajo, picados\n- 2 tazas de lechuga picada\n- 1 tomate, picado\n- 1/2 cebolla roja, picada\n- 20-25 tortillas de maíz\n- Aceite de oliva\n- Sal al gusto\n- Pimienta negra\n- Guacamole (opcional)\n- Ranchero (opcional)\n\n#### Preparación:\n1. **Cocción del Pollo:**\n   - Precalienta el horno a 180°C.\n   - En un tazón grande, mezcla"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Vamos a completar la receta de los tacos de pollo:\n\n### Tacos de Pollo\n\n#### Ingredientes:\n- 500 gramos de pechugas de pollo, des huesos\n- 1 cebolla mediana, picada\n- 2 dientes de ajo, picados\n- 2 tazas de lechuga picada\n- 1 tomate, picado\n- 1/2 cebolla roja, picada\n- 20-25 tortillas de maíz\n- Aceite de oliva\n- Sal al gusto\n- Pimienta negra\n- Guacamole (opcional)\n- Ranchero (opcional)\n\n#### Preparación:\n1. **Cocción del Pollo:**\n   - Precalienta el horno a 180°C.\n   - En un tazón grande, mezcla el pol"
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Sigamos con la receta de los tacos de pollo:\n\n### Tacos de Pollo\n\n#### Ingredientes:\n- 500 gramos de pechugas de pollo, des huesos\n- 1 cebolla mediana, picada\n- 2 dientes de ajo, picados\n- 2 tazas de lechuga picada\n- 1 tomate, picado\n- 1/2 cebolla roja, picada\n- 20-25 tortillas de maíz\n- Aceite de oliva\n- Sal al gusto\n- Pimienta negra\n- Guacamole (opcional)\n- Ranchero (opcional)\n\n#### Preparación:\n1. **Cocción del Pollo:**\n   - Precalienta el horno a 180°C.\n   - En un tazón grande, mezcla el"
+   }
+]
