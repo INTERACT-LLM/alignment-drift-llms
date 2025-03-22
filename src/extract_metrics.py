@@ -209,13 +209,13 @@ def main():
 
     # surprisal settings
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    model_id = "gpt2"
+    model_id = "google-bert/bert-base-multilingual-cased"
 
     # read data
     df = pl.read_csv(data_path / f"v{version}_dataset.csv")
 
     if args.metrics_pipeline == "all":
-        metrics_to_extract = ["textdescriptives", "textstats", "surprisal"]
+        metrics_to_extract = ["surprisal", "textdescriptives", "textstats"]
     else:
         metrics_to_extract = [args.metrics_pipeline]
 
