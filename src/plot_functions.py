@@ -5,6 +5,7 @@ Plotting functions
 import matplotlib.figure
 import matplotlib.pyplot as plt
 import numpy as np
+import seaborn as sns
 import polars as pl
 
 
@@ -58,14 +59,14 @@ def line_plot_variables(
 
                 # Plot confidence interval if ci_vars is provided
                 if ci_vars:
-                        ci_lower = f"{ci_vars[i]}_ci_lower"
-                        ci_high = f"{ci_vars[i]}_ci_high"
+                        ci_lower = f"{ci_vars[i]}_lower"
+                        ci_high = f"{ci_vars[i]}_high"
                         ax.fill_between(
                             group_data[x_var],
                             group_data[ci_lower],
                             group_data[ci_high],
                             color=group_color_palette.get(group),
-                            alpha=0.08,  # Transparency of the CI fill
+                            alpha=0.1,  # Transparency of the CI fill
                         )
 
             # Set titles and labels
@@ -272,5 +273,75 @@ def distribution_plot(
             if i == n_rows - 1 and j == n_cols - 1:
                 ax.legend()
     
+    fig.tight_layout()
+    return fig
+
+
+def scatter_with_regression(
+    df: pl.DataFrame,
+    x_vars: list[str],
+    y_vars: list[str],
+    group_var="group",
+    model_var="model",
+    colors: list[str] = ["#008aff", "#ff471a", "#00a661"],
+    y_label_texts: list[str] = None,
+) -> plt.Figure:
+    """
+    Generates scatter plots with regression lines to visualize data distribution across different groups and models.
+    This function uses Polars for data processing and Seaborn for regression lines.
+    """
+    models = df[model_var].unique().to_list()
+    groups = df[group_var].unique().to_list()
+
+    n_rows = len(x_vars)
+    n_cols = len(models)
+
+    fig, axes = plt.subplots(n_rows, n_cols, figsize=(5 * n_cols, 4 * n_rows), sharey="row")
+
+    # Ensure axes is iterable even for single rows/columns
+    if n_rows == 1 and n_cols == 1:
+        axes = [[axes]]
+    elif n_rows == 1:
+        axes = [axes]
+    elif n_cols == 1:
+        axes = [[ax] for ax in axes]
+
+    for i, x_var in enumerate(x_vars):
+        for j, model in enumerate(models):
+            ax = axes[i][j]
+
+            # Filter the data for the current model
+            model_data = df.filter(pl.col(model_var) == model)
+
+            # Loop through each group and plot scatter and regression line
+            for k, group in enumerate(groups):
+                group_data = model_data.filter(pl.col(group_var) == group)
+
+                # Extract x and y values for plotting
+                x_vals = group_data[x_var].to_numpy().flatten()
+                y_vals = group_data[y_vars[i]].to_numpy().flatten()  # Use y_vars[i] to get correct y variable
+
+                # Scatter plot
+                ax.scatter(x_vals, y_vals, color=colors[k % len(colors)], label=group, alpha=0.7)
+
+                # Regression line using seaborn
+                sns.regplot(x=x_vals, y=y_vals, ax=ax, scatter=False, color=colors[k % len(colors)], line_kws={"lw": 2})
+
+            # Set title for the first row
+            if i == 0:
+                ax.set_title(f"{model}")
+
+            # Set x-axis label
+            ax.set_xlabel(x_var)
+
+            # Set y-axis label if provided
+            if y_label_texts and j == 0:
+                ax.set_ylabel(y_label_texts[i])
+            else:
+                ax.set_ylabel("")
+
+            # Add legend
+            ax.legend(title=group_var)
+
     fig.tight_layout()
     return fig
