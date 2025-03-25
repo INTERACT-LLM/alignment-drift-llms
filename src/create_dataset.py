@@ -54,7 +54,7 @@ def main():
                  "meta-llama--Llama-3.1-8B-Instruct", 
                  "Qwen--Qwen2.5-7B-Instruct",
                  "mistralai--Mistral-7B-Instruct-v0.3",
-                 #"meta-llama--Llama-3.3-70B-Instruct-Turbo-Free"
+                 "meta-llama--Llama-3.3-70B-Instruct-Turbo"
                  ]
 
     data_paths = [
