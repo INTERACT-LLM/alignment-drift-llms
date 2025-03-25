@@ -229,13 +229,18 @@ def distribution_plot(
     alpha=0.6,
     normalize=True,
     x_label_texts: list[str] = None,
-) -> matplotlib.figure.Figure:
+    density_lines=False,
+) -> plt.Figure:
     """
-    Generates overlayed histogram plots to visualize data distribution across different groups and models.
+    Generates overlayed histogram or density plots to visualize data distribution across different groups and models.
     
     Parameters:
     - normalize (bool): If True, histograms are density plots (normalized). If False, absolute counts are used.
+    - density_lines (bool): If True, draws density lines instead of histograms. Note: if density_lines=True, normalize has to be True.
     """
+    if density_lines and not normalize:
+        raise ValueError("Density lines are always normalized. Set normalize=True when using density_lines=True.")
+    
     models = df[model_var].unique().to_list()
     groups = df[group_var].unique().to_list()
     
@@ -256,26 +261,26 @@ def distribution_plot(
             
             for k, group in enumerate(groups):
                 group_data = model_data.filter(pl.col(group_var) == group)[x_var].to_list()
-                ax.hist(group_data, bins=bins, density=normalize, alpha=alpha, color=colors[k % len(colors)], label=group,  edgecolor="white")
+                
+                if density_lines:
+                    sns.kdeplot(group_data, ax=ax, color=colors[k % len(colors)], label=group)
+                else:
+                    ax.hist(group_data, bins=bins, density=normalize, alpha=alpha, color=colors[k % len(colors)], label=group, edgecolor="white")
             
             if i == 0:
                 ax.set_title(f"{model}")
             
             if j == 0:
-                if normalize == True:
-                    ax.set_ylabel("Density")
-                elif normalize == False:
-                    ax.set_ylabel("Frequency")
+                ax.set_ylabel("Density" if normalize else "Frequency")
             
-            if x_label_texts: 
+            if x_label_texts:
                 ax.set_xlabel(x_label_texts[i])
-
+            
             if i == n_rows - 1 and j == n_cols - 1:
                 ax.legend()
     
     fig.tight_layout()
     return fig
-
 
 def scatter_with_regression(
     df: pl.DataFrame,
@@ -287,8 +292,7 @@ def scatter_with_regression(
     y_label_texts: list[str] = None,
 ) -> plt.Figure:
     """
-    Generates scatter plots with regression lines to visualize data distribution across different groups and models.
-    This function uses Polars for data processing and Seaborn for regression lines.
+    Generate scatter plots with regression lines to visualize data distribution across different groups and models.
     """
     models = df[model_var].unique().to_list()
     groups = df[group_var].unique().to_list()
@@ -298,7 +302,7 @@ def scatter_with_regression(
 
     fig, axes = plt.subplots(n_rows, n_cols, figsize=(5 * n_cols, 4 * n_rows), sharey="row")
 
-    # Ensure axes is iterable even for single rows/columns
+    # ensure axes is iterable even for single rows/columns
     if n_rows == 1 and n_cols == 1:
         axes = [[axes]]
     elif n_rows == 1:
@@ -310,37 +314,36 @@ def scatter_with_regression(
         for j, model in enumerate(models):
             ax = axes[i][j]
 
-            # Filter the data for the current model
+            # filter data for current llm
             model_data = df.filter(pl.col(model_var) == model)
 
-            # Loop through each group and plot scatter and regression line
+            # plot scatter and regression line for each group
             for k, group in enumerate(groups):
                 group_data = model_data.filter(pl.col(group_var) == group)
 
-                # Extract x and y values for plotting
+                # get x and y values for plotting
                 x_vals = group_data[x_var].to_numpy().flatten()
                 y_vals = group_data[y_vars[i]].to_numpy().flatten()  # Use y_vars[i] to get correct y variable
 
-                # Scatter plot
+                # scatter
                 ax.scatter(x_vals, y_vals, color=colors[k % len(colors)], label=group, alpha=0.7)
 
-                # Regression line using seaborn
+                # reg line
                 sns.regplot(x=x_vals, y=y_vals, ax=ax, scatter=False, color=colors[k % len(colors)], line_kws={"lw": 2})
 
-            # Set title for the first row
+            # title for first row 
             if i == 0:
                 ax.set_title(f"{model}")
 
-            # Set x-axis label
+            # labels 
             ax.set_xlabel(x_var)
 
-            # Set y-axis label if provided
+            # set y-axis label if provided
             if y_label_texts and j == 0:
                 ax.set_ylabel(y_label_texts[i])
             else:
                 ax.set_ylabel("")
 
-            # Add legend
             ax.legend(title=group_var)
 
     fig.tight_layout()
