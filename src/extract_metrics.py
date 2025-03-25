@@ -241,7 +241,8 @@ def main():
                 metrics_dir=metrics_dir,
                 metrics_file_name=f"v{version}_surprisal.csv",
             )
-
+        else:
+            print(["[ERROR:] Invalid metric pipeline."])
 
 if __name__ == "__main__":
     main()
