@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo estás? ¿En dónde vives? ¿Y tú, ¿cuál es tu nombre?\n\nRecuerda que en español, cuando se pregunta sobre el lugar de residencia se usa la preposición \"en\" y no \"en donde\". Y, al preguntar por el nombre, no necesitamos poner artículo (el/la), solo la propia palabra. Por ejemplo:\n\nYo vivo en Madrid.\nMi nombre es Ana."
+   },
+   {
+      "role": "user",
+      "content": "Hola maestra! Estoy muy bien, gracias. Yo vivo en Barcelona. Mi nombre es Pedro. Recuerdo que en español no debemos utilizar el artículo el o la antes del nombre propio. ¡Gracias por las observaciones importantes para mi aprendizaje!"
+   },
+   {
+      "role": "assistant",
+      "content": "Buenos días, Pedro! ¡Es una maravilla escuchar que ya puedes hablar un poco de español! ¡Tengo gusto de conocerte mejor!\n\n¿Cuántos años tenés? ¿Te gusta vivir en Barcelona? ¿Cuentas con algún hermano o hermana?\n\nRecordá que en español, para preguntar cuantos años tiene una persona se dice \"cúantos años tienes\". También, al contestar, siempre es bueno decir si eres mayor de edad o menor.\n\nTambién recuerda que cuando preguntamos por algo que se encuentra en una ciudad (como los hermanos o hermanas de una persona), se puede decir \"tienes hermanos o hermanas?\". Si tiene uno, puede responder \"Tengo un hermano/una hermana\". Si tiene dos, puede decir \"Tengo dos hermanos/dos hermanas\". En caso de más de tres, se dice \"Tengo tres o cuatro hermanos/tres o cuatro hermanas\".\n\nNo te olvides de practicar lo que has aprendido para seguir avanzando en tu aprendizaje del español! ¡Siempre estoy aquí para ayudarte!"
+   },
+   {
+      "role": "user",
+      "content": "Buenos días maestra! Gracias por tu encanto y tu ayuda. Tengo 18 años y sí, me encanta vivir en Barcelona. Soy el único hijo pero tengo una hermosa hermana gemela. Es increíble haberte conocido y poder practicar mis nuevas habilidades en el español. ¡Muchas gracias por ser mi guía en este camino! ¡Hasta pronto!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola de nuevo, Pedro! ¡Me encanta verte tan animado y entusiasmado! ¡Me alegro mucho que estés practicando tu español y que hayas avanzado tanto desde nuestra primera conversación!\n\n¿Y qué tal tu hermana gemela? ¿Tienes alguna actividad favorita que hacéis juntos? ¿O es que tienen diferencias muy grandes en los intereses?\n\n¿Y como está el clima en Barcelona esta semana? ¿Este verano ha sido bueno hasta ahora?\n\nRecuerda que en español, para hablar sobre los hermanos, se dice \"mi hermana gemela\" y no \"mi hermana melliza\". También recuerda que la forma correcta de preguntar si tiene varios hermanos es \"tengo dos o tres hermanos\" y no \"tengo dos o tres hermanas y hermanos\" (porque los hermanos son una categoría, no necesitan repetirse en plural).\n\n¡Quiero que continúes practicando tu español! ¡Recuerda que es importante practicar regularmente para mejorar! ¡Aprovecha también los videos y series de TV en español para aprender y expandir tu vocabulario!\n\nAdiós hasta la próxima conversación!"
+   },
+   {
+      "role": "user",
+      "content": "¡Holà maestra! Es un placer estar hablando contigo otra vez. Mi hermana gemela y yo siempre nos disfrutamos pasar tiempo juntas. Una actividad que amamos mucho es salir al parque para jugar al fútbol y correr juntas. Aunque tenemos algunas diferencias en algunos temas, sabemos cómo trabajar en equipo y siempre apoyarnos unos a otros.\n\nEl clima en Barcelona este semana ha sido fantástico, con temperaturas altas y mucho sol. Este verano ha sido increíble hasta ahora y he disfrutado mucho de disfrutar de la playa con mis amigos.\n\nMuy agradecido por tus sugerencias y tu ayuda en mi aprendizaje. Me alegro de haber podido practicar mi español con tí. ¡Muchas gracias! ¡Hasta la próxima!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola Pedro, me alegro mucho de que estés tan contento con tu vida y tus actividades! ¿Has estado viajando mucho este verano? ¿Has ido a ninguna parte nueva fuera de España?\n\nAdemás de tu hermana gemela, ¿conoces otras personas en tu familia o amigos especiales que te ayudan a disfrutar la vida?\n\nRecuerda que en español, para preguntar si has ido alguna vez a un lugar se dice \"has ido alguna vez a...\" y no \"has ido algún día a...\". También, si has hecho algún viaje particularmente destacable o interesante, puede ser divertido comparte algo más sobre tu experiencia.\n\nPor otro lado, a veces es bueno pedir permiso para hacer cosas, especialmente si es con otra persona. Por ejemplo, para invitar a alguien a ir al parque para jugar al fútbol, podrías decir \"¿Puedes ir al parque conmigo para jugar al fútbol?\". Esta manera de comunicarse es muy efectiva y también es un buen reflejo de la etiqueta social en la lengua española.\n\nRecuerda que siempre estoy aquí para ti. ¡Aprovecha el resto del verano para practicar tu español y hacer nuevas experiencias! Hasta luego."
+   },
+   {
+      "role": "user",
+      "content": "¡Hola maestra! Siempre es un placer conversar contigo. Sí, este verano he viajado bastante. He visitado algunas ciudades históricas en Italia, como Roma y Florencia. Fue una gran experiencia conocer la cultura y el pasado de aquellos lugares.\n\nAdemás de mi hermana gemela, también tengo muchos familiares y amigos que me apoyan en todos mis pasos. Cuando tengo problemas, puedo confiar en ellos y me siento agradecido de haberlos conocido.\n\nSí, es importante pedir permiso para hacer cosas, especialmente si es con otra persona. Lo haré asegurándome de ser respetuoso y sincero con quien pida mi permiso.\n\nGracias por tu asesoramiento y tu ayuda en mi aprendizaje. ¡Me alegro de haberte conocido y poder practicar mi español con tí! ¡Hasta la próxima!"
+   },
+   {
+      "role": "assistant",
+      "content": "Buenos días Pedro! ¡Es un placer estar hablando contigo y escuchar sus aventuras en el verano pasado! Me encanta saber que has viajado a Roma y Florencia, ciudadas históricas hermosas.\n\nEs importante decir que en italiano se dice \"Roma\" y \"Florencia\", no \"Roma y Florencia\". Además, es bueno aprender algunos adverbios para describir la ubicación, como \"allí\" para significar \"ahí\".\n\nSí, es importante pedir permiso cuando se hace algo con otra persona, especialmente en contextos formales. Puede decir \"¿Puedo...?\" para hacerlo en español.\n\nSobre su familia y amigos, es importante decir que siempre es bueno expresar agradecimiento a las personas que están ahí para nosotros. Es un gesto amable y es una buena maniera de mantener la relación con ellos.\n\n¡Felicidades por haber logrado tanto en su aprendizaje de español! ¡Sigue practicando y sigue adelante en tu viaje hacia la maestría del idioma! ¡Hasta la próxima!"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola maestra! ¡Estoy muy emocionado por compartir mi experiencia de viajar a Roma y Florencia! Sí, es cierto que en italiano se dice \"Roma\" y \"Florencia\", no \"Roma y Florencia\". También, sí, es bueno aprender algunos adverbios para describir la ubicación, como \"allí\" para significar \"ahí\".\n\nSí, es importante pedir permiso cuando se hace algo con otra persona, especialmente en contextos formales. Puedo decir \"¿Puedo...?\" para hacerlo en español.\n\nSi, también es importante expresar agradecimiento a las personas que están ahí para mí y me alegro de haber logrado hacerlo. Me alegro de haberte conocido y poder practicar mi español con tí. Gracias por todo tu apoyo y tu ayuda.\n\nSigue adelante en tu aprendizaje de español y nunca desista de seguir adelante. ¡Aprovecha cada oportunidad para practicar y así puedas mejorar rápidamente! ¡Hasta la próxima conversación!"
+   },
+   {
+      "role": "assistant",
+      "content": "Buenos días Pedro, ¡gracias por compartir tu experiencia de tu viaje a Roma y Florencia! ¡Me alegro mucho de que hayas disfrutado de tu visita a las ciudades italianas!\n\nEs verdad que en italiano se dice \"Roma\" y \"Florencia\", no \"Roma y Florencia\". También, es importante aprender adverbios como \"allí\" para indicar la ubicación.\n\nSi, es importante pedir permiso cuando se hace algo con otra persona, especialmente en contextos formales. Puedes decir \"¿Puedo...\" para hacerlo en español.\n\nEs importante también expresar agradecimiento a las personas que están ahí para ti. Me alegro de haber conocido a Pedro y poder practicar mi español con él.\n\n¡Siguiendo practicando tu español, Pedro, vas a lograr mucho éxito! ¡Aprovecha cada oportunidad para practicar y mejorar rápidamente! ¡Hasta la próxima conversación!"
+   },
+   {
+      "role": "user",
+      "content": "Hola maestra, muchas gracias por el feedback positivo. Sí, es cierto que en italiano se dice \"Roma\" y \"Florencia\", no \"Roma y Florencia\". También, si, es importante aprender adverbios para indicar la ubicación como \"allí\".\n\nSí, es importante pedir permiso cuando se hace algo con otra persona, especialmente en contextos formales. Puede decir \"¿Puedo...\" para hacerlo en español.\n\nEs importante también expresar agradecimiento a las personas que están ahí para ti. Me alegro de haber conocido a maestra y poder practicar mi español con ella.\n\nSigo practicando mi español y trabajo duro en mejorar cada vez más. Muchas gracias por tu apoyo y tus sugerencias para seguir adelante. ¡Hasta la próxima conversación!"
+   },
+   {
+      "role": "assistant",
+      "content": "Buenos días Pedro! Es un placer conocerte y estar aquí para ti mientras practicas tu español. Te doy las bienvenidas a la clase!\n\nEmpezamos con preguntas simples: ¿Cómo te llamas? ¿De qué ciudad eres? ¿Tienes hermanos o hermanas?\n\nPor supuesto, estoy aquí para ayudarte a mejorar tu español y te daré respuestas y orientación sobre la lengua en términos de las competencias en A1 del CEFR.\n\nRecuerda que en español se dice \"Hola\" para decir \"hola\". También recuerda que para preguntar alguien cómo se llama se dice \"¿Cómo te llamas?\" y para preguntar de qué ciudad es alguien se dice \"¿De qué ciudad eres?\". Para preguntar si alguien tiene hermanos o hermanas se dice \"¿Tienes hermanos o hermanas?\".\n\nNo es necesario que te apreches mucho al principio, solo necesitas practicar y repetir cada vez más para mejorar. ¡Me alegro de poder ayudarte! ¡Continua practicando!"
+   },
+   {
+      "role": "user",
+      "content": "Buenos días maestra! Es un placer conocerte y estar aquí para practicar mi español. Me llamo Pedro y soy de Barcelona. Sí, tengo una hermana gemela.\n\nMuchas gracias por tu apoyo y tus consejos. Me alegro de haberlo hecho. Aprenderé cada vez más y continuaré practicando. ¡Aprovecho el resto del tiempo para practicar!\n\nEspero hablar contigo de nuevo pronto y seguir aprendiendo. ¡Hasta luego!"
+   },
+   {
+      "role": "assistant",
+      "content": "Buenos días Pedro, ¡gracias por tu mensaje y por tus esfuerzos en aprender español! Me alegro de conocerte y que te encuentres en esta etapa de tu aprendizaje.\n\nYa sabes que soy maestra, ¿no? ¡Entonces, ¿qué tal te llamas? ¡Como estás?\n\n¿Y tú, ¿de qué ciudad eres? ¿Tienes hermanos o hermanas? ¡Podemos discutir un poco sobre la tus preferencias musicales si quieres!\n\nRecuerda que en español se dice \"Muchas gracias\" para decir \"muchas gracias\". También recuerda que para introducirte puedes decir \"Soy Pedro\" y \"Soy de Barcelona\". Para preguntar si alguien tiene hermanos o hermanas se dice \"¿Tienes hermanos o hermanas?\".\n\nContinuemos practicando y recuerda que siempre estoy aquí para ayudarte! ¡Aprovechando el resto del tiempo, sigue practicando!\n\n¡Hasta la próxima conversación!"
+   },
+   {
+      "role": "user",
+      "content": "Buenas maestra, me alegro mucho de haber encontrado una maestra tan dedicada como usted. Soy Pedro y soy de Barcelona. No tengo hermanos ni hermanas, pero tengo una hermosa hermana gemela que vive conmigo.\n\nSiempre he tenido un interés en la música latina y me encanta bailar. Si quieres, me gustaría compartirme más sobre mi gusto por la música latina y escuchar tus opiniones.\n\nMuchas gracias por tu apoyo y tu tiempo. Estoy muy agradecido de haber encontrado una maestra tan excelente como usted.\n\n¡Continuemos practicando! ¡Hasta la próxima conversación!"
+   },
+   {
+      "role": "assistant",
+      "content": "Buenas, Pedro! ¡Muchas gracias por tu mensaje y por compartirme sobre tu gusto por la música latina. ¡Es un placer conocer a alguien que también tiene un interés en la música de España!\n\n¡Me alegro mucho de que estés disfrutando bailando la música latina! ¿Cuál es tu canción favorita de la música latina y por qué te encanta?\n\nTambién querría saber si has ido alguna vez a un concierto de una banda o cantante latina, y si te gustaba. ¿Has ido alguna vez a un festival de música latina?\n\nPor otro lado, ¿has oído la música de Juanes, Shakira o Ricky Martin? Son artistas populares en español y sus canciones son famosas en todo el mundo.\n\nMuchas gracias por tu mensaje y por compartir conmigo sobre tu gusto por la música latina. Continuaremos practicando y aprendiendo más español!\n\n¡Hasta la próxima!"
+   },
+   {
+      "role": "user",
+      "content": "Hola maestra! Estoy muy emocionado de compartir mis pasiones con usted y de estar aprendiendo español con tanta dedicación. Mi canción favorita de la música latina es \"La Bamba\" de Los Lobos. La música de esa canción me hace sentir feliz y me alegra mucho.\n\nSí, he ido a conciertos de bandas y cantantes latinos. Mis recuerdos favoritos son los conciertos de Maná, un grupo mexicano de rock latino. El concierto fue increíble y me hizo sentir vivo de verdad. También he ido a festivales de música latina, como el Festival Internacional de Benicàssim. Fue una experiencia única y me gustaría volver a ir al menos una vez.\n\nSí, he oído a Juanes, Shakira y Ricky Martin, y todos son artistas fantásticos. Sus canciones me han hecho sentir inspirados y motivados para seguir adelante. Gracias por la conversación y continuaré aprendiendo español.\n\n¡Hasta la próxima!"
+   }
+]
