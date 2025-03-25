@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás? ¿Te sientes bien hoy?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Estoy muy bien, gracias por preguntar. Y tú, ¿cómo estás? Espero que también te encuentres bien hoy."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Estupendo! Me alegra mucho saberlo. ¿Y tú, cómo te llamas? Yo me llamo AI. ¿Cómo te llamas a ti?"
+   },
+   {
+      "role": "user",
+      "content": "Encantado de conocerte, AI. Mi nombre es Juan. Es un placer conversar contigo en español. ¿A qué te dedicas o qué te gusta hacer en tu tiempo libre?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Mucho gusto, Juan! Me encanta ayudar a aprender español. En mi tiempo libre leido libros y veo películas para mejorar mis habilidades. ¿Qué te gustaría hacer en tu tiempo libre? ¿Lees libros o ves películas?"
+   },
+   {
+      "role": "user",
+      "content": "Eso suena genial, AI. A mí también me gustan las lecturas, especialmente novelas de aventura. Además, disfruto viendo series y documentales sobre historia y ciencia. ¿Has leído alguna buena novela recientemente que recomiendes?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena interesante! Tengo una amiga que acaba de leer una novela de aventuras maravillosa. Se llama \"El Principito\". ¿Has leído ya este libro? Es una historia hermosa que puedes entender fácilmente y aprender muchas cosas bonitas. ¿Quieres que te cuente más sobre el libro?"
+   },
+   {
+      "role": "user",
+      "content": "¡Eso suena realmente emocionante! No, no he leído \"El Principito\", pero he escuchado hablar mucho de él. Parece ser uno de los clásicos más conocidos del mundo hispanohablante. Me encantaría saber más sobre la historia. ¿Puedes darme algunos detalles sobre lo que ocurre en ella?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Claro! \"El Principito\" es una historia muy especial. Es sobre un piloto que se queda atrapado en un desierto después de accidentarse. Mientras espera ayuda, hace amigos entre otros planetas y conoce al principito. El principito viene de otro planeta pequeño y tiene un rosal muy especial. Al principio el principito está triste porque no puede volver a su casa, pero conociendo al piloto empieza a comprender muchas cosas importantes de la vida. ¡Espero que quieras leerlo algún día! ¿Tienes algún otro libro de aventuras favorito?"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias por la descripción! \"El Principito\" suena como una historia profunda y llena de lecciones valiosas. Definitivamente está en mi lista de libros para leer pronto.\n\nEn cuanto a mis libros de aventuras favoritos, tengo uno que admiro muchísimo: \"Cien años de soledad\" de Gabriel García Márquez. La mezcla de realismo mágico y la rica narrativa cultural latinoamericana es absolutamente cautivadora. ¿Has leído este libro? ¿O tienes algún otro libro recomendado de ese género?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena muy interesante, Juan! \"Cien años de soledad\" es un libro maravilloso y es considerado un clásico en la literatura latinoamericana. Sin embargo, es un poco complicado para principiantes. Cuando estés listo para leerlo, podrías pedirme algunas frases o partes para practicar.\n\nPara ahora, te puedo recomendar otra novela de aventuras que es divertida y fácil de leer. Se llama \"Buenas noches, dragón\" [La vuelta entera al universo]. Es una historia donde dos amigos hacen viajes emocionantes y aprenden valiosos lecciones. ¿Te gustaría que te dé un resumen breve?\n\nAdemás, ¿has visto alguna serie o documental sobre historia o ciencia que te haya gustado particularmente?"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias por la recomendación, AI! \"Buenas noches, dragón\" suena como un libro perfecto para empezar. Me gustaría leer algo emocionante y divertido. ¿Podrías darme un resumen breve? Eso podría ayudarme a decidir si lo voy a leer pronto.\n\nEn cuanto a series y documentales, sí, he visto varios que me han gustado. Recientemente vi una serie sobre la historia de la física, que fue muy instructiva. También me ha encantado una serie sobre la exploración espacial. ¿Tienes alguna recomendación particular sobre estos temas?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Claro! \"Buenas noches, dragón\" es una historia sobre dos amigos, Luis y Ramón, que salen a buscar un dragón que supuestamente vive en el bosque cercano a su pueblo. Durante sus aventuras, aprenden muchas cosas y tienen muchos juegos divertidos. Es una historia corta y con palabras simples, ideal para empezar.\n\nSobre series y documentales, aquí tienes algunas recomendaciones:\n\n1. **\"Cosmos: Un Viaje Espacial Trascendental\"** - Esta serie documental explica conceptos astronómicos de forma accesible y con imágenes espectaculares. ¡Seguro que te interesaría!\n\n2. **\"Marvel's What We Know So Far\"** - Si te gusta la ciencia ficción, esta serie te mostrará diferentes series de Marvel y explicará la trama. Es divertida y fácil de seguir.\n\n¿Te gustaría que te diera más información sobre estas series o quieres que comencemos con \"Buenas noches, dragón\"?"
+   },
+   {
+      "role": "user",
+      "content": "¡Eso suena genial! Empezaré con \"Buenas noches, dragón\" y luego podemos ver alguna de las series que me has recomendado. ¿Podrías darme un resumen breve de la historia y tal vez alguna cita interesante para que pueda practicar mis habilidades de comprensión y expresión en español?\n\nAdemás, sería genial si pudieras compartir una cita del libro que te haya parecido特别好的建议！如果你需要进一步的帮助，比如练习对话或理解某个具体概念，请随时告诉我。我会尽力帮助你。希望你能享受阅读《晚安，龙》的乐趣，并从中获得启发和乐趣。\n继续说西班牙语怎么样？¡Eso suena excelente! Comenzaremos con \"Buenas noches, dragón\". ¿Podrías darme un breve resumen de la historia y una cita interesante del libro para que pueda practicar mis habilidades de comprensión y expresión en español? Además, estaré encantado de discutir cualquier cita del libro que te haya parecido interesante.\n¿Te gustaría comenzar con eso o prefieres que te dé más información sobre las series que mencionaste?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente elección! Vamos a comenzar con \"Buenas noches, dragón\".\n\n### Resumen Breve\n\nEn esta historia, hay dos amigos llamados Luis y Ramón. Luis le cuenta a su amigo Ramón que vio un dragón en el bosque. Deciden salir a investigar juntos. Durante su viaje, encuentran varios animales y plantas extrañas, y aprenden cosas interesantes. Finalmente, encuentran el dragón y descubren que era solo un gran perro de pelo largo que les había confundido. A pesar de que no era un verdadero dragón, todos son felices porque aprendieron muchas cosas y pasaron un buen momento juntos.\n\n### Cita Interesante\n\nUna cita interesante del libro podría ser:\n\"Luis dijo: 'No importa si no es un dragón, ¡la aventura fue emocionante!'\"\n\nAhora, ¿te gustaría practicar leyendo y repitiendo esa cita? También, si quieres, puedes intentar explicar brevemente el resumen que acabamos de leer."
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Vamos a practicar con esa cita y el resumen. Primero, te daré la cita y te pido que la repitas para que puedas mejorar tu pronunciación.\n\n### Cita Interesante\n\"Luis dijo: 'No importa si no es un dragón, ¡la aventura fue emocionante!'\"\n\nRepite la cita, por favor. Si necesitas ayuda para pronunciar alguna palabra, no dudes en pedírmelo.\n\nLuego, intentaré que expliques brevemente el resumen que acabamos de leer. Podrías decir algo así:\n\"Hay dos amigos llamados Luis y Ramón. Luis le cuenta a Ramón que vio un dragón en el bosque, y deciden ir a investigarlo. Durante su viaje, encuentran animales y plantas extrañas e incluso aprenden cosas interesantes. Al final, encuentran a un perro grande con pelo largo, pero se dan cuenta de que no era un verdadero dragón. Todos se sienten felices porque la aventura fue emocionante.\"\n\n¿Estás listo para repetir la cita?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Claro, Juan! Voy a repetir la cita:\n\n\"Luis dijo: 'No importa si no es un dragón, ¡la aventura fue emocionante!'\"\n\nBien hecho, ¡estás haciéndolo muy bien! Ahora, intenta explicar el resumen brevemente usando las palabras y frases que te di anteriormente. Aquí tienes una oración que puedes usar como punto de partida:\n\n\"Hay dos amigos llamados Luis y Ramón. Luis le cuenta a Ramón que vio un dragón en el bosque, y deciden ir a investigarlo. Durante su viaje, encuentran animales y plantas extrañas e incluso aprenden cosas interesantes. Al final, encuentran a un perro grande con pelo largo, pero se dan cuenta de que no era un verdadero dragón. Todos se sienten felices porque la aventura fue emocionante.\"\n\n¡Vamos a probarlo! ¿Cuál parte te cuesta más? Si necesitas ayuda con alguna palabra, no dudes en pedirla."
+   },
+   {
+      "role": "user",
+      "content": "¡Vamos a intentarlo paso a paso!\n\nPrimero, repetiré la cita:\n\n\"Luis dijo: 'No importa si no es un dragón, ¡la aventura fue emocionante!'\"\n\nAhora, intentaré explicar el resumen brevemente usando las palabras y frases que nos diste:\n\n\"Hay dos amigos llamados Luis y Ramón. Luis le cuenta a Ramón que vio un dragón en el bosque, y deciden ir a investigarlo. Durante su viaje, encuentran animales y plantas extrañas e incluso aprenden cosas interesantes. Al final, encuentran a un perro grande con pelo largo, pero se dan cuenta de que no era un verdadero dragón. Todos se sienten felices porque la aventura fue emocionante.\"\n\n¡Vamos a probarlo juntos! Vamos a dividirlo en partes pequeñas:\n\n1. **Introducción**\n   - \"Hay dos amigos llamados Luis y Ramón.\"\n\n2. **La decisión de ir a investigar**\n   - \"Luis le cuenta a Ramón que vio un dragón en el bosque, y deciden ir a investigarlo.\"\n\n3. **Lo que sucedió durante el viaje**\n   - \"Durante su viaje, encuentran animales y plantas extrañas e incluso aprenden cosas interesantes.\"\n\n4. **El final de la historia**\n   - \"Al final, encuentran a un perro grande con pelo largo, pero se dan cuenta de que no era un verdadero dragón.\"\n   - \"Todos se sienten felices porque la aventura fue emocionante.\"\n\nComencemos con la primera parte y avancemos paso a paso. ¡Listo?\n\n**Parte 1:** \"Hay dos amigos llamados Luis y Ramón.\""
+   }
+]

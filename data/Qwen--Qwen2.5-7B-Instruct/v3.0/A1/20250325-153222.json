@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás? Me llamo Carlos. ¿Te llamas María?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola Carlos! Estoy bien, gracias por preguntar. No, mi nombre es Helena. Encantada de conocerte. ¿Y tú, cómo estás hoy?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Mucho gusto, Helena! Yo también estoy bien, gracias. ¿Cómo estás hoy? ¿Qué te gusta hacer?"
+   },
+   {
+      "role": "user",
+      "content": "Gracias, Carlos. Me encanta leer y practicar idiomas. Y tú, ¿qué te gusta hacer en tu tiempo libre?"
+   },
+   {
+      "role": "assistant",
+      "content": "Me encanta jugar al fútbol y ver películas. Tú también puedes ver películas o libros para aprender español. ¿Has leído algún libro en español?"
+   },
+   {
+      "role": "user",
+      "content": "Sí, he leído algunos libros en español. Es una gran manera de aprender nuevas palabras y frases. ¿Tienes alguna recomendación?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Claro! Puedes leer un cuento corto o un libro fácil con muchos dibujos. \"Peppa Pig\" tiene libros muy buenos y fáciles. También hay libros de cuentos que son divertidos y sencillos. ¿Te gustaría leer sobre animales o sobre la escuela?"
+   },
+   {
+      "role": "user",
+      "content": "Eso suena genial, Carlos. Me gustaría leer sobre animales primero. Creo que es interesante y seguro que habrá muchas palabras útiles. Gracias por la recomendación."
+   },
+   {
+      "role": "assistant",
+      "content": "De nada, Helena. ¡Es un tema interesante! Espero que disfrutes leyendo sobre animales. Si tienes alguna palabra nueva o frase que no entiendas, puedes decírmela y te ayudaré a entenderla. ¡Que tengas buena lectura!"
+   },
+   {
+      "role": "user",
+      "content": "Gracias, Carlos. Eso me hace sentir más segura al leer en español. Estaré atenta a las nuevas palabras y frases. Que tengas un buen día también!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial, Helena! Tú también ten un buen día. Si necesitas ayuda con algo más, estoy aquí para ayudarte. ¡Disfruta del libro sobre animales!"
+   },
+   {
+      "role": "user",
+      "content": "¡Muchas gracias, Carlos! Me pondré manos a la obra. Espero aprender mucho sobre los animales y mejorar mi español. ¡Habla con tú maestra pronto!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡De nada, Helena! Me alegra que estés motivada. Sigue adelante y aprende. ¡Hablemos pronto de tus progresos! ¡Que tenga éxito con los animales!"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias, Carlos! Estaré en contacto cuando tenga buenas noticias sobre mi progreso. ¡Que tengas un buen día!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Con gusto, Helena! Hasta luego. Recuerda, si necesitas ayuda, siempre está disponible. ¡Que tengas un buen día y mucha suerte con tus estudios!"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias otra vez, Carlos! Te mantendré informado sobre mis avances. Que tengas un buen día también. ¡Hablamos pronto!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡De nada, Helena! Espero tus buenas noticias. ¡Que tengas un excelente día y avance mucho en tu aprendizaje! Hablamos pronto. ¡Adiós!"
+   },
+   {
+      "role": "user",
+      "content": "¡Adiós, Carlos! Gracias por todo tu apoyo. Avísame cuando quieras seguir charlando sobre mi progreso. ¡Que tengas un excelente día!"
+   }
+]
