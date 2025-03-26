@@ -4,7 +4,6 @@ Preprocess metrics data
 
 from pathlib import Path
 import polars as pl
-from polars.testing import assert_frame_equal
 
 # aka prettier names for plots
 MODEL_DICT = {
@@ -13,6 +12,7 @@ MODEL_DICT = {
     "meta-llama--Llama-3.1-8B-Instruct": "Llama 3.1 8B Instruct",
     "Qwen--Qwen2.5-7B-Instruct": "Qwen 2.5 7B Instruct",
     "mistralai--Mistral-7B-Instruct-v0.3": "Mistral 7B Instruct v0.3",
+    "meta-llama--Llama-3.3-70B-Instruct-Turbo": "Llama 3.3 70B Instruct Turbo"
 }
 
 def read_metrics(
@@ -45,6 +45,7 @@ def read_metrics(
     # smash columns together (align method to not get duplicate columns)
     if len(dfs) > 1:
         combined_df = pl.concat(dfs, how="align_inner")
+    else: 
         combined_df = dfs[0]
 
     # replace model names with prettier names
