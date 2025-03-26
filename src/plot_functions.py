@@ -20,6 +20,7 @@ def line_plot_variables(
     ci_vars: list[str] = None  # Optional parameter for confidence intervals
 ) -> matplotlib.figure.Figure:
     # Ensure group_var is provided
+    models = sorted(df[model_var].unique().to_list())
     groups = df[group_var].unique()
 
     # Prepare the color palette for the groups
@@ -41,7 +42,7 @@ def line_plot_variables(
 
     # Loop through each y-variable and each model
     for i, y_var in enumerate(y_vars):
-        for j, model in enumerate(df[model_var].unique()):
+        for j, model in enumerate(models):
             ax = axes[i][j]
 
             # Filter the data for the current model
@@ -88,70 +89,6 @@ def line_plot_variables(
 
     return fig
 
-
-def bar_plot(
-    df: pl.DataFrame,
-    x_vars: list[str],
-    group_var="group",
-    model_var="model",
-    colors: list[str] = ["#008aff", "#ff471a", "#00a661"],
-    std_vars: list[str] = None,
-    y_label_texts: list[str] = None,
-) -> matplotlib.figure.Figure:
-    # get unique models and groups
-    models = df[model_var].unique().to_list()
-    groups = df[group_var].unique().to_list()
-
-    n_rows = len(x_vars)
-    n_cols = len(models)
-
-    # bar settings
-    width = 0.65
-    x = np.arange(len(groups))
-
-    fig, axes = plt.subplots(n_rows, n_cols, figsize=(5 * n_cols, 4 * n_rows), sharey="row")
-
-    # ensure axes is iterable even for single rows/columns
-    if n_rows == 1:
-        axes = [axes]
-    if n_cols == 1:
-        axes = [[ax] for ax in axes]
-
-    for i, x_var in enumerate(x_vars):
-        for j, model in enumerate(models):
-            ax = axes[i][j]
-
-            model_data = df.filter(pl.col(model_var) == model)
-
-            proportions = [
-                model_data.filter(pl.col(group_var) == group)[x_var][0]
-                for group in groups
-            ]
-
-            if std_vars:
-                std_devs = [
-                    model_data.filter(pl.col(group_var) == group)[std_vars[i]][0]
-                    for group in groups
-                ]
-                ax.bar(x, proportions, width=width, color=colors, yerr=std_devs, capsize=5)
-            else:
-                ax.bar(x, proportions, width=width, color=colors)
-
-            ax.set_xticks(x)
-            ax.set_xticklabels(groups)
-            
-            if i == 0:
-                ax.set_title(f"{model}")
-
-            if y_label_texts and j == 0:
-                ax.set_ylabel(y_label_texts[i])
-            else:
-                ax.set_ylabel("")
-
-    fig.tight_layout()
-
-    return fig
-
 def violin_plot(
     df: pl.DataFrame,
     x_vars: list[str],
@@ -165,7 +102,7 @@ def violin_plot(
     If compute_error_bars is True, adds error bars representing standard deviation.
     """
     # get unique models and groups
-    models = df[model_var].unique().to_list()
+    models = sorted(df[model_var].unique().to_list())
     groups = df[group_var].unique().to_list()
 
     n_rows = len(x_vars)
@@ -241,7 +178,7 @@ def distribution_plot(
     if density_lines and not normalize:
         raise ValueError("Density lines are always normalized. Set normalize=True when using density_lines=True.")
     
-    models = df[model_var].unique().to_list()
+    models = sorted(df[model_var].unique().to_list())
     groups = df[group_var].unique().to_list()
     
     n_rows = len(x_vars)
