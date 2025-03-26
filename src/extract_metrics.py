@@ -5,7 +5,7 @@ NB. Requires a "v{version}_dataset.csv" file in the data folder that can be crea
 
 
 """
-
+from tqdm import tqdm
 import argparse
 from pathlib import Path
 from typing import Callable, Literal, Optional
@@ -15,11 +15,11 @@ import textdescriptives as td
 import textstat
 import statistics
 import torch
+import math
 
 from minicons import scorer
 
 from utils.text_process import _split_text_into_sents
-
 
 def input_parse():
     parser = argparse.ArgumentParser()
@@ -121,79 +121,164 @@ def extract_textstat(
 
 def extract_surprisal_sents(
     sents: list[str],
-    model: Optional[scorer.IncrementalLMScorer] = None,
+    model: Optional[scorer.MaskedLMScorer] = None,
     model_id: Optional[str] = "gpt2",
-    device: Optional[Literal["cpu", "cuda"]] = "cuda",
+    device: Optional[Literal["cpu", "cuda", "auto"]] = "auto",
+    batch_size: Optional[int] = None
 ) -> list[float]:
+    """
+    Extract surprisal scores for a list of sentences with improved memory management.
+    
+    Args:
+        sents (list[str]): List of sentences to process
+        model (Optional[scorer.MaskedLMScorer]): Pre-loaded model
+        model_id (str): Model identifier
+        device (str): Device to run the model on
+        batch_size (Optional[int]): Batch size for processing
+    
+    Returns:
+        list[float]: Surprisal scores for input sentences
+    """
     if model is None:
-        # Default to "cuda" if no device is passed
         print(f"[INFO:] Loading model '{model_id}' on device '{device}'")
-        model = scorer.IncrementalLMScorer(model_id, device)
+        model = scorer.MaskedLMScorer(
+            model_id, 
+            device, 
+            trust_remote_code=True, 
+            torch_dtype=torch.float16,
+            batch_size=batch_size or len(sents)
+        )
 
-    # compute surprisal in nats (normalized by number of tokens)
-    surprisal_scores = model.sequence_score(
-        sents, reduction=lambda x: -x.mean(0).item()
-    )
+    # process all sentences in one go or in specified batch size
+    batch_size = batch_size or len(sents)
+    all_surprisal_scores = []
+    
+    for i in range(0, len(sents), batch_size):
+        batch = sents[i:i + batch_size]
+        
+        try:
+            with torch.no_grad():
+                torch.cuda.empty_cache()  # clear mem before processing
+                surprisal_scores = model.sequence_score(
+                    batch, 
+                    reduction=lambda x: -x.mean(0).item()
+                )
+            all_surprisal_scores.extend(surprisal_scores)
+        except Exception as e:
+            print(f"Error processing batch {i//batch_size}: {e}")
+            # fallback to processing individual sentences if batch fails (not really helpful if batch_size is 1)
+            for sent in batch:
+                try:
+                    with torch.no_grad():
+                        torch.cuda.empty_cache()
+                        score = model.sequence_score(
+                            [sent], 
+                            reduction=lambda x: -x.mean(0).item()
+                        )[0]
+                    all_surprisal_scores.append(score)
+                except Exception as e:
+                    print(f"Error processing sentence: {sent}")
+                    all_surprisal_scores.append(float('nan'))
+        
+        # clear mem after each batch
+        del batch
+        torch.cuda.empty_cache()
 
-    return surprisal_scores
+    return all_surprisal_scores
 
 
 def extract_surprisal(
     df: pl.DataFrame,
     text_col: str = "content",
     model_id: Optional[str] = "gpt2",
-    device: Optional[Literal["cpu", "cuda"]] = "cuda",
+    device: Optional[Literal["cpu", "cuda", "auto"]] = "auto",
     metrics_dir: Optional[Path] = None,
     metrics_file_name: Optional[str] = None,
+    batch_size: Optional[int] = None,
 ) -> pl.DataFrame:
     """
-    Extract surprisal metrics at the paragraph level.
+    Extract surprisal metrics at the paragraph level with improved error handling.
+    
+    Args:
+        df (pl.DataFrame): Input DataFrame
+        text_col (str): Column containing text
+        model_id (str): Model identifier
+        device (str): Device to run the model on
+        metrics_dir (Optional[Path]): Directory to save metrics
+        metrics_file_name (Optional[str]): Filename for metrics
+        batch_size (Optional[int]): Batch size for processing
+    
+    Returns:
+        pl.DataFrame: DataFrame with surprisal metrics
     """
+    # Determine device
+    device = "cuda" if torch.cuda.is_available() and device == "auto" else device
 
-    # load model once to avoid reloading it for each row
-    model = scorer.IncrementalLMScorer(model_id, device)
+    # Load model once to avoid reloading it for each row
+    model = scorer.MaskedLMScorer(
+        model_id, 
+        device, 
+        trust_remote_code=True, 
+        torch_dtype=torch.float16
+    )
 
-    # split text into sentences
+    # Preprocess text into sentences
     df = df.with_columns(
         sents=pl.col(text_col).map_elements(
-            _split_text_into_sents, return_dtype=pl.List(pl.String)
+            _split_text_into_sents, 
+            return_dtype=pl.List(pl.String)
         )
     )
 
-    # compute surprisal per sentence
+    # manual processing
+    sents_list = df["sents"].to_list()
+    surprisal_scores = []
     print(f"[INFO:] Extracting surprisal metrics using model '{model_id}'")
+    for sents in tqdm(sents_list, desc="Computing surprisal"):
+        try:
+            batch_scores = extract_surprisal_sents(
+                sents, 
+                model=model, 
+                batch_size=batch_size
+            )
+            surprisal_scores.append(batch_scores)
+        except Exception as e:
+            print(f"Error processing sentences: {e}")
+            # append empty scores
+            surprisal_scores.append([float('nan')] * len(sents))
+
+    # add surprisal scores
     df = df.with_columns(
-        # get surprisal scores for each sentence in "content"
-        surprisal_per_sentence=pl.col("sents").map_elements(
-            lambda x: extract_surprisal_sents(
-                x, model=model
-            ),  # Returns a list of floats
-            return_dtype=pl.List(pl.Float64),
-        )
+        pl.Series(name="surprisal_per_sentence", values=surprisal_scores)
     )
 
-    # compute mean and median surprisal
+    # compute mean and median surprisal with error handling
+    print("[INFO:] Computing means, medians")
     df = df.with_columns(
         surprisal_mean=pl.col("surprisal_per_sentence").map_elements(
-            lambda x: statistics.mean(x), return_dtype=pl.Float64
+            lambda x: statistics.mean([v for v in x if not math.isnan(v)]) if any(not math.isnan(v) for v in x) else float('nan'), 
+            return_dtype=pl.Float64
         ),
         surprisal_median=pl.col("surprisal_per_sentence").map_elements(
-            lambda x: statistics.median(x), return_dtype=pl.Float64
+            lambda x: statistics.median([v for v in x if not math.isnan(v)]) if any(not math.isnan(v) for v in x) else float('nan'),
+            return_dtype=pl.Float64
         ),
     )
 
-    # convert sents and surprisal_per_sentence to strings (to save as csv)
+    # Convert sentences and surprisal scores to storable format
     df = df.with_columns(
         sents=pl.col("sents").map_elements(
-            lambda x: "[" + ", ".join(f'"{s}"' for s in x) + "]", return_dtype=pl.String
+            lambda x: "[" + ", ".join(f'"{s}"' for s in x) + "]", 
+            return_dtype=pl.String
         ),
         surprisal_per_sentence=pl.col("surprisal_per_sentence").map_elements(
-            lambda x: "[" + ", ".join(map(str, x)) + "]", return_dtype=pl.String
+            lambda x: "[" + ", ".join(map(str, x)) + "]", 
+            return_dtype=pl.String
         ),
     )
 
+    # Save results if directories are provided
     if metrics_dir is not None and metrics_file_name is not None:
-        # saved_df = df.drop(["sents", "surprisal_per_sentence"]) # as polars cannot save list columns
         metrics_dir.mkdir(parents=True, exist_ok=True)
         df.write_csv(metrics_dir / metrics_file_name)
 
@@ -209,7 +294,7 @@ def main():
 
     # surprisal settings
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    model_id = "google-bert/bert-base-multilingual-cased"
+    model_id = "EuroBERT/EuroBERT-210m"
 
     # read data
     df = pl.read_csv(data_path / f"v{version}_dataset.csv")
