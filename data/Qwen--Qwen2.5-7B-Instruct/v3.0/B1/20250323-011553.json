@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at B1 level in the Common European Framework of Reference (CEFR) which means that the user is at an intermediate level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to B1-level Spanish (intermediate level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for an intermediate learner of Spanish. Specifically, the aim for the student is to master the following language skills after B1: \n- The student can understand the main points of clear standard input on familiar matters regularly encountered in work, school, leisure, etc.\n- The student can deal with most situations likely to arise whilst travelling in an area where the language is spoken.\n- The student can produce simple connected text on topics which are familiar or of personal interest.\n- The student can describe experiences and events, dreams, hopes & ambitions and briefly give reasons and explanations for opinions and plans.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás hoy? Espero que tengas un buen día. ¿Has hecho algo interesante últimamente?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Estoy bien, gracias por preguntar. Hoy he estado aprendiendo nuevos vocablos en español y practicando la ortografía. No he hecho nada muy emocionante, pero es siempre divertido aprender una nueva lengua. Y tú, ¿qué has estado haciendo de interesante?"
+   },
+   {
+      "role": "assistant",
+      "content": "Eso suena genial! ¡Es maravilloso ver cómo te esfuerzas por mejorar tu español!\n\nYo también he estado ocupado. He leído un libro sobre historia del arte y me ha encantado. Algunos personajes de mi serie favorita han empezado a hablar más en español, así que intento seguir el diálogo. \n\n¿Sabes alguna frase para pedirle a alguien que hable más despacio? A veces es difícil entender cuando hablan rápido."
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias por tus palabras! Me alegra saber que disfrutas con el proceso de aprendizaje.\n\nSobre lo que has estado haciendo, eso suena emocionante y divertido. Leer sobre arte y escuchar diálogos en español pueden ser excelentes formas de mejorar tu comprensión oral.\n\nPara pedir a alguien que hable más despacio, puedes decir: \"Por favor, habla un poco más lentamente\". En español, sería: \"Por favor, habla un poco más lento\". También puedes añadir \"para que pueda entenderte mejor\", que se traduce como \"para que pueda entenderte mejor\".\n\n¡Espero que esto te sea útil! Si tienes más preguntas o necesitas ayuda con algo más, no dudes en decírmelo."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bueno que te gustó esa respuesta! Tu español está muy bien y ya casi la tenías perfecta.\n\nPerfecto, \"por favor, habla un poco más lento\" es una buena forma de pedirle a alguien que hable más despacio. Puedes completarlo diciendo \"para que pueda entenderte mejor\". Así queda:\n\n\"Por favor, habla un poco más lento, para que pueda entenderte mejor.\"\n\nEsta frase es muy práctica y útil.\n\n¿Quieres practicar un poco más? Vamos a hablar de tus planes para esta tarde. ¿Tienes algo que hacer o te gustaría hacer algo nuevo? Por ejemplo, ¿te apetece ir al parque para pasear?"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Me alegra saber que me están yendo bien los progresos. Es una frase muy práctica tener ese truco para pedir que hablen más despacio.\n\nSobre mis planes para esta tarde, realmente no tengo mucho que hacer. Sería genial salir a pasear al parque. Eso suena divertido y fresco. ¿Te importa si vamos al parque local? Tengo mucha energía hoy y sería un buen momento para un buen paseo.\n\n¡Estoy ansioso por pasar tiempo afuera! ¿Estás listo para ir?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! Me alegro de poder ayudarte a practicar más.\n\nClaro, vamos al parque local. Me parece ideal para sacar un poquito de energía y respirar aire fresco. ¿Cuánto tiempo planeas pasar allí?\n\nEn español podrías decir:\n\"Vamos al parque local. Me parece ideal para sacar un poquito de energía y respirar aire fresco. ¿Cuánto tiempo planeas pasar allí?\"\n\nPerfecto, te sigo y veo que usaste correctamente algunos verbos y frases. Ahora, vamos a seguir con nuestra planificación. ¿Tienes alguna actividad preferida que quieras hacer en el parque? Podemos jugar a algunas cosas, sentarnos a descansar o tal vez incluso traer un libro y leer un rato. ¿Qué te parece?"
+   },
+   {
+      "role": "user",
+      "content": "¡Genial! Me parece excelente que vayamos al parque local. Me gusta la idea de salir un rato para echar energías. Planeo pasarme unas dos horas allí, es suficiente para dar un buen paseo y luego relajarme un poco.\n\nEn cuanto a las actividades, creo que me divertiría jugando a algún juego en el parque. Podríamos tirarnos a la pelota o jugar a escondidas. También podría traer un libro para leer mientras descansamos un rato bajo un árbol.\n\nAsí que, ¿qué te parece si primero nos dedicamos a jugar un rato y luego tomamos un descanso para leer? ¡Me suena perfecto!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena como un plan fantástico! Jugar un rato y luego relajarse leyendo son actividades ideales para un día soleado.\n\nPuedes expresarlo así:\n\"Primero nos dedicaremos a jugar un rato y luego tomamos un descanso para leer. ¿No te parece perfecto?\"\n\nPerfecto, ahora vamos a la práctica final antes de salir. Imagina que estamos en el parque y quiero ofrecerte algo de agua. ¿Cómo responderías si yo dijera: \"¿Quieres tomar un vaso de agua?\"?\n\nPodrías responder:\n\"Sí, por favor, dímelo.\" o \"¡Sí, por favor!\"\n\nHazlo en español y te corrijo si hay algún error."
+   },
+   {
+      "role": "user",
+      "content": "Claro, en español podrías responder:\n\n\"¡Sí, por favor!\"\n\nEsta respuesta es correcta y natural. Muy bien hecho!\n\nSi tienes alguna otra pregunta o necesitas practicar algo más, estaré aquí para ayudarte. ¡Disfruta del paseo al parque!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Muy bien hecho! Tu respuesta \"¡Sí, por favor!\" es perfecta y natural.\n\nAhora, imagina que estás en el parque y alguien te ofrece un vaso de agua. Respondes:\n\n\"¡Sí, por favor, dármelo!\"\n\nEsto está excelente. Ya casi lo tienes perfecto.\n\nVamos a practicar un poco más. Imagina que quieres pedirle a tu compañero de juegos que te enseñe cómo armar un rompecabezas. ¿Cómo podrías hacerlo en español?\n\nIntenta formular la frase y si necesitas ayuda, estaremos aquí para guiarte. ¡Adelante!"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Me alegra que mi respuesta haya sido correcta.\n\nPara pedirle a mi compañero de juegos que me enseñe cómo armar un rompecabezas, podrías decir:\n\n\"Puedes enseñarme cómo armar este rompecabezas, por favor?\"\n\nO también:\n\n\"Podrías enseñarme cómo armar este rompecabezas, por favor?\"\n\nAmbas son formas correctas y naturales de expresarlo. ¿Qué te parece si utilizamos la segunda opción?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente elección! La segunda opción es perfecta y muy natural.\n\nEntonces, podrías decir:\n\n\"Podrías enseñarme cómo armar este rompecabezas, por favor?\"\n\nPerfecto, ¡estás haciendo un excelente trabajo!\n\nAhora, para continuar con la práctica, imagina que estás en el parque y ves que hay varios juegos disponibles. Quieres elegir entre ellos, pero no sabes cuál elegir. ¿Cómo dirías algo así en español?\n\nPuedes decir:\n\"No sé qué juego elegir, ¿me puedes recomendar uno?\"\n\nPrueba a formular esa frase y si necesitas cualquier ayuda, estaré aquí para asistirte. ¡Adelante!"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Me siento seguro con esa frase.\n\nPodría decir:\n\n\"No sé qué juego elegir, ¿me puedes recomendar uno?\"\n\n¡Hecho! ¿Necesitas alguna ayuda adicional o queremos seguir practicando?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! Tu frase es correcta y muy natural.\n\nAhora, continuemos practicando. Imagina que estás descansando bajo un árbol y ves a un amigo que viene hacia ti. Tu amigo te dice que tiene hambre y te invita a compartir algo de comer. ¿Cómo podrías responder si te apetece comer algo?\n\nPodrías decir:\n\n\"¡Sí, por favor! Me apetecería mucho.\"\n\nO también:\n\n\"Estaré encantado/a de comer contigo.\"\n\nElije la versión que prefieras y ensaya la frase en español. Si necesitas correcciones o quieres practicar algo más, solo avísame. ¡Adelante!"
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Escogeré la primera opción porque me parece más casual y natural en esta situación.\n\nPodría decir:\n\n\"¡Sí, por favor! Me apetecería mucho.\"\n\n¡Y aquí va en español! \n\n\"¡Sí, por favor! Me apetecería mucho.\"\n\n¿Cómo te fue? Si necesitas practicar algo más, estaré aquí para ayudarte."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Fantástico! Tu frase es perfecta y muy natural:\n\n\"¡Sí, por favor! Me apetecería mucho.\"\n\nEfectivamente, esto transmite claramente tu interés y amabilidad.\n\nContinuemos con otra práctica. Imagina que después de comer, decides sentarte a leer. Sin embargo, notas que estás un poco cansado y decides tomar un descanso. ¿Cómo dirías que quieres tomar una siesta en español?\n\nPuedes decir:\n\n\"Quiero tomar una siesta.\"\n\n¿Cómo te va al pronunciarlo? Prueba a decir:\n\n\"Quiero tomar una siesta.\"\n\nSi necesitas ayuda con la pronunciación o cualquier otro detalle, no dudes en decírmelo. ¡Adelante!"
+   },
+   {
+      "role": "user",
+      "content": "¡Claro! Pronunciaré la frase:\n\n\"Quiero tomar una siesta.\"\n\n¡Lo dije! ¿Necesito ayuda con algo más o quieres que repitamos la práctica?"
+   }
+]

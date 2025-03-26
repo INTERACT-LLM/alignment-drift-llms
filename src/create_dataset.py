@@ -3,6 +3,7 @@ from pathlib import Path
 
 import polars as pl
 
+
 @dataclass
 class DataFile:
     dir_name: str
@@ -17,11 +18,12 @@ def read_data(data_dir: Path | list[Path]) -> pl.DataFrame:
     # Ensure we have a list of paths
     dirs_to_process = [data_dir] if isinstance(data_dir, Path) else data_dir
     
+    # sort folders (keep consistent order)
     datafiles = [
         DataFile(file.parents[2].name, folder.name, file.name, str(file))
         for directory in dirs_to_process
-        for folder in directory.iterdir() if folder.is_dir()
-        for file in folder.iterdir() if file.is_file() and file.suffix == ".json"
+        for folder in sorted(directory.iterdir()) if folder.is_dir()
+        for file in sorted(folder.iterdir()) if file.is_file() and file.suffix == ".json"
     ]
 
     print(f"[INFO:] Combining {len(datafiles)} files")
@@ -46,10 +48,14 @@ def read_data(data_dir: Path | list[Path]) -> pl.DataFrame:
     return combined_df
 
 def main(): 
-    version = 2.0
+    version = 3.0
 
-    dir_names = ["mlx-community--Qwen2.5-7B-Instruct-1M-4bit", 
-                 "mlx-community--meta-Llama-3.1-8B-Instruct-4bit"
+    dir_names = [#"mlx-community--Qwen2.5-7B-Instruct-1M-4bit", 
+                 #"mlx-community--meta-Llama-3.1-8B-Instruct-4bit"
+                 "meta-llama--Llama-3.1-8B-Instruct", 
+                 "meta-llama--Llama-3.3-70B-Instruct-Turbo",
+                 "Qwen--Qwen2.5-7B-Instruct",
+                 "mistralai--Mistral-7B-Instruct-v0.3",
                  ]
 
     data_paths = [

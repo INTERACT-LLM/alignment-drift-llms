@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo estás hoy? ¿Tienes un momento para hablar en español conmigo? Esto es una oportunidad perfecta para practicar tu español. Empecemos por contarnos un poco sobre nosotros mismos. ¿Puedes decirme tu nombre, por favor? Yo soy ________. ¿Y tú, ¿cuál es tu nombre?"
+   },
+   {
+      "role": "user",
+      "content": "Hola! Soy muy feliz de conocerte y practicar el idioma español contigo. Estoy muy bien gracias! Tengo un momento para hablar con usted. Me gustaría comenzar diciéndome tu nombre. Soy (tú nombre). ¿Y qué tal, ¿cómo te llamas, por favor?"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo estás hoy? Soy muy feliz de hablar con ti y practicar el español. Estoy muy bien, gracias. Parece que tenemos tiempo suficiente para charlar. Me gustaría empezar preguntándote tu nombre. ¿Y cual es tu nombre, por favor? Yo soy ________. ¿Y tú, ¿qué tal? ¿Cómo te llamas?"
+   },
+   {
+      "role": "user",
+      "content": "Hola! Soy (tú nombre) y estoy muy contento de practicar mi español contigo. ¡Qué maravilloso! Por supuesto, podemos hablar ahora mismo. ¿Qué tal, cómo estás hoy? ¿Cómo te sientes? Siempre me encanta escuchar nuevas historias y conocer a otras personas. ¿Por qué no comiencemos hablando de nosotros mismos? ¿Donde vives actualmente? ¿De dónde eres? ¿Tienes hermanos o familiares cercanos? ¿Te gusta la música o algún deporte en particular? ¿Has viajado mucho antes? Cuántos países has visitado? ¿Tenías una experiencia favorita al viajar o algún momento en especial que quisiste recordar? No me olvidaré preguntarte más después si no te molesta. Espero que este momento sea divertido y útil para ambos. ¡Chateamos!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo estás hoy? Tengo un gran placer en conocerte y practicar nuestro español juntos. ¡Sí, claro! Podemos hablar ahora mismo. ¿Cómo estáis hoy? ¿Cómo os sientís? Siempre me encantan las conversaciones interesantes y conocer gente nueva. ¿Podríais empezar hablando de vosotros mismos? ¿Dónde viveis actualmente? ¿De dónde eres? ¿Tieneis hermanos o familiares cercanos? ¿Me gusta la música o algún deporte en particular? ¿Ha viajado mucho antes? Cuáles son algunos países que ha visitado? ¿Tieneis alguna experiencia favorita al viajar o algún momento que queríais recordar? No me olvides de preguntar más después si no os molesta. ¡Espero que esta conversación sea divertida y útil para ambos! ¡Chateamos!"
+   },
+   {
+      "role": "user",
+      "content": "Hola! Tengo un gran placer en conocerte también y practicar nuestro español juntos. ¡Claro que sí, podemos hablar ahora mismo!\n\n¿Cómo están ustedes hoy? ¿Cómo se siente usted? Es increíble que podamos tener este momento para hablar en español y compartir cosas interesantes sobre nosotros.\n\nEmpecemos hablando sobre ustedes. ¿De dónde eres usted? ¿Dónde vives actualmente? ¿Tiene usted hermanos o familiares cercanos? ¿Le gusta la música o algún tipo de deporte en particular? ¿Ha viajado mucho antes? Si sí, cuáles fueron sus países favoritos y experiencias favoritas durante esas visitas? ¡Por supuesto, me gustaría saber más sobre usted y su cultura!\n\nNo me olvides de preguntar más sobre tu vida si no te molesta. Espero que esto sea divertido y útil para ambos. ¡Espero hablar con usted más pronto! ¡Gracias por hablar conmigo y estar aquí conmigo! ¡Chateamos!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! Tengo mucha alegría en conocerte también y practicar nuestro español juntos. Claro que sí, podemos hablar ahora mismo. ¿Cómo estás hoy? ¿Cómo te sientes? Es genial que podamos tener este momento para hablar en español y aprender más sobre nosotros mismos.\n\nEmpecemos hablando un poco sobre ti. ¿De dónde eres? ¿Dónde vives actualmente? ¿Tienes familia o amigos cercanos? ¿Le gusta hacer algo en particular en su tiempo libre? ¿Ha viajado alguna vez antes? Si sí, ¿donde has ido y qué cosas has disfrutado?\n\nSi deseas hablar más sobre otra cosa, no dude en preguntarme. ¡Espero que esta conversación sea divertida y útil para ambos! ¡Gracias por hablar conmigo y ser mi compañero en esta conversación! ¡Chateamos!"
+   },
+   {
+      "role": "user",
+      "content": "Hola, ¡mucho gusto en conocerte también! Claro que sí, podemos hablar ahora mismo. ¿Cómo estás hoy? ¿Cómo te sientes? Es increíble que podamos practicar el español juntos.\n\nEmpecemos hablando un poco sobre ti. ¿Dónde eres exactamente? ¿De dónde eres? ¿En qué lugar vives actualmente? ¿Con quién vives y qué le gusta hacer en tu tiempo libre? ¿Has viajado algún día antes? ¿A dónde has ido y qué cosas has disfrutado más? ¡No dude en preguntar más sobre otro tema si lo desea! ¡Espero que este momento sea divertido y útil para ambos! ¡Mucha suerte en aprender español y no olvide preguntar si necesita ayuda adicional! ¡Gracias por hablar contigo! ¡Chateamos más pronto!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! Mucho gusto en conocerte también! ¡Claro que sí, podemos hablar ahora mismo! ¿Cómo está usted? ¿Cómo se siente usted hoy? Es increíble que podamos tener este momento para practicar nuestra conversación en español.\n\nComencemos hablando sobre ti mismo. ¿Dónde naciste, exactamente? ¿De dónde eres? ¿Dónde vives actualmente? ¿Con quién vives y qué haces en tu tiempo libre? ¿Has viajado algún día antes? ¿A donde has ido y qué cosas has disfrutado más? ¡Pregunta cualquier cosa que desee! ¡Espero que este momento sea divertido y útil para ambos! ¡Mucha suerte en aprender español y no olvide preguntar si necesita ayuda adicional! ¡Gracias por hablar conmigo! ¡Hablemos más pronto!"
+   },
+   {
+      "role": "user",
+      "content": "Hola! Muy buenos días, ¡encantado de conocerte también! Claro que sí, podemos hablar ahora mismo. ¿Cómo te sientes hoy? ¿Cómo te va todo? Es increíble que podamos practicar nuestra conversación en español, así que es mejor empezar hablando de ti. ¿Podrías decirme dónde naciste exactamente? ¿Y dónde vives actualmente? ¿Con quién vivis? ¿Cuáles son los deportes o actividades que más te gustan hacer en tu tiempo libre? ¿Has viajado algún día antes? Si sí, ¿dónde has ido y qué cosas disfrutaste?\n\nNo dude en preguntar sobre cualquier otra cosa que se le ocurra, también me gustaría saber más sobre ti. ¡Espero que este momento sea divertido y útil tanto para mí como para ti! ¡Buena suerte en la aprendizaje del español, ¡no olvide preguntar si se necesitan más ayudas! ¡Espero hablar con usted más pronto!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo estás hoy? Estoy muy contento de hablar contigo y practicar el español juntos. ¿Estás listo para hablar un poco sobre ti? ¿Donde naciste? ¿Y donde vas a la escuela? ¿Tienes hermanos o hermanas? ¿Me gustaría saber algunos de los deportes o actividades que más te gustan hacer?\n\nRecuerda que puedes pedir ayuda si necesitas. Espero que tengas un día hermoso y que este momento sea útil y divertido para ti. ¡Hablamos pronto de nuevo! ¡Bueno aprendizaje de español y mucha suerte!"
+   },
+   {
+      "role": "user",
+      "content": "Hola, ¡bueno de verte aquí! ¿Cómo estás hoy? Estoy muy feliz de practicar el español con ti. ¿Quieres hablar un poco sobre ti mismo? ¿Por ejemplo, ¿dónde naciste? ¿En dónde vas a la escuela? ¿Tienes hermanos o hermanas? ¿Me gustaría conocer algunos de tus deportes preferidos o actividades que disfrutas?\n\nNo dude en preguntarme sobre otros temas también, como la música, el arte o cualquier cosa que nos interese. Recuerdo que si tiene alguna pregunta difícil, no es una falta. ¡Espero que este momento sea divertido y útil para ti! ¡Bueno aprendizaje de español y mucha suerte! ¡Hasta luego!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola, ¿Cómo estás? Gracias por hablar conmigo y practicar español. ¿Quieres hablar un poco de ti misma? ¿Dónde nació? ¿En dónde vas a la universidad? ¿Tienes hermanos o hermanas? ¿Me gustaría saber algunas de tus pasatiempos favoritos? ¿También me gustaría saber qué tipo de música prefieres o si tienes algún deporte favorito.\n\n¡No olvides preguntarme sobre cualquier tema que te interese! ¡Espero que este momento sea divertido y útil para ti! ¡Bueno aprendizaje de español y mucha suerte! ¡Hablamos más tarde!"
+   },
+   {
+      "role": "user",
+      "content": "Hola, mucho gusto en conocerte también! ¡Claro que sí, podemos hablar ahora mismo! ¿Cómo te estás sintiendo? ¿Podrías hablar un poco sobre ti mismo? ¿Dónde naciste? ¿Tienes hermanos o hermanas? ¿Le gusta hacer algo en particular en su tiempo libre? ¿Te gusta la música o algún tipo de deporte en particular?\n\n¡Preguntame cualquier cosa que tú desees! ¡Espero que este momento sea divertido y útil para ambos! ¡Mucha suerte en aprender español! ¡Chateamos más pronto!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo estás? Gracias por hablar conmigo y practicar tu español. ¿Podrías hablarme un poco sobre ti mismo? ¿Dónde vas a la escuela? ¿Tienes hermanos o hermanas? ¿Le gusta hacer algo en especial en su tiempo libre? ¿Le gusta la música o un deporte en particular?\n\nNo olvide preguntarme si algo no entiende. Espero que este momento sea divertido y útil para ti. ¡Mucha suerte en aprender español! ¡Vamos a seguir chateando más pronto!"
+   },
+   {
+      "role": "user",
+      "content": "Hola! ¿Cómo estás hoy? ¡Espero que estés bien! ¿Podrías hablar un poco sobre ti mismo? ¿En dónde vas a la escuela y estudias que asignaturas? ¿Tienes hermanos o hermanas mayores o menores? ¿Te gusta leer libros, escribir, o participar en deportes?\n\n¡No dude en preguntarme si necesitas más ayuda! ¡Espero que esto sea un momento divertido para ti! ¡Mucha suerte en aprender español y hablárselo bien! ¡Vamos a hablar más pronto!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo estás hoy? Estoy muy feliz de hablar con ti. ¿Podrías hablarme un poco sobre ti mismo? ¿Dónde vas a la escuela? ¿Qué asignaturas estudias? ¿Tienes hermanos o hermanas? ¿Te gusta leer libros o jugar deportes en tu tiempo libre?\n\nSi te gustaría preguntarme algo más, no dudes en preguntarme. También puedo ayudarte con palabras que no entiendas. ¡Espero que esto sea un momento divertido! ¡Mucha suerte en aprender español! ¡Hablamos más pronto!"
+   },
+   {
+      "role": "user",
+      "content": "Hola! ¿Cómo estás hoy? Estoy muy feliz de conocerte. ¿Quieres hablar sobre ti mismo? ¿Dónde vas a la escuela y en qué asignaturas te interesan más? ¿Tienes hermanos o hermanas? ¿Te gustaría saber si yo también soy estudiante de español?\n\nSi deseas preguntar algo más, no duelas en preguntarme. ¡Espero que este momento sea divertido y útil para ti! ¡Mucha suerte en aprender español y no olvides preguntarme si te surgen dudas! ¡Hablamos más pronto!"
+   }
+]

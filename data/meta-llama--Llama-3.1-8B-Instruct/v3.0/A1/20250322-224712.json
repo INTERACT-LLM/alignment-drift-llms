@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¿Cómo estás? ¿Te gusta este clima hoy?"
+   },
+   {
+      "role": "user",
+      "content": "Estoy bien, gracias. Me gusta el sol pero espero que no vaya a llover más tarde. ¿A ti cómo te va?"
+   },
+   {
+      "role": "assistant",
+      "content": "Estoy bien, gracias. No tengo planeado hacer nada especial hoy. Tengo que estudiar un poco para una prueba mañana. ¿Y tú? ¿Qué vas a hacer hoy?"
+   },
+   {
+      "role": "user",
+      "content": "También voy a estudiar un poco para la misma prueba. Quiero asegurarme de estar listo. Además, quería ir al parque con amigos esta tarde, si el tiempo lo permite. ¿Has estado allí recientemente?"
+   },
+   {
+      "role": "assistant",
+      "content": "Sí, sí, me encanta ir al parque con mis amigos. He ido últimamente. El parque está muy bonito ahora que hace calor. Hay muchos árboles florecidos y las palomas están volando por todas partes. ¿Con quién ibas a ir al parque exactamente?"
+   },
+   {
+      "role": "user",
+      "content": "Me gustaría ir con mis compañeros de clase, Carlos y Sofía. Les dije que nos reuniríamos en mi casa a las tres y luego iremos juntos al parque. ¿Vives cerca del parque? Si así es, quizá podamos caminar hacia allá juntos."
+   },
+   {
+      "role": "assistant",
+      "content": "Sí, vivo cerca del parque. En realidad, vivo justo enfrente. Puedes subir a mi casa antes de ir al parque y podemos ir juntos desde allí. ¿Cuándo es tu cumpleaños? Recuerdo que alguien en clase mencionó algo sobre tus próximos años, ¡perdón!"
+   },
+   {
+      "role": "user",
+      "content": "Mi cumpleaños será en octubre, y actualmente tengo dieciocho años. Mi mamá me dice que van a ser una fiesta grande en casa, así que estoy emocionado. Gracias por preguntar. Eso sería genial si pudieras subir a mi casa antes de ir al parque. ¿Qué hora debería llegar en tu casa entonces?"
+   },
+   {
+      "role": "assistant",
+      "content": "Genial, me alegra saber que vas a tener una fiesta grande. Te recomiendo llegar a mi casa unos 15 minutos antes de las tres. Así podemos ir juntos al parque a eso de las tres menos cuarto. ¿De acuerdo? Por cierto, ¿has vivido siempre en esta ciudad o has cambiado de lugar en algún momento?"
+   },
+   {
+      "role": "user",
+      "content": "Eso suena como un plan perfecto. De acuerdo, llegaremos a tu casa a las dos cincuenta y cinco. Respecto a tu pregunta, nací aquí en la ciudad, pero pasé parte de mi infancia en la costa porque mi familia se mudó allí cuando tenía siete años. Regresamos aquí cuando yo tenía doce y he vivido aquí desde entonces. Me encantaba la vida en la costa, hay mucho más playa y océano allí. Pero también estoy contento de haber regresado a la ciudad."
+   },
+   {
+      "role": "assistant",
+      "content": "Parece que tienes muchas experiencias diferentes. La costa debe ser hermosa, especialmente durante verano. Aquí en la ciudad puede ser más bullicioso, pero tiene sus ventajas también. Me alegra que te guste vivir acá. ¿Quieres tomar algo antes de salir al parque? Un refresco o un agua fría puede ser refrescante después de hablar tanto."
+   },
+   {
+      "role": "user",
+      "content": "¡Claro que sí! Un refresco fresco me parece perfecto. ¿Tienes jugo de naranja o fresa? Me gustan ambos. Y gracias por la oferta, me encantaría disfrutar de un rato contigo antes de ir al parque. Es muy amable de tu parte invitarme."
+   },
+   {
+      "role": "assistant",
+      "content": "Tengo jugo de naranja y fresa, ¿qué prefieres? Lo tengo en la nevera, así que voy a sacarlo rápido. Me alegra tenerte aquí y charlar un rato antes de ir al parque. Me gustan mucho tus historias sobre la costa, te conoces muy bien. Ahora mismo traigo los refrescos. ¿Te gustan los perros callejeros en el parque? Los veo allí todos los días."
+   },
+   {
+      "role": "user",
+      "content": "Prefiero el jugo de naranja, gracias. Me encanta la cara que pone la gente cuando come naranjas directamente de la fruta fresca. Sí, me gustan los perros callejeros en el parque. Los encuentro muy carinosos y siempre están contentos de jugar. Hasta conozco algunos de ellos. A veces pienso que son los verdaderos dueños del parque, ya que parecen pensar que es su territorio."
+   },
+   {
+      "role": "assistant",
+      "content": "El jugo de naranja es uno de los favoritos de muchos. Me recuerda a mi abuela, ella siempre decía que los naranjos eran mejores cuando los comías frescos, sin procesar. Me encanta que tengas amigos caninos en el parque, debe ser divertido conocerlos y jugar con ellos. Estoy seguro de que saben reconocerte y ven que eres persona de confianza. Bueno, creo que es hora de prepararnos para ir al parque. ¿Qué hora es?"
+   },
+   {
+      "role": "user",
+      "content": "La hora de ir al parque. Mira el reloj, ¡son las dos cincuenta y nueve! Entonces, debemos irnos pronto para llegar al parque a las tres menos cuarto. Estoy listo, solo necesito tomar mi mochila con los libros y apagar la computadora. ¿Quieres llevarte el resto de jugo de naranja o prefieres que lo tire a la basura?"
+   },
+   {
+      "role": "assistant",
+      "content": "Muy bien, tenemos prisa. Déjame ayudarte a cerrar la puerta mientras tú buscas tu mochila y apagas la computadora. Luego nos vamos al parque. Con respecto al jugo de naranja, no te preocupes por eso, te dejaré cuidar de él. Vamos a aprovechar que aún no ha salido la lluvia. Estoy ansioso por pasar el rato contigo y Carlos y Sofía en el parque."
+   },
+   {
+      "role": "user",
+      "content": "Gracias por ayudarme a cerrar la puerta. Estoy casi listo para irme. Solo necesito llevar la mochila y los libros. ¡Perfecto, todo listo! Me alegra que puedas venir contigo y pasarlo bien al parque. Lleguemos pronto y podemos sentarnos en un banco al aire libre. Espero que la lluvia no llegue hasta que terminemos de disfrutar del parque. Vamos, vámonos."
+   }
+]

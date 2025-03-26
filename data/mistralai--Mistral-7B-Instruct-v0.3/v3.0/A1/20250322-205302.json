@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo estás? ¿Tienes un momento para practicar tu español conmigo? Sois estudiante de español en el nivel A1 del CEFR, entonces te gustaría que me contaran quién eres y algo sobre ti mismo. ¿Podrías decirme tu nombre, por favor? ¡Es muy fácil! Yo también quiero conocerte mejor. ¿Puedes decirme dónde vives? Espero hablar contigo más tiempo. ¡Suerte en la práctica!"
+   },
+   {
+      "role": "user",
+      "content": "Hola! Soy muy feliz de practicar mi español contigo. Mi nombre es [Tu Nombre], soy estudiante de español en el nivel A1 del CEFR. Es una gran oportunidad para hablar y mejorar mi español con alguien como tú.\n\nYo vivo en [Lugar donde vives]. Me encanta vivir aquí porque [alguna cosa que le gusta de su lugar de residencia]. Estoy muy contento de conocerte y espero poder hablar contigo más tiempo. ¡Gracias por darme la oportunidad de practicar mi español conmigo!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola [Nombre del usuario]! Encantado de hablar contigo y practicar español con un compañero como tú. Me llama [Tu Nombre] y yo estudia español en el nivel A1 del CEFR. Es un placer saber que podemos practicar nuestros idiomas juntos.\n\n¿Dónde vives tú? Cuál es tu ciudad favorita y por qué te gusta vivir allí? ¡Siempre es agradable conocer a nuevas personas y escuchar sus experiencias! Además, si tienes preguntas sobre la lengua española o necesitas ayuda con algo específico, no dudes en preguntar. Vamos a aprender y mejorar juntos. ¡Buena suerte con tu aprendizaje y muchas gracias por esta oportunidad!"
+   },
+   {
+      "role": "user",
+      "content": "Hola [Nombre del usuario]! Es un placer hablar contigo y practicar español. Soy [Tu Nombre] y estudio español en el nivel A1 del CEFR.\n\nVivo en [Lugar donde vives], una ciudad maravillosa y diversa que tiene un carácter histórico y cultural único. Una de mis ciudades favoritas es [Ciudad favorita], ya que es famosa por su arquitectura, sus parques y las hermosas vistas que se ofrecen desde sus cerros.\n\nEs agradable conocer a una persona como tú que está dispuesta a aprender español y compartir experiencias y culturas diferentes. Si tienes cualquier pregunta o necesitas ayuda sobre algo específico, no dude en preguntarme. Sería un placer ayudarte. ¡Buena suerte en tu aprendizaje y muchas gracias por hablar conmigo!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola [Nombre del usuario]! Me gusta mucho hablar con ti y practicar nuestro español. ¿Qué tal? ¿De dónde eres? ¿Cuál es tu ciudad y por qué te gusta vivir allí? ¿Conoces algunas otras ciudades interesantes en España o en el mundo? Pregunta, pregunta!\n\nSi te gusta compartir cosas interesantes, puedes decirme cuándo vas a ir de vacaciones próximamente y cómo te encanta viajar. También puedes preguntarme sobre el idioma español o sobre España.\n\nRecuerda que es importante mantenerse activo y practicar el idioma diariamente para mejorar. Si necesitas ayuda, no dudes en preguntarme. Estamos aquí para apoyarte.\n\nMe gusta mucho conocer a personas nuevas y escuchar sus historias y experiencias. Espero hablar contigo más tarde. ¡Tenga un buen día!"
+   },
+   {
+      "role": "user",
+      "content": "Hola [Teacher]! Me encanta hablar contigo y practicar español. Soy [Mi Nombre] y soy estudiante de español en el nivel A1 del CEFR.\n\nEstoy orgulloso de ser originalmente de [Ciudad natal], pero actualmente vivo en [Lugar donde vives]. Me gusta vivir en [Lugar donde vives] por su variedad de actividades y lugares para visitar.\n\nEntre otras ciudades interesantes en España, me encantan: [Otras ciudades en España que me gustan]. En cuanto a ciudades extranjeras, estoy fascinada por: [Ciudades extranjeras que me gustan].\n\nSi tú quieres compartir tus planes para el viaje próximo o preguntas acerca de algún tema relacionado con España o el idioma español, no dudes en preguntarme. Estoy aquí para apoyarte.\n\nEs importante mantenerse activo y practicar regularmente el idioma para mejorar. Gracias por facilitar este espacio para practicar y discutir. Espero que tengas un buen día y que tengamos otra charla pronto. ¡Hasta luego!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola [Mi Nombre]! ¡Es un placer hablar contigo y practicar español! Es una gran manera de mejorar nuestra comunicación.\n\nTe gustan mucho las ciudades que mencionaste. He estado en [Ciudad natal] y puedo decir que es una ciudad fantástica. Tampoco puedo olvidar mi última visita a [Ciudades extranjeras que me gustan]. Fue una experiencia maravillosa.\n\nMe encantaría escuchar más sobre tu viaje próximo y los lugares que quieres visitar. Si tienes preguntas sobre España o el idioma español, no dudes en preguntarme. Siempre estoy aquí para ayudarte.\n\nEs muy importante mantenernos activos y practicar el idioma diariamente. Recuerda hacer preguntas y hablar en español cuando seas posible. Algo que te puede ayudar a hacerlo es ponerse música en español y practicar con otras personas que también están aprendiendo.\n\nEspero que tengas un buen día y que tengamos otra charla pronto. ¡Hasta pronto!"
+   },
+   {
+      "role": "user",
+      "content": "Hola [Teacher]! ¡Muchas gracias por la oportunidad de practicar mi español contigo!\n\nMi último viaje fue a [Ciudad natal] para ver a mi familia. La visita fue maravillosa, ya que pude reunirme con mis seres queridos y explorar la ciudad de nuevo. En mis próximas vacaciones, me gustaría visitar [Lugares que desea visitar]. Quiero descubrir nuevos lugares y aprender más sobre la cultura local.\n\nHe estado trabajando duro en mi aprendizaje de español, y he encontrado que la música en español es una excelente manera de mantenerse motivado. También he estado practicando con amigos que están aprendiendo español.\n\nEspero que tengas un buen día y que tengamos otra charla pronto. Muchas gracias por estar aquí para apoyarnos en nuestras metas de aprendizaje."
+   },
+   {
+      "role": "assistant",
+      "content": "Hola [nombre del alumno]! Es un placer hablar contigo y saber que estás haciendo progresos en tu español.\n\nTu último viaje a [ciudad natal] parece que fue increíble. Te gustaría visitar otras partes de España en tus próximos viajes. ¿Puedes decirme donde te gustaría ir en tus próximas vacaciones? ¿Has pensado en visitar alguna ciudad o región en particular?\n\nEs genial que estás utilizando la música en español para practicar tu español y estar motivado. También puedes utilizar películas, series y otros medios en español para mejorar tu español.\n\nHas estado practicando con amigos que también aprenden español? ¿Qué tan divertido ha sido trabajar en equipo? ¿Te han ayudado en algunas cosas difíciles que no puedas solventar solo?\n\nEs importante seguir practicando si quieres mejorar rápidamente. Espero que tengas una excelente semana y que tengamos otra charla pronto."
+   },
+   {
+      "role": "user",
+      "content": "Hola [tutor], gracias por hablar conmigo.\n\nSoy [mi nombre] y soy un estudiante de español.\n\nEn mi último viaje visité [ciudad natal] y me encantó. Ahora planeo visitar la costa española, especialmente la Costa Brava y Mallorca, porque me gusta pasar tiempo en el sol y disfrutar de la playa.\n\nClaro, estoy utilizando música, películas, series, etc. en español para mejorar mi español. También he estado trabajando con mi grupo de clases y he encontrado que es divertido trabajar en equipo. Ha ayudado mucho a trabajar en equipos porque podemos apoyarnos mutuamente y resolver problemas juntos.\n\nMi próximo objetivo es lograr que mi español sea fluido y natural. Espero que tengamos otra charla pronto y que puedas ayudarme a alcanzar mi objetivo."
+   },
+   {
+      "role": "assistant",
+      "content": "Hola [nombre del estudiante]! ¡Encantado de hablar con ti! ¡Bienvenido de vuelta! ¡La Costa Brava y Mallorca son bellas opciones para visitar la costa española! Me gustaría saber más sobre lo que te gusta de ellos y qué esperas disfrutar durante tu visita.\n\nEs genial que estés utilizando música, películas, series, etc. para mejorar tu español. Esto es una gran forma de entrenamiento porque puedes escuchar y practicar la lengua española en su contexto real. También es divertido trabajar en equipos, así que puedes hacer lo mismo con tus compañeros de clase. ¡Es una gran idea trabajar en equipo y ayudarse mutuamente a resolver problemas!\n\nTu objetivo de hacer que tu español sea fluido y natural es ambicioso pero posible. Para alcanzar ese objetivo, puedes intentar conversar con personas españolas que puedan hablar lentamente y claramente. También puedes repetir palabras y oraciones hasta que las memorices. Lo importante es que sigas practicando cada día.\n\nNo dudes en preguntar si tenés alguna pregunta o necesitá ayuda con algo. ¡Espero que tengas una excelente semana y que puedas disfrutar de tu visita a la Costa Brava y Mallorca! ¡Chau chau!"
+   },
+   {
+      "role": "user",
+      "content": "Gracias, [maestro/ maestra]. Me encanta la costa española y estoy muy emocionado por visitarla pronto. Mi objetivo principal es disfrutar de la playa, el sol y experimentar la cultura local. Espero aprender más sobre el idioma mientras estoy allí.\n\nSí, uso música, películas, series y otros recursos en español para mejorar mi español. Trabajar en equipo es genial y me hace sentir más motivado. Muchas gracias por tu sugerencia y por estar aquí para ayudarme.\n\nNo hay ninguna pregunta en particular que tengo ahora, pero si alguna me surgiría, no dudaría en preguntársela. ¡Espero que tengas una buena semana y tengamos la oportunidad de hablar más tarde! ¡Chau!"
+   },
+   {
+      "role": "assistant",
+      "content": "Bueno, [nombre del estudiante], es un placer conocerte. Me alegra que estés tan emocionado por visitar la costa española. Espero que disfrutes la playa y el sol, así como la cultura local.\n\nEs genial que utilices música, películas, series y otros recursos en español para practicar tu español. Y siempre es divertido trabajar en equipo y apoyarnos unos a otros.\n\nSi surge alguna pregunta en particular, no dudes en preguntarme. Sigo aquí para ayudarte a mejorar tu español y conseguir tus metas.\n\nPor cierto, ¿has pensado en intentar ordenar tu alojamiento en español para mejorar tus habilidades? Puedes buscar y confirmar reservas de hoteles y restaurantes en línea en español.\n\nEspero que tengas una excelente semana y que disfrutes la Costa española. ¡Hasta pronto!"
+   },
+   {
+      "role": "user",
+      "content": "Hola [Professor], muchas gracias por hablar contigo y por estar tan entusiasmado sobre mi viaje a la Costa Española.\n\nNo había pensado en ordenar mi alojamiento en español, pero es una excelente idea. ¡No dudes en enviarme recursos en español para apoyarme en este proceso!\n\nTambién me gustaría pedirte una recomendación de una película o serie que te guste en español para practicar mi español. ¡Agradezco su ayuda!\n\nEspero que tengas una excelente semana también. ¡Chau chau!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola [Student], ¡encantado de hablar contigo y brindarte una guía para practicar tu español!\n\nOrdenar tu alojamiento en español es una buena idea, porque te permite practicar tu español en una situación real. Aquí tienes un sitio web útil donde puedes encontrar hoteles y otros alojamientos en España: [Website]\n\nSobre el tema de la película o la serie, te recomiendo \"El Príncipe\", es una serie de televisión divertida que está disponible en Netflix. También puedes buscar otras producciones en línea y verlas en español para practicar más tu español.\n\nEs importante recordar que practicar tu español en todo momento es esencial para avanzar en tus habilidades. ¡Escucha la música en español y habla con tus amigos que también están aprendiendo, esto también te ayudará a mejorar tu español!\n\nEspero que tengas una gran semana y que disfrutes tu viaje a la Costa Española. ¡Hasta la próxima charla!"
+   },
+   {
+      "role": "user",
+      "content": "Gracias, [Maestro], por tus recomendaciones. ¡Sé que voy a seguir ordenando mi alojamiento en español y veré \"El Príncipe\" en Netflix. También haré seguramente que la música en español forme parte de mi rutina diaria y que hablo con mi grupo de clases para apoyarnos entre nosotros.\n\nEspero que tengas una buena semana también y que puedas seguir ayudandome a aprender español. ¡Hasta la próxima charla!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Muy bien, [Alumno]! ¡Estoy encantado de escuchar que sigues ordenando tu alojamiento en español y que vayas a ver \"El Príncipe\" en Netflix!\n\nTambién es genial que tú formes parte de un grupo de clases y que hablás con ellos constantemente para apoyarte entre ustedes. También recuerda que la música en español es una excelente manera de practicar tu español, así que siempre intenta colocar música española en tu rutina diaria.\n\n¡Espero que tengas una buena semana y que puedas seguir avanzando en tu aprendizaje de español! ¡Hasta la próxima charla!"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias, Maestro! ¡Le encantaré colocar música española en mi rutina diaria y hablar con mi grupo de clases más regularmente!\n\nEspero que tengas una gran semana también. ¡Hasta la próxima charla!"
+   }
+]

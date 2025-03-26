@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás? Me alegro de hablar contigo hoy."
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Estoy bien, gracias por preguntar. Yo también me alegra mucho hablar contigo hoy. ¿Y tú cómo estás?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bueno que estás bien! ¡Me alegro mucho! Y yo también estoy muy bien, gracias. ¿Dónde vives?"
+   },
+   {
+      "role": "user",
+      "content": "Vivo en una ciudad linda cerca de la montaña. La vista desde mi ventana es maravillosa. ¿Y tú, dónde vives?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena genial! Yo vivo en una ciudad cerca del mar. La vista es hermosa y siempre está lloviendo un poco. ¿Tienes mascotas?"
+   },
+   {
+      "role": "user",
+      "content": "Eso parece precioso vivir cerca del mar. Sí, tengo un perro llamado Max, es muy travieso pero adoro estar con él. ¿Y tú, tienes algún animal de compañía?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bonito tener un perro! Max suena muy divertido. Yo no tengo animales de compañía, pero siempre me gustaría tener uno. ¿Te gusta jugar con Max?"
+   },
+   {
+      "role": "user",
+      "content": "Sí, jugar con Max es uno de mis pasatiempos favoritos. Es muy entretenido correr con él por el parque y jugar con sus pelotitas. ¡A él le encanta! ¿Y tú, qué te gusta hacer en tu tiempo libre?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Jugar con Max suena emocionante! A mí me gusta leer libros cuando tengo tiempo libre. También disfruto viendo películas y comiendo postre. ¿Qué te gusta comer como postre?"
+   },
+   {
+      "role": "user",
+      "content": "¡ Leer libros es un excelente pasatiempo! Para mí, comer una deliciosa tarta de manzana es perfecto después de una larga jornada. ¿Y cuáles son tus autores o géneros favoritos para los libros?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡La tarta de manzana suena tan rica! A mí también me gusta comer algo dulce después del trabajo. Mis géneros favoritos para leer son las historias de hadas y los cuentos de princesas. ¿Has leído alguna historia de hadas recientemente?"
+   },
+   {
+      "role": "user",
+      "content": "¡Las historias de hadas son maravillosas! Aunque no he leído ninguna recientemente, me encantaría escuchar una buena historia de hadas. ¿Podrías contarme una? Por cierto, ¿tienes algún libro favorito sobre hadas que recomiendes?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Claro que puedo contarte una historia de hadas! Una vez había una pequeña hada que vivía en un bosque mágico. Un día, la hada encontró un pollito perdido y decidió ayudarlo a encontrar a su familia. La hada volaba arriba y abajo buscando al pollito y al final lo encontraron. El pollito estaba muy contento y la hada fue felicidad por poder ayudar. ¿No es una buena historia? ¿Cuál es tu libro favorito sobre hadas?"
+   },
+   {
+      "role": "user",
+      "content": "¡Es una maravillosa historia! Me ha encantado la amabilidad de la hada y la felicidad que le trajo ayudar al pollito.\n\nMi libro favorito sobre hadas es \"El Pequeño Hada\" (The Little Fairy), aunque probablemente no sea un título real. En él, el pequeño hada descubre sus propios poderes y ayuda a sus amigos. Me encantan estas historias llenas de magia y bondad. ¿Te interesaría conocer más sobre este tipo de historias mágicas?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Esa es una hermosa historia! Me ha encantado cómo la hada fue tan amable y ayudó al pollito. Es genial que te gusten las historias de magia y bondad.\n\nSí, me encantaría conocer más sobre este tipo de historias mágicas. Tú sabes muchos cuentos bonitos. ¿Puedes contar otro con hadas y magia? Además, ¿has leído algún libro de hadas real que quieras recomendarme?"
+   },
+   {
+      "role": "user",
+      "content": "¡Claro que puedo! Te contará otra historia maravillosa:\n\n---\n\nHabía una vez en un bello bosque mágico, donde vivían hadas de todas las formas e infinidades de colores. En el centro del bosque había un gran lago donde las hadas solían reunirse cada noche bajo el resplandor de la luna. Una noche, una nueva heda llamada Lila nació con el poder de controlar el agua. Al principio se sentía nerviosa y asustada porque temía no ser lo suficientemente buena.\n\nUn viejo hada conocido como Marisela, quien era la guardiana del lago, notó que Lila tenía dificultades y la invitó a pasar la noche junto a ella. Marisela le enseñó a Lila cómo ser valiente y cómo usar sus habilidades para proteger el bosque y sus habitantes.\n\nGracias a la paciencia y el amor incondicional de Marisela, Lila aprendió a dominar sus poderes y pronto se convirtió en una hada protectora del bosque. Desde entonces, Lila y Marisela siguen siendo inseparables y juntas cuidan del hermoso lugar en el que viven.\n\n---\n\n¡Espero que te haya gustado esta historia! ¿Hay algún libro específico de hadas que hayas leído y te gustaría que te recomendará?\n\nPor cierto, si quieres, podemos continuar leyendo más historias juntos. ¿Qué opinas?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bonita historia! Me ha encantado cómo Lila aprendió a ser valiente y a usar sus poderes. Es una lección importante para todos nosotros, tanto para humanos como para hadas.\n\n¿Me puedes contar cuál es tu libro favorito de hadas basado en esta historia? ¿Hay alguno en particular que te haya marcado? Además, si quieres, podemos seguir leyendo más historias juntas. ¿Te interesa continuar?"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Me alegra que te haya gustado la historia. Basándome en esa narrativa, mi libro favorito sería \"La Hada Protectora\" (The Guardian Fairy). Esta historia cuenta la aventura de una hada joven que, con la ayuda de su maestra, aprende a controlar sus poderes y a ser valiente. Es una historia que siempre me ha inspirado con su mensaje de crecimiento personal y lealtad.\n\nSi nos interesa, continuemos leyendo más historias juntas. ¿Te parece bien si te cuento una adaptación de \"La Hada Protectora\"? ¿O prefieres que busquemos un libro real y lo leamos juntos?"
+   }
+]

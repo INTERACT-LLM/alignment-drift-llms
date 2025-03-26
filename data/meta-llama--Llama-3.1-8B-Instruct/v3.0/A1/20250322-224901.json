@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡hola! ¿Cómo estás?"
+   },
+   {
+      "role": "user",
+      "content": "Hola, estoy bien gracias. Y tú? ¿Qué tal el fin de semana?"
+   },
+   {
+      "role": "assistant",
+      "content": "Estoy bien también, gracias. El fin de semana fue muy bueno. Fui al parque con mis amigos. ¿Tú tienes amigos que te gustan hacer cosas juntos?"
+   },
+   {
+      "role": "user",
+      "content": "Sí, tengo algunos amigos con los cuales me gusta ir al cine o jugar fútbol. Me encanta pasar tiempo con ellos, siempre hay algo divertido en lo que estamos haciendo. ¿Te gusta jugar fútbol?"
+   },
+   {
+      "role": "assistant",
+      "content": "Sí, me gusta jugar fútbol. También me gusta jugar un poco con mis hermanos en casa. No soy muy bueno, pero es divertido. ¿Dónde vives? ¿En Madrid?"
+   },
+   {
+      "role": "user",
+      "content": "No, vivo en Barcelona. Es una ciudad muy animada y me gusta mucho. En verano, cuando no hay clase, suelo quedarme allí con mi familia. A veces me gustaría vivir cerca del mar, porque amo ir a la playa y nadar en el Mediterráneo. ¿A ti te gusta el mar?"
+   },
+   {
+      "role": "assistant",
+      "content": "Me encanta el mar. Vivo cerca de la playa aquí en Madrid, pero me gusta ir a la costa para relajarme. La playa de la Costa Brava es hermosa. ¿Sabes qué es la Costa Brava? Está en Cataluña, donde está Barcelona. ¿Cuántos años tienes?"
+   },
+   {
+      "role": "user",
+      "content": "Sí, conozco la Costa Brava. Es un lugar precioso. Hay muchas playas y paisajes naturales impresionantes allí. Me alegra saber que sabes dónde está situada.\n\nYo tengo 20 años. ¿Y tú? ¿Cuántos años tienes?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! Tengo 22 años. ¡Eso es solo dos años más que tú! Me parece que eres joven para estar hablando español tan bien. ¿Eres estudiante de español? ¿Por qué estudiaste español?"
+   },
+   {
+      "role": "user",
+      "content": "Gracias por tu cumplido. Sí, estudio español como lengua extranjera en la universidad. Me interesa la cultura y la historia de España y Latinoamérica, y creo que aprender español me abriría más puertas a nuevas oportunidades en el futuro. Además, mi abuela es catalana y habla español en casa conmigo y mis padres, así que he crecido rodeado de la lengua."
+   },
+   {
+      "role": "assistant",
+      "content": "Es genial que estudies español. La cultura y la historia de España y Latinoamérica son muy ricas y interesantes. Me alegra saber que también tienes raíces españolas a través de tu abuela catalana. ¿Te gusta escuchar historias sobre tu abuela y su infancia en Cataluña?"
+   },
+   {
+      "role": "user",
+      "content": "Sí, me encanta escuchar historias de mi abuela sobre su niñez en Cataluña. Me cuenta cuentos y recuerdos de cómo era la vida allí hace muchos años, y me fascina conocer más sobre la cultura y la tradición catalanas. Me ha contado sobre las fiestas y celebraciones típicas en Cataluña, como la Tomatina en Buñol y la Mercè en Barcelona. Me gustaría visitar Cataluña algún día y experimentarlo todo en persona. ¿Has estado alguna vez en Cataluña?"
+   },
+   {
+      "role": "assistant",
+      "content": "Sí, he estado varias veces en Barcelona y me encantó la energía de la ciudad y la gente. La Sagrada Familia es impresionante, y el barrio gótico es muy bonito. Pero nunca he ido a la Tomatina en Buñol, aunque me dice mucha gente que es un acontecimiento divertidísimo. ¿Quieres saber qué significa \"tomate\" en español?"
+   },
+   {
+      "role": "user",
+      "content": "La Tomatina es famosa por el lanzamiento de tomates. Sí, quiero saber qué significa \"tomate\". ¿Es algo que se refiere a un fruto específico de América?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Exactamente! Un tomate es un fruto rojo comestible que viene de América. Se come fresco o cocinado, y es muy popular en Europa, especialmente en España. En la Tomatina, se lanza tomates a los participantes como juego, y es muy divertido. Me parece que un día debemos hablar sobre comida y platos típicos de diferentes países. ¿Qué es lo que comes a menudo en un día normal?"
+   },
+   {
+      "role": "user",
+      "content": "Me parece una excelente idea hablar sobre comida y platos típicos. En un día normal, como estudiante, suele ser rápido y sencillo. Me gusta comer pasta o arroz con verduras, y a veces un bocadillo de jamón ibérico o un pan con aceite y tomate. Mi abuela me enseñó a preparar una sopa de verduras casera que es deliciosa. ¿Tú, qué te gusta comer a menudo?"
+   },
+   {
+      "role": "assistant",
+      "content": "Los platos que mencionas suenan deliciosos. Yo me gusta comer tortilla de patatas, gazpacho en verano y pollo al curry. Mi madre me enseñó a cocinar estos platos cuando estaba pequeño. También me encanta el pan con alioli, es un clásico español. ¿Sabes qué es el alioli?"
+   },
+   {
+      "role": "user",
+      "content": "Sí, sé qué es el alioli. Es una salsa tradicional catalana que se hace con aceite de oliva, ajillo picado y a veces limón. Es muy popular en Cataluña y se sirve con pan, croquetas o como condimento para ensaladas. Me encanta el sabor intenso del alioli. Mi abuela me enseñó a hacerlo desde que era pequeño, y ahora lo hago con facilidad. ¿Sabes hacer alioli sin la ayuda de un robot de cocina?"
+   }
+]
