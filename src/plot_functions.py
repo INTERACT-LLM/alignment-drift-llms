@@ -91,7 +91,7 @@ def line_plot_variables(
                 ax.set_ylabel(" ".join(word.capitalize() for word in y_var.split("_")))
 
             if i == 0 and j == n_cols - 1:
-                ax.legend(title=group_var.capitalize())
+                ax.legend(title=group_var.capitalize(), fontsize=13)
 
     plt.tight_layout(rect=[0, 0.03, 1, 0.95])
 
