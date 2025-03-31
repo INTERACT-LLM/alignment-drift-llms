@@ -20,7 +20,7 @@ def line_plot_variables(
     ci_vars: list[str] = None  # Optional parameter for confidence intervals
 ) -> matplotlib.figure.Figure:
     # Ensure group_var is provided
-    models = sorted(df[model_var].unique().to_list())
+    models = df[model_var].unique().to_list()
     groups = df[group_var].unique()
 
     # Prepare the color palette for the groups
@@ -102,7 +102,7 @@ def violin_plot(
     If compute_error_bars is True, adds error bars representing standard deviation.
     """
     # get unique models and groups
-    models = sorted(df[model_var].unique().to_list())
+    models = df[model_var].unique().to_list()
     groups = df[group_var].unique().to_list()
 
     n_rows = len(x_vars)
@@ -178,7 +178,7 @@ def distribution_plot(
     if density_lines and not normalize:
         raise ValueError("Density lines are always normalized. Set normalize=True when using density_lines=True.")
     
-    models = sorted(df[model_var].unique().to_list())
+    models = df[model_var].unique().to_list()
     groups = df[group_var].unique().to_list()
     
     n_rows = len(x_vars)
