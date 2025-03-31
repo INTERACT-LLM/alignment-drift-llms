@@ -4,6 +4,13 @@ from pathlib import Path
 import polars as pl
 
 
+DIR_NAMES = [
+            "google--gemma-3-12b-it",
+            "meta-llama--Llama-3.1-8B-Instruct", 
+            "mistralai--Mistral-7B-Instruct-v0.3",
+            "Qwen--Qwen2.5-7B-Instruct",
+]
+
 @dataclass
 class DataFile:
     dir_name: str
@@ -50,17 +57,9 @@ def read_data(data_dir: Path | list[Path]) -> pl.DataFrame:
 def main(): 
     version = 3.0
 
-    dir_names = [#"mlx-community--Qwen2.5-7B-Instruct-1M-4bit", 
-                 #"mlx-community--meta-Llama-3.1-8B-Instruct-4bit"
-                 "meta-llama--Llama-3.1-8B-Instruct", 
-                 "meta-llama--Llama-3.3-70B-Instruct-Turbo",
-                 "Qwen--Qwen2.5-7B-Instruct",
-                 "mistralai--Mistral-7B-Instruct-v0.3",
-                 ]
-
     data_paths = [
         Path(__file__).parents[1] / "data" / dir_name / f"v{version}"
-        for dir_name in dir_names
+        for dir_name in DIR_NAMES
     ]
 
     df = read_data(data_paths)
