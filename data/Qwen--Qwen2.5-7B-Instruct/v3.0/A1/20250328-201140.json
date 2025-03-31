@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás hoy? ¿Te sientes bien?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Estoy bien, gracias por preguntar. ¿Y tú? ¿Cómo estás hoy?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Me alegra saber que estás bien! Yo también estoy bien, gracias. ¿Y tú, dónde vives?"
+   },
+   {
+      "role": "user",
+      "content": "Vivo en un pequeño pueblo cerca de la ciudad. ¿Y tú, de dónde eres? ¿Has vivido mucho tiempo aquí?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Gracias por tu respuesta! Vivo en una ciudad grande. No, no he vivido aquí mucho tiempo. Soy nuevo aquí. ¿Tienes mascotas? Yo no tengo mascotas, pero mi vecino tiene una gata bonita."
+   },
+   {
+      "role": "user",
+      "content": "Entiendo, es interesante. No tengo mascotas yo tampoco, pero me encantaría tener un perro. Al menos donde vivo hay mucho espacio para correr y jugar. La gata de tu vecino suena preciosa. ¿Sabes cómo se llama?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso sería genial! Un perro sería divertido. Sí, cerca de mi casa hay mucho espacio también. La gata se llama Luna. Es muy bonita con pelos blancos. ¿Dónde vives? En el pueblo o en la ciudad?"
+   },
+   {
+      "role": "user",
+      "content": "Soy del pueblo, así que supongo que extraño un poco ese tipo de vida tranquila. Me encantaría ver a Luna algún día, suena como una hermosa compañera. ¿Hay algún lugar especial en la ciudad donde te guste ir a pasear a Luna?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena bonito! Del pueblo sí, puedo entender eso. ¡Qué lindo que quieres conocer a Luna!\n\nEn mi ciudad, mi vecino y yo nos gusta mucho pasear por el parque principal. Hay muchas cosas interesantes allí, y a Luna le gusta mucho caminar y explorar. ¿Te gustan los parques? ¿Hay algún parque donde vives?"
+   },
+   {
+      "role": "user",
+      "content": "Sí, me encantan los parques. Aunque soy del pueblo, tenemos algunos bellos parques también. El más cercano a mi casa es muy acogedor y tiene una hermosa laguna donde a menudo veo pájaros. ¡Seguro que el parque donde paseas a Luna es bonito también! ¿Algún día podrías llevarte a Luna a mi parque y a mí? Sería divertido conocerla."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena emocionante! Sí, nuestro parque es muy bonito. Habría que llevar a Luna al tuyo algún día. Eso podría ser mucho diversión para ella y para ti.\n\nEl parque en mi ciudad tiene un gran jardín con flores y una laguna también, pero sin tantos pájaros como el tuyo. Las personas allí tienen muchas aves como patos y cisnes. Podríamos tratar de llevar a Luna un día y ver si las aves se acercan a ella. ¿Cuándo podríamos hacerlo?"
+   },
+   {
+      "role": "user",
+      "content": "Eso suena fantástico! Me encantaría que Luna visitara mi parque. Probablemente podamos planificar algo para finales de semana próximo cuando el clima sea bueno. Así tendrás la oportunidad de ver cómo reacciona a los patos y cisnes. ¡Nos vemos entonces!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! Sí, espero que sea un buen fin de semana para salir. Luna probablemente estará muy contenta con el nuevo entorno.\n\nNos vemos el próximo sábado o domingo. Espero verte pronto y conocer a Luna en tu parque tan hermoso.\n\nHasta pronto y cuídate mucho. ¡Adiós!"
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Nos vemos el próximo sábado o domingo. Estoy muy emocionado por conocer a Luna y disfrutar del parque contigo. Cuídate mucho también y hasta pronto!\n\n¡Adiós y hasta luego!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Espero verte también! Que tengas un buen fin de semana. Nos vemos pronto.\n\n¡Adiós y hasta luego!"
+   },
+   {
+      "role": "user",
+      "content": "¡Espero verte también! Que tengas un buen fin de semana y nos vemos pronto.\n\n¡Adiós y hasta luego!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Que tengas un buen fin de semana también! Hasta luego y hasta pronto.\n\n¡Adiós!"
+   },
+   {
+      "role": "user",
+      "content": "¡Que tengas un buen fin de semana también! Hasta luego y hasta pronto.\n\n¡Adiós!"
+   }
+]

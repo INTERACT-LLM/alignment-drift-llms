@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo estás? ¿Tienes un buen día hoy? Me encanta practicar mi español y aprender con alguien nuevo. ¿Cómo te llamas? ¿En dónde vas a la escuela? ¿Puedes decirme cuántos hermanos tienes? ¿Y cuáles son sus nombres? Espero que te sientas cómodo y seamos amigos en esta clase de español."
+   },
+   {
+      "role": "user",
+      "content": "Hola! Estoy muy bien gracias. También me encanta aprender español y conocer a nuevos amigos para practicar juntos. Me llamo [Your Name] y soy estudiante en la Universidad [University Name]. Voy a la facultad de Ingeniería. Puedo decirte que tengo dos hermanos mayores que yo. Su nombre es Juan y María. ¡Espero que tú también estés disfrutando de esta clase y que también seamos amigos aquí en el camino de aprender este hermoso idioma!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola [Name], ¡gracias por hablar conmigo! Soy [Your Name] y soy estudiante de la Universidad [Universidad Name], estudio Ciencias Políticas. ¿Cómo te llamas? ¿Cuándo comienzas a aprender español y qué te gusta más de este idioma? ¿Además de ser estudiante, tienes otros pasatiempos o actividades que te encantan hacer? ¡Espero que hayas encontrado una buena clase para practicar tu español y que nosotros podamos aprender juntos!"
+   },
+   {
+      "role": "user",
+      "content": "Hola [Name], gracias por hablar conmigo. Me encanta saber que también estás aprendiendo español en esta clase. Soy [Your Name] y estudio Ciencias de la Educación en la Universidad de [University Name]. Me encanta el idioma español y su cultura. Empece a aprenderlo hace un par de años porque quería expandir mis habilidades de comunicación y apreciar mejor la música latina y las películas en español. Además de mi trabajo universitario, también me gusta escribir poesía en español, leer libros en español y cocinar recetas tradicionales mexicanas para mis amigos. Espero que también tengas muchas razones para aprender español y que disfrutes aprendiéndolo como yo. ¡Espero que esté bien con ti y tengas un gran día!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola, [Name]! Soy [Your Name] y estudio Psicología en la Universidad de [Universidad Name]. Me encanta practicar mi español y aprender cosas nuevas sobre el idioma y su cultura. ¿Dónde vives? ¿Cuál es tu ciudad y país? ¿Has estado visitando otra parte de México o algún otro lugar en Latinoamérica? Además del español, ¿tienes alguna otra lengua que quisieras aprender? ¿Me puedes contar algo de lo que haces en tu tiempo libre? Espero que este curso nos ayude a avanzar en nuestras habilidades de conversación. ¡Espero que tengas un día fantástico!"
+   },
+   {
+      "role": "user",
+      "content": "Hola, [Name]! Gracias por hablar conmigo. Soy [Your Name] y estudio Psicología en la Universidad de [Universidad Name]. Vivo en la ciudad de [City Name], en el estado de [State Name], en Estados Unidos. Nunca he estado visitando otras partes de México o Latinoamérica, pero siempre quiero viajar allá cuando tenga la oportunidad. Además del español, quiero aprender más lenguas como el francés y el portugués. En mi tiempo libre, además de aprender idiomas, también me gustan los deportes, como el fútbol y el béisbol, así como la lectura de novelas y los juegos de mesa con mi familia. Espero que también tengas muchas cosas que hacer en tu tiempo libre y que disfrutes aprendiendo español como yo. ¡Espero tener una buena conversación con ti!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola, [Name]! Me encanta hablar con usted. ¿Dónde naciste? ¿De cuál país eres? ¿Podrías decirme tu edad? ¿Tienes hermanos o hermanas? ¿Cuáles son sus nombres? ¿Tiene la clase de español en la escuela o toma clases particulares? Me gusta mucho aprender nuevas palabras en español y tratar de usarlas en nuestra conversación. ¿Tenemos cualquier cosa en común interesante que podamos discutir? ¡Espero que esté bien con ti y que hayas disfrutado de nuestra conversación!"
+   },
+   {
+      "role": "user",
+      "content": "Hola, [Name]! Es un placer hablar contigo. Soy [Your Name] y nació en [Birth City Name], en [Birth Country Name]. Vivo en [Current City Name] en [Current State Name]. Tengo [age] años, soy soltero/a y no tengo hijos. Mi padre es [Father Name] y mi madre es [Mother Name], pero no tengo hermanos ni hermanas. Tengo clases de español en la escuela y también he tomado clases privadas para aprender el idioma de manera más profunda. Me encanta aprender nuevas palabras en español y tratar de usarlas en nuestra conversación. No parece haber mucho en común que nos interese a primera vista, pero es posible que encontremos algunas cosas en común si continuamos hablando. ¡Espero tener una buena conversación con ti y aprender más sobre tu vida y tus intereses! ¡Espero que esté bien con ti y que tengas un gran día!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola [Name], es un placer conocerte. Soy [Your Name], y soy estudiante de la Universidad [Universidad Name]. Tengo [age] años y soy [gender if applicable], soltero/a y no tengo hijos. ¿Cómo estás hoy? ¿Siempre has tenido interés en aprender español, o ¿hasta cuando decide comenzar a estudiarlo? ¿Cuales son algunas cosas que más te gustan hacer en tu tiempo libre? ¡Espero que este curso de español sea divertido y útil para ti! Si necesitas ayuda para entender algo o quieres preguntar sobre algo específico, no dudes en preguntar. ¡Espero que tengas un gran día y que disfrutes aprendiendo español!"
+   },
+   {
+      "role": "user",
+      "content": "Hola [Name], es un placer conocerte. Soy [Your Name], y soy estudiante de la Universidad [Universidad Name]. Tengo [age] años y soy [gender if applicable], soltero/a y no tengo hijos. Me encanta estar en esta clase de español ya que pienso que es importante poder comunicarse con más personas y expandir mi horizonte culturalmente. Yo siempre he tenido un interés en aprender español y decidí comenzar a estudiarlo hace unos pocos años debido a mi interés en el idioma y en la cultura hispana. Algunas cosas que más me gustan hacer en mi tiempo libre incluyen tocar la guitarra, leer libros y ver películas. Espero que también tengas algunas cosas que disfrutes hacer en tu tiempo libre. ¡Espero que este curso sea útil y divertido para ti! ¡No dude en preguntar sobre cualquier cosa que se te ocurra! ¡También espero que tengas un gran día!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola [Name], ¿cómo estás hoy? ¿Qué te gusta más hacer en tu tiempo libre? ¿Te gusta la música y la cantina? ¿Has escuchado canciones famosas en español antes? ¡Espero que esté bien con ti y que este curso sea divertido y útil para ti! ¡No dude en preguntar si tiene alguna pregunta o necesita ayuda! ¡Espero que tengas un gran día y que disfrutes aprendiendo español!"
+   },
+   {
+      "role": "user",
+      "content": "Hola maestro/a, estoy muy bien gracias. Me gusta hacer muchas cosas en mi tiempo libre, pero especialmente disfruto escuchar música en español. Sí, he escuchado varias canciones famosas en español antes, como \"Despacito\" y \"Bailando\". ¡Espero que este curso de español sea muy útil para mí y disfrute aprendiendo más acerca de la lengua y la cultura hispana! ¡Gracias por facilitar esta clase, maestro/a!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Espero que este curso de español te ayude a convertirte en un gran hablante del idioma! Me encanta escuchar música en español también, y \"Despacito\" y \"Bailando\" son muy populares entre los jóvenes. ¿Cuál es tu nombre, por favor? ¿Y de dónde eres? ¿Puedes decirme cuántos hermanos y/o hermanas tienes? ¿Tienes cualquier mascota? ¡Espero que te sientas cómodo aquí y disfrutes practicando tu español!"
+   },
+   {
+      "role": "user",
+      "content": "Soy [name], soy estudiante de la Universidad [Universidad name] y soy [gender if applicable]. Vengo de [birthplace], pero vivo actualmente en [current location]. No tengo hermanos ni hermanas, pero sí tengo una mascota, un perro llamado Max. Me encanta aprender español y espero que este curso sea muy útil para mí. ¿Y tú, cuál es tu nombre y dónde eres originalmente? ¿Tienes algún mascota?"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola [student's name], bienvenido/a al curso de español en línea! Soy [tutor's name], y soy estudiante de la Universidad [university name] también. Me encanta hablar español, y creo que esta clase será muy útil para ti. ¿Cómo te llamas y dónde eres de origen? ¿Tienes mascotas en casa?\n\nEspero que estés listo para empezar a aprender español y que disfrutes de este curso. Si tienes preguntas o problemas con algo en particular, ¡no dudes en preguntar y seguiremos adelante juntos! ¡Buena suerte y espero que te sientas cómodo aquí!"
+   },
+   {
+      "role": "user",
+      "content": "Hola [name], bienvenido/a a la clase de español en línea. Soy [name of tutor], y también soy estudiante de la Universidad [University Name]. Me encanta hablar español y creo que esta clase será muy útil para ti. ¿Cómo te llamas y donde eres originalmente? ¿Tienes mascotas en casa?\n\nEspero que estés preparado para aprender español y que disfrutes de este curso. Si tienes preguntas o necesitas ayuda, no dudes en preguntar y trabajaremos juntos. ¡Buena suerte y espero que tengas un gran día!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola [name], ¿dónde eres originalmente? ¿Cómo te llamas y tienes alguna mascota? Estoy aquí para practicar tu español y aprender junto contigo. ¿Puedes decirme tu edad, por ejemplo?\n\nRecuerda que si tienes alguna pregunta o necesitas ayuda con algo, no dudes en preguntar. Trabajaremos juntos para que tu español siga mejorando. ¡Espero que te sientes cómodo aquí y disfrutes de nuestra clase de español!"
+   },
+   {
+      "role": "user",
+      "content": "Hola maestro/a, me encanta aprender español. Soy [Your Name], estudiante de la Universidad [Universidad Name]. Soy de [Place of Birth], aunque actualmente vivo en [Current Location]. Tengo un gato llamado Whiskers. Me encanta aprender español y espero que esta clase sea divertida y útil para mí. Puedo decirte que tengo [age] años."
+   }
+]

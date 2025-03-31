@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás hoy? ¿Te sientes bien o estás un poco cansado/a?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Me siento bien, gracias por preguntar. Y tú, ¿cómo estás hoy?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! Gracias por preguntar. ¿Has desayunado ya?"
+   },
+   {
+      "role": "user",
+      "content": "Sí, he desayunado. He tenido cereal con leche y una manzana. Y你这句话的西班牙语翻译是什么？"
+   },
+   {
+      "role": "assistant",
+      "content": "Esa frase no está en español, pero la traducción sería:\n\n\"Sí, he desayunado. He tenido cereal con leche y una manzana.\" \n\n¿Cómo estás hoy después del desayuno? ¿Te gustaría hablar de algo más?"
+   },
+   {
+      "role": "user",
+      "content": "Claro, ¡gracias! Después del desayuno me sigo sintiendo bien. ¿Quieres charlar sobre algún tema específico en español? Por ejemplo, podemos hablar sobre tus planes para el día o aprender nuevas palabras relacionadas con la comida."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué buena idea! Vamos a hablar sobre tus planes para el día. ¿Tienes algo planeado hoy? Si no, podemos aprender algunas palabras sobre la comida. ¿Te parece bien?\n\nYo voy al mercado para comprar algunos ingredientes para hacer ensalada. ¿Sabes qué es una ensalada? Es muy saludable."
+   },
+   {
+      "role": "user",
+      "content": "¡Claro, suena genial! Mis planes para hoy son estudiar un poco más de español y luego maybe hacer algo relajante como leer un libro.\n\nSobre la comida, sí, puedo ayudarte a aprender algunas palabras. Una ensalada es un plato muy saludable que generalmente se compone de varias verduras cortadas en trozos pequeños, a veces también incluye frutas, proteínas como pollo u otros alimentos crudos y se acompaña de aceite y vinagre para condimentarlo.\n\n¿Puedo practicar contigo las palabras nuevas? Aquí van algunas:\n\n- Verdad, \"ensalada\" significa salad.\n- \"Verduras\" se dice \"vegetables\".\n- \"Trozos pequeños\" es \"trozos chicos\".\n- \"A veces\" se traduce como \"a veces\".\n\nAhora, ¿me puedes decir cómo se dice \"voy al mercado\" en español?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bueno que tienes planes para estudiar más español! Espero que disfrutes leyendo tu libro también.\n\nPerfecto, vamos a practicar algunas palabras sobre la comida. Sí, \"ensalada\" significa \"salad\", \"verduras\" es \"vegetales\", \"trozos pequeños\" es \"trozos chiquitos\" y \"a veces\" se dice \"a veces\" igual que en español.\n\nAhora, \"voy al mercado\" se dice \"voy al mercado\". ¿Puedes repetir esa oración conmigo?\n\nPrimero digo: \"Voy al mercado\". Luego tú lo copies. ¿Listo?"
+   },
+   {
+      "role": "user",
+      "content": "¡Listo! Voy a repetir después de ti.\n\nPrimero dices: \"Voy al mercado\". Ahora yo copiaré: \"Voy al mercado\"."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Muy bien! Veamos si lo hiciste correctamente. Dijiste: \"Voy al mercado\".\n\nCorrecto, perfecto! ¿Te gustaría practicar más? Por ejemplo, podrías decirme dónde te compras la ensalada o cuáles son tus verduras favoritas.\n\nPor ejemplo, ¿tienes alguna verdura favorita? ¿Cuál es tu preferida?"
+   },
+   {
+      "role": "user",
+      "content": "¡Claro, me encantaría practicar más! Mi verdura favorita es la lechuga porque es fresca y no tiene muchas calorías. En mi país, las lechugas se venden en varios tipos diferentes, como la lechuga romana o la lechuga iceberg.\n\nEn español, eso podría decirse así:\nMis verduras favoritas son las lechugas porque son frescas y no tienen muchas calorías. En mi país, venden diferentes tipos de lechugas, como la lechuga romana o la lechuga iceberg.\n\n¿Podrías repetir esto conmigo para práctica? Primero di: \"Mis verduras favoritas son las lechugas...\" Y luego copiaré tu frase."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Claro, ¡vamos a practicarlo juntos!\n\nPrimero digo: \"Mis verduras favoritas son las lechugas porque son frescas y no tienen muchas calorías. En mi país, venden diferentes tipos de lechugas, como la lechuga romana o la lechuga iceberg.\"\n\nAhora tú copias mi frase:\n\n\"Mis verduras favoritas son las lechugas porque son frescas y no tienen muchas calorías. En mi país, venden diferentes tipos de lechugas, como la lechuga romana o la lechuga iceberg.\""
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Voy a repetir la frase exactamente como tú dijiste:\n\nMis verduras favoritas son las lechugas porque son frescas y no tienen muchas calorías. En mi país, venden diferentes tipos de lechugas, como la lechuga romana o la lechuga iceberg."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Muy bien! Lo hiciste excelente. Veamos si todo está correcto:\n\n\"Mis verduras favoritas son las lechugas porque son frescas y no tienen muchas calorías. En mi país, venden diferentes tipos de lechugas, como la lechuga romana o la lechuga iceberg.\"\n\nTu respuesta es casi perfecta, solo falta poner un punto al final para completar la segunda oración:\n\n\"Mis verduras favoritas son las lechugas porque son frescas y no tienen muchas calorías. En mi país, venden diferentes tipos de lechugas, como la lechuga romana o la lechuga iceberg.\"\n\nPerfecto, ahora vamos a practicar algo nuevo. ¿Conoces los vegetales que suelen servir en la ensalada? ¿Quizás tomates, pepinos o cebolla?"
+   },
+   {
+      "role": "user",
+      "content": "¡Sí, conocidos! En una ensalada comúnmente se sirven tomates, pepinos y cebolla. También pueden agregarse otras verduras como lechugas, apio y zanahorias.\n\nAquí están esas palabras en español:\n\n- Tomates: tomates\n- Pepinos: pimientos (en España) o pepinos (en América)\n- Cebolla: cebolla\n\nAhora, ¿te gustaría practicar diciendo una frase sobre uno de estos vegetales? Por ejemplo, podrías decir \"Me gusta comer tomates en la ensalada\"."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Muy buenos ejemplos! Vamos a practicar con estas palabras.\n\nPrimero digo: \"Me gusta comer tomates en la ensalada.\"\nLuego tú repites: \"Me gusta comer tomates en la ensalada.\"\n\nAhora, ¿querías probar con otro vegetal? Por ejemplo, podrías practicar con los pimientos o la cebolla. ¿Qué te parece si empezamos con la cebolla?\n\nDigo: \"Me gusta comer cebolla en la ensalada.\"\nLuego tú repites: \"Me gusta comer cebolla en la ensalada.\""
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Voy a repetir tu frase:\n\nMe gusta comer cebolla en la ensalada.\n\nAhora, ¿quieres practicar con otra verdura? Podemos probar con los pimientos.\n\nDigo: \"Me gusta comer pimientos en la ensalada.\"\nLuego tú repites: \"Me gusta comer pimientos en la ensalada.\""
+   }
+]

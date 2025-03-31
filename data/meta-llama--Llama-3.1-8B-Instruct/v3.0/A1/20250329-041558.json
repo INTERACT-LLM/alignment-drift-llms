@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola, ¿cómo estás? \n\n(Estoy aquí para hablar contigo.)"
+   },
+   {
+      "role": "user",
+      "content": "Me alegra verte, gracias por recibirme. Estoy un poco nervioso porque no estoy seguro si hablo correctamente el español todavía."
+   },
+   {
+      "role": "assistant",
+      "content": "No te preocupes. No importa cómo hables. Me alegra ayudarte a practicar tu español. ¿De dónde eres?"
+   },
+   {
+      "role": "user",
+      "content": "Soy de... (pausa) Estados Unidos, pero vivo en Europa durante unos meses con mi familia mientras estudio universidad allí. ¿Y tú? ¿De dónde eres?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! Estados Unidos es un país muy interesante. Me alegra que puedas estudiar aquí en Europa. Yo soy de España y vivo aquí en esta ciudad desde hace muchos años. ¿Cuál es el nombre de la ciudad donde vives ahora?"
+   },
+   {
+      "role": "user",
+      "content": "La ciudad donde vivo ahora se llama París. Es una ciudad muy bonita, ¡hay tanto que ver y hacer aquí! Pero también me cuesta un poco adaptarme a hablar español cuando estoy aquí con mis amigos que solo hablan francés o inglés."
+   },
+   {
+      "role": "assistant",
+      "content": "¡París es una ciudad impresionante! Hay mucha historia y cultura allí. Entiendo lo del lenguaje, puede ser difícil cuando todos hablan otros idiomas. ¿Hablas un poco de francés? Quizás eso te ayude un poco para comunicarte con tus amigos. ¿Quieres intentarlo conmigo? Puedo preguntarte algo en francés y tú respondes. ¡Vamos a practicar juntos!"
+   },
+   {
+      "role": "user",
+      "content": "¡Eso suena como una idea genial! Sí, sé algunas frases básicas de francés. Mi profesor de español me dice que hay mucho vocabulario y gramática similares entre ambos idiomas, así que creo que puedo entender algunas cosas. ¡Adelante, pregunta algo!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente! Entiendo que hay muchas similitudes entre los dos idiomas. ¿Cuántos años tienes?"
+   },
+   {
+      "role": "user",
+      "content": "Tengo veinte años. ¿Cómo se dice \"veinte\" en francés? Quiero aprender a contar en francés también."
+   },
+   {
+      "role": "assistant",
+      "content": "Veinte se dice \"vingt\" en francés. ¡Muy bien hecho! Tienes razón, hay muchas palabras similares entre español e inglés y francés. Ahora, dime: si tienes veinte euros, ¿cuánto tendrías que dar si quieres comprar algo que cuesta cinco euros?"
+   },
+   {
+      "role": "user",
+      "content": "Creo que tendría que dar... cinco euros. Si tengo veinte y quiero comprar algo que cuesta cinco, entonces le daría diez euros, ¿no? ¿O debería decir \"cinco euros quince\"?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Exactamente! Lo que necesitas restar es el precio del artículo, que son cinco euros, de los veinte que tienes, por lo que quedan 20 - 5 = 15 euros que debes devolverle al vendedor. La forma correcta de expresarlo es diciendo \"diecisiete euros\" (perdona el error en tu respuesta anterior, \"diez\" no es correcto). ¡Bien por intentarlo! ¿Sabes qué significa \"diecisiete\"?"
+   },
+   {
+      "role": "user",
+      "content": "Gracias por corregirme! Me alegra saber que aprendí algo nuevo. Diecisiete... Creo que significa... 17. Un número que es 7 más que 10, ¿verdad?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡ Exacto! Diecisiete significa efectivamente 17. Has entendido perfectamente. La raíz del número diecisiete es \"diez\", que es 10, y luego \"siete\" que ya sabemos lo que es. Eres muy listo. ¿Sabes cuántos días de la semana hay?"
+   },
+   {
+      "role": "user",
+      "content": "Me alegra saber que entiendo la forma en que funcionan las números españoles y franceses. Los días de la semana... Recuerdo que mi profesor de español me enseñó... Lunes, martes, miércoles, jueves, viernes, sábado y domingo. ¿Es correcto?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Absolutamente correcto! Los siete días de la semana en español son:\n\n* Lunes\n* Martes\n* Miércoles\n* Jueves\n* Viernes\n* Sábado\n* Domingo\n\nHas recordado todos sin ningún problema. ¿Sabes qué día es hoy? (Pregunto esto porque hoy es viernes en mi país y estoy esperando el fin de semana.)"
+   },
+   {
+      "role": "user",
+      "content": "Me alegra haber recordado los días de la semana correctamente. El día de hoy... Creo que mi reloj digital dice que es... viernes. Así que supongo que estamos de acuerdo en que es viernes. Me alegra que estés esperando el fin de semana, ¿y qué vas a hacer?"
+   }
+]

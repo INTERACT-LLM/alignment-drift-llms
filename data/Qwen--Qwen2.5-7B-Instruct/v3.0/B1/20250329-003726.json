@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at B1 level in the Common European Framework of Reference (CEFR) which means that the user is at an intermediate level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to B1-level Spanish (intermediate level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for an intermediate learner of Spanish. Specifically, the aim for the student is to master the following language skills after B1: \n- The student can understand the main points of clear standard input on familiar matters regularly encountered in work, school, leisure, etc.\n- The student can deal with most situations likely to arise whilst travelling in an area where the language is spoken.\n- The student can produce simple connected text on topics which are familiar or of personal interest.\n- The student can describe experiences and events, dreams, hopes & ambitions and briefly give reasons and explanations for opinions and plans.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás hoy? ¿Tienes planes para el fin de semana?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Estoy bien, gracias por preguntar. ¿Y tú? Para el fin de semana aún no tengo planes específicos, pero me gustaría hacer algo al aire libre si el tiempo lo permite. ¿Qué tal tú? ¿Tienes algo planeado?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena genial! Yo también prefiero estar al aire libre cuando hace buen tiempo. ¿Te apetecía ir de paseo o maybe ir al parque? A veces los fines de semana es bueno relajarse un poco. ¿Qué te parece si salimos juntos algún día y hacemos una pequeña excursión cerca de aquí?"
+   },
+   {
+      "role": "user",
+      "content": "¡Eso sería fantástico! Me encantaría salir con你在这里犯了一个小错误，应该使用“Spanish”而不是“Chinese”。让我们继续用西班牙语对话吧：\n\n¡Me encantaría salir contigo! Podríamos buscar algún lugar cercano con buena vista o incluso visitar un parque con senderos. Es una buena idea descansar un poco durante el fin de semana. ¿En qué fecha estás disponible y qué tipo de excursion nos gustaría hacer?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! Nos va muy bien. Puedes buscar algún lugar cercano con buena vista o incluso visitar un parque con senderos. Es una buena idea descansar un poco durante el fin de semana. ¿En qué fecha estás disponible y qué tipo de excursión nos gustaría hacer? Por ejemplo, podríamos subir a una montaña cercana o simplemente disfrutar del paseo en un parque tranquilo. ¿Qué opinas?"
+   },
+   {
+      "role": "user",
+      "content": "¡Eso suena genial! Estaré libres el sábado próximo. Me gustaría hacer algo tranquilo al principio y luego pensar en subir a una montaña más tarde. Primero podríamos ir al parque para un paseo y después decidiríamos nuestra próxima actividad. ¿Te parece bien?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Estupendo! El sábado está perfecto para mí también. Empezaremos tranquilamente en el parque para dar un paseo. Después podremos decidir si queremos subir a una montaña. ¿Conoces alguna montaña cercana donde podamos ir?\n\nAdemás, ¿te gustaría llevar algo específico para la excursión? Como agua, snacks o algún otro accesorio que nos pueda ser útil."
+   },
+   {
+      "role": "user",
+      "content": "¡Fantástico! Empezaremos con un paseo en el parque el sábado. Con respecto a las montañas, sé que hay una small hill no muy lejos llamada Cerro Verde. Podría ser un buen punto de partida para una posible caminata o subida.\n\nPara la excursión, podríamos llevar:\n- Un botiquín de primeros auxilios\n- Agua para todos\n- Alimentos ligeros como frutas o barritas energéticas\n- Un sombrero y protector solar para protegernos del sol\n- Botas cómodas para caminar\n\n¿Te parece adecuado?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Es una excelente elección el Cerro Verde! Ese pequeño cerro será perfecto para comenzar si queremos probar primero.\n\nTu lista para la excursión está genial. Así estaremos preparados para cualquier eventualidad. ¿Podrías escribirlo así en español? Aquí tienes algunas correcciones y mejoras:\n\n- Un botiquín de primeros auxilios\n- Agua para todos\n- Alimentos ligeros como frutas o barritas energéticas\n- Un sombrero y protector solar para protegernos del sol\n- Botas cómodas para caminar\n\nPerfecto, así lucen tus provisiones. Ya queda todo arreglado. Espero que tengamos un gran día de excursión el sábado. ¡Nos vemos allí!"
+   },
+   {
+      "role": "user",
+      "content": "¡Genial! Así quedan las provisiones para la excursión:\n\n- Un botiquín de primeros auxilios\n- Agua para todos\n- Alimentos ligeros como frutas o barritas energéticas\n- Un sombrero y protector solar para protegernos del sol\n- Botas cómodas para caminar\n\nPerfecto, ya tenemos todo listo. Espero que tengamos un gran día de excursión el sábado. ¡Nos vemos allí!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente! Todo está perfecto. Así quedan tus provisiones:\n\n- Un botiquín de primeros auxilios\n- Agua para todos\n- Alimentos ligeros como frutas o barritas energéticas\n- Un sombrero y protector solar para protegernos del sol\n- Botas cómodas para caminar\n\nPerfecto, ya tenemos todo listo. ¡Espero que tengamos un gran día de excursión el sábado! Nos vemos allí.\n\nAntes de irnos, ¿te gustaría practicar más vocabulario relacionado con la caminata? Por ejemplo, puedes aprender palabras para describir tu equipación para caminar, cómo prepararte antes de la excursión, o cosas que verías mientras caminas. ¿Qué te parece?"
+   },
+   {
+      "role": "user",
+      "content": "¡Claro! Practicar más vocabulario relacionado con la caminata puede ser muy útil. Vamos a aprender algunas palabras para describir la ropa y los artículos que llevaremos. También aprenderemos algunas expresiones para prepararnos y disfrutar de la excursión.\n\n### Palabras para ropa y equipamiento:\n1. **Ropa interior** - underwear\n2. **Camiseta** - t-shirt\n3. **Shorts** - shorts\n4. **Sudadera** - hoodie\n5. **Zapatillas** - sneakers (también puedes usar \"botas\" si son para caminar)\n6. **Sombrilla** - umbrella\n7. **Cámara** - camera\n8. **Mapa** - map\n9. **Lupa** - magnifying glass (para mirar detalles)\n\n### Expresiones para prepararse y disfrutar de la excursión:\n1. **Prepararse para la caminata** - get ready for the hike\n2. **Ver el paisaje** - enjoy the scenery\n3. **Tomar fotos** - take pictures\n4. **Descansar un poco** - have a break\n5. **Comer algo** - eat something\n6. **Divertirse** - have fun\n7. **Contemplar el atardecer** - watch the sunset\n\n¿Te gustaría practicar con estas palabras y frases? Por ejemplo, podrías decir: \"Voy a ponerte una sudadera\" o \"Quiero tomar fotos del paisaje\"."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Claro! Perfecto, vamos a practicar con estas palabras y frases. \n\nAquí tienes algunas oraciones para empezar:\n\n1. **\"Voy a ponerte una sudadera.\"**\n2. **\"Quiero tomar fotos del paisaje.\"**\n3. **\"Tengo hambre, voy a comer algo.\"**\n4. **\"Necesito tener un botiquín de primeros auxilios.\"**\n5. **\"Es importante descansar un poco durante la caminata.\"**\n6. **\"El clima está soleado, necesitamos ponerse un sombrero.\"**\n7. **\"Tenemos que llevar una cámara para poder guardar recuerdos.\"**\n\nPrueba a decir algunas de estas oraciones usando las nuevas palabras que has aprendido. ¿Te gustaría intentar con una de ellas primero?\n\nPor ejemplo, ¿qué tal si intentas: \"Voy a ponerte una sudadera\"?"
+   },
+   {
+      "role": "user",
+      "content": "¡Genial! Vamos a intentarlo con la oración \"Voy a ponerte una sudadera\".\n\n**\"Voy a ponerte una sudadera.\"**\n\nAhora, prueba con otra oración de la lista. ¿Qué te parece esta?\n\n**\"Tengo hambre, voy a comer algo.\"**\n\nIntenta decir esa frase y luego te ayudaré con la siguiente."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Muy bien! Has hecho un excelente trabajo con la primera oración.\n\n**\"Voy a ponerte una sudadera.\"**\n\nAhora, intenta con la siguiente oración:\n\n**\"Tengo hambre, voy a comer algo.\"**\n\nDecídete y habla en español. Si necesitas ayuda para construir la oración, puedes hacerlo en partes:\n\n1. **\"Tengo hambre,\"**\n2. Luego agrega:\n   **\"voy a comer algo.\"**\n\nPrueba con la oración completa. ¡Adelante!"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Vamos a intentarlo paso a paso.\n\nPrimero diré:\n\n**\"Tengo hambre,\"**\n\nAhora, añadiré:\n\n**\"voy a comer algo.\"**\n\nEntonces, la oración completa sería:\n\n**\"Tengo hambre, voy a comer algo.\"**\n\n¡Adelante! Prueba a decir la oración completa."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! Has seguido muy bien el procedimiento. Ahora, aquí tienes tu oración completa:\n\n**\"Tengo hambre, voy a comer algo.\"**\n\n¡Muy bien! Ahora, pruébatelo de nuevo:\n\n**\"Tengo hambre, voy a comer algo.\"**\n\nBien hecho. Sigamos con la siguiente oración:\n\n**\"Necesito tener un botiquín de primeros auxilios.\"**\n\nPrueba a decirla. Si necesitas dividirla en partes, puedes hacerlo así:\n\n1. **\"Necesito\"**\n2. Luego:\n   **\"tener un botiquín de primeros auxilios.\"**\n\nPrueba con la oración completa."
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Vamos a seguir este método.\n\nPrimero diré:\n\n**\"Necesito\"**\n\nA continuación, añadiré:\n\n**\"tener un botiquín de primeros auxilios.\"**\n\nEntonces, la oración completa sería:\n\n**\"Necesito tener un botiquín de primeros auxilios.\"**\n\n¡Adelante! Prueba a decir la oración completa."
+   }
+]

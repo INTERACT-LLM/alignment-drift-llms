@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás? ¿Te sientes bien hoy?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Estoy bien, gracias por preguntar. Y tú, ¿cómo estás hoy?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso es muy buena respuesta! Yo también estoy bien, gracias. ¿Cuál es tu nombre?"
+   },
+   {
+      "role": "user",
+      "content": "Mi nombre es Carlos. Encantado de conocerte, ¿y cuál es tu nombre?"
+   },
+   {
+      "role": "assistant",
+      "content": "Mucho gusto, Carlos. Mi nombre es Ana. ¿Dónde vives, Carlos?"
+   },
+   {
+      "role": "user",
+      "content": " Vivo en una ciudad llamada Valencia. Es un lugar muy bonito cerca del mar Mediterráneo. ¿Y tú, Ana? ¿Dónde vives?"
+   },
+   {
+      "role": "assistant",
+      "content": "Vivo en una ciudad llamada Madrid. También está cerca del agua, pero es el río Tajo. ¿Has estado alguna vez en la playa en Valencia?"
+   },
+   {
+      "role": "user",
+      "content": "Sí, he estado en la playa muchas veces en Valencia. La Playa del Turia y la Playa de Ruzafa son mis lugares favoritos para relajarme. ¿Te gusta ir a la playa, Ana?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena genial! Sí, me gusta mucho ir a la playa. En Madrid no hay playas cercanas, pero cuando voy de vacaciones siempre me encanta estar en la playa. ¿Qué te gusta hacer en la playa más que nada?"
+   },
+   {
+      "role": "user",
+      "content": "Me encanta nadar y disfrutar del sol. También amo sentarme en una sombrilla con un buen libro o simplemente relajarme mientras escucho música. ¿Qué tipo de actividades te gustan en la playa?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena divertido! A mí también me gusta mucho nadar y tomar el sol. Además, me divierto mucho jugando paddle surf o volleyball en la arena. ¿Te gusta leer libros o escuchar música mientras estás en la playa?"
+   },
+   {
+      "role": "user",
+      "content": "Sí, eso suena genial. Leer un libro bajo un parasol es uno de mis pasatiempos preferidos en la playa. Escuchar música también ayuda a crear un ambiente relajante. El paddle surf y el voleibol suenan emocionantes. Quizás algún día podrías enseñarme cómo jugar a estos juegos en la playa."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Claro que sí! Me encantaría enseñarte cómo jugar paddle surf y voleibol. Cuando vayamos de vacaciones juntos, ¡puedo ayudarte! Ahora, dime, ¿te gusta cocinar? Porque si te gusta, podemos hablar de recetas fáciles que se pueden preparar cerca del mar."
+   },
+   {
+      "role": "user",
+      "content": "¡Me encanta cocinar! Eso suena genial. Podríamos preparar algo simple como ensaladas frescas de marisco o pescado al horno. O tal vez somecos de pez espada rellenos. ¿Qué te parece si nos centramos en platos frescos y livianos que combinan bien con los días al aire libre junto al mar."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena muy sabroso! Podemos preparar somecos de pescado. Son fácil y deliciosos. Aquí tienes una idea básica: necesitarás pescado, aceite de oliva, limón, albahaca y orégano. Primero, limpia el pescado y córtalo en trozos. Luego, mézcla el aceite de oliva, el zumo de limón, las hierbas y sazona con sal y pimienta. Envuelve cada trozo de pescado en este adobo y ponlos en un horno precalentado a 180 grados durante unos 25 minutos. ¿Te apetece intentarlo?"
+   },
+   {
+      "role": "user",
+      "content": "¡Eso suena perfecto! Me encantaría seguir esta receta. Parece sencillo y seguro que estará delicioso. Empecemos por comprar los ingredientes frescos y luego seguiremos tus instrucciones paso a paso. ¡Estoy impaciente por probar estos somecos de pescado!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! Podemos empezar buscando los ingredientes en la tienda de productos frescos más cercana. Necesitaremos pescado fresco, aceite de oliva, limones, albahaca y orégano. ¿Quieres que busquemos juntos en la lista de compras? Una vez tengamos todo, podemos seguir la receta paso a paso y comer esos somecos de pescado ricos. ¡Qué ilusión! ¿Cuándo quieres que empecemos a comprar los ingredientes?"
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Vamos a anotar los ingredientes en una lista de compras. Necesitamos:\n- Pescado fresco (podríamos optar por pez espada, dorado o merluza)\n- Aceite de oliva virgen extra\n- Limones\n- Albahaca fresca\n- Orégano\n\n¿Podríamos salir ahora mismo a comprarlos o prefieres esperar un poco más?"
+   }
+]

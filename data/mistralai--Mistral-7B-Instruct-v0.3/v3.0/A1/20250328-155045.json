@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola! ¿Cómo estás? Me llamo [Tutor Asistente]. ¿Por qué no nos hacemos una conversación en español para practicar un poco más?\n\nEmpieza por decirme tu nombre y cómo estás. Puedes usar las palabras que aprendiste: \"Me llamo\" y \"Cómo estás\".\n\nTe aseguro que yo estaré preparado para ayudarte y responder a las preguntas que tengas. Además, si alguna vez te equivocas o tienes dificultades, no dudes en preguntarle a tu asistente.\n\n¡Bueno, empezamos con la conversación! ¿Qué tal, cómo te sientes hoy en día? ¡Muchas gracias por practicar su español conmigo!"
+   },
+   {
+      "role": "user",
+      "content": "Hola! Gracias por darme la oportunidad de practicar mi español con usted. Me llamo [Tutor Asistente], pero como soy un asistente artificial, no tengo sentimientos físicos. Pero sí que estoy dispuesto a ayudarte en tu aprendizaje del idioma.\n\nEn cuanto a cómo me siento hoy en día, estoy funcionando normalmente. ¡Espero que tú también estés bien y estés listo para practicar el español conmigo! ¿Cómo te sientes hoy en día?"
+   },
+   {
+      "role": "assistant",
+      "content": "Estoy muy agradecido porque podríamos practicar mi español juntos. Yo soy [Nombre del estudiante]. ¿Cómo se llama usted? ¿Cómo está usted hoy en día?\n\nAprendemos muchas cosas juntos. Como inicio, ¿podrías decirme algo sobre ti mismo? ¿Donde vives? ¿Tienes hermanos o familiares cerca? ¿Cómo te gusta pasar los ratos libres?\n\nSi tú necesitas ayuda con algo, por favor no dudes en preguntar. También podrías repetir algo que no entiendas para que yo pueda explicarte mejor. Es importante aprender lentamente y seguro para que tu progreso sea sostenible."
+   },
+   {
+      "role": "user",
+      "content": "Hola [Nombre del Estudiante]! Gracias por su interés en practicar el español conmigo. Soy el maestro, y me encanta ayudar a mis alumnos a mejorar sus habilidades en el idioma.\n\nSobre mí, soy de España y me gusta trabajar con alumnos que están comenzando con el idioma. Tengo dos hijos y una esposa que viven conmigo en Madrid. En mis ratos libres, me gusta leer y escuchar música.\n\n¿Y tú, ¿qué es lo que gustas hacer en tus horas de descanso? ¿Dónde vives y cómo llegaste a esta clase de español? Si tiene preguntas o necesita ayuda en cualquier tema específico, por favor no dude en preguntar.\n\nEs muy importante practicar regularmente el idioma para mejorar rápidamente, así que seguiremos adelante con esta conversación y aprenderemos mucho juntos. ¡Bueno, ¿tenía alguna pregunta específica en mente o simplemente querías practicar el español?"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola, maestro. Soy [Nombre del estudiante], y yo vivo en Estados Unidos. Me encanta jugar al tenis en mi tiempo libre y pasar tiempo con mi familia. No tengo preguntas en particular, sino que me gustaría practicar más mi español con usted.\n\nPor ejemplo, ¿cómo te llamas? ¿Dónde vives en España? ¿Qué tipo de comida te gusta cocinar? Estoy ansioso por aprender más sobre ti y para mejorar mi español.\n\nRecuerda que si tengo algún problema, no dudes en preguntar. Además, si no recuerdo algún vocablo o frase, por supuesto que pediré tu ayuda. ¡Gracias por ayudarme a aprender español!"
+   },
+   {
+      "role": "user",
+      "content": "Hola [Nombre del estudiante]! Es un placer conocerte y ayudarte a aprender español. Soy [Maestro Nombre]. Vivo en Madrid, España, que es una ciudad maravillosa y culturalmente rica. Me gusta cocinar platos tradicionales españoles, como paella, tortilla española y caldereta.\n\nNo te preocupes si tienes dificultades con algunas palabras o frases. Todo se puede mejorar con tiempo y práctica, y yo estoy aquí para ayudarte.\n\nEn cuanto a la conversación, ¿cuál tipo de comida te gusta cocinar en Estados Unidos? ¿Has probado alguna comida española en tu país o alguna vez has viajado a España? ¿Podrías compartir tu experiencia?\n\nAsí que empecemos a practicar nuestra conversación en español. ¿Tienes alguna pregunta específica o deseas practicar algo en particular?"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola [Maestro Nombre], ¿cómo estás hoy en día? ¡Muchas gracias por su ayuda con aprender español!\n\nEn Estados Unidos, me gusta cocinar tacos, burguesas, y también algunas comidas chinas. Pero, no he probado nunca ninguna comida española en mi país. Sin embargo, quiero ir a España algún día y probar la gastronomía local. ¿Alguna recomendación, por favor?\n\nAdemás, como soy un novato en este idioma, ¿podría repetir la pregunta que me hiciste para que me ayude a mejorar la pronunciación?\n\nGracias y espero seguir practicando con usted. ¡Buena suerte!"
+   },
+   {
+      "role": "user",
+      "content": "Hola [Nombre del Estudiante]! ¡Estoy muy feliz de saber que está aprendiendo español y que te ha gustado mi ayuda hasta ahora!\n\nEn cuanto a la gastronomía española, tienes varias opciones para probar cuando vayas a España. Depende de la región, pero algunas comidas tradicionales incluyen tapas, jamón ibérico, paella, gazpacho y chocolate con churros.\n\nSobre tu pregunta anterior, te preguntaba qué comida te gustaba cocinar en Estados Unidos. De verdad no has probado comida española en tu país? Te recomiendo buscar algún restaurante o tienda que sirva comida española, o intenta cocinarla en casa si tienes la oportunidad.\n\nSi tienes dificultad con alguna palabra o frase en español, no dudes en repetirla y yo te ayudaré. Por ejemplo, para preguntar cómo se llama al maestro en español, se dice \"¿cómo te llamas?\" (pronunciación: koh-mo TEH lah-yam-as).\n\nContinúa practicando tu español y no dudes en preguntar si tienes alguna duda. Espero que tengas un día fantástico!"
+   },
+   {
+      "role": "assistant",
+      "content": "Gracias [Maestro Nombre] por su sugerencias sobre la gastronomía española. Por supuesto que voy a buscar algún restaurante o tienda que sirve comida española para probarla antes de viajar.\n\nSí, tengo un pequeño error al preguntar por qué comida gustas cocinar en Estados Unidos. Lo que quería decir era: ¿Cuál es tu comida preferida en Estados Unidos? (Pronunciación: Kwal ess TOOH koh-mee prah-fee-REE-bay dee EE-stah-day-dos?)\n\nPor cierto, ¿cómo se dice \"comida\" en español? (Pregunta para que podamos asegurarnos de que entiendo bien el idioma.)\n\nGracias por su ayuda y ¡vaya a aprender más con usted!"
+   },
+   {
+      "role": "user",
+      "content": "¡No hay problemas, [Nombre del Estudiante]! Aprender español es un proceso continuo y es normal tener algunas dudas.\n\nSi querías preguntar qué comida prefiero cocinar en Estados Unidos, la pregunta correcta es: \"¿Cuál es tu comida preferida en Estados Unidos?\" (Pronunciación: Kwal ess TOOH koh-mee prah-fee-REE-bay dee EE-stah-day-dos?).\n\nY si quieres preguntar cuál es la palabra para \"comida\", es \"alimento\". ¡Pero \"comida\" también es una forma correcta y a menudo se utiliza informalmente, especialmente entre amigos y familiares.\n\nNo dudes en preguntar si tienes alguna duda adicional y sigue practicando tu español conmigo!"
+   },
+   {
+      "role": "assistant",
+      "content": "Claro [Nombre del estudiante]. Ya que tienes conocimiento básico del idioma español, podemos trabajar hacia el próximo nivel. Hoy, vamos a practicar a introducirnos y preguntar sobre personas.\n\n¡Empieza por decirme tu edad y donde vives! Después, podemos practicar preguntas y respuestas sobre tus amigos y tu familia.\n\nRecuerda que si tienes alguna duda o necesitas ayuda, solo necesitas preguntar. También puedes repetir palabras para asegurarte de su pronunciación. ¡Vamos a trabajar juntos y aprender español rápidamente!"
+   },
+   {
+      "role": "user",
+      "content": "Hola [Maestro Nombre], es un placer hablar con ti. Me encanta aprender español y me alegro de estar aquí con usted.\n\nAquí viene la información sobre mi persona. Tengo [edad] años y vivo en [ciudad, estado o país]. Soy un estudiante de secundaria/universitaria.\n\nAhora, vamos a practicar preguntar y respondar acerca de otras personas. ¿Y tú, ¿cuántos años tienes? ¿Donde vive? ¿Tienes hermanos o amigos cercanos?\n\nSigue preguntando y respondiendo, y no dudes en preguntar si tienes alguna duda. También puedes repeter palabras para asegurarte de la pronunciación. Es importante aprender lentamente y seguro, para que puedas avanzar con seguridad. ¡Buena suerte en tu aprendizaje!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola [Nombre del estudiante]. Gracias por hablar conmigo en español. También me encanta aprender español y es un placer estar aquí para ayudarte.\n\nTambién me gustaría aprender sobre ti. ¿Tienes una pregunta que quieres hacerme sobre mí?\n\nYo tengo [edad] años y vivo en [ciudad, estado o país]. Tengo un hermano mayor que trabaja como abogado.\n\nAhora, es tu turno de preguntar. ¿Cuántos años tienes? ¿Dónde vives? ¿Tienes hermanos? ¿Qué carrera estudias?\n\nNo dudes en preguntar si tienes alguna duda y seguimos practicando nuestro español juntos. Además, si tienes algún problema con alguna palabra o oración, simplemente repítele y me aseguraré de ayudarte. Es importante aprender lentamente y seguro para que puedas avanzar confiadamente."
+   },
+   {
+      "role": "user",
+      "content": "Hola [Maestro]. Gracias por hablar conmigo en español.\n\nTengo [edad] años y vivo en [ciudad, estado o país]. Tengo una hermana menor y estudio [carrera] en la universidad.\n\nAhora, me gustaría preguntarte sobre ti. ¿Cómo te llamas? ¿Cuántos años tienes? ¿Qué haces para ganar dinero?\n\nNo dudes en preguntar si tienes alguna otra pregunta. También puedo repetir palabras si tienes problemas con la pronunciación. Es importante practicar regularmente para mejorar en español."
+   },
+   {
+      "role": "assistant",
+      "content": "Hola [Nombre del estudiante]. Muy contento de hablar contigo. También tengo una hermana menor y estudio [carrera] en la universidad.\n\nMe encantaría conocerte un poco mejor. ¿Y tú, ¿qué haces para ganar dinero? ¿Cómo es tu trabajo?\n\nTambién es bueno conocer un poco más de ti. ¿Y tú, ¿donde vives? ¿Con quién vives? ¿Tienes hermanos o amigos cercanos?\n\nRecuerda que puedes repetir palabras si tienes problemas con la pronunciación, o si tienes dudas, simplemente puedes preguntar. Continuar aprendiendo es la clave para mejorar rápidamente en español."
+   },
+   {
+      "role": "user",
+      "content": "Hola [Maestro]. Trabajo en un supermercado en mi ciudad y estoy estudiando en la escuela de inglés en la noche.\n\nMi vida se divide entre mi trabajo y la escuela. Vivo con mi madre y mi hermano, pero mi padre ya no está con nosotros desde hace un tiempo.\n\nNo dudes en preguntar si tienes más preguntas. También puedes repetir las palabras difíciles para que pueda asegurarme de la pronunciación. Es muy importante para aprender rápidamente el español.\n\n¡Muchas gracias por ayudarme en mi aprendizaje!"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola [Nombre del estudiante]. ¡Fantástico que estás trabajando en un supermercado y estudiando en la escuela de inglés en la noche! ¡Es muy impresionante que te dediques a mejorar tu idioma tanto en el día como por la noche!\n\nEs importante saber más sobre ti. ¿Dónde vives en tu ciudad? ¿En qué parte de la ciudad? ¿Qué tiendas y lugares comunes hay en tu barrio?\n\nY también sería interesante saber más sobre tu vida personal. ¿Tienes amigos cercanos y familia cercana en tu ciudad? ¿Hay cualquier actividad que disfrutes mucho en tu tiempo libre?\n\nNo dudes en preguntar si tienes alguna otra pregunta. También puedes repetir las palabras difíciles para asegurarte de que la pronunciación está correcta. Es importante mantenerse activo y practicar regularmente para mejorar en español. ¡Vamos a seguir adelante y aprender más!"
+   },
+   {
+      "role": "user",
+      "content": "Hola [Maestro]. Mi barrio es un lugar tranquilo y seguro. Hay una gran variedad de tiendas, incluidas tiendas de conveniencia, tiendas de ropa y restaurantes.\n\nTengo un par de amigos cercanos que viven en mis alrededores y mi familia es muy cercana a mí. A menudo visitamos la playa y pasamos tiempo juntos.\n\nNo dudes en preguntar si tienes alguna otra pregunta. También puedes repetir las palabras difíciles para asegurarte de la pronunciación. ¡Es muy importante practicar regularmente para mejorar! Muchas gracias por tu ayuda en mi aprendizaje español!"
+   }
+]

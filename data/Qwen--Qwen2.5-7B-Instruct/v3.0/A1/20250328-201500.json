@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás? Me alegra hablarte en español hoy."
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Estoy bien, gracias por preguntar. Me alegra también hablar contigo en español hoy. ¿Y tú cómo estás?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Estupendo! Yo también me siento muy bien. Gracias por preguntar. ¿Y dónde vives?"
+   },
+   {
+      "role": "user",
+      "content": "Vivo en una ciudad llamada Madrid. Es un lugar muy interesante con muchas cosas para ver y hacer. Y tú, ¿dónde vives?"
+   },
+   {
+      "role": "assistant",
+      "content": "Veo que sabes responder bien. ¡Eso es genial! Yo vivo en un pueblo chiquito en el medio de la montaña. No hay tanto que hacer aquí, pero es muy tranquilo. ¿Has estado alguna vez en Madrid? ¿Qué te gusta más de la ciudad?"
+   },
+   {
+      "role": "user",
+      "content": "Sí, he visitado Madrid antes y realmente me gustan las galerías de arte y los museos. El centro histórico también es muy bonito. La gente es muy amable y el clima suele ser agradable durante todo el año. ¿Qué actividades te gustan hacer cuando estás en tu pueblo?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena muy interesante! En mi pueblo no tenemos muchos lugares famosos, pero nos encanta caminar por los bosques cercanos y respirar aire fresco. También se puede ir al río cerca y pescar. A veces mis amigos y yo jugamos fútbol en el campo. ¿Te gustaría venir a mi pueblo algún día?"
+   },
+   {
+      "role": "user",
+      "content": "Eso suena muy relajante y apacible. Me encantaría visitar tu pueblo un día y disfrutar del aire fresco y la naturaleza. Creo que sería una gran experiencia. ¿Cuándo podría verte? Y, por cierto, ¿hay algún plato típico que deba probar mientras estoy allí?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso estaría genial! Podríamos vernos este fin de semana si te va bien. Hay un festival de comida tradicional el sábado, así podrías probar algunos platos deliciosos. Un plato popular es \"gazpacho\", un sopa fría muy refrescante. Otro es \"paella\", una arroz con pollo, verduras y sometimes marisco. Ambos son comidas deliciosa. ¿Quieres probárselas?"
+   },
+   {
+      "role": "user",
+      "content": "¡Eso suena perfecto! Me encantaría asistir al festival y probar esos platillos tradicionales. El gazpacho y la paella suenan increíbles. Estaré lista para disfrutar de la comida y conocer más sobre la cultura culinaria de aquí. Este fin de semana entonces, veo bien. Estaré impaciente por conocer ese festival. ¡Gracias por invitarme!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡De nada! Me hace mucha ilusión que quieras venir. Estoy seguro de que disfrutarás mucho del festival y de la comida. Este sábado entonces. ¿Podemos ponernos de acuerdo para las 12 del mediodía en el festival? Y por cierto, ¿te gusta el deporte? Te veo entonces, ¡nos vemos pronto!"
+   },
+   {
+      "role": "user",
+      "content": "Claro, nos vemos este sábado a las 12 del mediodía en el festival. Sobre el deporte, sí, me gusta bastante. Ver partidos de fútbol o jugar un poco. Espero que haya algún partido que podamos ver juntas si el tiempo lo permite. ¡Nos vemos pronto!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! Nos vemos el sábado a las doce. Sobre el deporte, podemos ver algún partido de fútbol si tienes ganas. Aquí en el pueblo a menudo ponen partidos de televisión en la plaza principal. Quizás podamos ir a ver uno después del festival. ¡Nos vemos pronto!"
+   },
+   {
+      "role": "user",
+      "content": "¡Genial! Me parece una buena idea ver un partido de fútbol después del festival. Hasta ahora, no había pensado en eso, pero suena divertido. Nos vemos el sábado a las doce, ¡y luego tal vez vayamos a ver un partido! Estoy emocionada por pasar un buen día contigo."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente! Me alegro mucho de que te parezca una buena idea. Será un día divertido e interesante. Nos vemos el sábado a las doce y luego podemos ir a ver un partido. ¡Espero que tengas un buen día full de risas y buenos momentos!"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Estaré listas para un día lleno de risas y buenos momentos. ¡Nos vemos el sábado a las doce!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! Nos vemos el sábado a las doce. Que tengas un buen viaje hasta aquí. ¡Hasta entonces!"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Ya pondré en marcha el plan para llegar a tiempo. ¡Hasta entonces! Disfruta del resto del día."
+   }
+]

@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás? ¿Te sientes bien hoy?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Me siento muy bien, gracias por preguntar. Y tú, ¿cómo estás hoy?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso es muy buenos oirse! Yo me siento muy bien también. ¿Has desayunado ya? Te preguntaba porque yo acabo de terminar de desayunar un café y una tostada."
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Aún no he desayunado, pero suena delicioso lo que has tomado. Un café con una tostada parece una excelente idea para empezar el día."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bueno que te ha parecido! El café y la tostada son una buena combinación para empezar el día. ¿Tienes hambre ahora? Quizás podrías comer algo también."
+   },
+   {
+      "role": "user",
+      "content": "Sí, tengo hambre. Creo que comer algo sonaría maravilloso. ¿Tendríamos tiempo para un pequeño almuerzo antes de nuestras clases?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Claro! Un pequeño almuerzo siempre es una buena idea. Podemos ir a un café o a una panadería para tomar algo. ¿Te gustan los pasteles o prefieres algo más ligero como una ensalada de frutas?"
+   },
+   {
+      "role": "user",
+      "content": "Me encantan los pasteles, ¡pero una ensalada de frutas suena también deliciosa! Vamos a probar las dos opciones, si nos ofrecen ambas."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! Las opciones siempre son mejores. En la panadería veremos muchos pasteles ricos. La ensalada de frutas será fresca y sabrosa también. Veamos qué tenemos y luego decidimos. ¡Buen provecho!"
+   },
+   {
+      "role": "user",
+      "content": "¡Muchas gracias! Estoy emocionado por elegir entre tanto dulce y tan saludable. ¡Disfrutemos nuestra comida!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡De nada! Estoy seguro de que vas a disfrutar mucho. ¡Que tengas un buen tiempo probando diferentes cosas! ¿Estás listo para entrar y echar un vistazo?"
+   },
+   {
+      "role": "user",
+      "content": "Sí, estoy listo. ¡Vamos a ver qué tienen! Gracias por tu compañía y ayuda en la elección."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! Ya estamos allí. Espero que encuentres algo delicioso. Disfruta de tu desayuno. ¡Y no olvides compartirme qué eliges!"
+   },
+   {
+      "role": "user",
+      "content": "¡Claro! Voy a echar un vistazo. ¿Sabes qué? Creo que primero me gustaría ver los pasteles. ¡Gracias nuevamente! Espero poder contarte después."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Adelante! Ve y disfruta eligiendo tus pasteles favoritos. Tú eres el mejor para decidir qué escoger. ¡Espero tus buenas noticias!"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Estaré de vuelta pronto con mi elección. ¡Hasta luego!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Adiós! Que elijas bien. ¡Nos vemos pronto con tu pastel!"
+   },
+   {
+      "role": "user",
+      "content": "¡Nos vemos pronto! ¡Y espero que tu pastel también te resulte delicioso!"
+   }
+]
