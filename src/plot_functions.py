@@ -9,6 +9,9 @@ import seaborn as sns
 import polars as pl
 
 
+import matplotlib.pyplot as plt
+import polars as pl
+
 def line_plot_variables(
     df: pl.DataFrame,
     x_var: str,
@@ -17,20 +20,21 @@ def line_plot_variables(
     model_var: str = "model",
     group_colors: list[str] = ["#008aff", "#ff471a", "#00a661"],
     x_label_text: str = None,
-    ci_vars: list[str] = None  # Optional parameter for confidence intervals
-) -> matplotlib.figure.Figure:
-    # Ensure group_var is provided
+    ci_vars: list[str] = None,  # optional parameter for confidence intervals
+    y_lims: dict[str, tuple[float, float]] = None  # optional parameter for setting y-axis limits per variable
+) -> plt.Figure:
+    # ensure group_var is provided
     models = df[model_var].unique().to_list()
     groups = df[group_var].unique()
 
-    # Prepare the color palette for the groups
+    # prepare the color palette for the groups
     group_color_palette = {group: color for group, color in zip(groups, group_colors)}
 
-    # Number of rows and columns for subplots
+    # number of rows and columns for subplots
     n_rows = len(y_vars)
     n_cols = len(df[model_var].unique())
 
-    # Create the figure and axes
+    # create the figure and axes
     fig, axes = plt.subplots(
         n_rows, n_cols, figsize=(5 * n_cols, 4 * n_rows), sharey="row"
     )
@@ -40,15 +44,15 @@ def line_plot_variables(
     if n_cols == 1:
         axes = [[ax] for ax in axes]
 
-    # Loop through each y-variable and each model
+    # loop through each y-variable and each model
     for i, y_var in enumerate(y_vars):
         for j, model in enumerate(models):
             ax = axes[i][j]
 
-            # Filter the data for the current model
+            # filter the data for the current model
             model_data = df.filter(pl.col(model_var) == model)
 
-            # Plot the data for each group
+            # plot the data for each group
             for group in groups:
                 group_data = model_data.filter(pl.col(group_var) == group)
                 ax.plot(
@@ -58,19 +62,23 @@ def line_plot_variables(
                     color=group_color_palette.get(group),
                 )
 
-                # Plot confidence interval if ci_vars is provided
+                # plot confidence interval if ci_vars is provided
                 if ci_vars:
-                        ci_lower = f"{ci_vars[i]}_lower"
-                        ci_high = f"{ci_vars[i]}_high"
-                        ax.fill_between(
-                            group_data[x_var],
-                            group_data[ci_lower],
-                            group_data[ci_high],
-                            color=group_color_palette.get(group),
-                            alpha=0.1,  # Transparency of the CI fill
-                        )
+                    ci_lower = f"{ci_vars[i]}_lower"
+                    ci_high = f"{ci_vars[i]}_high"
+                    ax.fill_between(
+                        group_data[x_var],
+                        group_data[ci_lower],
+                        group_data[ci_high],
+                        color=group_color_palette.get(group),
+                        alpha=0.1,  # transparency of the ci fill
+                    )
 
-            # Set titles and labels
+            # set y-axis limits if provided for this variable
+            if y_lims and y_var in y_lims:
+                ax.set_ylim(y_lims[y_var])
+
+            # set titles and labels
             if i == 0:
                 ax.set_title(f"{model}", fontsize=14)
 
