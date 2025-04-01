@@ -21,12 +21,12 @@ def line_plot_variables(
     unique_models: list[str] = None,
     group_colors: list[str] = ["#008aff", "#ff471a", "#00a661"],
     x_label_text: str = None,
+    y_label_texts: list[str] = None,
     ci_vars: list[str] = None,  # optional parameter for confidence intervals
     y_lims: dict[str, tuple[float, float]] = None  # optional parameter for setting y-axis limits per variable
 ) -> plt.Figure:
-    # ensure group_var is provided
     if unique_models is None:
-        print("No unique models provided. Using all models in the dataframe.")
+        print("[INFO:] No unique models provided. Using all models in the dataframe.")
         models = df[model_var].unique().to_list()
     else: 
         models = unique_models
@@ -94,7 +94,11 @@ def line_plot_variables(
                 ax.set_xlabel("")  # explicitly remove labels from other rows
 
             if j == 0:
-                ax.set_ylabel(" ".join(word.capitalize() for word in y_var.split("_")))
+                if y_label_texts:
+                    ax.set_ylabel(y_label_texts[i])
+
+            #if j == 0:
+                #ax.set_ylabel(" ".join(word.capitalize() for word in y_var.split("_")))
 
             if i == 0 and j == n_cols - 1:
                 ax.legend(title=group_var.capitalize(), fontsize=13)
@@ -108,7 +112,8 @@ def distribution_plot(
     x_vars: list[str],
     group_var="group",
     model_var="model",
-    colors: list[str] = ["#008aff", "#ff471a", "#00a661"],
+    unique_models: list[str] = None,
+    group_colors: list[str] = ["#008aff", "#ff471a", "#00a661"],
     bins=30,
     alpha=0.6,
     normalize=True,
@@ -125,7 +130,12 @@ def distribution_plot(
     if density_lines and not normalize:
         raise ValueError("Density lines are always normalized. Set normalize=True when using density_lines=True.")
     
-    models = df[model_var].unique().to_list()
+    if unique_models is None:
+        print("[INFO:] No unique models provided. Using all models in the dataframe.")
+        models = df[model_var].unique().to_list()
+    else: 
+        models = unique_models
+    
     groups = df[group_var].unique().to_list()
     
     n_rows = len(x_vars)
@@ -147,9 +157,9 @@ def distribution_plot(
                 group_data = model_data.filter(pl.col(group_var) == group)[x_var].to_list()
                 
                 if density_lines:
-                    sns.kdeplot(group_data, ax=ax, color=colors[k % len(colors)], label=group)
+                    sns.kdeplot(group_data, ax=ax, color=group_colors[k % len(group_colors)], label=group)
                 else:
-                    ax.hist(group_data, bins=bins, density=normalize, alpha=alpha, color=colors[k % len(colors)], label=group, edgecolor="white")
+                    ax.hist(group_data, bins=bins, density=normalize, alpha=alpha, color=group_colors[k % len(group_colors)], label=group, edgecolor="white")
             
             if i == 0:
                 ax.set_title(f"{model}")
@@ -160,8 +170,8 @@ def distribution_plot(
             if x_label_texts:
                 ax.set_xlabel(x_label_texts[i])
             
-            if i == n_rows - 1 and j == n_cols - 1:
-                ax.legend()
+            if i == 0 and j == n_cols - 1:
+                ax.legend(title=group_var.capitalize(), fontsize=13)
     
     fig.tight_layout()
     return fig
