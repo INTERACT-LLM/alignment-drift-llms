@@ -18,13 +18,19 @@ def line_plot_variables(
     y_vars: list[str],
     group_var: str = "group",
     model_var: str = "model",
+    unique_models: list[str] = None,
     group_colors: list[str] = ["#008aff", "#ff471a", "#00a661"],
     x_label_text: str = None,
     ci_vars: list[str] = None,  # optional parameter for confidence intervals
     y_lims: dict[str, tuple[float, float]] = None  # optional parameter for setting y-axis limits per variable
 ) -> plt.Figure:
     # ensure group_var is provided
-    models = df[model_var].unique().to_list()
+    if unique_models is None:
+        print("No unique models provided. Using all models in the dataframe.")
+        models = df[model_var].unique().to_list()
+    else: 
+        models = unique_models
+    
     groups = df[group_var].unique()
 
     # prepare the color palette for the groups
@@ -97,73 +103,6 @@ def line_plot_variables(
 
     return fig
 
-def violin_plot(
-    df: pl.DataFrame,
-    x_vars: list[str],
-    group_var="group",
-    model_var="model",
-    colors: list[str] = ["#008aff", "#ff471a", "#00a661"],
-    y_label_texts: list[str] = None,
-) -> matplotlib.figure.Figure:
-    """
-    Generates violin plots to visualize data distribution across different groups and models.
-    If compute_error_bars is True, adds error bars representing standard deviation.
-    """
-    # get unique models and groups
-    models = df[model_var].unique().to_list()
-    groups = df[group_var].unique().to_list()
-
-    n_rows = len(x_vars)
-    n_cols = len(models)
-
-    fig, axes = plt.subplots(n_rows, n_cols, figsize=(5 * n_cols, 4 * n_rows), sharey="row")
-
-    # ensure axes is iterable even for single rows/columns
-    if n_rows == 1:
-        axes = [axes]
-    if n_cols == 1:
-        axes = [[ax] for ax in axes]
-
-    for i, x_var in enumerate(x_vars):
-        for j, model in enumerate(models):
-            ax = axes[i][j]
-
-            model_data = df.filter(pl.col(model_var) == model)
-
-            # extract group data 
-            violin_data = [
-                model_data.filter(pl.col(group_var) == group)[x_var].to_list()
-                for group in groups
-            ]
-
-            parts = ax.violinplot(violin_data, showmeans=True)
-
-            # set colors 
-            for pc, color in zip(parts['bodies'], colors):
-                pc.set_facecolor(color)
-                pc.set_alpha(0.9)
-
-            for partname in ('cbars', 'cmins', 'cmaxes', 'cmeans'):
-                parts[partname].set_edgecolor('black')
-                parts[partname].set_linewidth(1)
-            
-            # Set x-axis labels
-            ax.set_xticks(np.arange(1, len(groups) + 1))
-            ax.set_xticklabels(groups)
-
-            # Set title for the first row
-            if i == 0:
-                ax.set_title(f"{model}")
-
-            # Set y-axis labels if provided
-            if y_label_texts and j == 0:
-                ax.set_ylabel(y_label_texts[i])
-            else:
-                ax.set_ylabel("")
-
-    fig.tight_layout()
-    return fig
-
 def distribution_plot(
     df: pl.DataFrame,
     x_vars: list[str],
@@ -224,72 +163,5 @@ def distribution_plot(
             if i == n_rows - 1 and j == n_cols - 1:
                 ax.legend()
     
-    fig.tight_layout()
-    return fig
-
-def scatter_with_regression(
-    df: pl.DataFrame,
-    x_vars: list[str],
-    y_vars: list[str],
-    group_var="group",
-    model_var="model",
-    colors: list[str] = ["#008aff", "#ff471a", "#00a661"],
-    y_label_texts: list[str] = None,
-) -> plt.Figure:
-    """
-    Generate scatter plots with regression lines to visualize data distribution across different groups and models.
-    """
-    models = df[model_var].unique().to_list()
-    groups = df[group_var].unique().to_list()
-
-    n_rows = len(x_vars)
-    n_cols = len(models)
-
-    fig, axes = plt.subplots(n_rows, n_cols, figsize=(5 * n_cols, 4 * n_rows), sharey="row")
-
-    # ensure axes is iterable even for single rows/columns
-    if n_rows == 1 and n_cols == 1:
-        axes = [[axes]]
-    elif n_rows == 1:
-        axes = [axes]
-    elif n_cols == 1:
-        axes = [[ax] for ax in axes]
-
-    for i, x_var in enumerate(x_vars):
-        for j, model in enumerate(models):
-            ax = axes[i][j]
-
-            # filter data for current llm
-            model_data = df.filter(pl.col(model_var) == model)
-
-            # plot scatter and regression line for each group
-            for k, group in enumerate(groups):
-                group_data = model_data.filter(pl.col(group_var) == group)
-
-                # get x and y values for plotting
-                x_vals = group_data[x_var].to_numpy().flatten()
-                y_vals = group_data[y_vars[i]].to_numpy().flatten()  # Use y_vars[i] to get correct y variable
-
-                # scatter
-                ax.scatter(x_vals, y_vals, color=colors[k % len(colors)], label=group, alpha=0.7)
-
-                # reg line
-                sns.regplot(x=x_vals, y=y_vals, ax=ax, scatter=False, color=colors[k % len(colors)], line_kws={"lw": 2})
-
-            # title for first row 
-            if i == 0:
-                ax.set_title(f"{model}")
-
-            # labels 
-            ax.set_xlabel(x_var)
-
-            # set y-axis label if provided
-            if y_label_texts and j == 0:
-                ax.set_ylabel(y_label_texts[i])
-            else:
-                ax.set_ylabel("")
-
-            ax.legend(title=group_var)
-
     fig.tight_layout()
     return fig
