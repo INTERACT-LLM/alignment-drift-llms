@@ -172,4 +172,7 @@ cython_debug/
 
 # MAC
 .DS_Store
+
+# R
 .Rproj.user
+*.Rproj
