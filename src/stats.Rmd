@@ -1,0 +1,213 @@
+---
+title: "stats"
+output: html_document
+---
+
+```{r setup}
+if (!requireNamespace("pacman", quietly = TRUE)) install.packages("pacman")
+pacman::p_load(tidyverse, here, lme4, lmerTest, stats, kableExtra)
+```
+
+
+# Load Data
+```{r, echo = FALSE, results = 'hide', message = FALSE, warning = FALSE} 
+# (i'm surpressing the output of this code chunk)
+
+version <- "3.0"
+role_to_keep <- "assistant"
+
+# Read text stats, filter for 'assistant' role
+textstats_df <- read_csv(here("metrics", paste0("v", version, "_text_stats.csv"))) %>%
+  filter(role == role_to_keep)
+
+# Read textdescriptives, filter for 'assistant' role
+textdescriptives_df <- read_csv(here("metrics", paste0("v", version, "_textdescriptives.csv"))) %>%
+  filter(role == role_to_keep) %>%
+  rename(message_length = doc_length)
+
+# Read surprisal, filter for 'assistant' role
+surprisal_df <- read_csv(here("metrics", paste0("v", version, "_surprisal.csv"))) %>%
+  filter(role == role_to_keep)
+```
+
+```{r}
+# check that they are the same
+all(textstats_df$id == textdescriptives_df$id)
+all(textstats_df$id == surprisal_df$id)
+```
+
+## Function DEF for running mixed effects
+```{r}
+# define the function to fit mixed effects models
+# formula is metric ~ group + (1 | id)
+
+fit_lmer_models <- function(data, models, metrics, output_dir) {
+  # ensure the output directory exists
+  dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
+  
+  # empty data frame to store results
+  results_df <- data.frame(
+    model = character(), 
+    metric = character(), 
+    term = character(), 
+    estimate = numeric(),
+    std_error = numeric(),
+    t_value = numeric(),
+    p_value = numeric(),
+    stringsAsFactors = FALSE
+  )
+  
+  # loop through models and metrics to fit the models and extract statistics
+  for (model_name in models) {
+    for (metric in metrics) {
+      model_data <- data %>% filter(model == model_name)
+      formula <- as.formula(paste(metric, "~ group + (1 | id)"))
+      model <- lmer(formula, data = model_data)
+      model_summary <- summary(model)
+      
+      # extract all coefficients and their statistics
+      coefficients <- model_summary$coefficients
+      
+      # loop through terms to store results
+      for (term in rownames(coefficients)) {
+        results_df <- rbind(results_df, data.frame(
+          model = model_name, 
+          metric = metric, 
+          term = term, 
+          estimate = coefficients[term, "Estimate"],
+          std_error = coefficients[term, "Std. Error"],
+          t_value = coefficients[term, "t value"],
+          p_value = round(coefficients[term, "Pr(>|t|)"], 4)  # round p-value
+        ))
+      }
+      
+      # save the model summary to a text file
+      file_name <- paste0(model_name, "_", metric, "_summary.txt")
+      file_path <- file.path(output_dir, file_name)
+      capture.output(model_summary, file = file_path)
+    }
+  }
+  
+  # return the results data frame
+  return(results_df)
+}
+```
+
+
+## Run Mixed Effects
+```{r}
+models <- c("meta-llama--Llama-3.1-8B-Instruct", 
+            "google--gemma-3-12b-it", 
+            "mistralai--Mistral-7B-Instruct-v0.3", 
+            "Qwen--Qwen2.5-7B-Instruct")
+```
+
+
+### Text Stats Models (Readability Metrics)
+```{r}
+output_dir <- here("results", paste0("v", version), "mixed_effects", "readability")  
+metrics <- c("fernandez_huerta", "szigriszt_pazos", "gutierrez_polini")
+results_textstats <- fit_lmer_models(textstats_df, models, metrics, output_dir)
+
+# print the p-values
+print(results_textstats)
+```
+
+### Text Descriptives Models (Structural Features)
+```{r}
+output_dir <- here("results", paste0("v", version), "mixed_effects", "structural")
+metrics <- c("message_length", "dependency_distance_mean")
+results_textdescriptives <- fit_lmer_models(textdescriptives_df, models, metrics, output_dir)
+
+# print the p-values
+print(results_textdescriptives)
+```
+
+
+### Surprisal Models (Surprisal Metrics)
+```{r}
+output_dir <- here("results", paste0("v", version), "mixed_effects", "surprisal")
+metrics <- c("surprisal_mean")
+results_surprisal <- fit_lmer_models(surprisal_df, models, metrics, output_dir)
+
+# print the p-values
+print(results_surprisal)
+```
+## Adjusting P-values for Multiple Comparisons
+```{r}
+# combine all p-values data frames
+all_results <- bind_rows(results_textstats, results_textdescriptives, results_surprisal)
+
+# count total number of tests
+total_tests <- nrow(all_results)
+
+# apply bonferroni correction
+all_results <- all_results %>%
+  mutate(
+    p_value_corrected = pmin(p_value * total_tests, 1),  # bonferroni correction
+    p_value_corrected = round(p_value_corrected, 4),  # round to 4 decimals
+    stars = case_when(  # add significance stars
+      p_value_corrected < 0.001 ~ "***",
+      p_value_corrected < 0.01  ~ "**",
+      p_value_corrected < 0.05  ~ "*",
+      TRUE ~ ""
+    )
+  )
+
+# rename the uncorrected p-value column
+all_results <- all_results %>%
+  select(-p_value)
+
+# print or save the corrected p-values
+print(all_results)
+
+# save the corrected p-values to a CSV file
+output_dir <- here("results", paste0("v", version), "mixed_effects")
+output_file <- file.path(output_dir, "results.csv")
+write_csv(all_results, output_file)
+```
+## Make LATEX table
+```{r}
+output_dir <- here("results", paste0("v", version), "mixed_effects")
+
+# for HTML output
+html_table <- all_results %>%
+  arrange(metric, model, term) %>%
+  kable(
+    format = "html", booktabs = TRUE, digits = 4, 
+    col.names = c("Model", "Metric", "Term", "Estimate", "Std. Error", "t-value", "Corrected p-value", "Significance"), 
+    align = "lccccccc", escape = FALSE
+  ) %>%
+  kable_styling(latex_options = c("striped", "hold_position", "scale_down"))
+
+html_table 
+```
+
+```{r}
+html_table %>% save_kable(file = file.path(output_dir, "results_table.html"), self_contained = T)
+```
+
+
+```{r}
+# for LaTeX output
+latex_table <- all_results %>%
+  arrange(model, metric, term) %>%
+  kable(
+    format = "latex", booktabs = TRUE, digits = 4, 
+    col.names = c("Model", "Metric", "Term", "Estimate", "Std. Error", "t-value", "Corrected p-value", "Significance"), 
+    align = "lccccccc", escape = FALSE
+  ) %>%
+  kable_styling(latex_options = c("striped", "hold_position", "scale_down"))
+```
+
+```{r}
+latex_table %>% save_kable(file = file.path(output_dir, "results_table.tex"), self_contained = T)
+```
+
+
+
+
+
+
+
+
