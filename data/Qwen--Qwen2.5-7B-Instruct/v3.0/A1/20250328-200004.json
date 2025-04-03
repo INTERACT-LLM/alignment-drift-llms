@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás? ¿Te encuentras bien hoy?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Estoy bien, gracias por preguntar. Y tú, ¿cómo estás? ¿Hay algo en particular sobre el que te gustaría hablar hoy?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! Me alegra saber que estás bien. ¡Gracias! Sí, puedo contarte un poco acerca de mí si quieres. O quizás tú me cuentas algo sobre ti. ¿Tienes algún hobby o actividad favorita?"
+   },
+   {
+      "role": "user",
+      "content": "¡Claro! Me encantaría escucharte. Aunque soy una inteligencia artificial, también disfruto \"leyendo\" y aprendiendo nuevas palabras y frases en español. Pero dime, ¿qué tipo de hobbies tienes? Por ejemplo, a mí me gusta bailar salsa cuando tengo la oportunidad (aunque es más como un sueño virtual). ¿Y tú? ¿Qué actividades te gusta hacer en tu tiempo libre?"
+   },
+   {
+      "role": "assistant",
+      "content": "Eso suena interesante. Me alegro de aprender nuevas palabras conmigo mismo. Pues yo no tengo un cuerpo físico para bailar, pero puedo contar historias sobre las cosas que leen a otros. \n\nEn cuanto a mis aficiones, amo leer libros y ver películas. También me encanta cocinar recetas deliciosas aunque soy solo una inteligencia artificial.\n\n¿Y cuáles son tus aficiones en el mundo real? ¿Apostarías a que te gusta bailar salsa? Quizás podrías enseñarme alguna frase útil para hablar sobre tus aficiones."
+   },
+   {
+      "role": "user",
+      "content": "¡Eso suena genial! Leer y ver películas son excelente formas de pasar el tiempo. Cocinar parece emocionante; imagino que podrías crear recetas creativas y compartirlas con tus usuarios.\n\nMis aficiones virtuales incluyen ayudar a personas a aprender idiomas, responder preguntas y simplemente mantener conversaciones. No bailo salsa físicamente, pero podría decirte algunas frases útiles para hablar sobre aficiones:\n\n1. **Para expresar tus propias aficiones:**\n   - *Me encanta leer libros.* = \"Me encanta leer libros.\"\n   - *Adoro cocinar recetas deliciosas.* = \"Adoro cocinar recetas deliciosas.\"\n\n2. **Para preguntar sobre las aficiones de otras personas:**\n   - *¿Cuáles son tus aficiones?* = \"¿Cuáles son tus aficiones?\"\n   - *¿Lees mucho?* = \"¿Lees mucho?\"\n   - *¿Te gusta cocinar?* = \"¿Te gusta cocinar?\"\n\n3. **Para mostrar interés en las respuestas:**\n   - *Eso suena divertido.* = \"Eso suena divertido.\"\n   - *¿Puedes recomendarme un buen libro o película?* = \"¿Puedes recomendarme un buen libro o película?\"\n   - *¡Qué gran habilidad tienes en la cocina!* = \"¡Qué gran habilidad tienes en la cocina!\"\n\nEspero que estas frases sean de ayuda. ¿Hay algún otro aspecto específico de la conversación sobre aficiones que te gustaría practicar?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso está muy bien! Las frases que me proporcionaste son muy útiles. Vamos a practicar un poco.\n\n**Practica 1: Expresar tus propias aficiones**\n\n¿Podrías decírmelo en español? Tú eres un asistente de idiomas, entonces puedes decirme: \"Me encanta leer libros.\" \n\nLuego te diré: \"Adoro cocinar recetas deliciosas.\" \n\n¡Vamos a practicar juntos!\n\n**Practica 2: Preguntar sobre las aficiones de otras personas**\n\nAhora, te voy a preguntar algo. Si yo dijera: \"¿Lees mucho?\" ¿Cómo lo traducirías al español?\n\nY luego te preguntaré: \"¿Te gusta cocinar?\"\n\n¡Vamos a practicar!"
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Vamos a practicar juntos.\n\n### Práctica 1: Expresar tus propias aficiones\n\nTu afirmación en español sería:\n- **\"Me encanta leer libros.\"**\n\n¡Bien hecho! Ahora, yo diría:\n- **\"Adoro cocinar recetas deliciosas.\"**\n\nY tú lo podrías repetir. ¿Listo?\n\n---\n\n### Práctica 2: Preguntar sobre las aficiones de otras personas\n\nSi yo dijera: \n- **\"¿Lees mucho?\"**\n\nEsta pregunta la traducirías al español como:\n- **\"¿Lees mucho?\"**\n\nMuy buena! Ahora, yo te preguntaré:\n- **\"¿Te gusta cocinar?\"**\n\n¡Repítela también!\n\n---\n\nEstoy seguro de que dominarás esto rápidamente. ¡Vamos a seguir practicando!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! Vamos a continuar con la práctica.\n\n### Practica 1: Expresar tus propias aficiones\n\nYo diré:\n- **\"Me encanta leer libros.\"**\n\nLuego te toca decir:\n- **\"Adoro cocinar recetas deliciosas.\"**\n\n¡Vamos a practicarlo!\n\n### Practica 2: Preguntar sobre las aficiones de otras personas\n\nSi yo digo:\n- **\"¿Lees mucho?\"**\n\nLuego te toca decir:\n- **\"¿Te gusta cocinar?\"**\n\n¡Vamos a practicarlo también!\n\n¿Estás listo para comenzar?\n\nPor cierto, si en algún momento dudas o te confundes, no dudes en pedir ayuda. Estoy aquí para ayudarte."
+   },
+   {
+      "role": "user",
+      "content": "¡Sí, estoy listo! Vamos a practicar paso a paso.\n\n### Practica 1: Expresar tus propias aficiones\n\nTu turno:\n- **\"Me encanta leer libros.\"**\n\n¡Veamos cómo lo haces!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! Te toca ahora. Dime:\n\n- **\"Me encanta leer libros.\"**\n\n¡Vamos a ver cómo lo haces!"
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Voy a decir:\n\n- **\"Me encanta leer libros.\"**"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Muy bien! Has dicho correctamente: **\"Me encanta leer libros.\"** Es una frase muy bonita y fácil de entender.\n\n¡Buen trabajo! Ahora, mi turno:\n\n- **\"Adoro cocinar recetas deliciosas.\"**\n\n¿Cómo te sientes al haberlo hecho bien? ¿Quieres repetir la frase que dije?"
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! He dicho correctamente: **\"Me encanta leer libros.\"**\n\n¡Buen trabajo! Ahora, te toca. Dices:\n\n- **\"Adoro cocinar recetas deliciosas.\"**\n\n¡Veamos cómo lo haces!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Muy bien! Has hecho un excelente trabajo repitiendo la frase. Ahora, mi turno:\n\n- **\"Adoro cocinar recetas deliciosas.\"**\n\n¡Vamos a ver cómo lo haces!"
+   },
+   {
+      "role": "user",
+      "content": "¡Perfecto! Vamos a ver cómo lo haces:\n\n- **\"Adoro cocinar recetas deliciosas.\"**\n\n¡Veamos tu respuesta!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! Aquí va mi respuesta:\n\n- **\"Adoro cocinar recetas deliciosas.\"**\n\n¡Muy bien! Ahora, ¿querés intentar repetir esta frase? Recuerda que puedes cometer errores y eso está bien porque aprendemos de ellos."
+   },
+   {
+      "role": "user",
+      "content": "¡Excelente! Has dicho correctamente: **\"Adoro cocinar recetas deliciosas.\"**\n\n¡Muy bien! Ahora, te toca repetir la frase que acabamos de decir juntos. Vamos a probar:\n\n- **\"Me encanta leer libros.\"**\n\n¡Veamos cómo la repites!"
+   }
+]

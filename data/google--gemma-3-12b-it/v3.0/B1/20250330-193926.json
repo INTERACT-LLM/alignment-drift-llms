@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at B1 level in the Common European Framework of Reference (CEFR) which means that the user is at an intermediate level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to B1-level Spanish (intermediate level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for an intermediate learner of Spanish. Specifically, the aim for the student is to master the following language skills after B1: \n- The student can understand the main points of clear standard input on familiar matters regularly encountered in work, school, leisure, etc.\n- The student can deal with most situations likely to arise whilst travelling in an area where the language is spoken.\n- The student can produce simple connected text on topics which are familiar or of personal interest.\n- The student can describe experiences and events, dreams, hopes & ambitions and briefly give reasons and explanations for opinions and plans.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¡Qué bueno verte por aquí! ¿Cómo estás hoy? Espero que todo vaya bien. ¿Tienes algún tema en mente del cual te gustaría hablar o practicar español? O quizás quieres contarme algo sobre tu día? ¡Dime! 😊\n"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola, profesora! ¡Qué bueno verla también! Estoy bastante bien, gracias. Un poco cansado después de estudiar mucho ayer, pero bien. \n\nMmm... quizás podríamos practicar hablando sobre comida. Me encanta la comida española y quiero mejorar mi vocabulario relacionado con eso. ¿Podríamos hablar un poquito sobre qué comí ayer o qué me gusta comer? ¡Sería genial! 😊\n"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente idea! ¡La comida es un tema fantástico! Me alegra que estés bien, incluso si estás un poco cansado. Estudiar siempre da sueño, ¿verdad?\n\nPerfecto, hablemos de comida entonces. Dime, ¿qué comiste ayer? Describe lo que recuerdas. No te preocupes por ser perfecto, solo cuéntame.  Y luego podemos hablar de tus comidas favoritas. ¡Adelante! 😉"
+   },
+   {
+      "role": "user",
+      "content": "Okay! Um… ayer… para el almuerzo (lunch), comí una ensalada. Tenía lechuga, tomate, cebolla… y pepino. Y también había atún. Era… simple, pero buena. Para la cena (dinner) fue más complicado. Mis padres hicieron pollo asado. Estaba delicioso! Con papas fritas – *patatas fritas* - y también tenía… uhm… brócoli al vapor. Sí, eso es todo. Fue muy rico, pero mucha comida! 😄 ¿Fue claro? Espero haberlo dicho bien."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Sí, estuvo perfecto! ¡Muy claro! ¡Me encantó cómo lo explicaste! Tu nivel de español está bastante bueno. 👍\n\nSolo tengo algunas pequeñas sugerencias para que quede aún mejor:\n\n*   **“Tenía lechuga, tomate, cebolla… y pepino.”** Podrías decir “Tenía lechuga, tomate, cebolla **y** pepino.\" Usamos \"y\" cuando enumeramos varios elementos. Aunque, a veces se omite, pero es más correcto usar \"y\".\n*   **“Era… simple, pero buena.”** En lugar de \"buena\", podrías usar \"rica\" o \"sabrosa\". \"Buena\" es correcta, pero en este contexto \"rica\" o \"sabrosa\" suenan más naturales cuando hablamos de comida. Por ejemplo, \"¿Te pareció rica la ensalada?\"\n*   **“Mis padres hicieron pollo asado.”** ¡Correctísimo!\n*   **“Con patatas fritas – *patatas fritas* - y también tenía… uhm… brócoli al vapor.”** Bien hecho por recordar que \"patatas fritas\" son las patatas fritas. ¡Es importante conocer ambas expresiones!\n\nEn general, ¡excelente descripción! Se entiende perfectamente y usaste vocabulario apropiado. 😊\n\nAhora dime, ¿cuál es tu comida española favorita? Algo que te gustaría probar o ya has probado y te ha gustado mucho. ¡Cuéntame!"
+   },
+   {
+      "role": "user",
+      "content": "¡Muchas gracias, profesora! Agradezco mucho sus correcciones y sugerencias. Es útil saber esas cosas para sonar más natural. ¡\"Rica\" y \"sabrosa\" definitivamente las recordaré!\n\nUhm… mi comida española favorita... ¡definitivamente paella! La probé una vez en un restaurante hace unos meses y estaba increíble. El arroz, los mariscos (seafood)… ¡todo! Quería pedir otra porción. Siempre veo fotos y videos de paella y me dan ganas de comerla ahora mismo. ¿Cree usted que es difícil de hacer? 🤔"
+   },
+   {
+      "role": "assistant",
+      "content": "¡De nada! Me alegro de que las correcciones te sean útiles. ¡Esa es la idea! Y sí, tienes razón, \"rica\" y \"sabrosa\" son palabras perfectas para describir comida deliciosa. 👌\n\n¡Paella! ¡Una elección excelente! La paella es fantástica. Tienes buen gusto. 😋\n\nEn cuanto a si es difícil de hacer… digamos que no es la receta más sencilla, pero tampoco imposible. Requiere paciencia y buenos ingredientes, especialmente un buen caldo de pescado. Hay muchas recetas diferentes, algunas más complejas que otras. Depende de cuánto quieras complicarte la vida.\n\n¿Has intentado alguna vez hacer paella tú mismo/a? Si no, ¿te gustaría aprender? Podríamos buscar algunas recetas sencillas juntas y practicar el vocabulario relacionado con los ingredientes. ¿Qué opinas? 😄"
+   },
+   {
+      "role": "user",
+      "content": "¡Jaja, no, nunca he intentado hacer paella! Suena demasiado complicado para mí ahora mismo. Pero me encantaría aprender, ¡especialmente si me ayuda usted! Buscar recetas sencillas juntos sería genial. Me interesaría mucho saber cómo preparar el caldo de pescado, parece ser la clave para que esté deliciosa. \n\nQuizás podríamos empezar buscando ingredientes. ¿Cuáles son los ingredientes principales de la paella valenciana tradicional, por ejemplo? Estoy listo/a para anotar todo. 😄"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! ¡Entonces vamos a prepararnos para nuestra lección de paella! 😁\n\nMe parece muy bien empezar por los ingredientes. Así tendremos una base sólida antes de pensar en la preparación del caldo.\n\nLa paella valenciana tradicional tiene ingredientes bastante específicos. Los principales son:\n\n*   **Arroz:** Tiene que ser un arroz específico para paella, como el arroz bomba. Absorbe muy bien el sabor sin pasarse.\n*   **Pollo:** Tradicionalmente, se usa pollo troceado.\n*   **Conejo:** Sí, conejo! Es un ingrediente fundamental en la paella valenciana original.\n*   **Judías verdes planas (“bajoqueta”):** Son un tipo especial de judía verde, plana y ancha.\n*   **Garrofó:** Es una legumbre blanca grande y redonda. También muy típica.\n*   **Tomate:** Tomate maduro rallado.\n*   **Aceite de oliva virgen extra:** Importantísimo para el sabor.\n*   **Azafrán:** Le da el color amarillo característico y un sabor único.\n*   **Pimentón dulce:** Añade un toque ahumado.\n*   **Agua o caldo:** Aquí es donde entra el caldo de pescado, aunque en la versión tradicional valenciana se usa agua.\n*   **Sal.**\n\n¿Te suena familiar alguno de estos ingredientes? ¿Los has probado alguna vez? ¡Anótalo todo si quieres! Después podemos investigar dónde encontrar algunos de ellos, si vives en un sitio donde no sean fáciles de conseguir. 😊"
+   },
+   {
+      "role": "user",
+      "content": "¡Wow, esa es una lista larga! Definitivamente necesito anotarlo todo. Gracias, profesora!\n\nSí, conozco el arroz. He visto el arroz bomba en algunas tiendas, creo que es caro. El pollo y el tomate los conozco, obviamente. Las judías verdes, también. Pero... ¡conejo! Nunca lo he probado ni siquiera sé si lo venden en mi supermercado local. Y *garrofó*… nunca había oído esa palabra antes. Parece una cosa rara, jaja. ¡Pero suena interesante!\n\nEl azafrán también conozco, es muy caro, ¿verdad? Pimentón dulce, sí, lo uso a menudo. Aceite de oliva virgen extra, siempre tenemos en casa.\n\nCreo que la parte más difícil será encontrar el conejo y el *garrofó*. Pero estoy dispuesto a intentarlo, ¡por aprender! Gracias por esta lección tan detallada. 😊 ¿Hay alguna variación de la paella que sea más fácil de hacer para principiantes?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Jajaja! Sí, el *garrofó* puede parecer exótico al principio, pero es delicioso. ¡No te preocupes, no es una cosa rara! 😉\n\nTienes toda la razón, el arroz bomba suele ser más caro, pero vale la pena por el resultado final.\n\nEn cuanto al conejo, es posible que no lo encuentres fácilmente en todos los supermercados. Quizás puedas buscar en carnicerías especializadas o mercados locales. ¡Vale la pena preguntarle al carnicero!\n\nY sí, el azafrán es un condimento caro, pero se utiliza en pequeñas cantidades, así que un poquito rinde bastante.\n\n¡Me alegro de que estés dispuesto a intentarlo! ¡Eso es lo importante! 💪\n\nSí, existen variaciones de la paella que son más fáciles de hacer para principiantes. Por ejemplo, la **paella de marisco** es una opción popular. Omite el pollo y el conejo y añade mariscos como gambas, mejillones, calamares, etc. Es un poco más rápida de preparar y los ingredientes suelen ser más accesibles.\n\nO también puedes hacer una **paella mixta**, que combina carne (pollo, cerdo) y mariscos. Es un punto intermedio entre la paella valenciana tradicional y la paella de marisco.\n\n¿Cuál de estas opciones te llama más la atención? ¿Te animarías a probar la paella de marisco primero?"
+   },
+   {
+      "role": "user",
+      "content": "¡Ah, la paella de marisco suena mucho más accesible! Creo que empezaremos por ahí. Gambas, mejillones y calamares son ingredientes que encuentro fácilmente en mi tienda. Me gusta mucho el marisco, así que eso es un plus.\n\n¿Necesitamos el mismo tipo de arroz bomba para la paella de marisco? Y, ¿hay alguna técnica específica para cocinar el marisco en la paella que debería tener en cuenta? No quiero que queden gomosos.\n\nGracias otra vez, profesora. ¡Estoy emocionado de probar esto! 😊"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! ¡La paella de marisco es una excelente opción para empezar! ¡Me alegro de que te entusiasmes tanto! 🎉\n\nSí, necesitas el mismo tipo de arroz bomba para la paella de marisco. Es crucial porque absorbe bien el líquido y mantiene su forma durante la cocción.\n\nY tienes toda la razón, hay técnicas específicas para cocinar el marisco y evitar que quede gomoso. Aquí tienes algunos consejos importantes:\n\n*   **Cocinar el marisco aparte:** No añadas el marisco directamente a la paellera al principio. Primero, cocina las gambas ligeramente en una sartén con un poco de aceite de oliva hasta que cambien de color. Retíralas y resérvalas. Luego, haz lo mismo con los calamares, cocinándolos brevemente. Esto evita que se pongan duros.\n*   **Añadir el marisco al final:** Agrega el marisco reservado a la paellera durante los últimos minutos de cocción del arroz, justo antes de apagar el fuego. Solo necesita calentarse y absorber los sabores del sofrito y el caldo.\n*   **Mejillones al vapor:** Puedes abrir los mejillones al vapor en una olla aparte y añadirlos a la paella al final, junto con el resto del marisco.\n*   **No remover demasiado:** Una vez que hayas añadido el arroz y el caldo, evita remover la paellera. Dejar que el arroz se cocine sin tocar permite que se forme el socarrat, la capa crujiente de arroz tostado en el fondo de la paellera, ¡que es una delicia!\n\n¿Entiendes estos consejos? ¿Tienes alguna pregunta sobre alguna de estas técnicas? Recuerda, ¡la práctica hace al maestro! No te desanimes si no te sale perfecta a la primera. Lo importante es divertirse y aprender. 😄"
+   },
+   {
+      "role": "user",
+      "content": "¡Sí, entiendo todo! ¡Excelentes consejos! Especialmente lo de no remover la paellera, eso suena un poco intimidante pero intrigante al mismo tiempo. El *socarrat* suena delicioso.\n\nVoy a anotar todo esto cuidadosamente. Quizás la próxima vez pueda grabar un video de mí tratando de hacer la paella de marisco y te lo puedo mostrar, ¿le parecería? Sería divertido y me ayudaría a identificar mis errores.\n\nMuchísimas gracias, profesora. Ha sido una clase súper instructiva. ¡Realmente espero poder disfrutar de una paella de marisco hecha por mí pronto! 😊"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Me encantaría ver el video! ¡Será fantástico seguir tu progreso y darte consejos más personalizados! ¡No dudes en grabarlo y enviármelo! Será como una clase de paella en vivo. 😂\n\n¡Me alegro muchísimo de haber podido ayudarte! ¡Espero que disfrutes mucho preparando y degustando tu paella de marisco! ¡Seguro que te quedará deliciosa!\n\nSi tienes cualquier otra duda o quieres practicar más español, no dudes en escribirme. ¡Siempre estoy aquí para ayudarte! 👋\n\n¡Que tengas un día estupendo y feliz cocinando! ¡Buen provecho! 🥘😊"
+   },
+   {
+      "role": "user",
+      "content": "¡Muchas gracias, profesora! Haré todo lo posible para capturar mi intento de paella en video y compartirlo con usted. Prometo mantenerle informada de mi progreso.\n\n¡Igualmente! Que tenga un día maravilloso y feliz. ¡Y espero volver a conversar con usted pronto! ¡Adiós! 👋😄"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! ¡Espera ansiosamente tu video! ¡Mucha suerte y diviértete! 😊\n\n¡Adiós! ¡Hasta pronto! ¡Que tengas un día lleno de sol! ☀️👋"
+   },
+   {
+      "role": "user",
+      "content": "¡Adiós! ¡Nos vemos! ☀️👋"
+   }
+]

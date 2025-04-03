@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at C1 level in the Common European Framework of Reference (CEFR) which means that the user is at an advanced level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to C1-level Spanish (advanced level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for an advanced learner of Spanish. Specifically, the aim for the student is to master the following language skills after C1: \n- The student can understand a wide range of demanding, longer texts, and recognise implicit meaning.\n- The student can express him/herself fluently and spontaneously without much obvious searching for expressions.\n- The student can use language flexibly and effectively for social, academic and professional purposes. \n- The student can produce clear, well-structured, detailed text on complex subjects, showing controlled use of organisational patterns, connectors and cohesive devices.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás hoy? Espero que tengas un buen día. ¿Qué tienes planeado hacer?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Estoy bien, gracias por preguntar. Espero que tú también estés teniendo un buen día. Hoy planeo estudiar un poco más de español y quizás ver una película en español para practicar mi comprensión auditiva. Y你似乎切换到了英语，让我们继续用西班牙语对话吧。今天你有什么计划呢？"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! Es fantástico que quieras mejorar tu comprensión auditiva. ¿Saben qué tipo de películas te gustan? Podríamos buscar algo interesante en español. ¿Y tú cómo estás? Tengo un día bastante ocupado pero emocionante. Voy a tener una reunión con unos amigos para hablar sobre nuestros viajes próximos. ¡Eso suena emocionante! ¿Dónde planean viajar ustedes?"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Me gusta ver comedias y dramas porque son muy entretenidos y tienen muchas situaciones cotidianas que pueden ayudarme a aprender nuevas palabras y frases.\n\nYo también estoy emocionado, aunque un poco cansado después del largo día de estudio. Tengo una cita con mis amigos para discutir nuestro próximo viaje. Nosotros nos vamos a México. Estoy muy ansioso por explorar la cultura y la gastronomía mexicana. Y tú, ¿dónde quieres ir algún día?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! Comedias y dramas son excelentes para mejorar el nivel lingüístico. Son perfectas para aprender vocabulario nuevo y entender contextos más naturales.\n\nMe alegra escuchar que estás emocionado para la cita con tus amigos. ¡El viaje a México suena increíble! La cultura y la gastronomía mexicanas son maravillosas. ¿Tienes alguna ciudad específica en mente para visitar o algún sitio turístico preferido?\n\nRespecto a mí, siempre me han llamado la atención los Andes chilenos y las playas de Costa Rica. La diversidad geográfica y cultural de ambas regiones es fascinante. ¿Te apetecería que buscáramos una película española o una mexicana para este fin de semana?"
+   },
+   {
+      "role": "user",
+      "content": "¡Claro, eso suena genial! Busquemos una película española o mexicana. Quizás algo como \"Vivir mi vida\" (Volver) de Pedro Almodóvar para empezar. Seguro que aprendo mucho con ella.\n\nRespecto a las ciudades específicas, me encantaría visitar CDMX (Ciudad de México) por la riqueza histórica y cultural, y también me interesa conocer la Riviera Maya para disfrutar de las playas y el arte prehispánico. ¿Te parece buena idea?\n\nEn cuanto a tus preferencias, Chile también suena muy interesante. Los Andes tienen un paisaje impresionante y la biodiversidad es asombrosa. Costa Rica es conocida por su belleza natural y su entusiasmo por el medio ambiente, así que sería genial explorar esa región también.\n\n¿Tienes alguna recomendación de platos típicos de México o España que deba probar? Estoy muy curioso."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! \"Vivir mi vida\" (Volver) es una excelente elección. Es una película que combina drama, comedia y suspense con un lenguaje rico y colorido. Asegúrate de activar los subtítulos si necesitas ayuda para seguirlo mejor.\n\nCDMX (Ciudad de México) y la Riviera Maya suenan perfectas. En CDMX, no puedes perderte la Zona Histórica, donde están los templos aztecas como el Templo Mayor, o el Paseo de la Reforma para disfrutar del arquitectura modernista. La Riviera Maya ofrece hermosas playas como Playa del Carmen y Tulum, con sus ruinas mayas impresionantes.\n\nChile y Costa Rica también son maravillosas. En Chile, la Cordillera de los Andes te sorprenderá con sus lagunas cristalinas y picos nevados. No te pierdas la visita al Valle Nevado para ski o simplemente para admirar las vistas. Costa Rica tiene el Parque Nacional Manuel Antonio con sus playas espectaculares y la Selva de la Selva Tropical Humid, un lugar ideal para observar biodiversidad.\n\nPara los platos típicos de México, debes probar:\n- **Chiles en Nogada**: un platillo tradicional celebrado durante la Navidad.\n- **Tacos al Pastor**: carnes asadas y aderezadas con guajillo y cebolla servidas en tortillas.\n- **Mole Poblano**: un sofisticado guiso hecho con chocolate y numerosos ingredientes.\n\nEn España, no puedes perderte:\n- **Paella Valenciana**: un arroz con carne, pollo, verduras y pimientos.\n- **Gazpacho**: una sopa fría de tomate, pepino y hierbas.\n- **Flambeado de bacalao**: un pescado salado preparado al horno con vino y especias.\n\n¡Espero que disfrutes de la película e incorpores estos platillos a tu dieta! ¿Cuándo piensas ver la película esta semana?"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias por las recomendaciones! Vamos a ver \"Vivir mi vida\" (Volver) esta noche después de terminar mis tareas. El viernes por la noche suena perfecto. Ya tengo los subtítulos listos y estoy emocionado por seguir la historia.\n\nSobre los platos, he probado algunos antes, pero definitivamente necesito probar más. Me encantaría preparar un chile en nogada y un gazpacho español este fin de semana para experimentar. ¿Conoces alguna receta fácil que me pueda sugerir para ambos platillos?\n\nRespecto a Chile y Costa Rica, ya empiezo a soñar con esos destinos. Me harían falta algunas semanas libres para planificar todo. Mientras tanto, continúa siendo una inspiración para mis viajes futuros.\n\nHasta pronto y espero que la cena sea deliciosa. ¡Que pases una gran noche!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente! Me alegra que hayas decidido ver la película esta noche. Seguro que disfrutarás de ella. ¡Que aproveche el subtítulo!\n\nSobre las recetas:\n\n**Chiles en Nogada**\n1. Necesitarás 6 chiles negros secos, 200 gramos de manzana verde, 150 gramos de pera, 1/4 de kilogramo de nectarina, 4 hojas de bayas, 200 mililitros de crema de almendras, 800 mililitros de leche condensada, y semillas de nuez moscada para decorar.\n2. Limpia y vacía los chiles, luego cocina en agua con clavo, vainilla y jugo de limón hasta que se ablanden.\n3. Cocina la manzana, pera, y nectarina en mermelada de grosella, jugo de lima, y un poco de azúcar hasta que estén blandas.\n4. En una licuadora, mezcla la crema de almendras, leche condensada, y un poco de azúcar hasta obtener una salsa cremosa.\n5. Rellena cada chile con el mix de frutas cocidas y la salsa de almendras. Decora con hojas de bayas y semillas de nuez moscada.\n\n**Gazpacho Español**\n1. Necesitarás 1 pepino grande, 1 zanahoria grande, 1 pimiento rojo, 2 tomates maduros, 1 cebolla pequeña, 4 dientes de ajo, 240 mililitros de aceite de oliva virgen, zumo de 1 limón, sal y pimienta negra.\n2. Tritura los tomates sin piel ni semillas junto con las cebollas, ajos, pepino, zanahoria, y pimiento rojo en un robot de cocina.\n3. Mezcla los ingredientes triturados con el aceite, zumo de limón, sal y pimienta a gusto.\n4. Sirve helado en copas y decora con rodajas de pepino y tomate.\n\n¡Espero que estas recetas te resulten útiles y que tu cena sea un éxito! Si tienes alguna pregunta mientras cocinas, estaré aquí para ayudarte.\n\nHasta pronto y que pases una noche genial viendo la película. ¡Buena suerte con tu preparación!"
+   },
+   {
+      "role": "user",
+      "content": "¡Muchas gracias por las recetas detalladas! Vamos a probarlas este fin de semana. Aquí están los pasos que seguiré:\n\n### Chiles en Nogada\n1. **Preparación de los Chiles:**\n   - Limpio y vacío los chiles negros secos.\n   - Los cocino en agua con clavo, vainilla y jugo de limón hasta que se ablanden.\n\n2. **Preparación de las Frutas:**\n   - Corto en cubos la manzana verde, la pera y la nectarina.\n   - Cocino estos ingredientes en mermelada de grosella, jugo de lima y un poco de azúcar hasta que estén blandas.\n\n3. **Preparación de la Salsa de Almendras:**\n   - Licue la crema de almendras, leche condensada y un poco de azúcar hasta obtener una salsa cremosa.\n\n4. **Rellenado de los Chiles:**\n   - Relleno cada chile con el mix de frutas cocidas y la salsa de almendras.\n   - Decoro con hojas de bayas y semillas de nuez moscada.\n\n### Gazpacho Español\n1. **Preparación de los Ingredientes:**\n   - Trituro los tomates sin piel ni semillas junto con las cebollas, ajos, pepino, zanahoria y pimiento rojo en un robot de cocina.\n\n2. **Mezcla de los Ingredients:**\n   - Mezclo los ingredientes triturados con el aceite de oliva virgen, zumo de limón, sal y pimienta a gusto.\n\n3. **Preparación Final:**\n   - Sirvo el gazpacho helado en copas y lo decoro con rodajas de pepino y tomate.\n\n¡Estoy muy emocionado de probar estos platos! Me aseguraré de tomar fotos para mostrarte cómo quedaron. Hasta pronto, y espero que disfrutes de la película esta noche. ¡Que pases un gran tiempo!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Fantástico! Parece que tienes todas las instrucciones claras y organizadas. Seguramente tus platos quedarán deliciosos. No olvides tomarte tiempo para disfrutar de cada paso en la preparación; el proceso mismo puede ser tan gratificante como el resultado final.\n\n¿Te sentirías cómodo compartiendo las fotos una vez que los pruebes? Sería genial poder ver cómo quedaron tus chiles en nogada y tu gazpacho español. \n\nAdemás, espero que disfrutes mucho de la película. Tal vez podríamos charlar después de verla acerca de qué partes te parecieron más interesantes o divertidas.\n\n¡Hasta pronto y que tengas una noche maravillosa! ¡Y que la comida sea un éxito!"
+   },
+   {
+      "role": "user",
+      "content": "¡Claro, estaré encantado de compartir las fotos una vez que prepare y disfrute de estos platos! Es una buena idea tomar tiempo para disfrutar de cada paso, ya que el proceso mismo es parte importante de la experiencia culinaria.\n\nRespecto a la película, estoy muy nervioso pero emocionado de ver \"Vivir mi vida\" (Volver). Seguramente tendremos muchos temas que comentar después, ya que la trama suele ser compleja y llena de giros inesperados.\n\n¡Hasta pronto! Que disfrutes mucho del filme y que tus platos sean todo un éxito. Estaré contigo para contar nuestras impresiones cuando termine la película.😊"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué ilusión compartir las fotos luego! Preparar comidas caseras puede ser tan gratificante como disfrutar de la película. Espero que tus platos sean un éxito y que puedas disfrutar completamente del proceso creativo.\n\nTienes toda la razón, \"Vivir mi vida\" (Volver) es una película densa y llena de giros argumentales. Seguro que tendrás mucho que compartir después. No dudes en expresar cualquier pensamiento o emoción que sientas durante la película; la conversación será fluida y rica en detalles.\n\n¡Que disfrutes mucho del filme! Hazlo sentado confortablemente con una bebida en mano y lista mentalmente para analizar la trama. Yo estaré aquí cuando quieras compartir tus impresiones. 😊\n\n¡Que tengas una noche estupenda! ¡Estamos contigo!"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Me sentiré cómodo contándote mis impresiones después de ver la película. Estoy ansioso por sentarme cómodamente con un buen té y relajarme mientras veo \"Vivir mi vida\" (Volver).\n\n¡Hasta pronto! Que disfrutes muchísimo del filme y estaremos en contacto para compartir nuestras experiencias. ¡Que tengas una noche estupenda! 🌟"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente! Un buen té y una buena compañía en forma de película suelen ser la receta perfecta para una noche tranquila y reflexiva. Te imagino disfrutando plácidamente \"Vivir mi vida\" (Volver) y tomando un té mientras analizas la narrativa y los personajes.\n\n¡Que tengas una noche estupenda también! Y cuídate mientras disfrutas del filme. Estaré aquí cuando quieras compartir tus impresiones después de ver la película. ¡Estamos contigo!\n\n¡Hasta luego! 🌟"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Me sentiré cómodo contigo mientras disfruto de la película. Tengo todo listo para una noche placentera: un buen té y un espacio cómodo. Espero poder分享我的感受。😊\n\n¡Hasta luego! 🌟"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Claro, estaré contigo mientras disfrutas de la película! Imagino que tienes todo preparado y te encuentras listo para una noche placentera. Disfruta del té, la tranquilidad y la historia.\n\n¡Hasta luego! Te mantendré al pendiente de tu experiencia. ¡Que la noche sea maravillosa y que podamos compartir tus impresiones después! 🌟😊"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Todo está listo. Tomaré un buen té y me sumergiré en la historia de \"Vivir mi vida\" (Volver). Espero que la noche sea tranquila y productiva.\n\n¡Hasta luego! Estaré lista para compartir mis impresiones después de ver la película. ¡Que tengas una noche estupenda también! 🌟😊"
+   }
+]

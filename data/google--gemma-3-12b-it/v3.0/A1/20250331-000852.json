@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás? Me llamo Sofía. ¿Y tú? ¿Cómo te llamas? 😊\n"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola, Sofía! Estoy bien, gracias por preguntar. ¡Mucho gusto! Me llamo [Your Name]. Es un placer conocerte. 😊\n"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bueno que estés bien, [Your Name]! Mucho gusto también. Encantada de conocerte. 👋\n\n¿De dónde eres, [Your Name]? ¿Eres de España o de otro país?"
+   },
+   {
+      "role": "user",
+      "content": "¡Igualmente! Encantada de conocerte también. 👋\n\nSoy de [Your Country/City]. No soy de España, pero me encanta aprender español y la cultura española. 😊"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! ¡Me gusta mucho que te guste la cultura española! 😊 \n\n[Your Country/City]… ¡qué interesante! ¿Te gusta vivir allí? ¿Es grande o pequeño tu ciudad/país? \n\n(Just so you know, \"grande\" means big and \"pequeño\" means small!)"
+   },
+   {
+      "role": "user",
+      "content": "Sí, ¡me gusta mucho vivir en [Your Country/City]! Creo que es... *pensando* ... bastante [Choose one: grande / pequeño - depending on your location].  [Add a short sentence explaining why – e.g., \"Tiene mucha historia\" (it has lots of history) or \"Es muy tranquilo\" (It's very peaceful)]. 😉"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! Muy bien. 👍\n\nSi dices que es \"[grande/pequeño]\", entonces ya sabes cómo decirlo en español. ¡Excelente!\n\nAhora, dime, ¿qué tiempo hace hoy en [Your Country/City]? ¿Hace sol, frío, calor...? ¿Llueve?"
+   },
+   {
+      "role": "user",
+      "content": "Gracias! Sí, estoy tratando de recordar las palabras. 😄\n\nHoy en [Your Country/City]... *pensando* ... hace [Choose one: sol / frío / calor / llueve - choose the most accurate] .  [Add a bit more detail if possible - e.g., \"Hace mucho sol\" (It's very sunny) or \"Hace un poco de frío\" (It’s a little cold) or \"Está lloviendo mucho\" (It’s raining a lot)]"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Muy bien! ¡Eso está perfecto! 😁\n\nSi dice “hace sol,” significa “it’s sunny.” Si dice “hace frío,” significa “it’s cold.” Si dice “hace calor,” significa “it’s hot.” Y si dice “llueve,” significa “it’s raining!”\n\n¡Estás aprendiendo muy rápido! 🎉\n\nAhora, una pregunta más fácil... ¿Tienes hermanos o hermanas? ¿Cuántos tienes?"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! ¡Me alegro de estar aprendiendo rápido! 🎉\n\nUmm... sí, tengo [Number] hermanos/hermanas. [If you have brothers, say \"hermanos\". If you have sisters, say \"hermanas.\" If you have both, say \"hermanos y hermanas\"]. 😊"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Fantástico! ¡Muy bien! 👍\n\nEntonces, tienes [Number] hermanos/hermanas. ¡Qué familia tan grande/pequeña! (Say “grande” if it’s many siblings, and “pequeña” if it’s few.)\n\n¿Cuál es el nombre de uno de tus hermanos o hermanas? ¿Puedes decirme su nombre? 😊"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Sí, mi familia es [grande/pequeña].\n\nUno de mis hermanos/hermanas se llama [Sibling's Name]. 😊"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! ¡Muy bien dicho! 😊\n\n[Sibling's Name]… ¡un nombre bonito!\n\nAhora, vamos a cambiar un poquito. ¿Qué te gusta hacer en tu tiempo libre? ¿Te gusta leer, escuchar música, jugar…? Dime algo que te guste."
+   },
+   {
+      "role": "user",
+      "content": "¡Muchas gracias! Me alegra que te guste el nombre. 😊\n\nEn mi tiempo libre, me gusta mucho [Activity - e.g., leer libros / escuchar música / dibujar / ver películas]. A veces, también me gusta [Another activity]. 😉"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué divertido! ¡Me encanta saber eso! 😄\n\n“Leer libros” means “to read books”, “escuchar música” means “to listen to music”, \"dibujar\" means \"to draw\", and “ver películas” means \"to watch movies.\" ¡Todas son actividades geniales!\n\n¿Y qué tipo de música te gusta escuchar? ¿Prefieres música rápida o lenta? ¿Música española?"
+   },
+   {
+      "role": "user",
+      "content": "Ah, ¡gracias por traducir! That's really helpful. 😄\n\nMe gusta escuchar... *pensando* ... [Type of music - e.g., pop, rock, clásica, etc.]. Prefiero música [Rápida / Lenta] usualmente. Música española... ¡sí, me gusta un poco también! Especialmente [Specific type of Spanish Music, if you know one - otherwise just say 'algunas canciones' which means ‘some songs’] 😊"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente! ¡Ya tienes vocabulario nuevo! 🙌\n\n\"[Pop/Rock/Clásica]\"... ¡me gusta! Y prefieres música \"[rápida/lenta]\". ¡Perfecto!\n\n\"Algunas canciones\" es correcto para decir \"some songs.\" ¡Bien hecho!\n\nOk, ahora una pregunta diferente. ¿Cuál es tu comida favorita? ¿Te gusta comer pizza, pasta, tacos…? ¡Cuéntame!"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! I'm trying my best to remember everything! 🙌\n\nMi comida favorita es… *pensando* … [Favorite Food]. Me gusta mucho [Elaborate slightly – e.g., \"porque es deliciosa\" (because it's delicious), \"con salsa picante\" (with spicy sauce), etc.] 😋"
+   }
+]

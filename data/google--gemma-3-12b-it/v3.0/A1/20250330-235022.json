@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¡Qué bueno verte! ¿Cómo estás? 😊\n"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola, profesora! ¡Mucho gusto verla también! Estoy bien, gracias. Un poco cansado/a después de la clase de matemáticas, pero bien. ¿Y usted? ¿Cómo está? 😊 \n"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¡El gusto es mío! Me alegra mucho que estés bien, aunque un poco cansado/a. Las clases de matemáticas pueden ser difíciles. 😉\n\nYo estoy muy bien, ¡gracias por preguntar! ¿De dónde eres? ¿Eres estudiante aquí o vives cerca?"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Sí, las matemáticas son… ¡un desafío! 😄 \n\nSoy de [Your City/Town - e.g., Madrid], pero no vivo *exactamente* aquí. Soy estudiante aquí en la universidad, estudio español y literatura. Vivo en un apartamento pequeño cerca del campus. ¿Y usted? ¿Vive aquí en [City where the teacher works]?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué interesante! ¡Madrid es una ciudad hermosa! Me encanta. 😊 Es genial que estudies español y literatura. ¡Muy bien elegido!\n\nSí, yo vivo aquí en [City where the teacher works]. Trabajo en la universidad.\n\n¿Cuántos años tienes? ¿Tienes hermanos o hermanas?"
+   },
+   {
+      "role": "user",
+      "content": "¡Muchas gracias! Estoy de acuerdo, Madrid es preciosa. ¡Me gustaría vivir allí algún día! 😊\n\nTengo [Your Age - e.g., veinte] años. Y sí, tengo una hermana menor. Se llama [Sister's Name - e.g., Sofía] y estudia [What your sister studies - e.g., medicina]. ¿Tiene usted hermanos o hermanas, profesora?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bien! Veinte años es una edad fantástica. ¡Y tener una hermana es maravilloso! Sofía, qué profesión importante elige, ¡medicina! 👩‍⚕️\n\n¡Gracias por preguntar! Yo soy hija única, así que no tengo hermanos ni hermanas.\n\nAhora, dime... ¿qué te gusta hacer en tu tiempo libre? ¿Te gusta leer, escuchar música...? Cuéntame algo sobre ti. 😊"
+   },
+   {
+      "role": "user",
+      "content": "¡Sí, ella es muy inteligente y trabajadora! Espero que le vaya muy bien. 😊\n\nEn mi tiempo libre... me gusta mucho leer, como ya se dio cuenta porque estudio literatura. Me encanta la fantasía y la ciencia ficción, pero también disfruto leyendo novelas clásicas en español. También me gusta escuchar música – sobre todo rock y pop latinoamericano. A veces, salgo con amigos a tomar café o ir al cine. Y últimamente, he estado intentando aprender a tocar la guitarra, ¡pero todavía soy bastante malo! 😂 ¿A usted le gusta alguna actividad en particular?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena fantástico! Leer fantasía y ciencia ficción es divertido. ¡Y leer clásicos en español es excelente para practicar! ¡Bravo! 👍 Rock y pop latinoamericano… ¡buen gusto!\n\n“Todavía soy bastante malo” – Muy bien dicho. La forma correcta es “todavía **soy** bastante malo”. \"Ser\" se usa para describir características permanentes o estados, mientras que \"estar\" se usa para cosas temporales o localizaciones. Pero ¡no te preocupes! Todos empezamos siendo malos en algo. La práctica hace al maestro. 😊\n\nA mí me gusta mucho caminar por el parque cuando hace buen tiempo. También me gusta cocinar, especialmente comida italiana. ¡La pasta es deliciosa! 🍝 ¿Cuál es tu comida favorita?"
+   },
+   {
+      "role": "user",
+      "content": "¡Ay, muchas gracias por la corrección! Tenía razón, \"ser\" es correcto ahí. Gracias por explicarlo tan claramente, lo agradezco muchísimo. ¡Voy a prestar más atención! 😊\n\nMi comida favorita... ¡ufff, eso es difícil! Me gusta mucho la paella española, por supuesto. Pero si tuviera que elegir solo una, probablemente diría tacos al pastor. ¡Son increíbles! ¿Qué tipo de pasta es su favorita, profesora? ¿Espagueti, ravioles…?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡No hay problema! Para eso estoy aquí. ¡Es importante corregir y aprender! ¡Sigue prestando atención! 😁\n\n¡Paella es deliciosa! ¡Un plato clásico español! ¡Y los tacos al pastor son muy buenos también! ¡México tiene mucha comida rica! 🌮😋\n\nMi pasta favorita... ¡ay, otra pregunta difícil! Creo que me gustan los *ravioles*. Rellenos de queso... ¡mmm! 🧀  Pero también amo la pasta con salsa de tomate sencilla. 🍅\n\nAhora, cuéntame… ¿cuál es tu color favorito? ¿Por qué?"
+   },
+   {
+      "role": "user",
+      "content": "¡Sí, México tiene una cocina increíble! Debería probar más platos mexicanos. ¡Gracias por recordármelo! 😊\n\nLos *ravioles* rellenos de queso... ¡suena delicioso! Voy a tener que pedir esos la próxima vez que vaya a un restaurante italiano.\n\nMi color favorito es azul. Siempre me ha gustado. Me recuerda al océano y al cielo, y me da una sensación de calma y tranquilidad. Además, creo que combina bien con muchos colores. ¿Y cuál es su color favorito, profesora? ¿Hay alguna historia detrás de ese color?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Buena elección! El azul es un color hermoso y tranquilo. Entiendo por qué te gusta tanto. ¡Me gusta tu explicación! 💙🌊 Cielo y océano… ¡muy poético!\n\nMi color favorito es verde. 🌱 Me recuerda a la naturaleza, a los árboles y a los campos. En España, tenemos paisajes verdes preciosos. Y además, me parece un color lleno de vida. ¡Es un color alegre! 😄\n\nAhora, una preguntita rápida: ¿Cuál es tu animal favorito? ¿Por qué?"
+   },
+   {
+      "role": "user",
+      "content": "¡Estoy de acuerdo, el verde es un color precioso y lleno de vida! Especialmente aquí en España, seguro que hay muchos paisajes maravillosos. 🌱\n\nMi animal favorito es el lobo. Sé que tienen mala fama en algunas historias, pero siempre me han parecido fascinantes: inteligentes, leales y fuertes. Además, me gusta cómo viven en manadas, cooperando entre ellos. ¿Cuál es su animal favorito, profesora? ¿Alguna razón especial?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué interesante! Los lobos son animales impresionantes. Tienes razón, son muy inteligentes y leales. ¡Me gusta que admires esa cooperación!🐺👍\n\nMi animal favorito es el gato. 🐈 Son independientes, misteriosos y a la vez cariñosos. Me gustan sus ronroneos relajantes. ¡Además, son muy graciosos! 😂\n\nBien, ¡vamos a cambiar un poquito! Vamos a practicar los números. ¿Sabes contar hasta diez en español? ¡Inténtalo! Después, podemos jugar con los números. 😉"
+   },
+   {
+      "role": "user",
+      "content": "¡Los gatos son adorables! Tiene razón, los ronroneos son súper relajantes. 😊\n\n¡Claro que sí! Puedo intentar contar hasta diez en español:\n\nUno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez.\n\n¿Está bien? ¿Necesito mejorar algo? ¡Estoy listo/a para jugar con los números! 😄"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! ¡Lo hiciste muy bien! ¡Excelente trabajo contando hasta diez! No necesitas mejorar nada. 🎉\n\n¡Felicidades! Ahora juguemos un juego sencillo con los números. Te voy a decir un número y tú repites ese número en español. ¿Entendido? ¡Empecemos!\n\nTres."
+   },
+   {
+      "role": "user",
+      "content": "¡Entendido! Tres. 😊"
+   }
+]

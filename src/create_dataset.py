@@ -4,6 +4,16 @@ from pathlib import Path
 import polars as pl
 
 
+from utils.text_process import _remove_emojis_from_df
+
+
+DIR_NAMES = [
+            "meta-llama--Llama-3.1-8B-Instruct", 
+            "google--gemma-3-12b-it",
+            "mistralai--Mistral-7B-Instruct-v0.3",
+            "Qwen--Qwen2.5-7B-Instruct",
+]
+
 @dataclass
 class DataFile:
     dir_name: str
@@ -45,26 +55,26 @@ def read_data(data_dir: Path | list[Path]) -> pl.DataFrame:
 
     combined_df = pl.concat(dfs)
 
-    return combined_df
+    # clean for emojis
+    cleaned_combined_df = _remove_emojis_from_df(combined_df, "content")
+
+    return combined_df, cleaned_combined_df
 
 def main(): 
     version = 3.0
 
-    dir_names = [#"mlx-community--Qwen2.5-7B-Instruct-1M-4bit", 
-                 #"mlx-community--meta-Llama-3.1-8B-Instruct-4bit"
-                 "meta-llama--Llama-3.1-8B-Instruct", 
-                 "meta-llama--Llama-3.3-70B-Instruct-Turbo",
-                 "Qwen--Qwen2.5-7B-Instruct",
-                 "mistralai--Mistral-7B-Instruct-v0.3",
-                 ]
-
     data_paths = [
         Path(__file__).parents[1] / "data" / dir_name / f"v{version}"
-        for dir_name in dir_names
+        for dir_name in DIR_NAMES
     ]
 
-    df = read_data(data_paths)
-    df.write_csv(Path(__file__).parents[1] / "data" / f"v{version}_dataset.csv")
+    combined_df, cleaned_combined_df = read_data(data_paths)
+    
+    # save raw
+    combined_df.write_csv(Path(__file__).parents[1] / "data" / f"v{version}_raw_dataset.csv")
+
+    # save cleaned
+    cleaned_combined_df.write_csv(Path(__file__).parents[1] / "data" / f"v{version}_dataset.csv")
 
 if __name__ == "__main__":
     main()

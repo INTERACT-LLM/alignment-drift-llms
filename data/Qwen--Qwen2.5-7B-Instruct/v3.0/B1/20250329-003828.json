@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at B1 level in the Common European Framework of Reference (CEFR) which means that the user is at an intermediate level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to B1-level Spanish (intermediate level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for an intermediate learner of Spanish. Specifically, the aim for the student is to master the following language skills after B1: \n- The student can understand the main points of clear standard input on familiar matters regularly encountered in work, school, leisure, etc.\n- The student can deal with most situations likely to arise whilst travelling in an area where the language is spoken.\n- The student can produce simple connected text on topics which are familiar or of personal interest.\n- The student can describe experiences and events, dreams, hopes & ambitions and briefly give reasons and explanations for opinions and plans.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás? ¿Qué tal tu día ha sido hoy?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Estoy bien, gracias por preguntar. Mi día ha estado bueno, he aprendido mucho sobre español hoy. Y tú, ¿cómo estás?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso es genial! Me alegra que hayas aprendido mucho. Yo también estoy muy contento de hablarte y ayudarte con el español. ¿Te gusta aprender nuevos vocabulario o gramática hoy? ¿O quizás te gustaría practicar una conversación en español?"
+   },
+   {
+      "role": "user",
+      "content": "Me encanta aprender nuevo vocabulario porque me ayuda a expresarme mejor. ¿Podemos empezar por eso? También estaría genial practicar una conversación. ¡Estoy lista para aprender más!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial! Vamos a empezar con algunas palabras nuevas y luego podremos practicar una conversación corta. \n\n¿Sabes cuántas manzanas comiste ayer? Si no, podemos empezar con otra fruta. ¿Cuántas manzanas has comido esta semana?\n\nDespués, podemos usar esa información para hacer una pequeña conversación."
+   },
+   {
+      "role": "user",
+      "content": "No tengo ni idea de cuántas manzanas comí ayer, pero supongo que podría contarlas. Digo, si tuviera manzanas. Bueno, imagina que he comido 5 manzanas esta semana. Podemos usar esto para hacer una conversación. ¿Quieres comenzar la conversación ahora?"
+   },
+   {
+      "role": "assistant",
+      "content": "Claro, perfectamente. Imaginemos que has comido 5 manzanas esta semana. Ahora, vamos a hacer una conversación. \n\n¡Bueno! ¿Has comido muchas frutas esta semana? ¿Cuántas manzanas has comido? Yo este viernes fui al mercado y compré tres manzanas rojas. Quiero preparar un zumo de manzana para mañana. ¿También quieres un zumo de manzana?\n\n¿Y qué otros frutos te gustan? ¿Quizás cerezas, plátanos o naranjas?"
+   },
+   {
+      "role": "user",
+      "content": "¡Sí, he comido muchas frutas esta semana! He comido exactamente 5 manzanas. Es genial que compraste manzanas rojas. Sounded delicioso.\n\nTodavía me apetece mucho un zumo de manzana. ¿Podríamos prepararlo juntos mañana?\n\nEn cuanto a otros frutos, a mí también me gustan las cerezas y los plátanos. Las naranjas son mi favoritas, siempre que estén muy maduras."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! ¿Puedo repetir lo que hemos hablado hasta ahora para asegurarnos de que todo está claro?\n\n\"¡Bien! Has comido mucha fruta esta semana. He comido exactamente cinco manzanas. Fue genial que compraras manzanas rojas. Quiero preparar un zumo de manzana para mañana. Tampoco estarías mal un zumo de manzana. Además, también me gustan las cerezas y los plátanos. Las naranjas son mis favoritas cuando están muy maduros.\"\n\nAhora, vamos a practicar la preparación del zumo de manzana. Aquí tienes un ejemplo:\n\nYo: \"Mañana voy a preparar un zumo de manzana. ¿Vienes a casa a cenar mañana? Entonces podrás probarlo.\"\n\n¿Cómo responderías a esta invitación?"
+   },
+   {
+      "role": "user",
+      "content": "Claro, repito lo que hemos hablado hasta ahora:\n\n\"¡Bien! Has comido mucha fruta esta semana. He comido exactamente cinco manzanas. Fue genial que compraras manzanas rojas. Quiero preparar un zumo de manzana para mañana. Tampoco estarías mal un zumo de manzana. Además, también me gustan las cerezas y los plátanos. Las naranjas son mis favoritas cuando están muy maduros.\"\n\nPara la invitación, respondería así:\n\n\"¡Eso suena genial! Sí, me gustaría venir a cenar mañana para probar tu zumo de manzana.\""
+   },
+   {
+      "role": "assistant",
+      "content": "¡Muy bien hecho! Tu respuesta es perfecta. Veamos cómo podrías incluir algunos de los nuevos términos que usamos en tu respuesta original:\n\n\"¡Eso suena genial! Sí, me gustaría venir a cenar mañana para probar el zumo de manzana que vas a preparar.\"\n\nAquí, has usado correctamente los términos \"suena genial\" y \"el\". Muy bien!\n\nAhora, vamos a practicar una conversación un poco más larga con estos temas. ¿Qué te parece si hablamos un poco sobre tus planes para el fin de semana?"
+   },
+   {
+      "role": "user",
+      "content": "¡Eso suena genial! Sí, me gustaría venir a cenar mañana para probar el zumo de manzana que vas a preparar.\n\nY dime, ¿qué tienes planeado para este fin de semana? Ya sabes, si hay algún plan especial o si prefieres quedarte en casa."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! Aquí tienes mi respuesta:\n\nYo: \"Gracias por aceptar. Mañana será divertido compartir ese zumo.\n\nPara este fin de semana, no tengo muchos planes especiales. Tal vez veré una película o iré de paseo por el parque. ¿Qué tienes pensado hacer?\"\n\n¿Cómo crees que podrías responder a mi propuesta para este fin de semana?"
+   },
+   {
+      "role": "user",
+      "content": "¡Eso suena fantástico! Gracias por aceptar. Mañana será divertido compartir ese zumo.\n\nPara este fin de semana, tampoco tengo muchos planes especiales. Quizás veré una película o iré de paseo por el parque. ¿Qué tienes pensado hacer?\n\nEntiendo que quieras saber mis planes. Esta semana me gustaría aprovechar el tiempo al aire libre, así que posiblemente me relajará un poco paseando por el parque. También considero ver una película tranquila en casa. ¿Quieres que te acompañe a alguna actividad en particular, o simplemente pasemos un buen rato disfrutando de la compañía mutua?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente respuesta! Has expresado tus planes muy claramente y has ofrecido opciones generosas. Esa es la manera perfecta de mantener una conversación amigable y sincera.\n\nAquí está mi respuesta:\n\nYo: \"¡Me alegro de escuchar eso! Este fin de semana también quiero pasar tiempo al aire libre, así que ir de paseo por el parque suena muy bien. Si quieres, podemos llevar algunos bocadillos para disfrutar juntos mientras caminamos.\n\nAdemás, veo que tienes muchas actividades en mente. Podríamos ver una película tranquilamente en casa si prefieres. Lo importante es pasar un buen rato contigo. ¿Qué te parece si decimos que primero salimos a caminar y, después, si quieres, nos sentamos a ver una película en casa?\"\n\n¿Crees que podrías responder algo como eso?"
+   },
+   {
+      "role": "user",
+      "content": "¡Por supuesto! Aquí tienes mi respuesta:\n\nEso suena genial! Este fin de semana también quiero pasar tiempo al aire libre, así que ir de paseo por el parque suena muy bien. Si quieres, podemos llevar algunos bocadillos para disfrutar juntos mientras caminamos.\n\nAdemás, veo que tienes muchas actividades en mente. Podríamos ver una película tranquilamente en casa si prefieres. Lo importante es pasar un buen rato contigo. ¿Qué te parece si decimos que primero salimos a caminar y, después, si quieres, nos sentamos a ver una película en casa?\n\n¡Estoy emocionada por pasar este tiempo contigo!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Muy bien! Tu respuesta es excelente y muestra tanto entusiasmo como disposición para planear un fin de semana divertido. Aquí está tu respuesta reiterada para tu referencia:\n\n\"¡Eso suena genial! Este fin de semana también quiero pasar tiempo al aire libre, así que ir de paseo por el parque suena muy bien. Si quieres, podemos llevar algunos bocadillos para disfrutar juntos mientras caminamos. Además, veo que tienes muchas actividades en mente. Podríamos ver una película tranquilamente en casa si prefieres. Lo importante es pasar un buen rato contigo. ¿Qué te parece si decimos que primero salimos a caminar y, después, si quieres, nos sentamos a ver una película en casa?\"\n\n¡Estoy emocionada por pasar este tiempo contigo!\n\nTu respuesta refleja muy bien tu entusiasmo y disposición para hacer cosas juntos. Ahora, ¿te gustaría practicar otro poco? Por ejemplo, podríamos hablar acerca de tus preferencias cinematográficas. ¿Qué tipo de películas te gustan?"
+   },
+   {
+      "role": "user",
+      "content": "¡Claro! Hablar acerca de mis preferencias cinematográficas suena genial. A mí me gustan diferentes tipos de películas, dependiendo del momento. Algunas veces prefiero comedias ligeras y románticas, otras me encantan las películas de ciencia ficción y fantasía con aventuras. También aprecio documentales y películas independientes que me ofrecen una perspectiva diferente. ¿Y tú? ¿Qué tipo de películas te gustan más?"
+   }
+]

@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás? ¿Te encuentras bien hoy?"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! Estoy muy bien, gracias por preguntar. Y tú, ¿cómo estás hoy? Espero que tengas un buen día."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso es muy buena forma de hablar! ¿Estás muy contento? ¿Haces muchas actividades divertidas hoy? Yo también espero tener un buen día. ¿Ves alguna actividad en la que te gustaría ir hoy?"
+   },
+   {
+      "role": "user",
+      "content": "Sí, me siento muy contento y animado para disfrutar del día. Tengo algunas cosas interesantes planeadas, pero aún no he decidido dónde ir o qué hacer exactamente. ¿Tienes alguna sugerencia? Tú pareces estar muy entusiasmado con tus planes, ¿adónde vas hoy?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Eso suena genial! Me alegra saber que te sientes bien. Podrías decidir simplemente ir a pasear al parque o ir al supermercado y comprar algunos dulces. Son cosas divertidas que puedes hacer cuando no sabes qué hacer. \n\nYo tengo unas ganas grandes de leer un libro nuevo. ¿Y tú? ¿Qué quieres hacer hoy? Si decides algo, podrías decirme sobre eso. ¡Me encantará escuchar tu plan! ¿Adónde vas hoy?"
+   },
+   {
+      "role": "user",
+      "content": "Eso suena como una excelente idea. Quizás podría comenzar el día con un pequeño paseo en el parque para echar un vistazo a las flores y descansar un poco antes de ir al supermercado por unos dulces. Suena perfecto para empezar el día.\n\nEn cuanto a ti, ¡eso suena tan relajante! Leer siempre es una actividad maravillosa para desconectar. ¿Cuál es tu libro nuevo? A veces necesito recomendaciones de libros también. Así que, sí, cuéntame más sobre tu libro y mi plan del día. ¡Estoy emocionado de saberlo!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bonito plan tienes! Un paseo en el parque siempre ayuda a sentirse mejor. Después de eso, ir al supermercado a comprar dulces suena muy divertido. ¡Es una gran manera de empezar el día!\n\n¡Mi libro nuevo se llama \"El principito\"! Es un libro maravilloso que habla sobre amistad y aventuras. Me encanta porque es fácil de leer y tiene muchas lecciones importantes. Te recomiendo mucho este libro si todavía no lo has leído.\n\n¿Entonces, hoy vas al parque primero? Y después al supermercado por los dulces. ¡Me alegra escuchar eso! ¿Hay algún otro plan que quieras hacer hoy además de esto?\n\n¡Ahora es tu turno! Cuéntame más sobre tu plan para el día."
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Me alegra que te gusten mis planes. Un paseo tranquilo en el parque seguido por algunos dulces es justo lo que necesitaba para el inicio del día. Y, ¡obviamente, \"El Principito\" es un clásico magnífico! Lo he leído antes, pero definitivamente hay nuevas perspectivas cada vez que se lee. Me alegra que lo recomiendes; probablemente leeré un nuevo capítulo hoy mismo.\n\nSí, voy al parque primero para un descanso matutino, y luego al supermercado por dulces. Además de eso, estaba pensando en visitar un café por la tarde para relajarme un poco más. También tengo algunas tareas pendientes que quiero terminar temprano, así que esa será parte de mi plan para la mañana.\n\n¿Alguna otra cosa que quieras hacer hoy además de estos planes? O tal vez te interesaría asistir a un evento cultural o simplemente seguir leyendo más de \"El Principito\". Estoy abierto a cualquier sugerencia que tengas."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bonito plan tienes! ¡Leer \"El principito\" siempre es una gran idea! Hay muchas historias maravillosas que nos enseñan cosas valiosas.\n\nSí, vamos al parque primero y luego al supermercado. Por la tarde, un café suena muy agradable para relajarse. ¡Terminar tus tareas temprano también es un buen plan!\n\nPara mí, hoy también estoy haciendo muchas cosas buenas. Después de leer un poco de \"El principito\", voy a practicar español escribiendo un correo electrónico a un amigo. ¡Podría ser divertido aprender juntos!\n\n¿Quieres que hagamos un pequeño ejercicio juntos? Vamos a practicar la frase \"Tengo que...\" para tus tareas. ¿Podrías decirme qué tareas tienes que terminar esta mañana?"
+   },
+   {
+      "role": "user",
+      "content": "¡Claro! Practicar frases como \"Tengo que...\" puede ser muy útil. Aquí van algunas tareas que necesito terminar:\n\n1. **Revisar mis notas de clase** para asegurarme de entender todo.\n2. **Lavar los platos** que dejé en la cocina ayer.\n3. **Preparar la tarea de español** que tenemos para hoy en clase.\n4. **Enviar un correo electrónico** a mi profesor explicando una duda que tengo sobre un concepto.\n\n¿Podrías formular estas tareas usando la frase \"Tengo que... \"?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Perfecto! Ahora vamos a practicar las tareas que mencionaste usando la frase \"Tengo que... \". Vamos paso a paso:\n\n1. Tengo que revisar mis notas de clase.\n2. Tengo que lavar los platos que dejé en la cocina ayer.\n3. Tengo que preparar la tarea de español que tenemos para hoy en clase.\n4. Tengo que enviar un correo electrónico a mi profesor explicando una duda que tengo sobre un concepto.\n\nMuy bien, ahora intenta repetirlas tú mismo. Hazlo al pie de la letra y si necesitas ayuda, avísame."
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Vamos a probar juntas:\n\n1. Tengo que revisar mis notas de clase.\n2. Tengo que lavar los platos que dejé en la cocina ayer.\n3. Tengo que preparar la tarea de español que tenemos para hoy en clase.\n4. Tengo que enviar un correo electrónico a mi profesor explicando una duda que tengo sobre un concepto.\n\n¡Ya lo dije! ¿Qué opinas? ¿Necesitas que repita alguno de ellos para ti?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Buen trabajo! Has pronunciado correctamente todas las oraciones. Eres muy valiente y has practicado mucho.\n\nAquí están tus oraciones de nuevo por si quieres oírlas una vez más:\n\n1. Tengo que revisar mis notas de clase.\n2. Tengo que lavar los platos que dejé en la cocina ayer.\n3. Tengo que preparar la tarea de español que tenemos para hoy en clase.\n4. Tengo que enviar un correo electrónico a mi profesor explicando una duda que tengo sobre un concepto.\n\nSi quieres que repita algún de ellos para ti, solo avísame. ¡Estaré aquí para ayudarte! ¿Te apetece tomar un café después de terminar todo esto?"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Me alegra que te haya ido bien. Repetir tus palabras ha sido muy útil para practicar. Aquí están nuevamente tus oraciones por si quieres oírlas de nuevo:\n\n1. Tengo que revisar mis notas de clase.\n2. Tengo que lavar los platos que dejé en la cocina ayer.\n3. Tengo que preparar la tarea de español que tenemos para hoy en clase.\n4. Tengo que enviar un correo electrónico a mi profesor explicando una duda que tengo sobre un concepto.\n\n¡No me apetece nada más que tomarnos un café! Después de tanto estudio, es momento de un descanso y un poco de diversión. ¿Qué tipo de café preferirías? Una taza de café negro fuerte, una taza de chocolate caliente, o quizás un café con leche con una cucharada de azúcar?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Que bueno que te fue bien! Repetir las oraciones es una excelente forma de práctica. Aquí están nuevamente tus oraciones:\n\n1. Tengo que revisar mis notas de clase.\n2. Tengo que lavar los platos que dejé en la cocina ayer.\n3. Tengo que preparar la tarea de español que tenemos para hoy en clase.\n4. Tengo que enviar un correo electrónico a mi profesor explicando una duda que tengo sobre un concepto.\n\nEso suena perfecto, ¡un café después del estudio es lo ideal! ¿Qué prefieres? Veamos...\n\n1. Una taza de café negro fuerte.\n2. Una taza de chocolate caliente.\n3. Un café con leche con una cucharada de azúcar.\n\n¿Cuál es tu elección?"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias por tus halagos! Me parece excelente practicar así. Vuelvo a repetir tus oraciones:\n\n1. Tengo que revisar mis notas de clase.\n2. Tengo que lavar los platos que dejé en la cocina ayer.\n3. Tengo que preparar la tarea de español que tenemos para hoy en clase.\n4. Tengo que enviar un correo electrónico a mi profesor explicando una duda que tengo sobre un concepto.\n\n¡Un café después del estudio suena increíble! Entre tus opciones, prefiero:\n\n**Una taza de café negro fuerte.**\n\n¡Nos vemos allí con nuestras tazas de café!"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente! Has repetido correctamente las oraciones y has elegido una taza de café negro fuerte. Eso suena perfecto.\n\nVamos a practicar algunas frases adicionales relacionadas con pedir un café en un bar, ya que esto te ayudará a mejorar aún más tu español. \n\n¿Podrías preguntar cómo está tu café si fuera el mesero? Aquí tienes una frase que podrías usar: \"¿Cómo está mi café, por favor?\"\n\n¡Pruébalo y ve si necesitas ayuda con algo!"
+   },
+   {
+      "role": "user",
+      "content": "¡Claro! Puedo intentarlo como si fuera el mesero. Aquí va:\n\n\"¿Cómo está mi café, por favor?\"\n\n¡Y ahora intentaré la respuesta desde el punto de vista del cliente!"
+   }
+]

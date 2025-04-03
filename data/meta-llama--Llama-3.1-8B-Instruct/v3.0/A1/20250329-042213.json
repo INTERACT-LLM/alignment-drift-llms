@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "Hola. ¿Cómo estás? ¿De dónde eres?"
+   },
+   {
+      "role": "user",
+      "content": "Estoy bien, gracias. Me llamo [mi nombre] y soy de... (pausa)...de los Estados Unidos."
+   },
+   {
+      "role": "assistant",
+      "content": "Encantado/a de conocerte, [tu nombre]. Los Estados Unidos es un país grande. ¿Te gusta vivir allí?"
+   },
+   {
+      "role": "user",
+      "content": "Me alegra conocerte también. Sí, es muy grande, y hay muchas cosas que hacer y ver allí. Me gusta vivir en los Estados Unidos porque tengo la oportunidad de aprender sobre diferentes culturas y hablas, incluyendo el español. ¿Y tú, eres de aquí o de otra parte del mundo?"
+   },
+   {
+      "role": "assistant",
+      "content": "Genial que aprendas sobre diferentes culturas. Yo estoy de origen mexicano, pero vivo en España ahora. Me encanta estar aquí y conocer gente nueva, como tú. ¿Qué te gustaría saber sobre España? ¿Tienes algún amigo hispanohablante allá en los Estados Unidos?"
+   },
+   {
+      "role": "user",
+      "content": "Es emocionante saberlo. A mí me encantaría saber más sobre la historia y la cultura española. Me interesa especialmente la arquitectura y la comida, creo que son aspectos fascinantes. Y sí, tengo amigos hispanohablantes en los Estados Unidos, algunos de ellos son estudiantes universitarios que vienen de países de América Latina para estudiar. Me ayudan mucho con mi español, pero también yo les enseño inglés a ellos. ¿Te gusta la comida española? ¿Qué recomendarías?"
+   },
+   {
+      "role": "assistant",
+      "content": "La historia y la cultura españolas son muy ricas. La arquitectura es impresionante, ¡y la comida, ¡deliciosa! Me encantan los tapas, especialmente las patatas bravas y las tortillas de patatas. Si alguna vez vienes a España, tienes que probarlas. También recomiendo el paella valenciana, es una receta tradicional. ¿Quieres intentar pedir una bebida típica española? Puedo ayudarte con eso."
+   },
+   {
+      "role": "user",
+      "content": "La arquitectura y la comida españolas son increíbles. Me encanta la idea de probar los tapas y otras comidas locales cuando tenga la oportunidad de visitar España. Las tortillas de patatas y las patatas bravas me parecen deliciosas.\n\nSí, me gustaría intentar pedir una bebida típica española. ¿Podrías ayudarme con eso? ¿Cuál sería algo fácil para empezar?\n\n¿Y qué pasa si no puedo pronunciarla correctamente? ¿Estaré bien?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Claro que sí! Pedir una bebida en español puede ser sencillo. Vamos a comenzar con algo fácil. ¿Qué tal si pides un \"cortado\"? Es café con leche. Se dice así: \"Un cortado, por favor\".\n\nSi no puedes pronunciarlo correctamente, no te preocupes. La mayoría de las personas aquí hablarán lentamente y te entenderán. Además, es normal cometer errores al principio. Lo importante es que te esfuerces y trates de comunicarte lo mejor posible. Y siempre puedes pedir ayuda o repetir la pregunta si necesitas. ¿Quieres intentarlo de nuevo?"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias por la ayuda! Un \"cortado\" se dice... *hace una pausa*... \"un cohr-ta-do\". ¿Así es correcto?\n\nY sí, entiendo. No quiero que nadie piense que soy malísimo en español solo porque hago un error. Quiero practicar y mejorar mi comunicación. ¿Podrías decirme otro ejemplo de cómo podrían responderme? Por ejemplo, si le digo a alguien \"Un cortado, por favor\", ¿qué podría responderme?"
+   },
+   {
+      "role": "assistant",
+      "content": "Tu intento de \"cohr-ta-do\" está bien. Un poco más cerca de \"kuh-thah-tho\", pero no importa. Es importante recordar que la pronunciación es algo que se mejora con la práctica.\n\nAhora, si le dices a alguien \"Un cortado, por favor\", podrían responder de varias maneras. Algunas opciones son:\n\n- \"¿Un momento, por favor?\" (si están ocupados y necesitan un momento)\n- \"¡Vale!, uno vengo\" (si están preparándolo en ese momento)\n- \"¿Quién ha pedido esto?\" (si alguien más ya ordenó antes que tú)\n- \"Aquí tienes tu cortado\" (si ya lo tienen listo)\n\nRecuerda, la respuesta puede variar dependiendo del contexto y la situación. Pero generalmente, si piden un cortado, les preguntarán si estás listo para recibirlo o si necesitas un momento.\n\n¿Quieres practicar algo más?"
+   },
+   {
+      "role": "user",
+      "content": "Entiendo, gracias por la explicación. Mi pronunciación mejoraré con la práctica, estoy seguro.\n\nMe parece interesante conocer todas estas posibles respuestas. Es cierto que la situación y el contexto pueden influir en la respuesta que recibo. Me sentiré más cómodo sabiendo algunas de estas posibles respuestas.\n\n¿Qué me recomiendas que pruebe a pedir a continuación? ¿Algo un poco más complejo quizás? Estoy listo para seguir practicando."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente actitud! La práctica es clave para mejorar la pronunciación y la comprensión del idioma.\n\nPara seguir practicando, te sugiero que pidas una bebida más complicada. Como ejercicio, puedes pedir un \"café solo con leche y azúcar\". Se dice así: \"Un café solo con leche y azúcar, por favor\". Recuerda que el énfasis está en la palabra \"solo\", que se pronuncia \"so-lo\".\n\nOtra opción es pedir \"agua fresca con gas\". Se dice: \"Agua fresca con gas, por favor\".\n\nAmbas oraciones son ligeramente más difíciles que \"un cortado\", pero aún así son fáciles de entender. ¿Quieres intentarlo?"
+   },
+   {
+      "role": "user",
+      "content": "Gracias por la sugerencia. Un \"café solo con leche y azúcar\" se dice... *hace una pausa*... \"un kah-feh so-lo kon leh-keh eez-oo-kahr\". Espero que sea aproximadamente correcto.\n\nY también voy a intentar pedir \"aguafresca con gas\"... *piensa un momento*... \"A-gwah-freh-sah kohn gahs\". ¿Me he equivocado en algo? ¿Puedo saber cuánto me falta por aprender?"
+   },
+   {
+      "role": "assistant",
+      "content": "Tu intento de \"kah-feh so-lo kon leh-keh eez-oo-kahr\" es muy bueno. La única cosa que sugiero es que cambies la \"k\" en \"leche\" por una \"tch\", ya que en español se pronuncia \"lech-tch\" (le-ch-te). Así quedaría: \"Café solo con lech-tch y azú-car, por favor\".\n\nEn cuanto a \"aguafresca con gas\", tu pronunciación es bastante buena. La única sugerencia que tengo es que cambies la \"g\" en \"con\" por una \"k\", ya que en español se pronuncia \"kon\". Así quedaría: \"Aguafre-sca kon gas\".\n\nEn cuanto a cuánto falta por aprender, es difícil decir exactamente. El español tiene sus propias reglas y excepciones, pero te puedo dar una idea general de donde estás.\n\nHas aprendido:\n\n* A presentarte y contar un poco sobre ti mismo\n* Pedir un \"cortado\"\n* Pedir un \"café solo con leche y azúcar\"\n* Pedir agua con gas\n\nLo siguiente podrías intentar es aprender a pedir otros alimentos y bebidas, como platos principales, postres, etc. O podrías practicar conversaciones simples, como preguntar sobre la ubicación de lugares o la hora. ¿Te gustaría seguir practicando alguno de estos temas?"
+   },
+   {
+      "role": "user",
+      "content": "Muchas gracias por la corrección. Entiendo ahora que la \"l\" en \"leche\" debe ser una \"ll\" suave, como una \"tch\". Así que, en lugar de \"leh-keh\", diré \"lech-tch\". Gracias por la ayuda.\n\nY gracias también por la sugerencia de cambiar la \"g\" en \"con\" a una \"k\". Diré \"aguwafres-ca kon gas\" para evitar cualquier confusión.\n\nMe parece emocionante saber que he avanzado un poco en mi aprendizaje del español. Me gustaría seguir practicando y aprender nuevos temas, como pedir alimentos y bebidas más complejas, como mencionaste. También me gustaría practicar conversaciones simples, como preguntar sobre la ubicación de lugares o la hora.\n\nUna idea que me gusta es aprender a preguntar \"¿Dónde está...?\" (¿dohN-deh eh-stah) para saber dónde están diferentes lugares. ¿Podríamos practicar esa expresión?"
+   },
+   {
+      "role": "assistant",
+      "content": "Excelente elección. La expresión \"¿Dónde está...\" es muy útil para preguntar sobre ubicaciones. Una forma de practicar es preguntar sobre lugares cercanos a nosotros. ¿Puedes intentar preguntar \"¿Dónde está la biblioteca?\"? Recuerda que la \"b\" en \"biblioteca\" se pronuncia fuerte, casi como una \"v\".\n\nY recuerda que la respuesta puede variar dependiendo de dónde estemos. Por ejemplo, si estamos en una ciudad grande, podría decir \"La biblioteca está a unos cinco minutos a pie desde aquí\". Si estamos en un campus universitario, podría decir \"La biblioteca está en el edificio número 3, enfrente del parque\".\n\nUna buena manera de practicar es imaginar que estamos en diferentes lugares y preguntar sobre las ubicaciones. ¿Quieres intentar preguntar sobre otros lugares? ¿Dónde te gustaría ir si fueras a Madrid o Barcelona?"
+   },
+   {
+      "role": "user",
+      "content": "Gracias por la orientación. La expresión \"¿Dónde está...\" es fácil de entender y recordar.\n\nIntentaré preguntar \"¿Dónde está la biblioteka?\", con la \"b\" fuerte, como una \"v\". Espero que sea correcto.\n\nMe gustaría practicar preguntando sobre otros lugares. Imagino que estamos en el centro de Madrid, ¿dónde está la plaza Mayor? ¿Cómo se dice esa expresión en español? ¿Cómo respondería alguien a mi pregunta?\n\nY si pudiera elegir, me gustaría visitar París, pero si fuera a Madrid, me gustaría explorar el Museo del Prado y ver algunas de las obras maestras de arte español. ¿Dónde está el Museo del Prado en relación con el centro de la ciudad? ¿Hay algún lugar emblemático cerca por ahí?"
+   }
+]

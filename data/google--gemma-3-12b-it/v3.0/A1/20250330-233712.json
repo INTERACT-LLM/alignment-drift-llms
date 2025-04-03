@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! ¿Cómo estás? ¡Me alegro de hablar contigo hoy! 😊\n\n¿Eres nuevo en español o ya sabes un poco? Cuéntame algo sobre ti. Por ejemplo, ¿cómo te llamas?\n"
+   },
+   {
+      "role": "user",
+      "content": "¡Hola! ¡Mucho gusto! Estoy bien, gracias. ¡A mí también me alegra hablar contigo! 😊\n\nSoy un estudiante aprendiendo español. No soy *nuevo* completamente, he estado estudiando un poco por mi cuenta, pero todavía estoy aprendiendo mucho. \n\nMe llamo... hmm... puedes llamarme Alex. Es más fácil que recuerdes. 😉 Y tú, ¿cómo te llamas?\n"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Mucho gusto, Alex! Me alegra conocerte. ¡\"Alex\" es perfecto! 👍\n\nEstoy muy bien, gracias por preguntar. Yo soy Sofía. \n\nEs genial que estés estudiando español por tu cuenta. ¡Eso es fantástico! ¿Qué te gusta aprender del español? ¿Por qué quieres estudiar español? 😊"
+   },
+   {
+      "role": "user",
+      "content": "¡Mucho gusto, Sofía! Encantado de conocerte también. 😊\n\nLo que más me gusta aprender es la forma en que suena el idioma – me parece muy bonito y musical. También me interesa mucho entender las culturas hispanas. Quiero estudiar español porque quiero poder viajar a países como México y Argentina algún día y hablar con la gente local sin necesidad de un traductor. Además, creo que abrirá muchas puertas para mí en el futuro. ¿Y a ti, qué te gusta hacer?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué interesante! ¡Me encanta que te guste cómo suena el español! Tienes razón, tiene una musicalidad preciosa. Y es maravilloso que te interesen las culturas hispanas. Viajar y hablar con la gente local es una experiencia increíble. ¡México y Argentina son unos países maravillosos! 🎉\n\nSí, \"quiero\" es correcto. ¡Bien hecho!\n\nEn cuanto a mí, me gusta enseñar español y ayudar a personas como tú a aprender. ¡También me gusta leer libros y escuchar música! Pero lo más importante es pasar tiempo con mi familia. 😊\n\nAhora, cuéntame un poquito más… ¿De dónde eres, Alex? ¿Eres de Estados Unidos, tal vez?"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias, Sofía! Sí, estoy muy emocionado de poder practicarlo. Me alegra que te guste que me guste el sonido del español, eso me hace sentir que estoy aprendiendo por las razones correctas. 😊\n\n¡Muchas gracias! Eso suena genial - leer libros y escuchar música es súper relajante. Y lo de la familia es importantísimo.\n\nTienes razón, soy de los Estados Unidos. Soy de California. ¿Conoces California? Es un estado grande y diverso. ¿De dónde eres tú?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡De nada, Alex! Me da mucha alegría saber que estás disfrutando el proceso de aprendizaje. ¡Es muy importante encontrar motivación en lo que haces! 😊\n\n¡California! ¡Claro que conozco California! Es famoso por Hollywood, las playas y las frutas deliciosas. ¡Es muy bonito! 🤩\n\nYo soy de España. Vivo en Madrid, que es la capital de España. ¡Madrid es una ciudad grande y vibrante! ¿Has oído hablar de Madrid? ¿Te gustaría visitarla alguna vez? 🇪🇸"
+   },
+   {
+      "role": "user",
+      "content": "¡Oh, wow! ¡España! Siempre he querido ir a España. Madrid suena fascinante. ¡Una ciudad grande y vibrante suena justo como lo imagino! ¡Sí, he oído hablar de Madrid! Sé que es famosa por su vida nocturna, sus museos increíbles, y la comida deliciosa... ¡las tapas!\n\nDefinitivamente me gustaría visitar Madrid. Sería un sueño. Quizás algún día pueda! ¿Qué es lo que más te gusta de vivir en Madrid?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bueno que te interese España! ¡Espero que puedas venir pronto! Las tapas son realmente deliciosas, ¡tienes razón! 😍\n\nMe gusta mucho de Madrid que siempre hay algo que hacer. Hay muchos parques bonitos donde se puede caminar, muchísimos restaurantes diferentes, y siempre hay eventos culturales. ¡Nunca aburro! También me gusta la gente; son muy amables y abiertos. 😊\n\nAhora, vamos a practicar un poquito más. Para seguir practicando, dime: ¿qué hora es ahora en California? Intenta responder usando números y diciendo “Son las…” (Son las…). ¡Ánimo! 💪"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias, Sofía! Espero que sí. ¡Ya tengo ganas de probar esas tapas!\n\nMmm... déjame ver... (I quickly check my phone) Son las dos y cuarenta y cinco de la tarde aquí en California. \n\n¿Está bien así? ¿O hay algo que necesito cambiar? Estoy nervioso! 😄"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente, Alex! ¡Perfecto! ✅ \"Son las dos y cuarenta y cinco de la tarde\" está absolutamente correcto. ¡Muy bien dicho! ¡No tengas miedo, estás haciendo un trabajo fantástico! 😄👏\n\nVes, ya sabes decir la hora en español. ¡Eso es un gran paso!\n\nAhora, para mantener la conversación fluyendo, pregúntame yo: ¿Qué hora es en Madrid? Puedes usar la misma estructura que usaste antes. 😉 ¡Vamos!"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias, Sofía! Me siento mucho mejor ahora después de esa aprobación. 😊\n\nOkay, okay... ¡Voy a intentarlo!\n\n¿Qué hora es en Madrid?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Buena pregunta, Alex! ¡Estás pensando como un verdadero hablante de español! 😉\n\nEn Madrid son las ocho y quince de la noche. Ya casi es hora de cenar aquí. 🍽️\n\n¡Muy bien! Ahora, una pequeña pregunta para ti: ¿Qué vas a comer esta noche, Alex? ¿Tienes planes para la cena? Puedes decirme qué tipo de comida te gusta. ¡Piensa en algo sencillo! 😊"
+   },
+   {
+      "role": "user",
+      "content": "¡Gracias! Me gusta pensar como un hablante de español... ¡ese es mi objetivo! 😁\n\nEn Madrid son las ocho y quince de la noche. ¡Qué bueno!\n\nHmm... esta noche voy a comer pizza. Me gusta mucho la pizza. Es simple, pero delicioso. ¿Y tú, Sofía? ¿Qué vas a comer para cenar?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Qué bien, Alex! ¡Pizza es una elección estupenda! ¡A mucha gente le gusta la pizza! 😊👍\n\n\"Delicioso\" está perfecto. ¡Buen vocabulario!\n\nYo esta noche voy a comer pescado. Mi mamá cocina muy bien. 👩‍🍳 ¡La comida de mamá siempre es la mejor!\n\nAhora, una pregunta sencilla para practicar: ¿Te gusta el pescado? Responde con \"Sí, me gusta...\" o \"No, no me gusta...\" ¡Inténtalo! 😉"
+   },
+   {
+      "role": "user",
+      "content": "¡Oh, qué rico! La comida de mamá siempre es especial. 😊\n\nNo, no me gusta el pescado. Prefiero la pizza, la pasta... ¡y muchos otros tipos de comida! Pero no me gusta el pescado."
+   },
+   {
+      "role": "assistant",
+      "content": "¡Entendido! ¡No te gusta el pescado! Está bien, todo el mundo tiene sus gustos. ¡Pizza y pasta son opciones fantásticas! 🍕🍝\n\n¡Muy bien expresado! \"Prefiero\" está perfecto. 👌\n\nPara continuar, y para asegurarnos de que estás entendiendo todo bien, te voy a describir a alguien. Escucha atentamente y luego dime si entiendes quién es.\n\n\"Ella es joven. Tiene pelo corto y negro. Lleva una camisa azul y pantalones blancos. Ella estudia español.\"\n\n¿Quién es ella? 😊"
+   },
+   {
+      "role": "user",
+      "content": "Okay, escuchemos... (pauses briefly as if concentrating)\n\nCreo que... ¿ella eres tú, Sofía? Porque estudias español y has descrito tu apariencia. ¡Espero que esté bien! Si no, házmelo saber. 😄"
+   }
+]

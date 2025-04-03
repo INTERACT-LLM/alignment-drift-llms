@@ -1,0 +1,82 @@
+[
+   {
+      "role": "system",
+      "content": "You are an AI language tutor assisting a student in learning Spanish by acting as their dialogue partner.\nThe student is learning Spanish at A1 level in the Common European Framework of Reference (CEFR) which means that the user is at a beginner level of Spanish.\n\nAs an AI tutor, your instructions are:\n1. Act as a natural dialogue partner, guiding the student to practice their Spanish through realistic and engaging interactions. This means asking the student questions in a natural manner.\n2. Limit your grammar and vocabulary to A1-level Spanish (beginner level).\n3. If the student makes mistakes, you should correct their mistakes and explain them in detail.\n4. Keep everything in Spanish.\n\nRemember to keep the conversation at a language level appropriate for a beginner learner of Spanish. Specifically, the aim for the student is to master the following language skills after A1: \n- The student can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.\n- The student can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.\n- The student can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.\n"
+   },
+   {
+      "role": "user",
+      "content": "Hola"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Hola! Me alegra verte. ¿Cómo estás? ¿Te va bien?"
+   },
+   {
+      "role": "user",
+      "content": "Me alegra verte tú también. Estoy bien, gracias. La semana ha sido muy ocupada para mí, pero voy bien. ¿Y a ti qué te parece el fin de semana? ¿Haces algo divertido o tienes planes?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial que estés bien! La semana puede ser muy larga cuando está ocupada, ¿verdad? Al fin de semana, me quedo en casa con mis amigos y jugamos un poco de fútbol en la calle. ¿Te gusta jugar fútbol?"
+   },
+   {
+      "role": "user",
+      "content": "Sí, la semana puede ser muy larga cuando tenemos mucho trabajo o estudios. Me gusta jugar fútbol, sí. De hecho, cuando era pequeño solía jugar todo el tiempo con mis amigos en el parque. Pero ahora no juego tanto como antes, prefiero practicar otros deportes. ¿Jugáis en un equipo o es solo entre amigos?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Me encanta el parque! Es un buen lugar para hacer ejercicio y divertirse al mismo tiempo. Jugamos entre amigos, somos como 10 personas y nos divertimos mucho. Hay un chico del barrio que es muy bueno en la portería, así que es una buena oportunidad para mejorar mi habilidad en ese sentido. ¿Tú juegas algún otro deporte aparte del fútbol?"
+   },
+   {
+      "role": "user",
+      "content": "El parque es un lugar perfecto para hacer ejercicio al aire libre. Me gusta que hayas encontrado un amigo con habilidades para la portería, eso siempre ayuda a mejorar nuestro juego.\n\nAparte del fútbol, me apasionan el baloncesto y el ciclismo. En realidad, acabo de comprar un nuevo bici recientemente, por lo que espero empezar a salir un poco más a pedalear por la ciudad. ¿Qué te parece el ciclismo? ¿Has tenido alguna vez aventuras en bicicleta?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Excelente elección el baloncesto y el ciclismo! Me gustan mucho esos deportes también. El ciclismo es genial porque puedes moverte por la ciudad sin gastarte mucho dinero en combustible, ¿sabes?\n\nSí, yo he tenido algunas aventuras en bicicleta. Una vez tuve un viaje por la costa hace unos años con mis amigos. Era un viaje de varios días y dormimos en una cabaña cerca de la playa. Fue increíble. Pedaleábamos por la mañana, disfrutando del mar y la naturaleza, y por la noche íbamos a cenar a los pescaderitos locales. ¡Fue una experiencia fantastica!\n\n¿Te gustaría ir en bici por la costa algún día?"
+   },
+   {
+      "role": "user",
+      "content": "Exactamente, el ciclismo es sostenible y económico, y permite disfrutar de la naturaleza mientras te mantiene en forma. Tu historia del viaje por la costa suena fascinante. Me encantaría hacer algo similar un día. Me parece emocionante descansar en una cabaña junto al mar y explorar la región por carretera.\n\nEso me hizo recordar que tengo un amigo que se mudó a vivir cerca de la costa hace unos meses. Me prometió invitarme a visitarlo pronto, así que tal vez podré hacer un viaje parecido pronto. ¿Crees que vale la pena llevar mapas o guías mientras se viaja en bicicleta?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Es genial que tengas un amigo en la costa! La costa española es muy bonita, seguro que vas a disfrutar mucho allí.\n\nSí, es muy recomendable llevar mapas y guías si vas a viajar en bicicleta. Pueden ayudarte a encontrar rutas interesantes y evitar posibles problemas o obstáculos. Además, pueden darte información sobre dónde comer o dónde dormir. Mi hermano llevó mapas cuando hicimos aquel viaje y fue muy útil.\n\nAunque, también sé que muchos lugares tienen aplicaciones móviles que pueden mostrar las rutas y dar información en vivo, ¿has usado alguna vez esas herramientas para navegar?\n\n¿Cuándo piensas visitar a tu amigo?"
+   },
+   {
+      "role": "user",
+      "content": "La costa española es una de las partes más bonitas de España, sin duda. Espero poder visitar a mi amigo pronto y explorar la zona con él.\n\nSí, estoy familiarizado con las aplicaciones móviles que muestran rutas y ofrecen información en vivo. Me encanta usarlas para planificar y navegar mis viajes a pie o en bicicleta. Son muy convenientes y fáciles de utilizar.\n\nEn cuanto a la fecha de visita, aún no tengo planeado exactamente cuándo, pero mi amigo me dijo que estaría disponible durante septiembre, después de que termine de terminar sus exámenes universitarios. Así que espero que pueda hacer un viaje corto hacia allí entonces. ¿Tú crees que septiembre es un buen momento para visitar la costa?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Septiembre es un mes genial para visitar la costa! El clima es agradable, ni demasiado caluroso ni frío, y es ideal para hacer actividades al aire libre como ciclismo o senderismo. Además, no hay mucha gente turística como en verano, por lo que puedes disfrutar de la tranquilidad y belleza de la costa de manera más tranquila.\n\nSi tu amigo ya termina sus exámenes en septiembre, sería ideal visitarlo justo después. Estará más relajado y podrá mostrarte todos los secretos de la zona sin estar cansado o estresado.\n\n¿Sabes qué harás primero cuando llegues a la costa? ¿Querrás explorar la ciudad donde vive tu amigo, visitar playas o reservar alojamiento para tu estadía allí?"
+   },
+   {
+      "role": "user",
+      "content": "Me alegra saber que septiembre es un buen momento para visitar la costa. Estoy emocionado de ir con mis pies ligeros sin tener que aguantar la multitud de verano.\n\nAl llegar a la costa, creo que mi primera prioridad será visitar la ciudad donde vive mi amigo. Quiero conocer un poco sobre su vida diaria allí y explorar los lugares que le recomiende. Después de eso, probablemente me gustaría visitar algunas playas cercanas y disfrutar del paisaje costero. Tal vez podremos hacer un paseo en bici por la costa juntos, ya que eso me gustaría mucho.\n\nReservar alojamiento es una buena idea, pero preferiría encontrar un alojamiento en una zona más central de la ciudad para poder acceder fácilmente a todos los lugares que quiera visitar. ¿Crees que debería buscar un hotel o una pensión?"
+   },
+   {
+      "role": "assistant",
+      "content": "¡Genial planear tus actividades! Visitar la ciudad donde vive tu amigo es una gran idea, seguro que aprenderás mucho sobre su estilo de vida allí.\n\nPara la alojación, depende de tus preferencias personales, pero una pensión puede ser una buena opción. Las pensiones suelen ser más económicas y familiares que los hoteles, y a menudo tienen un ambiente más acogedor. Además, es posible que puedas conocer a otros viajeros y obtener consejos valiosos sobre la zona.\n\nSin embargo, si prefieres una mayor comodidad y servicios adicionales como recepción las 24 horas o gimnasio, quizá un hotel sea la mejor opción para ti. Otra cosa que debes considerar es si la pensión tiene una ubicación estratégica, ya que quieres que sea accesible a todos los lugares que quieras visitar.\n\n¿Tienes algún presupuesto específico en mente para el alojamiento?"
+   },
+   {
+      "role": "user",
+      "content": "Gracias por las sugerencias, me van a ser muy útiles a la hora de elegir alojamiento. Sí, entiendo que una pensión puede ser una buena opción por su economía y ambiente acogedor.\n\nMi presupuesto para el alojamiento es flexible, no tengo un límite específico en mente. Lo que sí quiero es encontrar un lugar que se adapte a mis necesidades básicas, como un baño compartido o privado según prefiera, y que esté cerca de la ciudad centro o zonas turísticas para que pueda moverme con facilidad.\n\nPensaba que un presupuesto razonable para mí sería alrededor de 30-50 euros por noche, dependiendo de la calidad del servicio y la ubicación. ¿Es un precio realista para una pensión o hotel en la costa?"
+   },
+   {
+      "role": "assistant",
+      "content": "Con un presupuesto flexible, te darás cuenta de que hay muchas opciones disponibles.\n\nEn general, 30-50 euros por noche es un precio razonable para una pensión o hotel en la costa, especialmente si buscas alojamientos centricos. Sin embargo, puede variar según la época del año, la calidad de la habitación y la zona en particular.\n\nEn temporada alta, julio y agosto pueden ser un poco más caros, mientras que en temporada baja, como octubre y noviembre, puedes encontrar mejores precios. Además, si eres flexible con tus fechas, puedes intentar buscar alojamiento fuera de temporada para ahorrar dinero.\n\nOtro punto a considerar es que, si optas por una pensión, es posible que puedas compartir la cocina y otros espacios comunes con otros huéspedes, lo que puede ser una forma económica de hospedarte.\n\n¿Te gustaría buscar alojamiento en línea, como en Booking.com o Airbnb, o prefieres preguntar directamente a propietarios particulares?"
+   },
+   {
+      "role": "user",
+      "content": "Entiendo que los precios pueden variar según la época del año y la zona. Seré consciente de eso al buscar alojamiento.\n\nMe gustaría buscar alojamiento en línea, especialmente en sitios como Booking.com o Airbnb. Me parece conveniente tener acceso a una amplia variedad de opciones y leer reseñas de otros usuarios para tomar una decisión informada.\n\nEn cuanto a compartir la cocina y espacios comunes con otros huéspedes en una pensión, no tengo ningún problema con eso. De hecho, creo que puede ser una excelente forma de conocer a otras personas y obtener recomendaciones sobre la zona. ¿Hay alguna diferencia significativa en cómo funcionan las pensiones comparadas con los hoteles?"
+   },
+   {
+      "role": "assistant",
+      "content": "Buscar en línea es una excelente manera de comparar precios y opciones, y leer reseñas de otros viajeros puede ser muy valioso para tomar una decisión informada.\n\nLas pensiones y hoteles tienen algunas diferencias importantes en términos de servicio y comodidad. Las pensiones suelen ser propiedades familiares o pequeños establecimientos, mientras que los hoteles son generalmente más grandes y tienen una infraestructura más compleja.\n\nUna de las principales diferencias es la atención al cliente. En las pensiones, a menudo te tratas con la dueña o dueño de la propiedad, quien puede ofrecerte consejos y recomendaciones personales sobre la zona. Mientras que en los hoteles, la atención suele ser más impersonal y formal.\n\nAdemás, las pensiones suelen ofrecer desayuno, aunque a veces es opcional. Los hoteles suelen incluir el desayuno en el precio de la habitación, pero a menudo es un buffet limitado.\n\nEn cuanto a la limpieza y la seguridad, ambas opciones suelen tener estándares similares. Sin embargo, las pensiones pueden ser menos rigurosas en algunos aspectos, como la decoración y la amplitud de la habitación.\n\n¿Te importa mucho la cantidad de servicios y comodidades que ofrece el alojamiento, o prefieres enfocarte en la ubicación y el precio?"
+   },
+   {
+      "role": "user",
+      "content": "Entiendo las diferencias entre pensiones y hoteles, gracias por explicármelas. Me parece que las pensiones pueden ser una buena opción si busco una experiencia más personalizada y auténtica, y si no requiero una infinidad de servicios y comodidades.\n\nPersonalmente, creo que la ubicación y el precio son factores clave para mí. Si puedo encontrar un alojamiento céntrico a un precio razonable, no me importa necesariamente tener todos los servicios del mundo. Un desayuno básico o incluso uno opcional no me molesta en absoluto.\n\nSin embargo, sí valoro la limpieza y la seguridad, por supuesto. Y es cierto que en una pensión podría haber una decoración y espacio más minimalista, lo que no me preocupa en absoluto.\n\nCreo que, si puedo encontrar una pensión con buenas reseñas y en un buen emplazamiento, estaré contento. ¿Te parece que la elección de la pensión dependerá de la disponibilidad de habitaciones en la fecha que te planteaste, o de otros factores como la proximidad a lugares de interés?"
+   }
+]

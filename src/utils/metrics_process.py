@@ -7,12 +7,10 @@ import polars as pl
 
 # aka prettier names for plots
 MODEL_DICT = {
-    "mlx-community--Qwen2.5-7B-Instruct-1M-4bit": "Qwen 2.5 7B Instruct 1M (4bit)",
-    "mlx-community--meta-Llama-3.1-8B-Instruct-4bit": "Llama 3.1 8B Instruct (4bit)",
     "meta-llama--Llama-3.1-8B-Instruct": "Llama 3.1 8B Instruct",
     "Qwen--Qwen2.5-7B-Instruct": "Qwen 2.5 7B Instruct",
     "mistralai--Mistral-7B-Instruct-v0.3": "Mistral 7B Instruct v0.3",
-    "meta-llama--Llama-3.3-70B-Instruct-Turbo": "Llama 3.3 70B Instruct Turbo"
+    "google--gemma-3-12b-it": "Gemma 3 12B IT",
 }
 
 def read_metrics(
