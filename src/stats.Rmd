@@ -197,19 +197,97 @@ write_csv(all_results, output_file)
 ## Make LATEX table
 ```{r}
 output_dir <- here("results", paste0("v", version), "mixed_effects")
-
-# for HTML output
-html_table <- all_results %>%
-  arrange(metric, model, term) %>%
-  kable(
-    format = "html", booktabs = TRUE, digits = 4, 
-    col.names = c("Model", "Metric", "Term", "Estimate", "Std. Error", "t-value", "Corrected p-value", "Significance"), 
-    align = "lccccccc", escape = FALSE
-  ) %>%
-  kable_styling(latex_options = c("striped", "hold_position", "scale_down"))
-
-html_table 
 ```
+
+
+```{r}
+# format data
+all_results <- all_results %>%
+  mutate(
+    formatted_metric = case_when(
+      metric == "fernandez_huerta" ~ "Fernandez Huerta",
+      metric == "szigriszt_pazos" ~ "Szigriszt Pazos",
+      metric == "gutierrez_polini" ~ "Gutierrez Polini",
+      metric == "text_length" ~ "Text Length",
+      metric == "dependency_distance_mean" ~ "Mean Dependency Distance",
+      metric == "surprisal_mean" ~ "Message Surprisal",
+      TRUE ~ as.character(metric)
+    ),
+    # Clean up model names for display
+    display_model = case_when(
+      model == "meta-llama--Llama-3.1-8B-Instruct" ~ "Llama 3.1 8B Instruct",
+      model == "google--gemma-3-12b-it" ~ "Gemma 3 12B IT",
+      model == "mistralai--Mistral-7B-Instruct-v0.3" ~ "Mistral 7B Instruct v0.3",
+      model == "Qwen--Qwen2.5-7B-Instruct" ~ "Qwen 2.5 7B Instruct",
+      TRUE ~ as.character(model)
+    )
+  )
+
+# use the formatted metric names for display
+all_results <- all_results %>%
+  arrange(metric, model, term) %>%
+  group_by(metric) %>%
+  mutate(
+    # flag the first occurrence of each model within a metric group
+    first_model_occurrence = !duplicated(model)
+  ) %>%
+  ungroup()
+
+# create a column that shows the model name only on first occurrence
+all_results <- all_results %>%
+  mutate(
+    display_model_selective = ifelse(first_model_occurrence, display_model, "")
+  )
+```
+
+
+```{r}
+# create base table
+html_table <- all_results %>%
+  # sort by metric first
+  arrange(metric, model, term) %>%
+  # select relevant columns
+  select(display_model_selective, term, estimate, std_error, t_value, p_value_corrected, stars) %>%
+  # create kable
+  kable(
+    format = "html", 
+    booktabs = TRUE, 
+    digits = 4,
+    col.names = c("", "Term", "Estimate", "Std. Error", "t-value", "Corrected p-value", "Significance"), # model is first column, but is empty as it does not make sense with metric groupings
+    align = "lcccccc", 
+    escape = FALSE
+  ) %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = TRUE
+  )
+
+# group by metrics
+metric_rows <- all_results %>%
+  group_by(metric) %>%
+  summarize(
+    count = n(),
+    formatted_name = first(formatted_metric)  # get the formatted name for each metric
+  ) %>%
+  ungroup()
+
+# apply the grouping
+row_index <- 1
+for(i in 1:nrow(metric_rows)) {
+  html_table <- html_table %>%
+    pack_rows(
+      group_label = metric_rows$formatted_name[i],
+      start_row = row_index,
+      end_row = row_index + metric_rows$count[i] - 1
+    )
+  
+  row_index <- row_index + metric_rows$count[i]
+}
+
+# display the table
+html_table
+```
+
 
 ```{r}
 html_table %>% save_kable(file = file.path(output_dir, "results_table.html"), self_contained = T)
@@ -217,15 +295,50 @@ html_table %>% save_kable(file = file.path(output_dir, "results_table.html"), se
 
 
 ```{r}
-# for LaTeX output
+# create base table
 latex_table <- all_results %>%
-  arrange(model, metric, term) %>%
+  # sort by metric first
+  arrange(metric, model, term) %>%
+  # select relevant columns
+  select(display_model_selective, term, estimate, std_error, t_value, p_value_corrected, stars) %>%
+  # create kable
   kable(
-    format = "latex", booktabs = TRUE, digits = 4, 
-    col.names = c("Model", "Metric", "Term", "Estimate", "Std. Error", "t-value", "Corrected p-value", "Significance"), 
-    align = "lccccccc", escape = FALSE
+    format = "latex", 
+    booktabs = TRUE, 
+    digits = 4,
+    col.names = c("", "Term", "Estimate", "Std. Error", "t-value", "Corrected p-value", "Significance"), # model is first column, but is empty as it does not make sense with metric groupings
+    align = "lcccccc", 
+    escape = FALSE
   ) %>%
-  kable_styling(latex_options = c("striped", "hold_position", "scale_down"))
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = TRUE
+  )
+
+# group by metrics
+metric_rows <- all_results %>%
+  group_by(metric) %>%
+  summarize(
+    count = n(),
+    formatted_name = first(formatted_metric)  # get the formatted name for each metric
+  ) %>%
+  ungroup()
+
+# apply the grouping
+row_index <- 1
+for(i in 1:nrow(metric_rows)) {
+  html_table <- html_table %>%
+    pack_rows(
+      group_label = metric_rows$formatted_name[i],
+      start_row = row_index,
+      end_row = row_index + metric_rows$count[i] - 1
+    )
+  
+  row_index <- row_index + metric_rows$count[i]
+}
+
+# display the table
+cat(substr(latex_table, 1, 500))  # shows the first 500 characters of the string
 ```
 
 ```{r}
