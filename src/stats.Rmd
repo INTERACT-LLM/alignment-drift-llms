@@ -297,22 +297,20 @@ html_table %>% save_kable(file = file.path(output_dir, "results_table.html"), se
 ```{r}
 # create base table
 latex_table <- all_results %>%
-  # sort by metric first
   arrange(metric, model, term) %>%
-  # select relevant columns
   select(display_model_selective, term, estimate, std_error, t_value, p_value_corrected, stars) %>%
-  # create kable
   kable(
     format = "latex", 
     booktabs = TRUE, 
     digits = 4,
-    col.names = c("", "Term", "Estimate", "Std. Error", "t-value", "Corrected p-value", "Significance"), # model is first column, but is empty as it does not make sense with metric groupings
+    col.names = c("", "Term", "Estimate", "Std. Error", "t-value", "Corrected p-value", "Significance"),
     align = "lcccccc", 
     escape = FALSE
   ) %>%
   kable_styling(
     bootstrap_options = c("striped", "hover", "condensed"),
-    full_width = TRUE
+    full_width = TRUE,
+    font_size = 8,
   )
 
 # group by metrics
@@ -320,14 +318,14 @@ metric_rows <- all_results %>%
   group_by(metric) %>%
   summarize(
     count = n(),
-    formatted_name = first(formatted_metric)  # get the formatted name for each metric
+    formatted_name = first(formatted_metric)
   ) %>%
   ungroup()
 
 # apply the grouping
 row_index <- 1
 for(i in 1:nrow(metric_rows)) {
-  html_table <- html_table %>%
+  latex_table <- latex_table %>%
     pack_rows(
       group_label = metric_rows$formatted_name[i],
       start_row = row_index,
@@ -339,15 +337,9 @@ for(i in 1:nrow(metric_rows)) {
 
 # display the table
 cat(substr(latex_table, 1, 500))  # shows the first 500 characters of the string
-```
 
-```{r}
 latex_table %>% save_kable(file = file.path(output_dir, "results_table.tex"), self_contained = T)
 ```
-
-
-
-
 
 
 
