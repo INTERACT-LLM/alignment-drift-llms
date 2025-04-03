@@ -23,7 +23,7 @@ textstats_df <- read_csv(here("metrics", paste0("v", version, "_text_stats.csv")
 # Read textdescriptives, filter for 'assistant' role
 textdescriptives_df <- read_csv(here("metrics", paste0("v", version, "_textdescriptives.csv"))) %>%
   filter(role == role_to_keep) %>%
-  rename(message_length = doc_length)
+  rename(text_length = doc_length)
 
 # Read surprisal, filter for 'assistant' role
 surprisal_df <- read_csv(here("metrics", paste0("v", version, "_surprisal.csv"))) %>%
@@ -116,7 +116,7 @@ print(results_textstats)
 ### Text Descriptives Models (Structural Features)
 ```{r}
 output_dir <- here("results", paste0("v", version), "mixed_effects", "structural")
-metrics <- c("message_length", "dependency_distance_mean")
+metrics <- c("text_length", "dependency_distance_mean")
 results_textdescriptives <- fit_lmer_models(textdescriptives_df, models, metrics, output_dir)
 
 # print the p-values
@@ -160,12 +160,40 @@ all_results <- all_results %>%
 
 # print or save the corrected p-values
 print(all_results)
+```
 
+## Order and Save results
+Order the dataset in a meaningful way:
+```{r}
+# define the desired order for metrics and models
+metric_order <- c("fernandez_huerta", "szigriszt_pazos", "gutierrez_polini", 
+                  "text_length", "dependency_distance_mean", "surprisal_mean")
+
+model_order <- c("meta-llama--Llama-3.1-8B-Instruct", 
+                 "google--gemma-3-12b-it", 
+                 "mistralai--Mistral-7B-Instruct-v0.3", 
+                 "Qwen--Qwen2.5-7B-Instruct")
+
+all_results$metric <- factor(all_results$metric, levels = metric_order)
+all_results$model <- factor(all_results$model, levels = model_order)
+
+# sort by metric, model
+all_results <- all_results[order(all_results$metric, all_results$model), ]
+```
+
+
+```{r}
+all_results
+```
+
+
+```{r}
 # save the corrected p-values to a CSV file
 output_dir <- here("results", paste0("v", version), "mixed_effects")
 output_file <- file.path(output_dir, "results.csv")
 write_csv(all_results, output_file)
 ```
+
 ## Make LATEX table
 ```{r}
 output_dir <- here("results", paste0("v", version), "mixed_effects")
