@@ -92,7 +92,7 @@ def add_ci_to_col(df, col):
     return df
 
 def aggregate_df(df, 
-                 group_by_vars=["model", "group", "total_message_number"],
+                 group_by_vars=["model", "level", "total_message_number"],
                  cols_to_aggregate=["fernandez_huerta", "szigriszt_pazos", "gutierrez_polini", "flesch_kincaid_grade", "crawford"],
                  ci_to_cols: bool = True,
                  ):

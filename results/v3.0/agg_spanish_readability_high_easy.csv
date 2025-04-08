@@ -1,4 +1,4 @@
-model,group,total_message_number,fernandez_huerta_mean,szigriszt_pazos_mean,gutierrez_polini_mean
+model,level,total_message_number,fernandez_huerta_mean,szigriszt_pazos_mean,gutierrez_polini_mean
 Mistral 7B Instruct v0.3,A1,1,101.0,97.24,45.83
 Mistral 7B Instruct v0.3,A1,2,95.84,91.29,44.17
 Mistral 7B Instruct v0.3,A1,3,91.28,87.69,43.17
