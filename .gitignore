@@ -177,3 +177,4 @@ cython_debug/
 .Rproj.user
 *.Rproj
 *.Rhistory
+*.RData
