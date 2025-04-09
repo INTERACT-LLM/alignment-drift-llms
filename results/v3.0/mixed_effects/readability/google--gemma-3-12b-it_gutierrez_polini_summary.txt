@@ -17,12 +17,12 @@ Number of obs: 810, groups:  id, 90
 Fixed effects:
             Estimate Std. Error      df t value Pr(>|t|)    
 (Intercept)  45.7901     0.3059 87.0000  149.71  < 2e-16 ***
-groupB1      -2.8591     0.4325 87.0000   -6.61 2.96e-09 ***
-groupC1      -8.1961     0.4325 87.0000  -18.95  < 2e-16 ***
+levelB1      -2.8591     0.4325 87.0000   -6.61 2.96e-09 ***
+levelC1      -8.1961     0.4325 87.0000  -18.95  < 2e-16 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Correlation of Fixed Effects:
-        (Intr) gropB1
-groupB1 -0.707       
-groupC1 -0.707  0.500
+        (Intr) levlB1
+levelB1 -0.707       
+levelC1 -0.707  0.500
