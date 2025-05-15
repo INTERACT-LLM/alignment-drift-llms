@@ -18,16 +18,19 @@ role_to_keep <- "assistant"
 
 # Read text stats, filter for 'assistant' role
 textstats_df <- read_csv(here("metrics", paste0("v", version, "_text_stats.csv"))) %>%
-  filter(role == role_to_keep)
+  filter(role == role_to_keep) %>%
+  rename(level = group)
 
 # Read textdescriptives, filter for 'assistant' role
 textdescriptives_df <- read_csv(here("metrics", paste0("v", version, "_textdescriptives.csv"))) %>%
   filter(role == role_to_keep) %>%
-  rename(message_length = doc_length)
+  rename(text_length = doc_length) %>%
+  rename(level = group)
 
 # Read surprisal, filter for 'assistant' role
 surprisal_df <- read_csv(here("metrics", paste0("v", version, "_surprisal.csv"))) %>%
-  filter(role == role_to_keep)
+  filter(role == role_to_keep) %>%
+  rename(level = group)
 ```
 
 ```{r}
@@ -61,7 +64,7 @@ fit_lmer_models <- function(data, models, metrics, output_dir) {
   for (model_name in models) {
     for (metric in metrics) {
       model_data <- data %>% filter(model == model_name)
-      formula <- as.formula(paste(metric, "~ group + (1 | id)"))
+      formula <- as.formula(paste(metric, "~ level + (1 | id)"))
       model <- lmer(formula, data = model_data)
       model_summary <- summary(model)
       
@@ -116,7 +119,7 @@ print(results_textstats)
 ### Text Descriptives Models (Structural Features)
 ```{r}
 output_dir <- here("results", paste0("v", version), "mixed_effects", "structural")
-metrics <- c("message_length", "dependency_distance_mean")
+metrics <- c("text_length", "dependency_distance_mean")
 results_textdescriptives <- fit_lmer_models(textdescriptives_df, models, metrics, output_dir)
 
 # print the p-values
@@ -160,28 +163,134 @@ all_results <- all_results %>%
 
 # print or save the corrected p-values
 print(all_results)
+```
 
+## Order and Save results
+Order the dataset in a meaningful way:
+```{r}
+# define the desired order for metrics and models
+metric_order <- c("fernandez_huerta", "szigriszt_pazos", "gutierrez_polini", 
+                  "text_length", "dependency_distance_mean", "surprisal_mean")
+
+model_order <- c("meta-llama--Llama-3.1-8B-Instruct", 
+                 "google--gemma-3-12b-it", 
+                 "mistralai--Mistral-7B-Instruct-v0.3", 
+                 "Qwen--Qwen2.5-7B-Instruct")
+
+all_results$metric <- factor(all_results$metric, levels = metric_order)
+all_results$model <- factor(all_results$model, levels = model_order)
+
+# sort by metric, model
+all_results <- all_results[order(all_results$metric, all_results$model), ]
+```
+
+
+```{r}
+all_results
+```
+
+
+```{r}
 # save the corrected p-values to a CSV file
 output_dir <- here("results", paste0("v", version), "mixed_effects")
 output_file <- file.path(output_dir, "results.csv")
 write_csv(all_results, output_file)
 ```
+
 ## Make LATEX table
 ```{r}
 output_dir <- here("results", paste0("v", version), "mixed_effects")
-
-# for HTML output
-html_table <- all_results %>%
-  arrange(metric, model, term) %>%
-  kable(
-    format = "html", booktabs = TRUE, digits = 4, 
-    col.names = c("Model", "Metric", "Term", "Estimate", "Std. Error", "t-value", "Corrected p-value", "Significance"), 
-    align = "lccccccc", escape = FALSE
-  ) %>%
-  kable_styling(latex_options = c("striped", "hold_position", "scale_down"))
-
-html_table 
 ```
+
+
+```{r}
+# format data
+all_results <- all_results %>%
+  mutate(
+    formatted_metric = case_when(
+      metric == "fernandez_huerta" ~ "Fernandez Huerta",
+      metric == "szigriszt_pazos" ~ "Szigriszt Pazos",
+      metric == "gutierrez_polini" ~ "Gutierrez Polini",
+      metric == "text_length" ~ "Text Length",
+      metric == "dependency_distance_mean" ~ "Mean Dependency Distance",
+      metric == "surprisal_mean" ~ "Message Surprisal",
+      TRUE ~ as.character(metric)
+    ),
+    # Clean up model names for display
+    display_model = case_when(
+      model == "meta-llama--Llama-3.1-8B-Instruct" ~ "Llama 3.1 8B Instruct",
+      model == "google--gemma-3-12b-it" ~ "Gemma 3 12B IT",
+      model == "mistralai--Mistral-7B-Instruct-v0.3" ~ "Mistral 7B Instruct v0.3",
+      model == "Qwen--Qwen2.5-7B-Instruct" ~ "Qwen 2.5 7B Instruct",
+      TRUE ~ as.character(model)
+    )
+  )
+
+# use the formatted metric names for display
+all_results <- all_results %>%
+  arrange(metric, model, term) %>%
+  group_by(metric) %>%
+  mutate(
+    # flag the first occurrence of each model within a metric group
+    first_model_occurrence = !duplicated(model)
+  ) %>%
+  ungroup()
+
+# create a column that shows the model name only on first occurrence
+all_results <- all_results %>%
+  mutate(
+    display_model_selective = ifelse(first_model_occurrence, display_model, "")
+  )
+```
+
+
+```{r}
+# create base table
+html_table <- all_results %>%
+  # sort by metric first
+  arrange(metric, model, term) %>%
+  # select relevant columns
+  select(display_model_selective, term, estimate, std_error, t_value, p_value_corrected, stars) %>%
+  # create kable
+  kable(
+    format = "html", 
+    booktabs = TRUE, 
+    digits = 4,
+    col.names = c("", "Term", "Estimate", "Std. Error", "t-value", "Corrected p-value", "Significance"), # model is first column, but is empty as it does not make sense with metric groupings
+    align = "lcccccc", 
+    escape = FALSE
+  ) %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    full_width = TRUE
+  )
+
+# group by metrics
+metric_rows <- all_results %>%
+  group_by(metric) %>%
+  summarize(
+    count = n(),
+    formatted_name = first(formatted_metric)  # get the formatted name for each metric
+  ) %>%
+  ungroup()
+
+# apply the grouping
+row_index <- 1
+for(i in 1:nrow(metric_rows)) {
+  html_table <- html_table %>%
+    pack_rows(
+      group_label = metric_rows$formatted_name[i],
+      start_row = row_index,
+      end_row = row_index + metric_rows$count[i] - 1
+    )
+  
+  row_index <- row_index + metric_rows$count[i]
+}
+
+# display the table
+html_table
+```
+
 
 ```{r}
 html_table %>% save_kable(file = file.path(output_dir, "results_table.html"), self_contained = T)
@@ -189,24 +298,102 @@ html_table %>% save_kable(file = file.path(output_dir, "results_table.html"), se
 
 
 ```{r}
-# for LaTeX output
-latex_table <- all_results %>%
-  arrange(model, metric, term) %>%
-  kable(
-    format = "latex", booktabs = TRUE, digits = 4, 
-    col.names = c("Model", "Metric", "Term", "Estimate", "Std. Error", "t-value", "Corrected p-value", "Significance"), 
-    align = "lccccccc", escape = FALSE
-  ) %>%
-  kable_styling(latex_options = c("striped", "hold_position", "scale_down"))
+# First, create separate dataframes for the two tables
+first_three_metrics <- c("fernandez_huerta", "szigriszt_pazos", "gutierrez_polini")
+last_three_metrics <- c("text_length", "dependency_distance_mean", "surprisal_mean")
+# Filter results for first table
+first_table_results <- all_results %>%
+  filter(metric %in% first_three_metrics)
+# Filter results for second table
+second_table_results <- all_results %>%
+  filter(metric %in% last_three_metrics)
+# Function to create formatted table with better model grouping
+create_formatted_table <- function(data) {
+  # Create base table
+  formatted_table <- data %>%
+    arrange(metric, model, term) %>%
+    select(display_model_selective, term, estimate, std_error, t_value, p_value_corrected, stars) %>%
+    kable(
+      format = "latex", 
+      booktabs = TRUE, 
+      digits = 4,
+      col.names = c("", "Term", "Est.", "SE", "t", "p (Adj.)", "Sig."),
+      align = "llrrrrc",
+      escape = FALSE
+    ) %>%
+    kable_styling(
+      latex_options = c("scale_down", "hold_position"),
+      font_size = 8,
+    ) %>%
+    column_spec(1, width = "12em") %>%
+    column_spec(2, width = "6em") %>%
+    column_spec(3:6, width = "5em")
+
+  # Get unique metrics for grouping
+  metrics <- unique(data$metric)
+
+  # For each metric, apply spacing and grouping
+  current_row <- 1
+  for (current_metric in metrics) {
+    # Filter data for the current metric
+    metric_data <- data %>% filter(metric == current_metric)
+
+    # Add the metric header first
+    metric_name <- metric_data$formatted_metric[1]
+    metric_count <- nrow(metric_data)
+
+    formatted_table <- formatted_table %>%
+      pack_rows(
+        group_label = metric_name,
+        start_row = current_row,
+        end_row = current_row + metric_count - 1,
+        bold = TRUE,
+        italic = FALSE,
+        hline_after = FALSE
+      )
+
+    # Now handle model grouping within each metric
+    models <- unique(metric_data$model)
+    model_row <- current_row
+
+    for (current_model in models) {
+      model_data <- metric_data %>% filter(model == current_model)
+      model_name <- model_data$display_model_selective[1]
+      model_count <- nrow(model_data)
+
+      # If model appears multiple times with different terms, add subtle grouping
+      if (model_count > 1) {
+        formatted_table <- formatted_table %>%
+          pack_rows(
+            group_label = "", 
+            start_row = model_row,
+            end_row = model_row + model_count - 1,
+            indent = TRUE,    # Indent the rows
+            hline_after = FALSE
+          )
+      }
+
+      model_row <- model_row + model_count
+    }
+
+    # Add line after this metric group
+    formatted_table <- formatted_table %>%
+      row_spec(current_row + metric_count - 1, extra_latex_after = "\\addlinespace")
+
+    current_row <- current_row + metric_count
+  }
+
+  return(formatted_table)
+}
+# Create and save first table (readability metrics)
+first_table <- create_formatted_table(first_table_results)
+first_table %>% save_kable(file = file.path(output_dir, "readability_table.tex"), 
+                          self_contained = TRUE)
+# Create and save second table (structural metrics)
+second_table <- create_formatted_table(second_table_results)
+second_table %>% save_kable(file = file.path(output_dir, "structural_surprisal_table.tex"), 
+                           self_contained = TRUE)
 ```
-
-```{r}
-latex_table %>% save_kable(file = file.path(output_dir, "results_table.tex"), self_contained = T)
-```
-
-
-
-
 
 
 

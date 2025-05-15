@@ -1,0 +1,79 @@
+\begin{table}[!h]
+\centering\begingroup\fontsize{8}{10}\selectfont
+
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}{>{\raggedright\arraybackslash}p{12em}>{\raggedright\arraybackslash}p{6em}>{\raggedleft\arraybackslash}p{5em}>{\raggedleft\arraybackslash}p{5em}>{\raggedleft\arraybackslash}p{5em}>{\raggedleft\arraybackslash}p{5em}c}
+\toprule
+ & Term & Est. & SE & t & p (Adj.) & Sig.\\
+\midrule
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textbf{Text Length}}\\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textbf{}}\\
+\hspace{1em}\hspace{1em}Llama 3.1 8B Instruct & (Intercept) & 115.3815 & 9.6949 & 11.9012 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelB1 & 76.9000 & 13.7107 & 5.6088 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelC1 & 122.5185 & 13.7107 & 8.9360 & 0.0000 & ***\\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textbf{}}\\
+\hspace{1em}\hspace{1em}Gemma 3 12B IT & (Intercept) & 92.8037 & 7.4934 & 12.3847 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelB1 & 82.4185 & 10.5973 & 7.7773 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelC1 & 162.6963 & 10.5973 & 15.3527 & 0.0000 & ***\\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textbf{}}\\
+\hspace{1em}\hspace{1em}Mistral 7B Instruct v0.3 & (Intercept) & 162.7148 & 7.2390 & 22.4776 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelB1 & 55.7667 & 10.2375 & 5.4473 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelC1 & 88.3074 & 10.2375 & 8.6259 & 0.0000 & ***\\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textbf{}}\\
+\hspace{1em}\hspace{1em}Qwen 2.5 7B Instruct & (Intercept) & 100.1481 & 25.5238 & 3.9237 & 0.0144 & *\\
+\hspace{1em}\hspace{1em} & levelB1 & 110.4185 & 36.0961 & 3.0590 & 0.2160 & \\
+\hspace{1em}\hspace{1em} & levelC1 & 166.1407 & 36.0961 & 4.6027 & 0.0000 & ***\\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textbf{Mean Dependency Distance}}\\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textbf{}}\\
+\hspace{1em}\hspace{1em}Llama 3.1 8B Instruct & (Intercept) & 2.2618 & 0.0294 & 76.9691 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelB1 & 0.3063 & 0.0416 & 7.3711 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelC1 & 0.3763 & 0.0416 & 9.0548 & 0.0000 & ***\\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textbf{}}\\
+\hspace{1em}\hspace{1em}Gemma 3 12B IT & (Intercept) & 2.3462 & 0.0314 & 74.6559 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelB1 & 0.1491 & 0.0444 & 3.3543 & 0.0864 & \\
+\hspace{1em}\hspace{1em} & levelC1 & 0.1758 & 0.0444 & 3.9555 & 0.0144 & *\\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textbf{}}\\
+\hspace{1em}\hspace{1em}Mistral 7B Instruct v0.3 & (Intercept) & 2.6218 & 0.0230 & 114.2368 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelB1 & 0.0866 & 0.0325 & 2.6682 & 0.6552 & \\
+\hspace{1em}\hspace{1em} & levelC1 & 0.1845 & 0.0325 & 5.6831 & 0.0000 & ***\\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textbf{}}\\
+\hspace{1em}\hspace{1em}Qwen 2.5 7B Instruct & (Intercept) & 2.1601 & 0.0333 & 64.9271 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelB1 & 0.2777 & 0.0471 & 5.9023 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelC1 & 0.3498 & 0.0471 & 7.4337 & 0.0000 & ***\\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textbf{Message Surprisal}}\\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textbf{}}\\
+\hspace{1em}\hspace{1em}Llama 3.1 8B Instruct & (Intercept) & 1.3636 & 0.0564 & 24.1764 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelB1 & -0.2940 & 0.0798 & -3.6855 & 0.0288 & *\\
+\hspace{1em}\hspace{1em} & levelC1 & -0.5212 & 0.0798 & -6.5340 & 0.0000 & ***\\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textbf{}}\\
+\hspace{1em}\hspace{1em}Gemma 3 12B IT & (Intercept) & 1.8314 & 0.0350 & 52.3230 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelB1 & -0.2618 & 0.0495 & -5.2897 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelC1 & -0.5552 & 0.0495 & -11.2155 & 0.0000 & ***\\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textbf{}}\\
+\hspace{1em}\hspace{1em}Mistral 7B Instruct v0.3 & (Intercept) & 1.1499 & 0.0292 & 39.3876 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelB1 & -0.2128 & 0.0413 & -5.1553 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelC1 & -0.3331 & 0.0413 & -8.0668 & 0.0000 & ***\\
+\addlinespace[0.3em]
+\multicolumn{7}{l}{\textbf{}}\\
+\hspace{1em}\hspace{1em}Qwen 2.5 7B Instruct & (Intercept) & 1.4898 & 0.0491 & 30.3121 & 0.0000 & ***\\
+\hspace{1em}\hspace{1em} & levelB1 & -0.1237 & 0.0695 & -1.7793 & 1.0000 & \\
+\hspace{1em}\hspace{1em} & levelC1 & -0.1338 & 0.0695 & -1.9247 & 1.0000 & \\
+\addlinespace
+\bottomrule
+\end{tabular}}
+\endgroup{}
+\end{table}
