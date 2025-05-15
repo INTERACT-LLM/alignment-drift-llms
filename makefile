@@ -1,3 +1,4 @@
+### INDIVIDUAL COMMANDS ###
 add-uv:
 	@echo "[INFO:] Installing UV ..."	
 	# for mac / linux
@@ -12,18 +13,29 @@ format:
 	uv run ruff format . 						           
 	uv run ruff check --select I --fix
 
-extract_surprisal:
-	@echo "[INFO:] Extracting surprisal values ..."
-	uv run src/extract_metrics.py --metrics_pipeline surprisal
+create_dataset:
+	@echo "[INFO:] Creating dataset ..."
+	uv run src/create_dataset.py
+	@echo "[INFO:] Creating dataset done."
 
-extract_all:
-	@echo "[INFO:] Extracting all metrics ..."
-	uv run src/extract_metrics.py --metrics_pipeline all
+extract_%: # usage: make extract_all, make extract_textdescriptives, make extract_surprisal or make extract_textstats
+	@echo "[INFO:] Extracting $* ..."
+	uv run src/extract_metrics.py --metrics_pipeline $*
 
-extract_textdescriptives:
-	@echo "[INFO:] Extracting text descriptives ..."
-	uv run src/extract_metrics.py --metrics_pipeline textdescriptives
+plot:
+	@echo "[INFO:] Plotting ..."
+	uv run src/plots.py
 
-extract_textstats:
-	@echo "[INFO:] Extracting text stats ..."
-	uv run src/extract_metrics.py --metrics_pipeline textstats
+
+### PROJECT PIPELINE ###
+setup-project:
+	make add-uv
+	make install
+
+run-code: # note stats.rmd is not run
+	make extract_all
+	make plot
+
+run-project:
+	make setup-project
+	make run-code
