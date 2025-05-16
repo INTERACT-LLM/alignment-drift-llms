@@ -14,4 +14,4 @@ Data generation scripts are available in the [Interact-LLM repository](https://g
 
 📌 For a general project overview, see the [main README](/README.md).
 
-> Note: The number `3.0` refers to the prompt version used to simulate the dialogue, see the prompts in the [Interact-LLM repo](https://github.com/INTERACT-LLM/Interact-LLM/blob/main/configs/prompts/v3.0.toml).
+> Note: The prefix `v3.0` for the data refers to the prompt version used to simulate the dialogues. See the prompts in the [Interact-LLM repo](https://github.com/INTERACT-LLM/Interact-LLM/blob/main/configs/prompts/v3.0.toml).

@@ -6,9 +6,12 @@ This repository contains the dataset and analysis from [Almasi & Kristensen-McLa
 
 | Item                    | Path                                      | Documentation                   |
 |-------------------------|--------------------------------------------------------|--------------------------------|
-| 📦 Dataset (`v3.0`)       | [`data/v3.0_dataset.csv`](data/v3.0_dataset.csv) | [`data/README.md`](data/README.md)         |
+| 📦 Text Dataset (`v3.0`)       | [`data/v3.0_dataset.csv`](data/v3.0_dataset.csv) | [`data/README.md`](data/README.md)         |
+| 📦 Metrics Dataset (`v3.0`)       | [`metrics/*.csv`](metrics) | [`metrics/README.md`](data/README.md)         |
 | 🧪 Analysis               | [`src/`](src/)                                | [`src/README.md`](src/README.md)           |
 | 📊 Plots & Results        | [`plots/`](plots/) & [`results/`](results/) |        |
+
+<br>
 
 Teacher-student dialogue simulations were performed in a separate repository:
 
@@ -16,7 +19,9 @@ Teacher-student dialogue simulations were performed in a separate repository:
 |-------------------------|-----------------------------------------------------------|------------------------------------|
 | 🛠️ Data Generation | [interact_llm/scripts/alignment_drift](https://github.com/INTERACT-LLM/Interact-LLM) | [alignment_drift/README.md](https://github.com/INTERACT-LLM/Interact-LLM#readme) |
 
----
+<br>
+
+> Note: The prefix `v3.0` for the data refers to the prompt version used to simulate the dialogues. See the prompts in the [Interact-LLM repo](https://github.com/INTERACT-LLM/Interact-LLM/blob/main/configs/prompts/v3.0.toml).
 
 # 🛠️ Technical Requirements
 The code was run on Python 3.12.3 on both a macOS and Ubuntu system.
@@ -57,3 +62,12 @@ If you use our work, please remember to cite us:
 ```
 
 NOTE: Currently, this work exists only as a preprint. The final version is forthcoming.
+
+# ✨ Acknowledgements
+This work was made possible thanks to the following open-source resources:
+
+- [textstat](https://textstat.org/) for Spanish Readability Metrics
+- [textdescriptives](https://hlasse.github.io/TextDescriptives/#citation) for Text Length & Mean Dependency Distance
+- [minicons](https://github.com/kanishkamisra/minicons?tab=readme-ov-file#citation) & [EuroBERT](https://huggingface.co/EuroBERT/EuroBERT-210m#citation) for LLM-based Message Surprisal
+
+See also [`metrics/README.md`](data/README.md).
