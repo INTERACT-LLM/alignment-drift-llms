@@ -19,9 +19,9 @@ Teacher-student dialogue simulations were performed in a separate repository:
 ---
 
 # 🛠️ Technical Requirements
-The code was run on Python 3.12.3 on both a macOS and Ubuntu system. Its reproducibility on Windows machine cannot be quaranteed.
+The code was run on Python 3.12.3 on both a macOS and Ubuntu system.
 
-This project also requires the installation of 
+This project requires the installation of 
 - [make](https://www.gnu.org/software/make/manual/make.html)&nbsp; (installed via [Homebrew](https://formulae.brew.sh/formula/make))
 - [uv](https://docs.astral.sh/uv/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (installed through this project's make file, see [Usage](#usage))
 
