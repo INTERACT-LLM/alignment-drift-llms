@@ -6,7 +6,7 @@ from pathlib import Path
 
 import polars as pl
 
-from plot_functions import distribution_plot, line_plot_variables
+from utils.plot_functions import distribution_plot, line_plot_variables
 from utils.metrics_process import read_metrics, get_assistant_data, aggregate_df
 
 def plot_readability(metrics_dir, plots_dir, model_dict, version, unique_models, pad_inches) -> None:
