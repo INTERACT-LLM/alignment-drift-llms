@@ -24,7 +24,7 @@ Teacher-student dialogue simulations were performed in a separate repository:
 > Note: The prefix `v3.0` for the data refers to the prompt version used to simulate the dialogues. See the prompts in the [Interact-LLM repo](https://github.com/INTERACT-LLM/Interact-LLM/blob/main/configs/prompts/v3.0.toml).
 
 # 🛠️ Technical Requirements
-The code was run on `Python 3.12.3` on both a macOS and Ubuntu system. This project also requires:
+The code was run on `Python 3.12.3` on both a macOS (`15.3.1`) and Ubuntu system (`24.04`). The project also requires:
 | Tool     | Installation                                                                 |
 |----------|--------------------------------------------------------------------------------------|
 | [make](https://www.gnu.org/software/make/manual/make.html) | Installed via [Homebrew](https://formulae.brew.sh/formula/make)                  |
