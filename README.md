@@ -53,7 +53,7 @@ make run-code
 
 
 # 📝 Citation 
-If you use our work, please remember to cite us:
+If you use our work, please cite:
 
 ```
 @article{almasi2025alignmentdriftcefrpromptedllms,
