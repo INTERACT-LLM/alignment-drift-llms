@@ -35,21 +35,21 @@ The code was run on `Python 3.12.3` on both a macOS and Ubuntu system. This proj
 <a name="usage"></a>
 
 # ⚙️ Usage
-You can run the code using the [makefile](makefile) by entering the following command in the terminal:
+You can run the code using the [`makefile`](makefile) by entering the following command in the terminal:
 ```bash
 make run-project
 ```
 
-This command installs [uv](https://docs.astral.sh/uv/) on macOS/Linux and sets up a virtual environment with the required Python dependencies.
+This command installs [`uv`](https://docs.astral.sh/uv/) on macOS/Linux, sets up a virtual environment with the required Python dependencies, and finally runs the code.
 
-If you prefer to run your own installation of uv (or already have it installed), you can run only the code directly:
+If you prefer to run your own installation of [`uv`](https://docs.astral.sh/uv/) (or already have it installed), you can run only the code directly:
 ```bash
 make run-code
 ```
 
 <span style="display: block; margin-top: 20px;"></span>
 
-> Note: This does not execute `stats.rmd.` that must be run seperately (requires R and R Markdown, see [Technical Requirements](#️-technical-requirements)).
+> Note: This does not execute `stats.rmd.`. It must be run seperately (requires R and R Markdown, see [Technical Requirements](#️-technical-requirements)).
 
 
 # 📝 Citation 
