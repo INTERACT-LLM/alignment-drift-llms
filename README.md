@@ -20,8 +20,11 @@ Teacher-student dialogue simulations were performed in a separate repository:
 | 🛠️ Generation of Dialogues | [`Interact-LLM repo (src/scripts/alignment-drift)`](https://github.com/INTERACT-LLM/Interact-LLM) | [`README.md`](https://github.com/INTERACT-LLM/Interact-LLM#readme) |
 
 
-<span style="display: block; margin-top: 30px;"></span>
+<div style="margin-top: 1.2em;"></div> <!-- 1.2em before notes, 2em before new headings -->
+
 > Note: The prefix `v3.0` for the data refers to the prompt version used to simulate the dialogues. See the prompts in the [Interact-LLM repo](https://github.com/INTERACT-LLM/Interact-LLM/blob/main/configs/prompts/v3.0.toml).
+
+<div style="margin-top: 2.2em;"></div>
 
 # 🛠️ Technical Requirements
 The code was run on `Python 3.12.3` on both a macOS (`15.3.1`) and Ubuntu system (`24.04`). The project also requires:
@@ -31,7 +34,7 @@ The code was run on `Python 3.12.3` on both a macOS (`15.3.1`) and Ubuntu system
 | [uv](https://docs.astral.sh/uv/)                         | Installed through this project's `makefile` (see [Usage](#usage))                 |
 | [R 4.4.3](https://cran.r-project.org/bin/macosx/big-sur-arm64/base/) + R Markdown           | Installed separately via [CRAN](https://cran.r-project.org/bin/macosx/big-sur-arm64/base) for R and [Posit's RStudio](https://docs.posit.co/previous-versions/rstudio.html#section-1) for running R-Markdown (or an IDE of your liking).                                |
 
-
+<div style="margin-top: 2.2em;"></div>
 <a name="usage"></a>
 
 # ⚙️ Usage
@@ -47,9 +50,11 @@ If you prefer to run your own installation of [`uv`](https://docs.astral.sh/uv/)
 make run-code
 ```
 
-<span style="display: block; margin-top: 20px;"></span>
+<div style="margin-top: 1.2m;"></div>
 
 > Note: This does not execute `stats.rmd.`. It must be run seperately (requires R and R Markdown, see [Technical Requirements](#️-technical-requirements)).
+
+<div style="margin-top: 2.2em;"></div>
 
 
 # 📝 Citation 
@@ -66,9 +71,12 @@ If you use our work, please cite:
 }
 ```
 
-<span style="display: block; margin-top: 20px;"></span>
+<div style="margin-top: 1.2em;"></div>
 
 > Note: Currently, this work exists only as a preprint. The final version is forthcoming.
+
+
+<div style="margin-top: 2.2em;"></div>
 
 # ✨ Acknowledgements
 This work was made possible thanks to the following open-source resources:
