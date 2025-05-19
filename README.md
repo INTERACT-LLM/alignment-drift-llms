@@ -4,7 +4,7 @@
 # 🚀 Overview  
 This repository contains the dataset and analysis from [Almasi & Kristensen-McLachlan (2025)](https://arxiv.org/abs/2505.08351):
 
-| Item                    | Path                                      | Documentation                   |
+| Item                    | Location                                      | Documentation                   |
 |-------------------------|--------------------------------------------------------|--------------------------------|
 | 📦 Text Dataset (`v3.0`)       | [`data/v3.0_dataset.csv`](data/v3.0_dataset.csv) | [`data/README.md`](data/README.md)         |
 | 📦 Metrics Dataset (`v3.0`)       | [`metrics/*.csv`](metrics) | [`metrics/README.md`](data/README.md)         |
@@ -15,25 +15,27 @@ This repository contains the dataset and analysis from [Almasi & Kristensen-McLa
 
 Teacher-student dialogue simulations were performed in a separate repository:
 
-| Item                    | Path                                                  | Documentation                         |
+| Item                    | Location                                                  | Documentation                         |
 |-------------------------|-----------------------------------------------------------|------------------------------------|
-| 🛠️ Data Generation | [interact_llm/scripts/alignment_drift](https://github.com/INTERACT-LLM/Interact-LLM) | [alignment_drift/README.md](https://github.com/INTERACT-LLM/Interact-LLM#readme) |
+| 🛠️ Generation of Dialogues | [`Interact-LLM repo (src/scripts/alignment-drift)`](https://github.com/INTERACT-LLM/Interact-LLM) | [`README.md`](https://github.com/INTERACT-LLM/Interact-LLM#readme) |
 
-<br>
 
+<span style="display: block; margin-top: 30px;"></span>
 > Note: The prefix `v3.0` for the data refers to the prompt version used to simulate the dialogues. See the prompts in the [Interact-LLM repo](https://github.com/INTERACT-LLM/Interact-LLM/blob/main/configs/prompts/v3.0.toml).
 
 # 🛠️ Technical Requirements
-The code was run on Python 3.12.3 on both a macOS and Ubuntu system.
+The code was run on `Python 3.12.3` on both a macOS and Ubuntu system. This project also requires:
+| Tool     | Installation                                                                 |
+|----------|--------------------------------------------------------------------------------------|
+| [make](https://www.gnu.org/software/make/manual/make.html) | Installed via [Homebrew](https://formulae.brew.sh/formula/make)                  |
+| [uv](https://docs.astral.sh/uv/)                         | Installed through this project's `makefile` (see [Usage](#usage))                 |
+| [R 4.4.3](https://cran.r-project.org/bin/macosx/big-sur-arm64/base/) + R Markdown           | Installed separately via [CRAN](https://cran.r-project.org/bin/macosx/big-sur-arm64/base) for R and [Posit's RStudio](https://docs.posit.co/previous-versions/rstudio.html#section-1) for running R-Markdown (or an IDE of your liking).                                |
 
-This project requires the installation of 
-- [make](https://www.gnu.org/software/make/manual/make.html)&nbsp; (installed via [Homebrew](https://formulae.brew.sh/formula/make))
-- [uv](https://docs.astral.sh/uv/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (installed through this project's make file, see [Usage](#usage))
 
 <a name="usage"></a>
 
 # ⚙️ Usage
-You can run the code using the [makefile](makefile) (requires `make`, which can be installed via [Homebrew](https://formulae.brew.sh/formula/make)):
+You can run the code using the [makefile](makefile) by entering the following command in the terminal:
 ```bash
 make run-project
 ```
@@ -44,7 +46,10 @@ If you prefer to run your own installation of uv (or already have it installed),
 ```bash
 make run-code
 ```
-Note: This does not execute stats.rmd. To run that file, you will need R and R Markdown installed. It must be run separately.
+
+<span style="display: block; margin-top: 20px;"></span>
+
+> Note: This does not execute `stats.rmd.` that must be run seperately (requires R and R Markdown, see [Technical Requirements](#️-technical-requirements)).
 
 
 # 📝 Citation 
@@ -61,7 +66,9 @@ If you use our work, please remember to cite us:
 }
 ```
 
-NOTE: Currently, this work exists only as a preprint. The final version is forthcoming.
+<span style="display: block; margin-top: 20px;"></span>
+
+> Note: Currently, this work exists only as a preprint. The final version is forthcoming.
 
 # ✨ Acknowledgements
 This work was made possible thanks to the following open-source resources:
@@ -70,4 +77,4 @@ This work was made possible thanks to the following open-source resources:
 - [textdescriptives](https://hlasse.github.io/TextDescriptives/#citation) for Text Length & Mean Dependency Distance
 - [minicons](https://github.com/kanishkamisra/minicons?tab=readme-ov-file#citation) & [EuroBERT](https://huggingface.co/EuroBERT/EuroBERT-210m#citation) for LLM-based Message Surprisal
 
-See also [`metrics/README.md`](data/README.md).
+See also [`metrics/README.md`](metrics/README.md).
