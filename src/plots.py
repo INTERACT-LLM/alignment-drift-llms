@@ -44,7 +44,7 @@ def plot_readability(metrics_dir, plots_dir, model_dict, version, unique_models,
                         model_var="model",
                         unique_models=unique_models,
                         x_label_text="Total Message Number", 
-                        y_label_texts=["Fernández Huerta", "Szigriszt Pazos", "Gutiérrez-Polini"],
+                        y_label_texts=["Fernández Huerta", "Szigriszt-Pazos", "Gutiérrez Polini"],
                         y_lims={"fernandez_huerta_mean": (60, 115), "szigriszt_pazos_mean": (60, 115), "gutierrez_polini_mean": (30, 55)},
                         group_colors=colors)
 
@@ -57,7 +57,7 @@ def plot_readability(metrics_dir, plots_dir, model_dict, version, unique_models,
                         model_var="model",
                         unique_models=unique_models,
                         normalize=True,
-                        x_label_texts=["Fernández Huerta", "Szigriszt Pazos", "Gutierrez Polini"], 
+                        x_label_texts=["Fernández Huerta", "Szigriszt-Pazos", "Gutierrez Polini"], 
                         x_lims={"fernandez_huerta": (35, 160), "szigriszt_pazos": (35, 160), "gutierrez_polini": (10, 65)},
                         density_lines=True)
 
