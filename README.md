@@ -17,12 +17,12 @@ Teacher-student dialogue simulations were performed in a separate repository:
 
 | Item                    | Location                                                  | Documentation                         |
 |-------------------------|-----------------------------------------------------------|------------------------------------|
-| 🛠️ Generation of Dialogues | [`Interact-LLM repo (src/scripts/alignment-drift)`](https://github.com/INTERACT-LLM/Interact-LLM) | [`README.md`](https://github.com/INTERACT-LLM/Interact-LLM#readme) |
+| 🛠️ Generation of Dialogues | [`Interact-LLM repo (src/scripts/alignment-drift)`](https://github.com/INTERACT-LLM/Interact-LLM/tree/v1.0.2-alignment-drift/src/scripts/alignment_drift) | [`README.md`](https://github.com/INTERACT-LLM/Interact-LLM/blob/v1.0.2-alignment-drift/src/scripts/alignment_drift/README.md) |
 
 
 <div style="margin-top: 1.2em;"></div> <!-- 1.2em before notes, 2em before new headings -->
 
-> Note: The prefix `v3.0` for the data refers to the prompt version used to simulate the dialogues. See the prompts in the [Interact-LLM repo](https://github.com/INTERACT-LLM/Interact-LLM/blob/main/configs/prompts/v3.0.toml).
+> Note: The prefix `v3.0` for the data refers to the prompt version used to simulate the dialogues. See the prompts in the [Interact-LLM repo](https://github.com/INTERACT-LLM/Interact-LLM/blob/v1.0.2-alignment-drift/configs/prompts/v3.0.toml).
 
 <div style="margin-top: 2.2em;"></div>
 
@@ -58,7 +58,7 @@ make run-code
 
 
 # 📝 Citation 
-If you use our work, please cite:
+If you use our work, please cite: 
 
 ```
 @article{almasi2025alignmentdriftcefrpromptedllms,
@@ -73,8 +73,7 @@ If you use our work, please cite:
 
 <div style="margin-top: 1.2em;"></div>
 
-> Note: Currently, this work exists only as a preprint. The final version is forthcoming.
-
+> Note: This paper has been accepted to the ACL workshop [BEA2025](https://sig-edu.org/bea/2025) (*20th Workshop on Innovative Use of NLP for Building Educational Applications*). The final version, appearing in the ACL Anthology, is forthcoming.
 
 <div style="margin-top: 2.2em;"></div>
 
