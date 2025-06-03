@@ -10,8 +10,8 @@ Each model directory contains JSON files with simulated dialogues. Two consolida
 | `v3.0_raw_dataset.csv`                 | Full aggregation of all JSON files                       |
 | `v3.0_dataset.csv`                     | Same as above, but with emojis removed from Gemma output |
 
-Data generation scripts are available in the [`Interact-LLM repo (src/scripts/alignment-drift)`](https://github.com/INTERACT-LLM/Interact-LLM/tree/v1.0.2-alignment-drift/src/scripts/alignment_drift).
+Data generation scripts are available in the [`Interact-LLM repo (src/scripts/alignment-drift)`](https://github.com/INTERACT-LLM/Interact-LLM/tree/v1.0.3-alignment-drift/src/scripts/alignment_drift).
 
 📌 For a general project overview, see the [main README](/README.md).
 
-> Note: The prefix `v3.0` for the data refers to the prompt version used to simulate the dialogues. See the prompts in the [`Interact-LLM repo`](https://github.com/INTERACT-LLM/Interact-LLM/blob/v1.0.2-alignment-drift/configs/prompts/v3.0.toml).
+> Note: The prefix `v3.0` for the data refers to the prompt version used to simulate the dialogues. See the prompts in the [`Interact-LLM repo`](https://github.com/INTERACT-LLM/Interact-LLM/blob/v1.0.3-alignment-drift/configs/prompts/v3.0.toml).
