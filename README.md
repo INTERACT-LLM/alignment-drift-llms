@@ -52,7 +52,7 @@ make run-code
 
 <div style="margin-top: 1.2m;"></div>
 
-> Note: This does not execute `stats.rmd.`. It must be run seperately (requires R and R Markdown, see [Technical Requirements](#️-technical-requirements)).
+> Note: This does not execute `stats.rmd`. It must be run seperately (requires R and R Markdown, see [Technical Requirements](#️-technical-requirements)).
 
 <div style="margin-top: 2.2em;"></div>
 
