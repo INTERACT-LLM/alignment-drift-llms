@@ -350,7 +350,7 @@ def main():
                         version=version)
     
     # THIS STEP IS DONE AFTER PUBLICATION: EXTRACT METRICS FROM BASE 
-    metrics_dir_base = metrics_dir / "base"
+    metrics_dir_base = metrics_dir / "xtra"
     metrics_dir_base.mkdir(parents=True, exist_ok=True)
 
     base_df = pl.read_csv(data_path / "xtra" / f"v{version}_dataset_BASE.csv")

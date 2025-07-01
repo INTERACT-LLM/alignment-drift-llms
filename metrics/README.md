@@ -9,3 +9,5 @@ This folder contains the metrics extracted from the consolidated text dataset [`
 | `v3.0_textdescriptives.csv` | Mean Dependency Distance, Text Length, and other features extracted with [textdescriptives](https://hlasse.github.io/TextDescriptives/#citation) |
 
 For details on how metrics were computed, refer to our paper: [Almasi & Kristensen-McLachlan (2025)](https://arxiv.org/abs/2505.08351)
+
+NB. Since publication of the paper, an additional folder, called "xtra, has been added. This folder contains dialogues created with a baseline system prompt with no contraint on text complexity ("base").
