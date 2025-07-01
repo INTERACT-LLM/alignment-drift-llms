@@ -18,11 +18,8 @@ def plot_readability(metrics_dir, plots_dir, model_dict, version, unique_models,
     readability_dir.mkdir(parents=True, exist_ok=True)
 
     # read data, filter
-    df = read_metrics(metrics_path=metrics_dir, model_dict=model_dict, version=version, metric_types=["text_stats"])
+    df = read_metrics(metrics_path=metrics_dir, model_dict=model_dict, version=version, metric="text_stats")
     assistant_df = get_assistant_data(df)
-
-    # rename group columns
-    assistant_df = assistant_df.rename({"group": "level"})
     
     # get aggregated data
     cols = ["fernandez_huerta", "szigriszt_pazos", "gutierrez_polini", "flesch_kincaid_grade", "crawford"]
@@ -72,11 +69,8 @@ def plot_structural(metrics_dir, plots_dir, model_dict, version, unique_models, 
     structural_dir.mkdir(parents=True, exist_ok=True)
     
     # read data, filter
-    df = read_metrics(metrics_path=metrics_dir, model_dict=model_dict, version=version, metric_types=["textdescriptives"])
+    df = read_metrics(metrics_path=metrics_dir, model_dict=model_dict, version=version, metric="textdescriptives")
     assistant_df = get_assistant_data(df)
-
-    # rename group columns
-    assistant_df = assistant_df.rename({"group": "level"})
 
     # get aggregated data
     cols = ["doc_length", "dependency_distance_mean"]
@@ -123,16 +117,13 @@ def plot_surprisal(metrics_dir, plots_dir, model_dict, version, unique_models, p
     surprisal_dir.mkdir(parents=True, exist_ok=True)
 
     # read data, filter
-    df = read_metrics(metrics_path=metrics_dir, model_dict=model_dict, version=version, metric_types=["surprisal"])
+    df = read_metrics(metrics_path=metrics_dir, model_dict=model_dict, version=version, metric="surprisal")
     assistant_df = get_assistant_data(df)
 
     # rename to paragraph
     assistant_df = assistant_df.with_columns(
         pl.col("surprisal_mean").alias("surprisal_paragraph")
     )
-
-    # rename group columns
-    assistant_df = assistant_df.rename({"group": "level"})
 
     # get aggregated data
     cols = ["surprisal_paragraph"]
@@ -208,6 +199,46 @@ def main():
     print("Plotting surprisal metrics...")
     plot_surprisal(metrics_dir, plots_dir, model_dict, version, unique_models, pad_inches)
 
+
+    ## THIS STEP IS DONE AFTER PUBLICATION: PLOTTING BASE DATA (exclude original folders) ##
+    all_levels = ["A1", "B1", "C1", "base"]
+    # read dfs with enum defined with the extra new "base" level
+    df_original = read_metrics(metrics_path=metrics_dir, model_dict=model_dict, version=version, metric="text_stats", group_levels=all_levels)
+    df_base = read_metrics(metrics_path=metrics_dir / "xtra", model_dict=model_dict, version=version, metric="text_stats", group_levels=all_levels)
+    
+    # combine 
+    df = pl.concat([df_original, df_base], how="vertical")
+
+    # get assistant data
+    assistant_df = get_assistant_data(df)
+    
+    # get aggregated data
+    cols = ["fernandez_huerta", "szigriszt_pazos", "gutierrez_polini", "flesch_kincaid_grade", "crawford"]
+    agg_df = aggregate_df(assistant_df, cols_to_aggregate=cols, ci_to_cols=True)
+
+    # plotting
+    colors = ["#008aff", "#ff471a", "#00a661", "#000000"]
+
+    cols = ["fernandez_huerta", "szigriszt_pazos", "gutierrez_polini"]
+    vars = [f"{col}_mean" for col in cols]
+    ci_vars = [f"{col}_ci" for col in cols]
+
+    y_label_texts = ["Fernández Huerta", "Szigriszt-Pazos", "Gutiérrez de Polini"]
+
+    # plot line plot
+    fig = line_plot_variables(df=agg_df, 
+                        x_var="total_message_number", 
+                        y_vars=vars, 
+                        ci_vars=ci_vars,
+                        group_var="level",
+                        model_var="model",
+                        unique_models=unique_models,
+                        x_label_text="Total Message Number", 
+                        y_label_texts=y_label_texts,
+                        y_lims={"fernandez_huerta_mean": (60, 115), "szigriszt_pazos_mean": (60, 115), "gutierrez_polini_mean": (30, 55)},
+                        group_colors=colors)
+
+    fig.savefig(plots_dir / "xtra" / "BASE_spanish_readability_high_easy_curves.png", dpi=300, bbox_inches="tight", pad_inches=pad_inches)
 
 if __name__ == "__main__":
     main()
