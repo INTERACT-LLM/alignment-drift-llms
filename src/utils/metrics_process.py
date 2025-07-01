@@ -4,6 +4,7 @@ Preprocess metrics data
 
 from pathlib import Path
 import polars as pl
+from typing import Literal
 
 # aka prettier names for plots
 MODEL_DICT = {
@@ -15,9 +16,9 @@ MODEL_DICT = {
 
 def read_metrics(
     metrics_path=Path(__file__).parents[1] / "metrics",
-    metric_types=["surprisal", "text_stats", "textdescriptives"],
+    metric_types:Literal["surprisal", "text_stats", "textdescriptives"] = "surprisal",
     version: float = 3.0,
-    group_levels = ["A1", "B1", "C1"],
+    group_levels = ["A1", "B1", "C1", "base"], # can also be ["A1", "B1", "C1"]
     model_dict = MODEL_DICT
 ):
     """
@@ -29,28 +30,20 @@ def read_metrics(
         Will be combined into a single dataframe if multiple types are provided
     version: Version of the metrics data to read
     """
-    dfs = []
     levels = pl.Enum(group_levels)
-    for metric_type in metric_types:
-        df = pl.read_csv(metrics_path / f"v{version}_{metric_type}.csv",
-                         schema_overrides={"group": levels})
+    df = pl.read_csv(metrics_path / f"v{version}_{metric_types}.csv", schema_overrides={"group": levels})
         
-        # sort ids
-        df = df.sort("id")
-
-        dfs.append(df)
-
-    # smash columns together (align method to not get duplicate columns)
-    if len(dfs) > 1:
-        combined_df = pl.concat(dfs, how="align_inner")
-    else: 
-        combined_df = dfs[0]
+    # sort ids
+    df = df.sort("id")
+    
+    # rename column "group" to "level"
+    df = df.rename({"group": "level"})
 
     # replace model names with prettier names
     if model_dict:
-        combined_df = combined_df.with_columns(pl.col("model").replace_strict(model_dict))
+        df = df.with_columns(pl.col("model").replace_strict(model_dict))
 
-    return combined_df
+    return df
 
 # FILTER FNS
 def filter_metrics(df, filter_col = "role", filter_val = "assistant"):
@@ -72,6 +65,15 @@ def compute_total_message_number(df):
     """
     new_df = df.with_columns(total_message_number=pl.int_range(1, pl.len() + 1).over("id"))    
     return new_df
+
+def get_assistant_data(df):
+    """
+    Get only assistant data (corresponds to the tutor llm, as we have only saved the tutor LLMs history)
+    """
+    filtered_df = filter_metrics(df)
+    filtered_df = compute_total_message_number(filtered_df)
+
+    return filtered_df
 
 ## AGG FNS
 def add_ci_to_col(df, col):
@@ -114,17 +116,8 @@ def aggregate_df(df,
 
     return agg_df
 
-def get_assistant_data(df):
-    """
-    Get only assistant data
-    """
-    filtered_df = filter_metrics(df)
-    filtered_df = compute_total_message_number(filtered_df)
-
-    return filtered_df
-
 if __name__ == "__main__":
-    df = read_metrics(metrics_path=Path(__file__).parents[2] / "metrics", metric_types=["text_stats", "textdescriptives"])
+    df = read_metrics(metrics_path=Path(__file__).parents[2] / "metrics", metric_types="text_stats")
 
     print(len(df))
 
