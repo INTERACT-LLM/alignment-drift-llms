@@ -284,6 +284,45 @@ def extract_surprisal(
 
     return df
 
+def run_extract_pipeline(metrics:Literal["all", "surprisal", "textdescriptives", "textstats"], 
+                        df:pl.DataFrame, metrics_dir:Path, version:float=3.0):
+    """
+    Pipline to extract specified metrics from a DataFrame.
+
+    Args:
+        metrics: List of metrics to extract. Options are "textdescriptives
+                        ", "textstats", "surprisal", or "all" for all metrics.
+
+        df (pl.DataFrame): Input DataFrame containing text data.
+    """
+
+    for metric in metrics:
+        if metric == "textdescriptives":
+            extract_td(
+                df,
+                metrics_dir=metrics_dir,
+                metrics_file_name=f"v{version}_textdescriptives.csv",
+            )
+        elif metric == "textstats":
+            extract_textstat(
+                df,
+                metrics_dir=metrics_dir,
+                metrics_file_name=f"v{version}_text_stats.csv",
+            )
+        elif metric == "surprisal":
+            # surprisal settings
+            device = "cuda" if torch.cuda.is_available() else "cpu"
+            model_id = "EuroBERT/EuroBERT-210m"
+
+            extract_surprisal(
+                df,
+                device=device,
+                model_id=model_id,
+                metrics_dir=metrics_dir,
+                metrics_file_name=f"v{version}_surprisal.csv",
+            )
+        else:
+            print(["[ERROR:] Invalid metric pipeline."])
 
 def main():
     args = input_parse()
@@ -304,30 +343,22 @@ def main():
     else:
         metrics_to_extract = [args.metrics_pipeline]
 
+    run_extract_pipeline(
+                        metrics=metrics_to_extract, 
+                        df=df, 
+                        metrics_dir=metrics_dir, 
+                        version=version)
+    
+    # THIS STEP IS DONE AFTER PUBLICATION: EXTRACT METRICS FROM BASE 
+    metrics_dir_base = metrics_dir / "base"
+    metrics_dir_base.mkdir(parents=True, exist_ok=True)
 
-    for metric in metrics_to_extract:
-        if metric == "textdescriptives":
-            extract_td(
-                df,
-                metrics_dir=metrics_dir,
-                metrics_file_name=f"v{version}_textdescriptives.csv",
-            )
-        elif metric == "textstats":
-            extract_textstat(
-                df,
-                metrics_dir=metrics_dir,
-                metrics_file_name=f"v{version}_text_stats.csv",
-            )
-        elif metric == "surprisal":
-            extract_surprisal(
-                df,
-                device=device,
-                model_id=model_id,
-                metrics_dir=metrics_dir,
-                metrics_file_name=f"v{version}_surprisal.csv",
-            )
-        else:
-            print(["[ERROR:] Invalid metric pipeline."])
+    base_df = pl.read_csv(data_path / "xtra" / f"v{version}_dataset_BASE.csv")
+    run_extract_pipeline(
+                        metrics=metrics_to_extract, 
+                        df=base_df, 
+                        metrics_dir=metrics_dir_base,
+                        version=version)
 
 if __name__ == "__main__":
     main()
