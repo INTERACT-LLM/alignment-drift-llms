@@ -16,9 +16,9 @@ MODEL_DICT = {
 
 def read_metrics(
     metrics_path=Path(__file__).parents[1] / "metrics",
-    metric_types:Literal["surprisal", "text_stats", "textdescriptives"] = "surprisal",
+    metric:Literal["surprisal", "text_stats", "textdescriptives"] = "surprisal",
     version: float = 3.0,
-    group_levels = ["A1", "B1", "C1", "base"], # can also be ["A1", "B1", "C1"]
+    group_levels = ["A1", "B1", "C1"], # can also be ["A1", "B1", "C1"]
     model_dict = MODEL_DICT
 ):
     """
@@ -31,12 +31,12 @@ def read_metrics(
     version: Version of the metrics data to read
     """
     levels = pl.Enum(group_levels)
-    df = pl.read_csv(metrics_path / f"v{version}_{metric_types}.csv", schema_overrides={"group": levels})
+    df = pl.read_csv(metrics_path / f"v{version}_{metric}.csv", schema_overrides={"group": levels})
         
     # sort ids
     df = df.sort("id")
-    
-    # rename column "group" to "level"
+
+    # rename group columns
     df = df.rename({"group": "level"})
 
     # replace model names with prettier names
@@ -117,11 +117,10 @@ def aggregate_df(df,
     return agg_df
 
 if __name__ == "__main__":
-    df = read_metrics(metrics_path=Path(__file__).parents[2] / "metrics", metric_types="text_stats")
+    df = read_metrics(metrics_path=Path(__file__).parents[2] / "metrics", metric="text_stats")
 
     print(len(df))
 
     assistant_df = get_assistant_data(df)
 
     agg_df = aggregate_df(assistant_df)
-
