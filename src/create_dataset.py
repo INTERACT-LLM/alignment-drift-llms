@@ -1,6 +1,5 @@
 from dataclasses import dataclass
 from pathlib import Path
-
 import polars as pl
 
 
@@ -22,17 +21,23 @@ class DataFile:
     path: Path
 
 
-def read_data(data_dir: Path | list[Path]) -> pl.DataFrame:
-    """Read JSON data from path(s) with polars"""
+def read_data(data_dir: Path | list[Path], exclude_folders:list = ["base"]) -> pl.DataFrame:
+    """
+    Read JSON data from path(s) with polars
 
-    # Ensure we have a list of paths
+    Args
+        data_dir: path or list of paths to a model directory with json data
+        exclude_folder: if needed to exclude any folders from dir
+    """
+
+    # ensure we have a list of paths
     dirs_to_process = [data_dir] if isinstance(data_dir, Path) else data_dir
     
     # sort folders (keep consistent order)
     datafiles = [
         DataFile(file.parents[2].name, folder.name, file.name, str(file))
         for directory in dirs_to_process
-        for folder in sorted(directory.iterdir()) if folder.is_dir()
+        for folder in sorted(directory.iterdir()) if folder.is_dir() and folder.name not in exclude_folders
         for file in sorted(folder.iterdir()) if file.is_file() and file.suffix == ".json"
     ]
 
@@ -63,18 +68,25 @@ def read_data(data_dir: Path | list[Path]) -> pl.DataFrame:
 def main(): 
     version = 3.0
 
+    # define model data paths
     data_paths = [
         Path(__file__).parents[1] / "data" / dir_name / f"v{version}"
         for dir_name in DIR_NAMES
     ]
 
-    combined_df, cleaned_combined_df = read_data(data_paths)
+    # MAIN DATA
+    combined_df, cleaned_combined_df = read_data(data_paths, exclude_folders=["base"])
     
     # save raw
     combined_df.write_csv(Path(__file__).parents[1] / "data" / f"v{version}_raw_dataset.csv")
 
     # save cleaned
     cleaned_combined_df.write_csv(Path(__file__).parents[1] / "data" / f"v{version}_dataset.csv")
+
+    # THIS STEP IS DONE AFTER PUBLICATION: EXTRACT METRICS FROM BASE. CREATE BASE DATA (exclude original folders)
+    combined_base_df, cleaned_base_df = read_data(data_paths, exclude_folders=["A1", "B1", "C1"])
+    combined_base_df.write_csv(Path(__file__).parents[1] / "data" / "xtra" / f"v{version}_raw_dataset_BASE.csv")
+    cleaned_base_df.write_csv(Path(__file__).parents[1] / "data" / "xtra" / f"v{version}_dataset_BASE.csv")
 
 if __name__ == "__main__":
     main()
